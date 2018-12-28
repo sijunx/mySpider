@@ -1,0 +1,92 @@
+package com.spider.search.service.impl.mongo;
+
+import com.spider.search.service.api.mongo.FlowService;
+import com.spider.search.service.api.mongo.HotsCalNodeService;
+import com.spider.search.service.enums.SpiderNodeEnum;
+import org.apache.commons.lang3.StringUtils;
+import org.bson.Document;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.UUID;
+
+@Service
+public class HotsCalNodeServiceImpl extends AbstractSpiderBaseService implements HotsCalNodeService {
+
+    @Autowired
+    private FlowService flowService;
+
+    //  节点01：根据url获取数据，存入data表
+    //  节点02：根据url对应的data，抽取关键词
+    //  节点03：根据关键词，计算摘要
+
+    //  节点01：计算url对应data和主题之间的相似度
+    //  节点02：根据url与主题之间的相似度，计算热点
+
+    @Override
+    public void startFlow(String urlId) {
+        try {
+            flowService.setDatabase(this.mongoDatabase);
+            Document flow = this.getFlow(urlId);
+            System.out.println("开始节点【HOTSCAL】");
+            if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
+                flow.put("startFlag", "1");
+                flow.put("pushQueueFlag", "1");
+                flowService.modify(flow);
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    @Override
+    public void endFlow(String urlId) {
+        try {
+            flowService.setDatabase(this.mongoDatabase);
+            Document flow = this.getFlow(urlId);
+            System.out.println("结束节点【HOTSCAL】");
+
+            if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
+                flow.put("endFlag", "1");
+                flowService.modify(flow);
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    public Document getFlow(String urlId) {
+        Document document=null;
+        try {
+            flowService.setDatabase(mongoDatabase);
+            Document doc = new Document();
+            doc.put("urlId", urlId);
+            doc.put("nodeCode", SpiderNodeEnum.HOTSCAL.getValue());
+            document = flowService.findOne(doc);
+            System.out.println("获取当前节点【HOTSCAL】");
+        }catch (Exception e){
+            System.out.println(e);
+        }
+        return document;
+    }
+
+    @Override
+    public void createFlow(String urlId) {
+        try {
+            flowService.setDatabase(mongoDatabase);
+            Document doc = new Document();
+            doc.put("flowId", UUID.randomUUID().toString().replace("-", ""));
+            doc.put("urlId", urlId);
+            doc.put("nodeCode", SpiderNodeEnum.HOTSCAL.getValue());
+            doc.put("startFlag", "0");
+            doc.put("pushQueueFlag", "0");
+            doc.put("endFlag", "0");
+            doc.put("pushCounts", 0);
+            doc.put("seqNo", 1);
+            flowService.create(doc);
+            System.out.println("创建当前节点【HOTSCAL】");
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
+}
