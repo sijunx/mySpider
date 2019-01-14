@@ -5,15 +5,14 @@ import com.spider.search.service.api.mongo.HotsCalNodeService;
 import com.spider.search.service.api.mongo.InputDataService;
 import com.spider.search.service.api.mongo.UrlSimilarService;
 import com.spider.search.service.dto.DocQueue;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-/**
- *
- * 功能概要：爬虫工作类，主要实现类
- *
- * @author hwz
- */
 public class HotsThread implements Runnable{
+
+    private final static Logger logger = LoggerFactory.getLogger(HotsThread.class);
 
     private String threadName;
     private Document document;
@@ -36,7 +35,7 @@ public class HotsThread implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(threadName + " start run");
+        logger.info(threadName + " start run");
         int idle = 0;
         while (idle < 10) {
             document = workQueue.poll();
@@ -68,17 +67,18 @@ public class HotsThread implements Runnable{
                     //推送流程节点结束
                     hotsCalNodeService.endFlow(document.getString("urlId"));
                 } catch (Exception e) {
-                    System.out.println("Similar Thread ClientThread: exception:" + e.getMessage());
+                    logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
+
                 }
             } else {
                 idle++;
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
                 }
             }
         }
-        System.out.println(threadName + " end run...");
+        logger.info(new StringBuilder().append(threadName).append("end run...").toString());
     }
 }

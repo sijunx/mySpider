@@ -7,7 +7,10 @@ import com.mongodb.client.MongoCursor;
 import com.mongodb.client.model.Filters;
 import com.spider.search.service.api.mongo.UrlSimilarService;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -15,6 +18,8 @@ import java.util.List;
 
 @Service
 public class UrlSimilarServiceImpl extends AbstractSpiderBaseService implements UrlSimilarService {
+
+    private final static Logger logger = LoggerFactory.getLogger(UrlSimilarServiceImpl.class);
 
     @Override
     public Document create(Document document) {
@@ -34,7 +39,7 @@ public class UrlSimilarServiceImpl extends AbstractSpiderBaseService implements 
             }
             collection01.insertOne(doc03);
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -50,7 +55,7 @@ public class UrlSimilarServiceImpl extends AbstractSpiderBaseService implements 
                 collection04.updateMany(Filters.eq("urlId", document.get("urlId")), new Document("$set", new Document("similar", Double.parseDouble(String.valueOf(document.get("similar"))))));
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -81,7 +86,7 @@ public class UrlSimilarServiceImpl extends AbstractSpiderBaseService implements 
                 document02 = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document02;
     }
@@ -113,7 +118,7 @@ public class UrlSimilarServiceImpl extends AbstractSpiderBaseService implements 
                 listDocument=null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }

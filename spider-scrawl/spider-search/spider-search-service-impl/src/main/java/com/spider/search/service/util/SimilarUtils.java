@@ -5,9 +5,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Vector;
 
-/**
- * Created by sh00815 on 2017/9/17.
- */
 public class SimilarUtils {
 
     //阈值
@@ -15,11 +12,6 @@ public class SimilarUtils {
 
     /**
      * 返回百分比
-     * @author: Administrator
-     * @Date: 2015年1月22日
-     * @param T1
-     * @param T2
-     * @return
      */
     public static double getSimilarity(Vector<String> T1, Vector<String> T2) throws Exception {
         int size = 0 , size2 = 0 ;

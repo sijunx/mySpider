@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spider-base-util" />
         <module name="spider-search-facade-api" />
         <module name="spider-search-facade-impl" />
-        <module name="spider-search-papp" />
         <module name="spider-search-service-api" />
         <module name="spider-search-service-impl" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="git_mySpider" target="1.7" />
+      <module name="spider-base-util" target="1.7" />
+      <module name="spider-base-utils" target="1.7" />
       <module name="spider-parent" target="1.7" />
       <module name="spider-scrawl" target="1.7" />
       <module name="spider-scrawl-parent" target="1.7" />
@@ -23,6 +25,11 @@
       <module name="spider-search-papp" target="1.8" />
       <module name="spider-search-service-api" target="1.7" />
       <module name="spider-search-service-impl" target="1.7" />
+      <module name="spider-web-parent" target="1.8" />
+      <module name="spiderbase" target="1.7" />
+      <module name="spiderbaselock" target="1.7" />
+      <module name="spiderbaseredis" target="1.7" />
+      <module name="spiderbaseutils" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

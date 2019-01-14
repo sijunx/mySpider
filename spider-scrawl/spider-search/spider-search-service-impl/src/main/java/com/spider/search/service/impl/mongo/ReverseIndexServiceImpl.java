@@ -8,7 +8,10 @@ import com.mongodb.client.model.Filters;
 import com.spider.search.service.api.mongo.ReverseIndexService;
 import com.spider.search.service.api.mongo.WordsDicService;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +20,8 @@ import java.util.List;
 
 @Service
 public class ReverseIndexServiceImpl extends AbstractSpiderBaseService implements ReverseIndexService {
+
+    private final static Logger logger = LoggerFactory.getLogger(ReverseIndexServiceImpl.class);
 
     @Autowired
     private WordsDicService wordsDicService;
@@ -45,7 +50,7 @@ public class ReverseIndexServiceImpl extends AbstractSpiderBaseService implement
             }
             collection.insertOne(doc03);
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -95,7 +100,7 @@ public class ReverseIndexServiceImpl extends AbstractSpiderBaseService implement
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }
@@ -134,7 +139,7 @@ public class ReverseIndexServiceImpl extends AbstractSpiderBaseService implement
                 document02 = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document02;
     }
@@ -158,7 +163,7 @@ public class ReverseIndexServiceImpl extends AbstractSpiderBaseService implement
                 collection04.updateOne(Filters.eq("urlId", document.get("urlId")), new Document("$set", new Document("hots", Double.parseDouble(String.valueOf(document.get("hots"))))));
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }

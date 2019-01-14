@@ -5,11 +5,17 @@ import com.spider.search.service.api.mongo.InputDataService;
 import com.spider.search.service.api.mongo.KeyWordsService;
 import com.spider.search.service.api.mongo.SummaryExtractNodeService;
 import com.spider.search.service.dto.DocQueue;
+import com.spider.search.service.impl.mongo.cal.SummaryExtractServiceImpl;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
 public class SummaryExtractThread implements Runnable{
+
+    private final static Logger logger = LoggerFactory.getLogger(SummaryExtractThread.class);
 
     private String threadName;
     private Document document;
@@ -33,7 +39,7 @@ public class SummaryExtractThread implements Runnable{
     @Override
     public void run() {
         try {
-            System.out.println(threadName + " start run");
+            logger.info(threadName + " start run");
             int idle = 0;
             while (idle < 10) {
                 document = workQueue.poll();
@@ -60,22 +66,20 @@ public class SummaryExtractThread implements Runnable{
                             }
                             doc01.put("summary", summary);
                             fundInputDataService.modify(doc01);
-                            ///////////////////////////////////////////////////////////////////////////////////////////////////
                             //  流程推送
-                            ///////////////////////////////////////////////////////////////////////////////////////////////////
                             summaryExtractNodeService.endFlow(urlId);
                         }
                     } catch (Exception e) {
-                        System.out.println("ClientThread: exception:" + e.getMessage());
+                        logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
                     }
                 } else {
                     idle++;
                     Thread.sleep(1000);
                 }
             }
-            System.out.println(threadName + " end run...");
+            logger.info(new StringBuilder().append(threadName).append("end run...").toString());
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 }

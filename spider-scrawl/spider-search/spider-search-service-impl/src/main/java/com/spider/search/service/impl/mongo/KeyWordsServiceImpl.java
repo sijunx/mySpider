@@ -7,17 +7,19 @@ import com.mongodb.client.MongoCursor;
 import com.mongodb.client.model.Filters;
 import com.spider.search.service.api.mongo.KeyWordsService;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sh00815 on 2017/9/14.
- */
 @Service
 public class KeyWordsServiceImpl extends AbstractSpiderBaseService implements KeyWordsService {
+
+    private final static Logger logger = LoggerFactory.getLogger(KeyWordsServiceImpl.class);
 
     public Document create(Document document) {
         try {
@@ -34,7 +36,7 @@ public class KeyWordsServiceImpl extends AbstractSpiderBaseService implements Ke
             }
             collection.insertOne(doc03);
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -52,7 +54,7 @@ public class KeyWordsServiceImpl extends AbstractSpiderBaseService implements Ke
                 collection04.updateMany(Filters.eq("urlId", String.valueOf(document.get("urlId"))), new Document("$set",new Document("counts",String.valueOf(document.get("counts")))));
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -82,7 +84,7 @@ public class KeyWordsServiceImpl extends AbstractSpiderBaseService implements Ke
                 document02 = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document02;
     }
@@ -113,7 +115,7 @@ public class KeyWordsServiceImpl extends AbstractSpiderBaseService implements Ke
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }
@@ -140,7 +142,7 @@ public class KeyWordsServiceImpl extends AbstractSpiderBaseService implements Ke
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }

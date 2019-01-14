@@ -7,7 +7,10 @@ import com.spider.search.service.enums.SpiderNodeEnum;
 import com.spider.search.service.impl.mongo.AbstractSpiderBaseService;
 import com.spider.search.service.impl.mongo.thread.SimilarThread;
 import com.spider.search.service.util.MongoConnUtil;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +21,8 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 public class SimilarCalServiceImpl extends AbstractSpiderBaseService implements SimilarCalService {
+
+    private final static Logger logger = LoggerFactory.getLogger(SimilarCalServiceImpl.class);
 
     @Autowired
     private FlowService flowService;
@@ -84,16 +89,12 @@ public class SimilarCalServiceImpl extends AbstractSpiderBaseService implements 
                             Thread.sleep(10000);
                         }
                     } catch (Exception e) {
-                        System.out.println("查询数据库url失败");
-                    } finally {
-//                    Thread.sleep(10000);
+                        logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
                     }
-                } else {
-//				System.out.println("发生异常------------");
                 }
             }
         }catch (RuntimeException e){
-		    ;
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }finally {
             mongoConnUtil.connClose();
         }

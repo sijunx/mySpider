@@ -9,7 +9,10 @@ import com.spider.search.service.api.mongo.ImageService;
 import com.spider.search.service.api.mongo.InputDataService;
 import com.spider.search.service.dto.InputDataServiceDTO;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +21,8 @@ import java.util.List;
 
 @Service
 public class InputDataServiceImpl extends AbstractSpiderBaseService implements InputDataService {
+
+    private final static Logger logger = LoggerFactory.getLogger(InputDataServiceImpl.class);
 
     @Autowired
     private ImageService imageService;
@@ -49,7 +54,7 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
             }
             collection01.insertOne(doc03);
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -74,7 +79,7 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
                 collection04.updateMany(Filters.eq("urlId", document.get("urlId")), new Document("$set", new Document("hots", Double.parseDouble(String.valueOf(document.get("hots"))))));
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -114,7 +119,7 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
                 document02 = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document02;
     }
@@ -155,7 +160,7 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
                 listDocument=null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }
@@ -178,7 +183,7 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }
@@ -202,7 +207,7 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }
@@ -210,14 +215,8 @@ public class InputDataServiceImpl extends AbstractSpiderBaseService implements I
     @Override
     public List<InputDataServiceDTO> searchByKeyWord(String keyWord, Integer bottomId) {
         imageService.setDatabase(this.mongoDatabase);
-
         MongoCollection<Document> collection = mongoDatabase.getCollection("inputData");
-
-
         BasicDBObject condition= new BasicDBObject();//最后在将查询结果放到一个查询对象中去
-
-//        BasicDBObject basicDBObject = new BasicDBObject("hots",-1);
-//        FindIterable<Document> findIterable = collection.find(condition).sort(basicDBObject).limit(10);
         Integer skip = (bottomId==null)?0:bottomId*10;
         FindIterable<Document> findIterable = collection.find(condition).limit(10).skip(skip);
         MongoCursor<Document> mongoCursor = findIterable.iterator();

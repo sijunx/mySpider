@@ -1,6 +1,9 @@
 package com.spider.search.service.util;
 
 import com.spider.search.service.dto.SpiderUrlServiceDTO;
+import com.spider.search.service.impl.mongo.FlowServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -8,6 +11,8 @@ import java.util.List;
 
 @Service
 public class SpiderQueue {
+
+    private final static Logger logger = LoggerFactory.getLogger(SpiderQueue.class);
 
     /** 存储器 */
     private List<SpiderUrlServiceDTO> queue;
@@ -31,7 +36,7 @@ public class SpiderQueue {
         }
         //控制台打印结果，方便查看
         SpiderUrlServiceDTO FundUrl = queue.remove(0);
-        System.out.println("SpiderQueue,poll,SpiderUrlServiceDTO=" + FundUrl.toString() + ",remain size=" + queue.size());
+        logger.info("SpiderQueue,poll,SpiderUrlServiceDTO=" + FundUrl.toString() + ",remain size=" + queue.size());
         return FundUrl;
     }
 
@@ -51,9 +56,9 @@ public class SpiderQueue {
     }
 
     public void printAll() {
-        System.out.println("Enter printAll.");
+        logger.info("Enter printAll.");
         for (SpiderUrlServiceDTO spiderUrlServiceDTO : queue) {
-            System.out.println(spiderUrlServiceDTO);
+            logger.info(spiderUrlServiceDTO);
         }
     }
 }

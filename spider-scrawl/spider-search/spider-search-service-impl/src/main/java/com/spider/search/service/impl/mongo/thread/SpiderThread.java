@@ -6,10 +6,13 @@ import com.mongodb.client.MongoDatabase;
 import com.spider.search.service.api.mongo.*;
 import com.spider.search.service.dto.DocQueue;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,6 +20,9 @@ import java.util.Random;
 import java.util.UUID;
 
 public class SpiderThread implements Runnable{
+
+    private final static Logger logger = LoggerFactory.getLogger(SpiderThread.class);
+
     private String threadName;
     private Document document;
     private DocQueue workQueue;
@@ -59,7 +65,7 @@ public class SpiderThread implements Runnable{
     @Override
     public void run() {
         try {
-            System.out.println("线程名称" + threadName + "start run");
+            logger.info("线程名称" + threadName + "start run");
             int idle = 0;
             while (idle < 10) {
                 document = workQueue.poll();
@@ -72,14 +78,11 @@ public class SpiderThread implements Runnable{
                         String url = String.valueOf(document.get("url"));
                         String rootUrl = String.valueOf(document.get("rootUrl"));
                         Double deep = Double.parseDouble(String.valueOf(document.get("deep")));
-
-                        ///////////////////////////////////////////////////////////////////////////////////////////////
                         //  去重判断
-                        ///////////////////////////////////////////////////////////////////////////////////////////////
                         String retStr = auditService.duplicateTwoMoreCheck(url);
                         JSONObject jsonObject = JSON.parseObject(retStr);
                         if (!String.valueOf(jsonObject.get("code")).equals("200")) {
-                            System.out.println("url已经存在两次" + url);
+                            logger.info("url已经存在两次" + url);
                             //  流程推送
                             urlDataExtractNodeService.endFlowNotPass(urlId);
                             continue;
@@ -95,12 +98,12 @@ public class SpiderThread implements Runnable{
                                     .timeout(3000) // 设置连接超时时间
                                     .post(); // 使用 POST 方法访问 URL
                         } catch (Exception e) {
-                            System.out.println("网页爬取异常：" + e);
+                            logger.warn("网页爬取异常 e:{}", ExceptionUtils.getStackTrace(e));
                         }
                         if (docJsoup == null) {
                             continue;
                         }
-                        System.out.println("URL: " + url);
+                        logger.info("URL: " + url);
                         String title = "";
                         String txt = "";
                         String html = "";
@@ -115,7 +118,7 @@ public class SpiderThread implements Runnable{
                         String retStr02 = auditService.titleCheck(title);
                         JSONObject jsonObject02 = JSON.parseObject(retStr02);
                         if (!String.valueOf(jsonObject02.get("code")).equals("200")) {
-                            System.out.println("title审核不通过"+title);
+                            logger.info("title审核不通过 title:{}", title);
                             continue;
                         }
 
@@ -134,7 +137,7 @@ public class SpiderThread implements Runnable{
                         String str03 = auditService.txtCheck(txt);
                         JSONObject jsonObject03 = JSON.parseObject(str03);
                         if (!String.valueOf(jsonObject03.get("code")).equals("200")) {
-                            System.out.println("txt审核不通过"+txt);
+                            logger.info("txt审核不通过 txt:{}", txt);
                             continue;
                         }
 
@@ -143,9 +146,8 @@ public class SpiderThread implements Runnable{
                         Elements imports = docJsoup.select("link[href]");
                         Elements images = docJsoup.getElementsByTag("img");
 
-                        System.out.println("纯文本长度: " + txt.length());
-                        System.out.println("html长度: " + html.length());
-                        System.out.println("输出链接个数: " + links.size());
+                        logger.info("纯文本长度:{} html长度:{} 输出链接个数:{}", txt!=null?txt.length():0, html!=null?html.length():0, links!=null?links.size():0);
+
                         String url_link = url;
                         String deleteFlag = "0";
                         Date date = new Date();
@@ -162,8 +164,7 @@ public class SpiderThread implements Runnable{
                                     append("urlId", urlId).
                                     append("hots", hots);
                             fundInputDataService.create(document);
-                            System.out.println("文档插入成功");
-
+                            logger.info("文档插入成功 urlId:{}", urlId);
                             int mcount=0;
                             for(Element element : images){
                                 if(mcount++>=3){
@@ -172,10 +173,7 @@ public class SpiderThread implements Runnable{
                                 //获取每个img标签的src属性的内容，即图片地址，加"abs:"表示绝对路径
                                 String imgSrc = element.attr("abs:src");
 //                                //下载图片文件到电脑的本地硬盘上
-//                                System.out.println("正在下载图片：-----------" + imgSrc);
 //                                String imagePath = fileDownloadService.downLoadImage(imgSrc);
-//                                System.out.println("图片下载完毕：-----------" + imgSrc);
-//                                System.out.println("-------------------------------------------------------------------------------------------------------------");
 //                                Document docImage = new Document();
 //                                docImage.put("imageId", UUID.randomUUID().toString().replace("-", ""));
 //                                docImage.put("urlId", urlId);
@@ -196,17 +194,11 @@ public class SpiderThread implements Runnable{
                                 continue;
                             }
                             String webURL = link.attr("abs:href");
-                            String url02 = String.valueOf(webURL);
-//                            if (url02.length() > 100) {
-//                                continue;
-//                            }
-                            ///////////////////////////////////////////////////////////////////////////////////////////////
                             //  去重判断
-                            ///////////////////////////////////////////////////////////////////////////////////////////////
                             String retStr01 = auditService.duplicateCheck(String.valueOf(webURL));
                             JSONObject jsonObject01 = JSON.parseObject(retStr01);
                             if (!String.valueOf(jsonObject01.get("code")).equals("200")) {
-                                System.out.println("url已经存在" + String.valueOf(webURL));
+                                logger.info("url已经存在{}", String.valueOf(webURL));
                                 continue;
                             }
                             Document docNew = new Document();
@@ -225,19 +217,16 @@ public class SpiderThread implements Runnable{
                             }
                         }
                     } catch (Exception e) {
-                        System.out.println("test 异常了");
-                        System.err.println(e.getClass().getName() + ": " + e.getMessage());
-                    } finally {
-                        ;
+                        logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
                     }
                 } else {
                     idle++;
                     Thread.sleep(1000);
                 }
             }
-            System.out.println(threadName + " end run...");
+            logger.info(new StringBuilder().append(threadName).append("end run...").toString());
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 }

@@ -8,9 +8,6 @@ import com.mongodb.client.MongoDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sh00815 on 2017/9/9.
- */
 public class MongoConnUtil {
 
     private MongoDatabase mongoDatabase;

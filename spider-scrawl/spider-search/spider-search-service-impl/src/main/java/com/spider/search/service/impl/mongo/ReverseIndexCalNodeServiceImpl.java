@@ -4,17 +4,19 @@ import com.spider.search.service.api.mongo.FlowService;
 import com.spider.search.service.api.mongo.ReverseIndexCalNodeService;
 import com.spider.search.service.enums.SpiderNodeEnum;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
-/**
- * Created by sh00815 on 2017/9/14.
- */
 @Service
 public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService implements ReverseIndexCalNodeService {
+
+    private final static Logger logger = LoggerFactory.getLogger(ReverseIndexCalNodeServiceImpl.class);
 
     @Autowired
     private FlowService flowService;
@@ -31,14 +33,14 @@ public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService im
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("开始节点【REVERSEINDEXCAL】");
+            logger.info("开始节点【REVERSEINDEXCAL】");
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("startFlag", "1");
                 flow.put("pushQueueFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -47,13 +49,13 @@ public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService im
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("结束节点【REVERSEINDEXCAL】");
+            logger.info("结束节点【REVERSEINDEXCAL】");
 
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("endFlag", "1");
                 flowService.modify(flow);
             }
-            System.out.println("插入下一个节点【SUMMARYEXTRACT】");
+            logger.info("插入下一个节点【SUMMARYEXTRACT】");
             Document doc = new Document();
             doc.put("flowId", UUID.randomUUID().toString().replace( "-", ""));
             doc.put("urlId", urlId);
@@ -65,7 +67,7 @@ public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService im
             doc.put("seqNo", Double.parseDouble(String.valueOf(flow.get("seqNo")))+1);
             flowService.create(doc);
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -77,9 +79,9 @@ public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService im
             doc.put("urlId", urlId);
             doc.put("nodeCode", SpiderNodeEnum.REVERSEINDEXCAL.getValue());
             document = flowService.findOne(doc);
-            System.out.println("获取当前节点【REVERSEINDEXCAL】");
+            logger.info("获取当前节点【REVERSEINDEXCAL】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -98,9 +100,9 @@ public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService im
             doc.put("pushCounts", 0);
             doc.put("seqNo", 1);
             flowService.create(doc);
-            System.out.println("创建当前节点【REVERSEINDEXCAL】");
+            logger.info("创建当前节点【REVERSEINDEXCAL】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -109,14 +111,14 @@ public class ReverseIndexCalNodeServiceImpl extends AbstractSpiderBaseService im
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("结束节点【REVERSEINDEXCAL】");
+            logger.info("结束节点【REVERSEINDEXCAL】");
 
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("endFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 }

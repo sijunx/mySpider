@@ -8,12 +8,17 @@ import com.spider.search.service.api.mongo.KeyExtractNodeService;
 import com.spider.search.service.api.mongo.KeyWordsService;
 import com.spider.search.service.dto.DocQueue;
 import com.spider.search.service.util.StringHandlerUtil;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
 import java.util.*;
 
 public class KeyExtractThread implements Runnable{
+
+    private final static Logger logger = LoggerFactory.getLogger(KeyExtractThread.class);
 
     private String threadName;
     private Document document;
@@ -44,7 +49,7 @@ public class KeyExtractThread implements Runnable{
     @Override
     public void run() {
         try {
-            System.out.println(threadName + " start run");
+            logger.info(threadName + " start run");
             int idle = 0;
             while (idle < 10) {
                 document = workQueue.poll();
@@ -113,28 +118,25 @@ public class KeyExtractThread implements Runnable{
                             doc01.put("keyWord", mapping.getKey());
                             doc01.put("counts", mapping.getValue());
                             fundKeyWordsService.create(doc01);
-                            System.out.println(mapping.getKey() + ":" + mapping.getValue());
+                            logger.info("key:{} value:{}", mapping.getKey(), mapping.getValue());
                         }
-
-                        ///////////////////////////////////////////////////////////////////////////////////////////////////
                         //  流程推送
-                        ///////////////////////////////////////////////////////////////////////////////////////////////////
                         if (jcount > 0) {
                             keyExtractNodeService.endFlow(urlId);
                         } else {
                             keyExtractNodeService.endFlowNotPass(urlId);
                         }
                     } catch (Exception e) {
-                        System.out.println("ClientThread: exception:" + e.getMessage());
+                        logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
                     }
                 } else {
                     idle++;
                     Thread.sleep(1000);
                 }
             }
-            System.out.println(threadName + " end run...");
+            logger.info(new StringBuilder().append(threadName).append("end run...").toString());
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 }

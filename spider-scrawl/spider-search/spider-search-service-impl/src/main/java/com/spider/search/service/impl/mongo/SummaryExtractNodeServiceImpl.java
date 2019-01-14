@@ -4,7 +4,10 @@ import com.spider.search.service.api.mongo.FlowService;
 import com.spider.search.service.api.mongo.SummaryExtractNodeService;
 import com.spider.search.service.enums.SpiderNodeEnum;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +15,8 @@ import java.util.UUID;
 
 @Service
 public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService implements SummaryExtractNodeService {
+
+    private final static Logger logger = LoggerFactory.getLogger(SummaryExtractNodeServiceImpl.class);
 
     @Autowired
     private FlowService flowService;
@@ -28,14 +33,14 @@ public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService imp
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("开始节点【SUMMARYEXTRACT】");
+            logger.info("开始节点【SUMMARYEXTRACT】");
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("startFlag", "1");
                 flow.put("pushQueueFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -44,13 +49,13 @@ public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService imp
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("结束节点【SUMMARYEXTRACT】");
+            logger.info("结束节点【SUMMARYEXTRACT】");
 
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("endFlag", "1");
                 flowService.modify(flow);
             }
-            System.out.println("插入下一个节点【REVERSEINDEXCAL】");
+            logger.info("插入下一个节点【REVERSEINDEXCAL】");
 
             Document doc = new Document();
             doc.put("flowId", UUID.randomUUID().toString().replace( "-", ""));
@@ -63,7 +68,7 @@ public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService imp
             doc.put("seqNo", Double.parseDouble(String.valueOf(flow.get("seqNo")))+1);
             flowService.create(doc);
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -75,9 +80,9 @@ public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService imp
             doc.put("urlId", urlId);
             doc.put("nodeCode", SpiderNodeEnum.SUMMARYEXTRACT.getValue());
             document = flowService.findOne(doc);
-            System.out.println("获取当前节点【SUMMARYEXTRACT】");
+            logger.info("获取当前节点【SUMMARYEXTRACT】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -96,9 +101,9 @@ public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService imp
             doc.put("pushCounts", 0);
             doc.put("seqNo", 1);
             flowService.create(doc);
-            System.out.println("创建当前节点【SUMMARYEXTRACT】");
+            logger.info("创建当前节点【SUMMARYEXTRACT】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -107,14 +112,14 @@ public class SummaryExtractNodeServiceImpl extends AbstractSpiderBaseService imp
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("结束节点【SUMMARYEXTRACT】");
+            logger.info("结束节点【SUMMARYEXTRACT】");
 
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("endFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println("endFlowNotPass异常-------------------------------");
+            logger.info("endFlowNotPass异常-------------------------------");
         }
     }
 }

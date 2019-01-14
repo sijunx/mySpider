@@ -4,7 +4,10 @@ import com.spider.search.service.api.mongo.FlowService;
 import com.spider.search.service.api.mongo.HotsCalNodeService;
 import com.spider.search.service.enums.SpiderNodeEnum;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +15,8 @@ import java.util.UUID;
 
 @Service
 public class HotsCalNodeServiceImpl extends AbstractSpiderBaseService implements HotsCalNodeService {
+
+    private final static Logger logger = LoggerFactory.getLogger(HotsCalNodeServiceImpl.class);
 
     @Autowired
     private FlowService flowService;
@@ -28,14 +33,14 @@ public class HotsCalNodeServiceImpl extends AbstractSpiderBaseService implements
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("开始节点【HOTSCAL】");
+            logger.info("开始节点【HOTSCAL】");
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("startFlag", "1");
                 flow.put("pushQueueFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -44,14 +49,14 @@ public class HotsCalNodeServiceImpl extends AbstractSpiderBaseService implements
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("结束节点【HOTSCAL】");
+            logger.info("结束节点【HOTSCAL】");
 
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("endFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -63,9 +68,9 @@ public class HotsCalNodeServiceImpl extends AbstractSpiderBaseService implements
             doc.put("urlId", urlId);
             doc.put("nodeCode", SpiderNodeEnum.HOTSCAL.getValue());
             document = flowService.findOne(doc);
-            System.out.println("获取当前节点【HOTSCAL】");
+            logger.info("获取当前节点【HOTSCAL】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -84,9 +89,9 @@ public class HotsCalNodeServiceImpl extends AbstractSpiderBaseService implements
             doc.put("pushCounts", 0);
             doc.put("seqNo", 1);
             flowService.create(doc);
-            System.out.println("创建当前节点【HOTSCAL】");
+            logger.info("创建当前节点【HOTSCAL】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 }

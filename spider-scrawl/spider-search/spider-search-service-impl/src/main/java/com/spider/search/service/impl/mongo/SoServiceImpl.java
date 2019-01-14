@@ -5,6 +5,8 @@ import com.spider.search.service.api.mongo.ReverseIndexService;
 import com.spider.search.service.api.mongo.SoService;
 import com.spider.search.service.util.StringHandlerUtil;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
@@ -13,6 +15,8 @@ import java.util.*;
 
 @Service
 public class SoServiceImpl extends AbstractSpiderBaseService implements SoService {
+
+    private final static Logger logger = LoggerFactory.getLogger(SoServiceImpl.class);
 
     @Autowired
     private ReverseIndexService reverseIndexService;

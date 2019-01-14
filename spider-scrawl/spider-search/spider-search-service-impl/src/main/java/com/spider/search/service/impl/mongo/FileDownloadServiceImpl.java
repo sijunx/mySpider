@@ -2,6 +2,10 @@ package com.spider.search.service.impl.mongo;
 
 import com.mongodb.client.MongoDatabase;
 import com.spider.search.service.api.mongo.FileDownloadService;
+import com.spider.search.service.impl.mongo.thread.HotsThread;
+import org.apache.commons.lang3.exception.ExceptionUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +18,8 @@ import java.net.URLEncoder;
 
 @Service
 public class FileDownloadServiceImpl implements FileDownloadService {
+
+    private final static Logger logger = LoggerFactory.getLogger(FileDownloadServiceImpl.class);
 
     private MongoDatabase mongoDatabase;
 
@@ -60,7 +66,7 @@ public class FileDownloadServiceImpl implements FileDownloadService {
             out.close();
             is.close();
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return (filePath+fileName);
     }

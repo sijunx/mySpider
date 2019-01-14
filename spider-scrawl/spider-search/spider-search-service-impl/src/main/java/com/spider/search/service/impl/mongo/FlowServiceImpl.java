@@ -6,8 +6,12 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.model.Filters;
 import com.spider.search.service.api.mongo.FlowService;
+import com.spider.search.service.impl.mongo.thread.HotsThread;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -20,6 +24,8 @@ import java.util.List;
  */
 @Service
 public class FlowServiceImpl extends AbstractSpiderBaseService implements FlowService {
+
+    private final static Logger logger = LoggerFactory.getLogger(FlowServiceImpl.class);
 
     @Override
     public Document create(Document document) {
@@ -54,7 +60,7 @@ public class FlowServiceImpl extends AbstractSpiderBaseService implements FlowSe
             }
             collection01.insertOne(doc03);
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -85,7 +91,7 @@ public class FlowServiceImpl extends AbstractSpiderBaseService implements FlowSe
                 collection04.updateMany(Filters.eq("flowId", document.get("flowId")), new Document("$set", new Document("seqNo", Double.parseDouble(String.valueOf(document.get("seqNo"))))));
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -131,7 +137,7 @@ public class FlowServiceImpl extends AbstractSpiderBaseService implements FlowSe
                 document02 = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document02;
     }
@@ -178,7 +184,7 @@ public class FlowServiceImpl extends AbstractSpiderBaseService implements FlowSe
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }

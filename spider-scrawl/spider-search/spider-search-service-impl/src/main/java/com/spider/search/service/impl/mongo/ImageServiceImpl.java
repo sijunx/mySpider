@@ -6,18 +6,21 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.model.Filters;
 import com.spider.search.service.api.mongo.ImageService;
+import com.spider.search.service.impl.mongo.thread.HotsThread;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sh00815 on 2017/9/14.
- */
 @Service
 public class ImageServiceImpl extends AbstractSpiderBaseService implements ImageService {
+
+    private final static Logger logger = LoggerFactory.getLogger(ImageServiceImpl.class);
 
     public Document create(Document document) {
         try {
@@ -34,7 +37,7 @@ public class ImageServiceImpl extends AbstractSpiderBaseService implements Image
             }
             collection.insertOne(doc03);
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -52,7 +55,7 @@ public class ImageServiceImpl extends AbstractSpiderBaseService implements Image
                 collection04.updateMany(Filters.eq("imageId", String.valueOf(document.get("imageId"))), new Document("$set",new Document("imagePath",String.valueOf(document.get("imagePath")))));
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -82,7 +85,7 @@ public class ImageServiceImpl extends AbstractSpiderBaseService implements Image
                 document02 = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document02;
     }
@@ -113,7 +116,7 @@ public class ImageServiceImpl extends AbstractSpiderBaseService implements Image
                 listDocument = null;
             }
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return listDocument;
     }

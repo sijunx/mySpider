@@ -4,7 +4,10 @@ import com.spider.search.service.api.mongo.FlowService;
 import com.spider.search.service.api.mongo.SimilarCalNodeService;
 import com.spider.search.service.enums.SpiderNodeEnum;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +15,8 @@ import java.util.UUID;
 
 @Service
 public class SimilarCalNodeServiceImpl extends AbstractSpiderBaseService implements SimilarCalNodeService {
+
+    private final static Logger logger = LoggerFactory.getLogger(SimilarCalNodeServiceImpl.class);
 
     @Autowired
     private FlowService flowService;
@@ -28,14 +33,14 @@ public class SimilarCalNodeServiceImpl extends AbstractSpiderBaseService impleme
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("开始节点【SIMILARCAL】");
+            logger.info("开始节点【SIMILARCAL】");
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("startFlag", "1");
                 flow.put("pushQueueFlag", "1");
                 flowService.modify(flow);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -44,13 +49,13 @@ public class SimilarCalNodeServiceImpl extends AbstractSpiderBaseService impleme
         try {
             flowService.setDatabase(this.mongoDatabase);
             Document flow = this.getFlow(urlId);
-            System.out.println("结束节点【SIMILARCAL】");
+            logger.info("结束节点【SIMILARCAL】");
 
             if(flow.get("flowId")!=null && StringUtils.isNotBlank(String.valueOf(flow.get("flowId")))){
                 flow.put("endFlag", "1");
                 flowService.modify(flow);
             }
-            System.out.println("插入下一个节点【HOTSCAL】");
+            logger.info("插入下一个节点【HOTSCAL】");
             Document doc = new Document();
             doc.put("flowId", UUID.randomUUID().toString().replace( "-", ""));
             doc.put("urlId", urlId);
@@ -62,7 +67,7 @@ public class SimilarCalNodeServiceImpl extends AbstractSpiderBaseService impleme
             doc.put("seqNo", Double.parseDouble(String.valueOf(flow.get("seqNo")))+1);
             flowService.create(doc);
         } catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 
@@ -74,9 +79,9 @@ public class SimilarCalNodeServiceImpl extends AbstractSpiderBaseService impleme
             doc.put("urlId", urlId);
             doc.put("nodeCode", SpiderNodeEnum.SIMILARCAL.getValue());
             document = flowService.findOne(doc);
-            System.out.println("获取当前节点【SIMILARCAL】");
+            logger.info("获取当前节点【SIMILARCAL】");
         }catch (Exception e) {
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
         return document;
     }
@@ -95,9 +100,9 @@ public class SimilarCalNodeServiceImpl extends AbstractSpiderBaseService impleme
             doc.put("pushCounts", 0);
             doc.put("seqNo", 1);
             flowService.create(doc);
-            System.out.println("创建当前节点【SIMILARCAL】");
+            logger.info("创建当前节点【SIMILARCAL】");
         }catch (Exception e){
-            System.out.println(e);
+            logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
         }
     }
 }

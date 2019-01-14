@@ -3,6 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/git_mySpider.iml" filepath="$PROJECT_DIR$/.idea/git_mySpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-sdk/spider-base-utils/spider-base-util.iml" filepath="$PROJECT_DIR$/spider-sdk/spider-base-utils/spider-base-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-parent/spider-parent.iml" filepath="$PROJECT_DIR$/spider-parent/spider-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/spider-search-facade-api.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/spider-search-facade-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/spider-search-facade-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/spider-search-facade-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/spider-search-service-api.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/spider-search-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/spider-search-service-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/spider-search-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-web-parent/spider-web-parent.iml" filepath="$PROJECT_DIR$/spider-web-parent/spider-web-parent.iml" />
     </modules>
   </component>
 </project>

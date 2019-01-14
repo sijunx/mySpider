@@ -3,4 +3,27 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-web-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-sdk/spider-base-utils/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spider-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
