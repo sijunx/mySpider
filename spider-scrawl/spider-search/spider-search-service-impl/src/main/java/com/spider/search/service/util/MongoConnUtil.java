@@ -22,8 +22,8 @@ public class MongoConnUtil {
         addrs.add(serverAddress01);
         addrs.add(serverAddress02);
         //MongoCredential.createScramSha1Credential()三个参数分别为 用户名 数据库名称 密码
-        MongoCredential credential01 = MongoCredential.createScramSha1Credential("zard30", "spider_dev", "yes".toCharArray());
-        MongoCredential credential02 = MongoCredential.createScramSha1Credential("zard30", "spider_dev", "yes".toCharArray());
+        MongoCredential credential01 = MongoCredential.createScramSha1Credential("zard30", "spider_dev", "redis30".toCharArray());
+        MongoCredential credential02 = MongoCredential.createScramSha1Credential("zard30", "spider_dev", "redis30".toCharArray());
 
         List<MongoCredential> credentials = new ArrayList<MongoCredential>();
         credentials.add(credential01);

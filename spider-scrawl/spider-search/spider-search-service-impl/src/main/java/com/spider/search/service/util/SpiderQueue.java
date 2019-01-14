@@ -55,10 +55,4 @@ public class SpiderQueue {
         return queue.size();
     }
 
-    public void printAll() {
-        logger.info("Enter printAll.");
-        for (SpiderUrlServiceDTO spiderUrlServiceDTO : queue) {
-            logger.info(spiderUrlServiceDTO);
-        }
-    }
 }

@@ -22,15 +22,24 @@
 	<name>spider-search-service-impl</name>
 
 	<dependencies>
-		<!--<dependency>-->
-		<!--<groupId>org.slf4j</groupId>-->
-		<!--<artifactId>slf4j-log4j12</artifactId>-->
-		<!--</dependency>-->
 		<dependency>
 			<groupId>com.spider.search</groupId>
 			<artifactId>spider-search-service-api</artifactId>
 			<version>${spider-version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.spider.base</groupId>
+			<artifactId>spider-base-log</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+			    		<exclusions>
+			     		<exclusion>
+			         	<groupId>org.slf4j</groupId>
+			         	<artifactId>slf4j-log4j12</artifactId>
+			         </exclusion>
+			      	</exclusions>
+		</dependency>
+
 	</dependencies>
 
 	<build>
