@@ -14,23 +14,28 @@
 	</properties>
 
 	<groupId>com.spider.base</groupId>
-	<artifactId>spider-base-util</artifactId>
+	<artifactId>spider-base-log</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<packaging>jar</packaging>
 
-	<name>spider-base-util</name>
+	<name>spider-base-log</name>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.25</version>
+		</dependency>
 	</dependencies>
 
-	<build>
-		<finalName>spider-search</finalName>
-		<resources>
-			<resource>
-				<directory>src/main/resources/</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
-	</build>
+	<!--<build>-->
+		<!--<finalName>spider-search</finalName>-->
+		<!--<resources>-->
+			<!--<resource>-->
+				<!--<directory>src/main/resources/</directory>-->
+				<!--<filtering>true</filtering>-->
+			<!--</resource>-->
+		<!--</resources>-->
+	<!--</build>-->
 </project>
