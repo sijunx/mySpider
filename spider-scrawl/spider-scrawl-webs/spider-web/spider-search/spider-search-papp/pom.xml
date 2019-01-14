@@ -11,7 +11,7 @@
 	<groupId>com.spider.search.papp</groupId>
 	<artifactId>spider-search-papp</artifactId>
 	<packaging>jar</packaging>
-	<version>${spider-version}</version>
+	<version>my-SNAPSHOT</version>
 	<name>spider-search-papp</name>
 
 	<properties>
@@ -24,7 +24,12 @@
 		<dependency>
 			<groupId>com.spider.search</groupId>
 			<artifactId>spider-search-service-impl</artifactId>
-			<version>${spider-version}</version>
+			<version>my-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.spider.search</groupId>
+			<artifactId>spider-search-service-api</artifactId>
+			<version>my-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
