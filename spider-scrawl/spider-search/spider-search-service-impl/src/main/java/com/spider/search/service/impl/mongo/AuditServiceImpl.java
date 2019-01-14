@@ -10,9 +10,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by sh00815 on 2017/9/17.
- */
 @Service
 public class AuditServiceImpl extends AbstractSpiderBaseService implements AuditService {
 
