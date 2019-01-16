@@ -2,25 +2,40 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.spider.web.parent</groupId>
-		<artifactId>spider-web-parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
-	</parent>
-
 	<groupId>com.spider.search.papp</groupId>
 	<artifactId>spider-search-papp</artifactId>
 	<packaging>jar</packaging>
-	<version>my-SNAPSHOT</version>
-	<name>spider-search-papp</name>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.10.RELEASE</version>
+	</parent>
 
 	<properties>
-		<charset>utf-8</charset>
-		<pageEncoding>utf-8</pageEncoding>
-		<!--<start-class>com.spider.search.papp.MyApplication</start-class>-->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+
+        <commons.lang3.version>3.8.1</commons.lang3.version>
+        <fastjson.version>1.2.41</fastjson.version>
+        <jsoup.version>1.10.3</jsoup.version>
+        <ikanalyzer.version>2012_u6</ikanalyzer.version>
+        <mongodb.driver.version>3.4.2</mongodb.driver.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.spider.search</groupId>
+			<artifactId>spider-search-facade-impl</artifactId>
+			<version>my-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.spider.search</groupId>
+			<artifactId>spider-search-facade-api</artifactId>
+			<version>my-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>com.spider.search</groupId>
 			<artifactId>spider-search-service-impl</artifactId>
@@ -31,7 +46,53 @@
 			<artifactId>spider-search-service-api</artifactId>
 			<version>my-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>ch.qos.logback</groupId>
+					<artifactId>logback-classic</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>log4j-over-slf4j</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongodb-driver</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons.lang3.version}</version>
+		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
 

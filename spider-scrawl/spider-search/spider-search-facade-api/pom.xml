@@ -6,16 +6,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-		<groupId>com.spider.parent</groupId>
-		<artifactId>spider-parent</artifactId>
+		<groupId>com.spider.scrawl</groupId>
+		<artifactId>spider-scrawl-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
+    <properties>
+        <spider.version>my-SNAPSHOT</spider.version>
+    </properties>
+
     <groupId>com.spider.search</groupId>
     <artifactId>spider-search-facade-api</artifactId>
-    <version>${spider-version}</version>
-
     <packaging>jar</packaging>
-
-    <name>spider-search-facade-api</name>
+    <version>my-SNAPSHOT</version>
 </project>

@@ -8,11 +8,11 @@ import com.spider.search.service.api.mongo.KeyExtractNodeService;
 import com.spider.search.service.api.mongo.KeyWordsService;
 import com.spider.search.service.dto.DocQueue;
 import com.spider.search.service.util.StringHandlerUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.util.StringUtils;
 
 import java.util.*;
 
@@ -113,7 +113,8 @@ public class KeyExtractThread implements Runnable{
                                 break;
                             }
                             Document doc01 = new Document();
-                            doc01.put("keyWordId", StringUtils.replace(String.valueOf(UUID.randomUUID()), "-", ""));
+                            doc01.put("keyWordId",  StringUtils.replace(String.valueOf(UUID.randomUUID()), "-", ""));
+
                             doc01.put("urlId", urlId);
                             doc01.put("keyWord", mapping.getKey());
                             doc01.put("counts", mapping.getValue());

@@ -1,40 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spider-search-papp:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="298e3ea3-0d76-409d-93de-ee09efd23660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spider_search_papp_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-service-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-service-parent/spider-service-parent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spider_base_spider_base_utils_1_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spider_search_spider_search_service_impl___spider_version_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-log/spider-base-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/spider-base-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/java/com/spider/search/service/impl/MyTest001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/java/com/spider/search/service/impl/MyThread001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-parent/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-parent/spider-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-parent/spider-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/spider-search-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/spider-search-papp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/spider-search-facade-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/spider-search-facade-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/spider-search-facade-api-null.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/spider-search-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/spider-search-facade-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/spider-search-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/spider-search-service-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/spider-search-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/spider-search-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/MongoConnUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/MongoConnUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/SpiderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/SpiderQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/spider-base-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/spider-base-log.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/main/java/com/spider/base/log/SpiderPatternLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/main/java/com/spider/base/log/SpiderPatternLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/main/resources/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/main/resources/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/test/java/com/spider/search/service/impl/MyTest001.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/java/com/spider/search/service/impl/MyTest001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/test/java/com/spider/search/service/impl/MyThread001.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/java/com/spider/search/service/impl/MyThread001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-log/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/InputDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/InputDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SpiderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SpiderThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-web-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-web-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-web-parent/spider-web-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-web-parent/spider-web-parent.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/" />
@@ -53,6 +139,8 @@
     <ignored path="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/" />
     <ignored path="$PROJECT_DIR$/spider-sdk/spider-base-utils/target/" />
     <ignored path="$PROJECT_DIR$/spider-base/spider-base-log/target/" />
+    <ignored path="$PROJECT_DIR$/spider-service-parent/target/" />
+    <ignored path="$PROJECT_DIR$/spider-base-parent/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +149,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="1161">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
+        <entry file="file://$PROJECT_DIR$/spider-service-parent/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-web-parent/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -87,62 +183,54 @@
         <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="297">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-log/src/main/java/com/spider/base/log/SpiderPatternLayout.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider-parent/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/BlackWordsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/FlowServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4455">
-              <caret line="180" column="25" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/UrlSimilarServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1998">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="189">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mogo</find>
-      <find>mgzf</find>
       <find>MONITOR_LOG_CLASS_KEYWORD</find>
       <find>sh00815</find>
       <find>System.out.println(e);</find>
       <find>System.out.println(</find>
       <find>22</find>
+      <find>sl4j</find>
+      <find>fastjson</find>
+      <find>jsoup</find>
+      <find>mongodb-driver</find>
+      <find>spider-version</find>
+      <find>lang3</find>
+      <find>aop</find>
+      <find>2.0.4.RELEASE</find>
+      <find>slf4j</find>
+      <find>mong</find>
+      <find>mgzf</find>
+      <find>&lt;name&gt;</find>
+      <find>&lt;packaging&gt;</find>
+      <find>StringUtils</find>
+      <find>spring-boot-starter-parent</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -150,10 +238,12 @@
       <replace>logger.warn(&quot;异常信息 e:{}&quot;, ExceptionUtils.getStackTrace(e));</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>C:\git_mySpider</dir>
       <dir>C:\git_mySpider\spider-scrawl\spider-search\spider-search-service-impl\src\main\java\com\spider\search\service\impl\mongo</dir>
       <dir>C:\git_mySpider\spider-scrawl\spider-search\spider-search-service-impl\src\main\java\com\spider\search\service\impl</dir>
       <dir>C:\git_mySpider\spider-scrawl\spider-search\spider-search-service-impl\src\main\java\com\spider\search\service</dir>
+      <dir>C:\git_mySpider\spider-scrawl</dir>
+      <dir>C:\git_mySpider</dir>
+      <dir>C:\git_mySpider_001</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -162,37 +252,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/log/MogoLayout.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/log/SpiderPatternLayout.java" />
-        <option value="$PROJECT_DIR$/spider-base/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-sdk/spider-base-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-sdk/spider-base-utils/src/main/java/com/spider/base/log/SpiderPatternLayout.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/HotsCalServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/KeyExtractServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/SummaryExtractServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/SimilarUtils.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/StringHandlerUtil.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SoServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/AuditServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/ReverseIndexCalServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/SimilarCalServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/SpiderCalServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/HotsThread.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/ReverseIndexThread.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SimilarThread.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SpiderThread.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SummaryExtractThread.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/BlackWordsServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/FileDownloadServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/FlowServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/HotsCalNodeServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ImageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/InputDataServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/KeyExtractNodeServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/KeyWordsServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ReverseIndexCalNodeServiceImpl.java" />
@@ -202,17 +274,35 @@
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/WordsDicServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SummaryExtractNodeServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SpiderUrlServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SimilarCalNodeServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ReverseIndexServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/MongoConnUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/SpiderQueue.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-log/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SpiderThread.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOServer.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-log/src/main/java/com/spider/base/log/SpiderPatternLayout.java" />
+        <option value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/MyApplication.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SimilarCalNodeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/InputDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-log/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-web-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SoServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-service-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-parent/pom.xml" />
       </list>
     </option>
   </component>
@@ -220,6 +310,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="userSettingsFile" value="C:\apache-maven-3.3.3\conf\settings.xml" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -233,21 +324,24 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-search-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-scrawl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-search-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="spider-scrawl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="749" />
-    <option name="y" value="46" />
-    <option name="width" value="1380" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -258,100 +352,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-log" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_search_papp_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
               <item name="spider-search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
@@ -359,8 +418,8 @@
               <item name="spider-search-papp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
@@ -369,8 +428,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
@@ -380,8 +439,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
@@ -392,131 +451,21 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
               <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
               <item name="spider-web" type="462c0819:PsiDirectoryNode" />
               <item name="spider-search" type="462c0819:PsiDirectoryNode" />
               <item name="spider-search-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="papp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-webs" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-web" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="papp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-facade-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-web-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,25 +477,25 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547460102543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547631933774" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34367815" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\git_mySpider\spider-sdk" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider\spider-base" />
+      <recent name="C:\git_mySpider" />
       <recent name="C:\git_mySpider\spider-scrawl\spider-scrawl-webs\spider-web\spider-search\spider-search-papp\src\main\resources" />
       <recent name="C:\git_mySpider\spider-scrawl\spider-search\spider-search-service-impl\src\main\resources" />
       <recent name="C:\git_mySpider\spider-sdk" />
-      <recent name="C:\git_mySpider\spider-base\spider-base-utils\src\main\java\com\spider\base\log" />
-      <recent name="C:\git_mySpider\spider-base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider\spider-sdk" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -562,6 +511,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MyApplication">
+    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spider.search.service.impl.NIOClient" />
+      <module name="spider-search-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.search.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spider.search.service.impl.NIOServer" />
+      <module name="spider-search-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.search.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spider.search.service.impl.ThreadLocalTest" />
       <module name="spider-search-service-impl" />
@@ -584,6 +559,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIOClient" />
+        <item itemvalue="Application.NIOServer" />
         <item itemvalue="Application.ThreadLocalTest" />
       </list>
     </recent_temporary>
@@ -600,18 +577,20 @@
       <updated>1545972104203</updated>
       <workItem from="1545972106093" duration="1083000" />
       <workItem from="1547448045519" duration="2809000" />
-      <workItem from="1547450997107" duration="8996000" />
+      <workItem from="1547450997107" duration="36239000" />
+      <workItem from="1547627660954" duration="1369000" />
+      <workItem from="1547629100204" duration="2808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12888000" />
+    <option name="totallyTimeSpent" value="44308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -620,16 +599,51 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5471289" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35861322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41170096" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35211268" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32855567" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.20255864" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2228145" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3109426" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35861322" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22426869" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -639,393 +653,470 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.27665246" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.30703625" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>key</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/ReverseIndexCalServiceImpl.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
+        <state relative-caret-position="404">
+          <caret line="456" column="29" selection-start-line="456" selection-start-column="29" selection-end-line="456" selection-end-column="29" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/SimilarCalServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="96" column="70" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/SpiderCalServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="107" column="70" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/SummaryExtractServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1409">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="756">
+          <caret line="28" column="72" lean-forward="true" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java">
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="129" column="82" selection-start-line="129" selection-start-column="82" selection-end-line="129" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SimilarThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="88" column="78" selection-start-line="88" selection-start-column="78" selection-end-line="88" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/ReverseIndexThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="107" column="96" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/KeyExtractServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="92" column="82" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/HotsThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="81" column="92" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SpiderThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="228" column="70" lean-forward="true" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SummaryExtractThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/AuditServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1935">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/TopicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SummaryExtractNodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SpiderUrlServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1908">
-          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SimilarCalNodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ReverseIndexServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ReverseIndexCalNodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/KeyWordsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2273">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+        <state relative-caret-position="621">
+          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
           <folding>
-            <element signature="e#4363#4373#0" expanded="true" />
-            <element signature="e#5842#5852#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/src/main/java/com/spider/search/service/api/mongo/KeyExtractNodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/KeyExtractNodeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="60" column="78" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_repo/org/springframework/boot/spring-boot-starter-parent/1.5.2.RELEASE/spring-boot-starter-parent-1.5.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/TopicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/src/main/java/com/spider/search/service/api/mongo/SimilarCalNodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/src/main/java/com/spider/search/service/api/mongo/AuditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_repo/com/spider/parent/spider-parent/1.0.0-SNAPSHOT/spider-parent-1.0.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="59" column="60" lean-forward="true" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/src/main/java/com/spider/search/service/api/mongo/HotsCalNodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/cal/ReverseIndexCalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/UrlSimilarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/KeyWordsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-log/src/main/java/com/spider/base/log/SpiderPatternLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SimilarCalNodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-parent/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_repo/org/springframework/boot/spring-boot-dependencies/1.5.2.RELEASE/spring-boot-dependencies-1.5.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="1863" column="12" selection-start-line="1863" selection-start-column="12" selection-end-line="1863" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ReverseIndexServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/InputDataServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret line="216" column="53" selection-start-line="216" selection-start-column="53" selection-end-line="216" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/HotsCalNodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="93" column="70" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/MongoConnUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/FileDownloadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/WordsDicServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="149">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/MyTest001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/MyThread001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/ImageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/test/java/com/spider/search/service/impl/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/util/SpiderQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#491#492#0" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven_repo/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PatternLayout.class">
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/pom.xml">
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml">
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SpiderUrlServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+        <state relative-caret-position="378">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-parent/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/src/main/java/com/spider/search/service/api/mongo/SpiderBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../apache-maven-3.3.3/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/UrlDataExtractNodeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="297">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_repo/org/springframework/boot/spring-boot-starter-parent/1.5.10.RELEASE/spring-boot-starter-parent-1.5.10.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_repo/com/spider/service/parent/spider-service-parent/1.0.0-SNAPSHOT/spider-service-parent-1.0.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-core.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-log/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="384">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/SpiderThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/SoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="116" column="49" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-web-parent/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/BlackWordsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/FlowServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4455">
-          <caret line="180" column="25" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/src/main/java/com/spider/search/service/impl/mongo/UrlSimilarServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-log/src/main/java/com/spider/base/log/SpiderPatternLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="1161">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-service-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1035,10 +1126,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>spider-search-papp:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34367815" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1050,7 +1143,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34367815" />
               </list>
             </option>
           </splitter-proportions>
@@ -1081,12 +1174,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>git_mySpider</last-edited>
+          <last-edited>spider-base-log</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.34367815" />
               </list>
             </option>
           </splitter-proportions>
@@ -1094,11 +1186,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.41</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34367815" />
               </list>
             </option>
           </splitter-proportions>

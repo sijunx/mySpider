@@ -4,40 +4,66 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.spider.scrawl</groupId>
-		<artifactId>spider-scrawl-parent</artifactId>
+		<groupId>com.spider.service.parent</groupId>
+		<artifactId>spider-service-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<properties>
-		<spider-version>my-SNAPSHOT</spider-version>
+		<spider.version>my-SNAPSHOT</spider.version>
 	</properties>
 
 	<groupId>com.spider.search</groupId>
 	<artifactId>spider-search-service-impl</artifactId>
-	<version>${spider-version}</version>
-
 	<packaging>jar</packaging>
-
-	<name>spider-search-service-impl</name>
+	<version>my-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.spider.search</groupId>
 			<artifactId>spider-search-service-api</artifactId>
-			<version>${spider-version}</version>
+			<version>my-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.spider.base</groupId>
-			<artifactId>spider-base-log</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-			    		<exclusions>
-			     		<exclusion>
-			         	<groupId>org.slf4j</groupId>
-			         	<artifactId>slf4j-log4j12</artifactId>
-			         </exclusion>
-			      	</exclusions>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.janeluo</groupId>
+			<artifactId>ikanalyzer</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongodb-driver</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
 		</dependency>
 
 	</dependencies>
@@ -51,7 +77,4 @@
 			</resource>
 		</resources>
 	</build>
-
-
-
 </project>

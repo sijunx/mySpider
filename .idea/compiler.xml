@@ -17,8 +17,10 @@
     <bytecodeTargetLevel>
       <module name="git_mySpider" target="1.7" />
       <module name="spider-base-log" target="1.7" />
+      <module name="spider-base-parent" target="1.8" />
+      <module name="spider-base-parent (1) (com.spider.base.parent)" target="1.7" />
       <module name="spider-base-utils" target="1.7" />
-      <module name="spider-core" target="1.7" />
+      <module name="spider-core" target="1.5" />
       <module name="spider-parent" target="1.7" />
       <module name="spider-scrawl" target="1.7" />
       <module name="spider-scrawl-parent" target="1.7" />
@@ -27,11 +29,23 @@
       <module name="spider-search-papp" target="1.8" />
       <module name="spider-search-service-api" target="1.7" />
       <module name="spider-search-service-impl" target="1.7" />
-      <module name="spider-web-parent" target="1.8" />
+      <module name="spider-service-parent" target="1.7" />
+      <module name="spider-service-parentpom" target="1.7" />
+      <module name="spider-web-parent" target="1.7" />
       <module name="spiderbase" target="1.7" />
       <module name="spiderbaselock" target="1.7" />
       <module name="spiderbaseredis" target="1.7" />
       <module name="spiderbaseutils" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spider-base-log" options="" />
+      <module name="spider-search-facade-api" options="" />
+      <module name="spider-search-facade-impl" options="" />
+      <module name="spider-search-papp" options="" />
+      <module name="spider-search-service-api" options="" />
+      <module name="spider-search-service-impl" options="" />
+    </option>
   </component>
 </project>

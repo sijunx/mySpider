@@ -4,9 +4,8 @@
 
 	<groupId>com.spider.scrawl</groupId>
 	<artifactId>spider-scrawl-parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>spider-scrawl-parent</name>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<parent>
 		<groupId>com.spider.parent</groupId>
@@ -15,7 +14,7 @@
 	</parent>
 
 	<properties>
-		<spider-version>my-SNAPSHOT</spider-version>
+		<spider.version>my-SNAPSHOT</spider.version>
 	</properties>
 
 	<dependencyManagement>
@@ -23,39 +22,23 @@
 			<dependency>
 				<groupId>com.spider.search</groupId>
 				<artifactId>spider-search-facade-api</artifactId>
-				<version>${spider-version}</version>
+				<version>${spider.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.spider.search</groupId>
 				<artifactId>spider-search-facade-impl</artifactId>
-				<version>${spider-version}</version>
+				<version>${spider.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.spider.search</groupId>
 				<artifactId>spider-search-service-api</artifactId>
-				<version>${spider-version}</version>
+				<version>${spider.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.spider.search</groupId>
 				<artifactId>spider-search-service-impl</artifactId>
-				<version>${spider-version}</version>
+				<version>${spider.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-	<dependencies>
-		<!--<dependency>-->
-			<!--<groupId>com.spider.base</groupId>-->
-			<!--<artifactId>spider-base-log</artifactId>-->
-			<!--<version>1.0.0-SNAPSHOT</version>-->
-			<!--<exclusions>-->
-				<!--<exclusion>-->
-					<!--<groupId>org.slf4j</groupId>-->
-					<!--<artifactId>slf4j-log4j12</artifactId>-->
-				<!--</exclusion>-->
-			<!--</exclusions>-->
-		<!--</dependency>-->
-
-	</dependencies>
-
 </project>

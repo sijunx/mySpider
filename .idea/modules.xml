@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-log/spider-base-log.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-log/spider-base-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-parent.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-web-parent/spider-base-parent (1) (com.spider.base.parent).iml" filepath="$PROJECT_DIR$/spider-web-parent/spider-base-parent (1) (com.spider.base.parent).iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-core.iml" filepath="$PROJECT_DIR$/spider-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-parent/spider-parent.iml" filepath="$PROJECT_DIR$/spider-parent/spider-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" />
@@ -12,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/spider-search-papp.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/spider-search-papp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/spider-search-service-api.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/spider-search-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/spider-search-service-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-impl/spider-search-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-service-parent/spider-service-parent.iml" filepath="$PROJECT_DIR$/spider-service-parent/spider-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-service-parent/spider-service-parentpom.iml" filepath="$PROJECT_DIR$/spider-service-parent/spider-service-parentpom.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-web-parent/spider-web-parent.iml" filepath="$PROJECT_DIR$/spider-web-parent/spider-web-parent.iml" />
     </modules>
   </component>

@@ -3,39 +3,36 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<groupId>com.spider.base</groupId>
+	<artifactId>spider-base-log</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+
 	<parent>
-		<groupId>com.spider.parent</groupId>
-		<artifactId>spider-parent</artifactId>
+		<groupId>com.spider.base.parent</groupId>
+		<artifactId>spider-base-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<properties>
-		<base.version>1.0.0-SNAPSHOT</base.version>
-	</properties>
-
-	<groupId>com.spider.base</groupId>
-	<artifactId>spider-base-log</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-
-	<packaging>jar</packaging>
-
-	<name>spider-base-log</name>
-
 	<dependencies>
+		<!-- log4j日志 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
 
-	<!--<build>-->
-		<!--<finalName>spider-search</finalName>-->
-		<!--<resources>-->
-			<!--<resource>-->
-				<!--<directory>src/main/resources/</directory>-->
-				<!--<filtering>true</filtering>-->
-			<!--</resource>-->
-		<!--</resources>-->
-	<!--</build>-->
+	<build>
+		<finalName>spider-base-log</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources/</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+	</build>
 </project>

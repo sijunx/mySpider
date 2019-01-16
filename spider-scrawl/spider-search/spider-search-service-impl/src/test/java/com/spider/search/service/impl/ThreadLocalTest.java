@@ -5,6 +5,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by SK_ZARD on 2018/10/14.
@@ -16,12 +18,16 @@ public class ThreadLocalTest {
 
     public static void main(String[] arg){
 
-        try{
-            BigDecimal big = new BigDecimal(1).divide(new BigDecimal(0));
-        }catch (Exception e){
-//            e.printStackTrace();
-            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
-        }
+        int i = 24>>>3;
+        Map map = new HashMap();
+
+        logger.info("i:{}", i);
+
+//        try{
+//            BigDecimal big = new BigDecimal(1).divide(new BigDecimal(0));
+//        }catch (Exception e){
+//            logger.info("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
+//        }
 
 
 

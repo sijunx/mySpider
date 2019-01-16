@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.spider.base</groupId>
+	<artifactId>spider-base-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<modules>
+		<module>spider-base-log</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.spider.web</groupId>
+				<artifactId>spider-web-parent</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<powermock-api.version>1.4.10</powermock-api.version>
+	</properties>
+
+	<dependencies>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
+				<configuration>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>pl.project13.maven</groupId>
+				<artifactId>git-commit-id-plugin</artifactId>
+				<version>2.2.4</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>revision</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<!--日期格式;默认值:dd.MM.yyyy '@' HH:mm:ss z;-->
+					<dateFormat>yyyyMMddHHmmss</dateFormat>
+					<!-- ".git"文件路径;默认值:${project.basedir}/.git; -->
+					<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
+					<!--是否生成"git.properties"文件;默认值:false;-->
+					<generateGitPropertiesFile>true</generateGitPropertiesFile>
+					<!--指定"git.properties"文件的存放路径(相对于${project.basedir}的一个路径);-->
+					<generateGitPropertiesFilename>${project.build.outputDirectory}/conf/git.properties</generateGitPropertiesFilename>
+
+					<!--git描述配置,可选;由JGit提供实现;-->
+					<gitDescribe>
+						<!--提交操作未发现tag时,仅打印提交操作ID,-->
+						<always>false</always>
+						<!--构建触发时,代码有修改时(即"dirty state"),添加指定后缀;默认值:"";-->
+						<dirty>-dirty</dirty>
+						<forceLongFormat>false</forceLongFormat>
+					</gitDescribe>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

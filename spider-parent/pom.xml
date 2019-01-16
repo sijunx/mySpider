@@ -5,102 +5,46 @@
 
     <groupId>com.spider.parent</groupId>
     <artifactId>spider-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>spider-parent</name>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<base.version>1.0.0-SNAPSHOT</base.version>
+		<slf4j.version>1.6.6</slf4j.version>
+
+		<commons.lang3.version>3.8.1</commons.lang3.version>
+		<fastjson.version>1.2.41</fastjson.version>
+		<jsoup.version>1.10.3</jsoup.version>
+		<ikanalyzer.version>2012_u6</ikanalyzer.version>
+		<mongodb.driver.version>3.4.2</mongodb.driver.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-aop</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.mongodb</groupId>
+				<artifactId>mongodb-driver</artifactId>
+				<version>${mongodb.driver.version}</version>
+			</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
+			<!-- 日志文件管理包 -->
+			<!-- log4j日志 -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-log4j12</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context-support</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-expression</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-test</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-tx</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>4.0.7.RELEASE</version>
-		</dependency>
-
-
-
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.8.1</version>
-		</dependency>
-
-		<dependency>
-		<groupId>com.alibaba</groupId>
-		<artifactId>fastjson</artifactId>
-		<version>1.2.41</version>
-		</dependency>
-
-		<dependency>
-		<groupId>org.jsoup</groupId>
-		<artifactId>jsoup</artifactId>
-		<version>1.10.3</version>
-		</dependency>
-
-		<dependency>
-		<groupId>com.janeluo</groupId>
-		<artifactId>ikanalyzer</artifactId>
-		<version>2012_u6</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>mongodb-driver</artifactId>
-			<version>3.4.2</version>
-		</dependency>
-	</dependencies>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>

@@ -9,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 
@@ -104,7 +103,7 @@ public class SoServiceImpl extends AbstractSpiderBaseService implements SoServic
             doc01.put("urlId", urlId);
             List<Document> docImageList = imageService.findList(doc01);
             String imageId=null;
-            if(!CollectionUtils.isEmpty(docImageList)){
+            if(docImageList!=null && docImageList.size()>0){
                 for(Document docImage: docImageList){
                     String path01 = docImage.getString("imagePath");
                     if(path01.contains("logo")){

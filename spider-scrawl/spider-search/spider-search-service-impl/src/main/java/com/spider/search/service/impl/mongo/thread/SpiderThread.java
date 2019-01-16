@@ -146,8 +146,6 @@ public class SpiderThread implements Runnable{
                         Elements imports = docJsoup.select("link[href]");
                         Elements images = docJsoup.getElementsByTag("img");
 
-                        logger.info("纯文本长度:{} html长度:{} 输出链接个数:{}", txt!=null?txt.length():0, html!=null?html.length():0, links!=null?links.size():0);
-
                         String url_link = url;
                         String deleteFlag = "0";
                         Date date = new Date();

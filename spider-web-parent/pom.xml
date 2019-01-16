@@ -1,166 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.2.RELEASE</version>
+		<version>1.5.10.RELEASE</version>
 	</parent>
 
-	<groupId>com.spider.web.parent</groupId>
-	<artifactId>spider-web-parent</artifactId>
+	<groupId>com.spider.web</groupId>
+    <artifactId>spider-web-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<base.version>1.0.0-SNAPSHOT</base.version>
 	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
-		</dependency>
-	</dependencies>
-
-	<dependencyManagement>
-	</dependencyManagement>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
 				<configuration>
-					<fork>true</fork>
-					<mainClass>com.spider.search.papp.MyApplication</mainClass>
+					<source>1.7</source>
+					<target>1.7</target>
+					<encoding>UTF-8</encoding>
 				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<!--<version>0.7.8-SNAPSHOT</version>-->
-				<executions>
-					<execution>
-						<id>jacoco-initialize</id>
-						<goals>
-							<goal>prepare-agent</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>jacoco-site</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>report</goal>
-						</goals>
-					</execution>
-				</executions>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<uriEncoding>UTF-8</uriEncoding>
+				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.4.2.v20170220</version>
+				<configuration>
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<webAppConfig>
+						<contextPath>/${project.artifactId}</contextPath>
+					</webAppConfig>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+
+
+			<!--<plugin>-->
+			<!--	<groupId>org.jacoco</groupId>-->
+			<!--	<artifactId>jacoco-maven-plugin</artifactId>-->
+			<!--	<version>0.7.9</version>-->
+			<!--	<executions>-->
+			<!--		<execution>-->
+			<!--			<id>report-aggregate</id>-->
+			<!--			<phase>verify</phase>-->
+			<!--			<goals>-->
+			<!--				<goal>report-aggregate</goal>-->
+			<!--			</goals>-->
+			<!--		</execution>-->
+			<!--	</executions>-->
+			<!--</plugin>-->
 		</plugins>
 	</build>
-
-	<!--<build>-->
-		<!--<plugins>-->
-			<!--<plugin>-->
-				<!--<groupId>org.springframework.boot</groupId>-->
-				<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-			<!--</plugin>-->
-
-			<!--&lt;!&ndash; git 信息插件 &ndash;&gt;-->
-			<!--<plugin>-->
-				<!--<groupId>pl.project13.maven</groupId>-->
-				<!--<artifactId>git-commit-id-plugin</artifactId>-->
-				<!--<version>2.2.4</version>-->
-				<!--<executions>-->
-					<!--<execution>-->
-						<!--<goals>-->
-							<!--<goal>revision</goal>-->
-						<!--</goals>-->
-					<!--</execution>-->
-				<!--</executions>-->
-				<!--<configuration>-->
-					<!--&lt;!&ndash;日期格式;默认值:dd.MM.yyyy '@' HH:mm:ss z;&ndash;&gt;-->
-					<!--<dateFormat>yyyyMMddHHmmss</dateFormat>-->
-					<!--&lt;!&ndash; ".git"文件路径;默认值:${project.basedir}/.git; &ndash;&gt;-->
-					<!--<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>-->
-					<!--&lt;!&ndash;是否生成"git.properties"文件;默认值:false;&ndash;&gt;-->
-					<!--<generateGitPropertiesFile>true</generateGitPropertiesFile>-->
-					<!--&lt;!&ndash;指定"git.properties"文件的存放路径(相对于${project.basedir}的一个路径);&ndash;&gt;-->
-					<!--<generateGitPropertiesFilename>${project.build.outputDirectory}/conf/git.properties</generateGitPropertiesFilename>-->
-
-					<!--&lt;!&ndash;git描述配置,可选;由JGit提供实现;&ndash;&gt;-->
-					<!--<gitDescribe>-->
-						<!--&lt;!&ndash;提交操作未发现tag时,仅打印提交操作ID,&ndash;&gt;-->
-						<!--<always>false</always>-->
-						<!--&lt;!&ndash;构建触发时,代码有修改时(即"dirty state"),添加指定后缀;默认值:"";&ndash;&gt;-->
-						<!--<dirty>-dirty</dirty>-->
-						<!--<forceLongFormat>false</forceLongFormat>-->
-					<!--</gitDescribe>-->
-				<!--</configuration>-->
-			<!--</plugin>-->
-		<!--</plugins>-->
-
-		<!--&lt;!&ndash; 打包的指定包名&ndash;&gt;-->
-		<!--<finalName>${project.artifactId}</finalName>-->
-		<!--<resources>-->
-			<!--&lt;!&ndash; 先指定 src/main/resources下所有文件及文件夹为资源文件 &ndash;&gt;-->
-			<!--<resource>-->
-				<!--<directory>src/main/resources/</directory>-->
-				<!--<filtering>true</filtering>-->
-			<!--</resource>-->
-		<!--</resources>-->
-	<!--</build>-->
-
-	<profiles>
-		<!-- 开发环境，默认激活 -->
-		<profile>
-			<id>dev</id>
-			<properties>
-				<env>dev</env>
-			</properties>
-			<activation>
-				<activeByDefault>true</activeByDefault><!--默认启用的是开发环境配置 -->
-			</activation>
-		</profile>
-		<profile>
-			<id>pro</id>
-			<properties>
-				<env>pro</env>
-			</properties>
-		</profile>
-		<profile>
-			<id>test</id>
-			<properties>
-				<env>test</env>
-			</properties>
-		</profile>
-	</profiles>
-
-
-
 </project>
