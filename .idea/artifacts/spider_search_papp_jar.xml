@@ -3,10 +3,10 @@
     <output-path>$PROJECT_DIR$/out/artifacts/spider_search_papp_jar</output-path>
     <root id="archive" name="spider-search-papp.jar">
       <element id="module-output" name="spider-search-papp" />
-      <element id="module-output" name="spider-search-facade-impl" />
-      <element id="module-output" name="spider-search-facade-api" />
-      <element id="module-output" name="spider-search-service-impl" />
-      <element id="module-output" name="spider-search-service-api" />
+      <element id="module-output" name="spider-scrawl-facade-impl" />
+      <element id="module-output" name="spider-scrawl-facade-api" />
+      <element id="module-output" name="spider-scrawl-service-impl" />
+      <element id="module-output" name="spider-scrawl-service-api" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../maven_repo/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../maven_repo/org/apache/lucene/lucene-core/4.7.2/lucene-core-4.7.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../maven_repo/org/thymeleaf/thymeleaf/2.1.6.RELEASE/thymeleaf-2.1.6.RELEASE.jar" path-in-jar="/" />

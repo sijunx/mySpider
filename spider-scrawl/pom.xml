@@ -14,11 +14,11 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <modules>
-        <module>spider-search/spider-search-facade-api</module>
-        <module>spider-search/spider-search-facade-impl</module>
-        <module>spider-search/spider-search-service-api</module>
-        <module>spider-search/spider-search-service-impl</module>
-        <module>spider-search/spider-search-es</module>
+        <module>spider-scrawl/spider-scrawl-facade-api</module>
+        <module>spider-scrawl/spider-scrawl-facade-impl</module>
+        <module>spider-scrawl/spider-scrawl-service-api</module>
+        <module>spider-scrawl/spider-scrawl-service-impl</module>
+        <module>spider-scrawl/spider-scrawl-search</module>
     </modules>
 
     <!--<build>-->

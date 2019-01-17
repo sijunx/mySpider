@@ -12,12 +12,12 @@
         <module name="spider-base-mongo" />
         <module name="spider-base-redis" />
         <module name="spider-base-zookeeper" />
-        <module name="spider-search-es" />
-        <module name="spider-search-facade-api" />
-        <module name="spider-search-facade-impl" />
+        <module name="spider-scrawl-facade-api" />
+        <module name="spider-scrawl-facade-impl" />
+        <module name="spider-scrawl-search" />
+        <module name="spider-scrawl-service-api" />
+        <module name="spider-scrawl-service-impl" />
         <module name="spider-search-papp" />
-        <module name="spider-search-service-api" />
-        <module name="spider-search-service-impl" />
         <module name="spiderbaseredis" />
       </profile>
     </annotationProcessing>
@@ -39,13 +39,13 @@
       <module name="spider-core" target="1.5" />
       <module name="spider-parent" target="1.7" />
       <module name="spider-scrawl" target="1.7" />
+      <module name="spider-scrawl-facade-api" target="1.7" />
+      <module name="spider-scrawl-facade-impl" target="1.7" />
       <module name="spider-scrawl-parent" target="1.7" />
-      <module name="spider-search-es" target="1.7" />
-      <module name="spider-search-facade-api" target="1.7" />
-      <module name="spider-search-facade-impl" target="1.7" />
+      <module name="spider-scrawl-search" target="1.5" />
+      <module name="spider-scrawl-service-api" target="1.7" />
+      <module name="spider-scrawl-service-impl" target="1.7" />
       <module name="spider-search-papp" target="1.8" />
-      <module name="spider-search-service-api" target="1.7" />
-      <module name="spider-search-service-impl" target="1.7" />
       <module name="spider-service-parent" target="1.7" />
       <module name="spider-service-parentpom" target="1.7" />
       <module name="spider-web-parent" target="1.7" />
@@ -58,11 +58,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spider-base-log" options="" />
-      <module name="spider-search-facade-api" options="" />
-      <module name="spider-search-facade-impl" options="" />
+      <module name="spider-scrawl-facade-api" options="" />
+      <module name="spider-scrawl-facade-impl" options="" />
+      <module name="spider-scrawl-service-api" options="" />
+      <module name="spider-scrawl-service-impl" options="" />
       <module name="spider-search-papp" options="" />
-      <module name="spider-search-service-api" options="" />
-      <module name="spider-search-service-impl" options="" />
     </option>
   </component>
 </project>
