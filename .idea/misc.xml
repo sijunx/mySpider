@@ -9,7 +9,6 @@
         <option value="$PROJECT_DIR$/spider-scrawl/pom.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/spider-sdk/spider-base-utils/pom.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -19,12 +18,17 @@
         <option value="$PROJECT_DIR$/spider-base-parent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-web-parent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-job/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-lock/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml" />
       </set>
     </option>
   </component>

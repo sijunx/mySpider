@@ -18,6 +18,7 @@
         <module>spider-search/spider-search-facade-impl</module>
         <module>spider-search/spider-search-service-api</module>
         <module>spider-search/spider-search-service-impl</module>
+        <module>spider-search/spider-search-es</module>
     </modules>
 
     <!--<build>-->

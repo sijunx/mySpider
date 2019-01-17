@@ -4,32 +4,28 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<!--<parent>-->
-		<!--<groupId>org.springframework.boot</groupId>-->
-		<!--<artifactId>spring-boot-starter-parent</artifactId>-->
-		<!--<version>1.5.10.RELEASE</version>-->
-	<!--</parent>-->
 	<parent>
 		<groupId>com.spider.web</groupId>
 		<artifactId>spider-web-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-    <groupId>com.spider.service.parent</groupId>
-    <artifactId>spider-service-parent</artifactId>
-    <packaging>pom</packaging>
+	<groupId>com.spider.service.parent</groupId>
+	<artifactId>spider-service-parent</artifactId>
+	<packaging>pom</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<base.version>1.0.0-SNAPSHOT</base.version>
 		<slf4j.version>1.6.6</slf4j.version>
-
+		<jedis.version>2.9.0</jedis.version>
 		<commons.lang3.version>3.8.1</commons.lang3.version>
 		<fastjson.version>1.2.41</fastjson.version>
 		<jsoup.version>1.10.3</jsoup.version>
 		<ikanalyzer.version>2012_u6</ikanalyzer.version>
 		<mongodb.driver.version>3.4.2</mongodb.driver.version>
+		<elasticsearch.version>2.4.6</elasticsearch.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -52,25 +48,6 @@
 				<artifactId>fastjson</artifactId>
 				<version>${fastjson.version}</version>
 			</dependency>
-
-			<dependency>
-				<groupId>org.jsoup</groupId>
-				<artifactId>jsoup</artifactId>
-				<version>${jsoup.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.janeluo</groupId>
-				<artifactId>ikanalyzer</artifactId>
-				<version>${ikanalyzer.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.mongodb</groupId>
-				<artifactId>mongodb-driver</artifactId>
-				<version>${mongodb.driver.version}</version>
-			</dependency>
-
 			<!-- 日志文件管理包 -->
 			<dependency>
 				<groupId>org.slf4j</groupId>
@@ -82,6 +59,17 @@
 				<artifactId>slf4j-log4j12</artifactId>
 				<version>${slf4j.version}</version>
 			</dependency>
+			<!--<dependency>-->
+				<!--<groupId>org.elasticsearch</groupId>-->
+				<!--<artifactId>elasticsearch</artifactId>-->
+				<!--<version>${elasticsearch.version}</version>-->
+			<!--</dependency>-->
+
+			<!--<dependency>-->
+				<!--<groupId>redis.clients</groupId>-->
+				<!--<artifactId>jedis</artifactId>-->
+				<!--<version>${jedis.version}</version>-->
+			<!--</dependency>-->
 		</dependencies>
 	</dependencyManagement>
 

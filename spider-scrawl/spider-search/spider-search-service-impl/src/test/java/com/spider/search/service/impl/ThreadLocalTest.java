@@ -1,6 +1,8 @@
 package com.spider.search.service.impl;
 
-import org.apache.commons.lang3.exception.ExceptionUtils;
+//import com.spider.base.es.ElasticSearchClientUtil;
+//import org.apache.commons.lang3.exception.ExceptionUtils;
+//import org.elasticsearch.client.RestHighLevelClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,10 +20,16 @@ public class ThreadLocalTest {
 
     public static void main(String[] arg){
 
-        int i = 24>>>3;
-        Map map = new HashMap();
+//        RestHighLevelClient restHighLevelClient = ElasticSearchClientUtil.getRestClient();
+//        System.out.println(restHighLevelClient);
+//        System.exit(0);
 
-        logger.info("i:{}", i);
+
+
+//        int i = 24>>>3;
+//        Map map = new HashMap();
+//
+//        logger.info("i:{}", i);
 
 //        try{
 //            BigDecimal big = new BigDecimal(1).divide(new BigDecimal(0));

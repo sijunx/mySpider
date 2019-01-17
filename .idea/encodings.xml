@@ -3,12 +3,18 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-base-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-zookeeper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api" charset="UTF-8" />

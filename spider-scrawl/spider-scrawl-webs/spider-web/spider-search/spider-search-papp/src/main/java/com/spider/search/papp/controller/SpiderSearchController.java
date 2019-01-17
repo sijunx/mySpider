@@ -3,7 +3,6 @@ package com.spider.search.papp.controller;
 import com.mongodb.client.MongoDatabase;
 import com.spider.search.service.api.mongo.*;
 import com.spider.search.service.dto.InputDataServiceDTO;
-import com.spider.search.service.util.MongoConnUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;

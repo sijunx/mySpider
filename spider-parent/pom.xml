@@ -10,13 +10,17 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<base.version>1.0.0-SNAPSHOT</base.version>
+		<jedis.version>2.9.0</jedis.version>
 		<slf4j.version>1.6.6</slf4j.version>
-
+		<commons.dbcp2.version>2.1.1</commons.dbcp2.version>
 		<commons.lang3.version>3.8.1</commons.lang3.version>
-		<fastjson.version>1.2.41</fastjson.version>
-		<jsoup.version>1.10.3</jsoup.version>
-		<ikanalyzer.version>2012_u6</ikanalyzer.version>
+		<!--<base.version>1.0.0-SNAPSHOT</base.version>-->
+
+		 <!---->
+		<!--<commons.lang3.version>3.8.1</commons.lang3.version>-->
+		<!--<fastjson.version>1.2.41</fastjson.version>-->
+		<!--<jsoup.version>1.10.3</jsoup.version>-->
+		<!--<ikanalyzer.version>2012_u6</ikanalyzer.version>-->
 		<mongodb.driver.version>3.4.2</mongodb.driver.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -29,7 +33,6 @@
 				<artifactId>mongodb-driver</artifactId>
 				<version>${mongodb.driver.version}</version>
 			</dependency>
-
 			<!-- 日志文件管理包 -->
 			<!-- log4j日志 -->
 			<dependency>
@@ -42,9 +45,62 @@
 				<artifactId>slf4j-log4j12</artifactId>
 				<version>${slf4j.version}</version>
 			</dependency>
+			<!-- zookeeper包 -->
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>3.4.8</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-log4j</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-log4j12</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
 
+			<dependency>
+				<groupId>com.101tec</groupId>
+				<artifactId>zkclient</artifactId>
+				<version>0.8</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-log4j</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-log4j12</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-lang3</artifactId>
+				<version>${commons.lang3.version}</version>
+			</dependency>
+
+			<!--<dependency>-->
+				<!--<groupId>redis.clients</groupId>-->
+				<!--<artifactId>jedis</artifactId>-->
+				<!--<version>${jedis.version}</version>-->
+			<!--</dependency>-->
 		</dependencies>
 	</dependencyManagement>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+
+
+	</dependencies>
 
 	<build>
 		<plugins>
