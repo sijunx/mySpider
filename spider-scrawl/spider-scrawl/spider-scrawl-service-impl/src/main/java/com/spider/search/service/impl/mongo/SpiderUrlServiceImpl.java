@@ -143,7 +143,7 @@ public class SpiderUrlServiceImpl extends AbstractSpiderBaseService implements S
             if(document.get("deep")!=null && StringUtils.isNotEmpty(String.valueOf(document.get("deep")))){
                 queryOther.put("deep", new BasicDBObject("$lte", Double.parseDouble(String.valueOf(document.get("deep")))));
             }
-            FindIterable<Document> findIterableOther = collectionOther.find(queryOther);
+            FindIterable<Document> findIterableOther = collectionOther.find(queryOther).limit(10);
             MongoCursor<Document> mongoCursorOther = findIterableOther.iterator();
             int icount=0;
             while(mongoCursorOther.hasNext()) {

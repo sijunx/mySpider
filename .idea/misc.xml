@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/pom.xml" />
         <option value="$PROJECT_DIR$/spider-dist/pom.xml" />
         <option value="$PROJECT_DIR$/spider-dist/spider-dist-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
