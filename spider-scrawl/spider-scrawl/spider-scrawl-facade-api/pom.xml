@@ -12,11 +12,11 @@
 	</parent>
 
     <properties>
-        <spider.version>my-SNAPSHOT</spider.version>
+        <spider.version>1.0.0-SNAPSHOT</spider.version>
     </properties>
 
     <groupId>com.spider.scrawl</groupId>
     <artifactId>spider-scrawl-facade-api</artifactId>
     <packaging>jar</packaging>
-    <version>my-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 </project>

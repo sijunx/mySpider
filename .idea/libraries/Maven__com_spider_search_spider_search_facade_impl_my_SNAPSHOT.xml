@@ -1,13 +1,15 @@
 <component name="libraryTable">
   <library name="Maven: com.spider.search:spider-search-facade-impl:my-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/pom.xml!/" />
+      <root url="jar://$PROJECT_DIR$/../maven_repo/com/spider/search/spider-search-facade-impl/my-SNAPSHOT/spider-search-facade-impl-my-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-search-facade-impl-my-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../maven_repo/com/spider/search/spider-search-facade-impl/my-SNAPSHOT/spider-search-facade-impl-my-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-search-facade-impl-my-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../maven_repo/com/spider/search/spider-search-facade-impl/my-SNAPSHOT/spider-search-facade-impl-my-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

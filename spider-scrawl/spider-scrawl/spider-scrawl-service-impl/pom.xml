@@ -10,7 +10,7 @@
 	</parent>
 
 	<!--<properties>-->
-		<!--<spider.version>my-SNAPSHOT</spider.version>-->
+		<!--<spider.version>1.0.0-SNAPSHOT</spider.version>-->
 	<!--</properties>-->
 
 	<properties>
@@ -31,13 +31,13 @@
 	<groupId>com.spider.scrawl</groupId>
 	<artifactId>spider-scrawl-service-impl</artifactId>
 	<packaging>jar</packaging>
-	<version>my-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.spider.scrawl</groupId>
 			<artifactId>spider-scrawl-service-api</artifactId>
-			<version>my-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.spider.base</groupId>
@@ -77,11 +77,11 @@
 			<version>${jsoup.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>mongodb-driver</artifactId>
-			<version>${mongodb.driver.version}</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.mongodb</groupId>-->
+			<!--<artifactId>mongodb-driver</artifactId>-->
+			<!--<version>${mongodb.driver.version}</version>-->
+		<!--</dependency>-->
 
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
 		<dependency>
@@ -92,6 +92,12 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.spider.base</groupId>
+			<artifactId>spider-base-utils</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 
 		<!--<dependency>-->

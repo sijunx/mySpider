@@ -21,7 +21,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.spider.base</groupId>
-				<artifactId>spider-base-log</artifactId>
+				<artifactId>spider-base-utils</artifactId>
 				<version>${base.version}</version>
 			</dependency>
 			<dependency>

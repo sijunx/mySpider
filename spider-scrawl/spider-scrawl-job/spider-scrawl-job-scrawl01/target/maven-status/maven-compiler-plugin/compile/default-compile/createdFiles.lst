@@ -1,0 +1,4 @@
+com\spider\scrawl\job\service\MyScrawlJob.class
+com\spider\search\papp\controller\SpiderSearchController.class
+com\spider\scrawl\job\MyScrawlJob01Application.class
+com\spider\scrawl\job\service\SpiderMessageProcessorImpl.class

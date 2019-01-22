@@ -10,9 +10,7 @@
         <option value="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-sdk/spider-base-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-log/pom.xml" />
         <option value="$PROJECT_DIR$/spider-service-parent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-parent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base-parent/pom.xml" />
@@ -23,11 +21,19 @@
         <option value="$PROJECT_DIR$/spider-base/spider-base-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-job/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-dist/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-dist/spider-dist-parent/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-lock/pom.xml" />
       </set>
     </option>

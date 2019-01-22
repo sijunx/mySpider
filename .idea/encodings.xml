@@ -5,13 +5,24 @@
     <file url="file://$PROJECT_DIR$/spider-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-job" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-base/spider-base-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-zookeeper" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-dist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-dist/spider-dist-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-parent/spider-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-parent/spider-service-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-parent/spider-web-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-web/spider-search/spider-search-papp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api" charset="UTF-8" />
@@ -19,7 +30,6 @@
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-service-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-web-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp" charset="UTF-8" />
   </component>
 </project>
