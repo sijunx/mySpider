@@ -1,5 +1,6 @@
 package com.spider.dist.facade.impl;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Maps;
 import com.spider.base.http.SpiderHttpUtil;
@@ -38,5 +39,12 @@ public class Test01 {
             e.printStackTrace();
         }
         logger.info("result:{}", result);
+        JSONObject jsonObject = JSONObject.parseObject(result);
+        JSONArray jsonArray = JSONObject.parseArray(jsonObject.get("data").toString());
+
+
+        String xx = jsonArray.getString(0);
+
+        logger.info("xx:{}",xx);
     }
 }

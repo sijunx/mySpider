@@ -1,5 +1,6 @@
 package com.spider.dist.facade.impl;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Maps;
 import com.spider.base.http.SpiderHttpUtil;
@@ -12,6 +13,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.Map;
+import java.util.UUID;
 
 public class SpiderDistScrawlFacadeImpl implements ISpiderDistScrawlFacade {
 
@@ -24,16 +26,24 @@ public class SpiderDistScrawlFacadeImpl implements ISpiderDistScrawlFacade {
         //  流程：爬取摘要信息->获取关键词信息->信息审核
         //  推送信息：url信息、摘要信息、关键词信息
         String url = SpiderServerConstantUtil.getCenterServerUrl();
-        //  head参数
-        Map<String,String> headMap = Maps.newHashMapWithExpectedSize(3);
-        //
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("ticket","X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=");
-        String paramsJson = jsonObject.toJSONString();
+        //  header
+        Map<String,String> headMap = Maps.newHashMapWithExpectedSize(6);
+        headMap.put("ticket", "X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=");
+        String result;
         try {
-            SpiderHttpUtil.sendPostJson(url, headMap, paramsJson, "UTF-8", 30*1000);
+            result = SpiderHttpUtil.sendPostJson(url, headMap, "", "UTF-8", 30*1000);
         } catch (IOException e) {
             logger.warn("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
+            throw new RuntimeException(e);
+        }
+        logger.info("返回结果:{}", result);
+        JSONObject jsonObject = JSONObject.parseObject(result);
+        JSONArray jsonArray = JSONObject.parseArray(jsonObject.get("data").toString());
+        if(jsonArray!=null && jsonArray.size()>0){
+            for(int icount=0; icount<jsonArray.size(); icount++){
+                String urlStr = jsonArray.getString(icount);
+                String uidStr = UUID.randomUUID().toString();
+            }
         }
     }
 }
