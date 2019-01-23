@@ -1,15 +1,15 @@
 package com.spider.openapi.scrawl.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import com.spider.base.dto.SpiderResponseBody;
 import com.spider.search.facade.api.ISpiderUrlFacade;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -25,6 +25,21 @@ public class SpiderScrawlOpenApiController extends SpiderBaseController{
     @ResponseBody
     public SpiderResponseBody<List<String>> getSpiderUrl(){
         List<String> urlList = spiderUrlFacade.getToScrawlUrlList();
+//        List<String> urlList = new ArrayList<>();
+//        urlList.add("https://blog.csdn.net/qq_27376871/article/details/51612742");
         return SpiderResponseBody.buildSucessResponse(urlList);
+    }
+
+    @RequestMapping(value = "/recvSpiderUrl", method = {RequestMethod.POST, RequestMethod.GET})
+    @ResponseBody
+    public SpiderResponseBody recvSpiderUrl(@RequestParam(required = false) String data){
+
+        JSONArray jsonArray = JSON.parseArray(data);
+
+        logger.info("-------------收到推送过来的URL数据啦-------------------------------------------------------------");
+
+        logger.info("data:{} ", data);
+        logger.info("jsonArray:{}", jsonArray);
+        return SpiderResponseBody.buildSucessResponse(null);
     }
 }

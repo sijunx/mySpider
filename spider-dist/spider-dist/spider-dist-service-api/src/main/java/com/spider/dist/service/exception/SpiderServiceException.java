@@ -1,4 +1,4 @@
-package com.spider.search.service.exception;
+package com.spider.dist.service.exception;
 
 /**
  * ServiceException

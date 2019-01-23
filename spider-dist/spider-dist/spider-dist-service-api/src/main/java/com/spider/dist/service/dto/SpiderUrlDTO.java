@@ -4,10 +4,17 @@ import java.io.Serializable;
 import java.util.List;
 
 public class SpiderUrlDTO implements Serializable {
+    //  id
     private String urlId;
+    //  url
     private String url;
-    private Integer valid;
+    //  状态 SpiderUrlStatusEnum
+    private Integer status;
+    //  标题
+    private String title;
+    //  摘要
     private String summary;
+    //  关键词
     private List<String> keyWords;
 
     public String getUrlId() {
@@ -26,14 +33,6 @@ public class SpiderUrlDTO implements Serializable {
         this.url = url;
     }
 
-    public Integer getValid() {
-        return valid;
-    }
-
-    public void setValid(Integer valid) {
-        this.valid = valid;
-    }
-
     public String getSummary() {
         return summary;
     }
@@ -50,12 +49,29 @@ public class SpiderUrlDTO implements Serializable {
         this.keyWords = keyWords;
     }
 
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     @Override
     public String toString() {
         return "SpiderUrlDTO{" +
                 "urlId='" + urlId + '\'' +
                 ", url='" + url + '\'' +
-                ", valid=" + valid +
+                ", status=" + status +
+                ", title='" + title + '\'' +
                 ", summary='" + summary + '\'' +
                 ", keyWords=" + keyWords +
                 '}';

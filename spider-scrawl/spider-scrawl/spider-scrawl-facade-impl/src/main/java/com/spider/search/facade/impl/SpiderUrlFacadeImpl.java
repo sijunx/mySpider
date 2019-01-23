@@ -26,19 +26,21 @@ public class SpiderUrlFacadeImpl implements ISpiderUrlFacade {
     public List<String> getToScrawlUrlList(){
         MongoConnUtil mongoConnUtil = new MongoConnUtil();
         MongoDatabase mongoDatabase = mongoConnUtil.initConn();
+        List<String> urlRetList = new ArrayList<>();
+        try{
         spiderUrlService.setDatabase(mongoDatabase);
         Document doc = new Document();
         doc.put("deleteFlag", "0");
         doc.put("deep", 8);
         List<Document> urlList = spiderUrlService.findList(doc);
-        List<String> urlRetList = new ArrayList<>();
         if(!CollectionUtils.isEmpty(urlList)){
             for(Document document:urlList){
                 String urlStr = document.getString("url");
                 urlRetList.add(urlStr);
             }
+        }}finally {
+            mongoConnUtil.connClose();
         }
-        mongoConnUtil.connClose();
         return urlRetList;
     }
 }

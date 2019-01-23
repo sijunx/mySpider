@@ -74,6 +74,7 @@
       <module name="spiderbaselock" target="1.7" />
       <module name="spiderbaseredis" target="1.8" />
       <module name="spiderbaseutils" target="1.7" />
+      <module name="spiderparent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

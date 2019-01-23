@@ -95,5 +95,13 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.2.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.6.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.janeluo:ikanalyzer:2012_u6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:4.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:4.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:4.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:4.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:4.7.2" level="project" />
   </component>
 </module>

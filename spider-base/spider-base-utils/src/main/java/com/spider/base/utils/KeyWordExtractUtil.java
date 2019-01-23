@@ -1,4 +1,4 @@
-package com.spider.search.service.util;
+package com.spider.base.utils;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
@@ -13,9 +13,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StringHandlerUtil {
+public class KeyWordExtractUtil {
 
-	private final static Logger logger = LoggerFactory.getLogger(StringHandlerUtil.class);
+	private final static Logger logger = LoggerFactory.getLogger(KeyWordExtractUtil.class);
 	
 	public static byte[] bt;
 	public static InputStream is;
@@ -27,7 +27,7 @@ public class StringHandlerUtil {
 	 * input:str
 	 * 将字符串分词转换成数组
 	 */
-	public List<String> stringToArray(String str) {
+	public static List<String> stringToArray(String str) {
 		
 		List<String> list = new ArrayList<String>();
 		bt = str.getBytes();

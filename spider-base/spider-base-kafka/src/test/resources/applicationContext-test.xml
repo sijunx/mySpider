@@ -22,7 +22,7 @@
 		<property name="validationQuery" value="select 'x' " />
 		<property name="logAbandoned" value="true" />
 		<!-- 开启Druid的监控统计功能 -->
-		<!-- <property name="proxyFilters">
+		<!-- <property enums="proxyFilters">
 			<list>
 				<ref bean="log-filter" />
 				<ref bean="stat-filter" />
@@ -89,8 +89,8 @@
 	</bean>
 
 	<!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
-        <!--<property name="dataSource" ref="dataSource"/>-->
-        <!--<property name="mapperLocations">-->
+        <!--<property enums="dataSource" ref="dataSource"/>-->
+        <!--<property enums="mapperLocations">-->
             <!--<array>-->
                 <!--<value>classpath:*/com.spider.search.service.dao.impl.mapper/*.xml</value>-->
             <!--</array>-->

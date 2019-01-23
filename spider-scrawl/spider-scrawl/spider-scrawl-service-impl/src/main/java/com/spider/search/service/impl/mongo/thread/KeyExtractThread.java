@@ -2,12 +2,12 @@ package com.spider.search.service.impl.mongo.thread;
 
 import com.alibaba.fastjson.JSONObject;
 import com.mongodb.client.MongoDatabase;
+import com.spider.base.utils.KeyWordExtractUtil;
 import com.spider.search.service.api.mongo.AuditService;
 import com.spider.search.service.api.mongo.InputDataService;
 import com.spider.search.service.api.mongo.KeyExtractNodeService;
 import com.spider.search.service.api.mongo.KeyWordsService;
 import com.spider.search.service.dto.DocQueue;
-import com.spider.search.service.util.StringHandlerUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;
@@ -61,7 +61,7 @@ public class KeyExtractThread implements Runnable{
                         document = fundInputDataService.findOne(doc);
 
                         List<String> list01 = new ArrayList<String>();
-                        StringHandlerUtil sh = new StringHandlerUtil();
+                        KeyWordExtractUtil sh = new KeyWordExtractUtil();
                         String str = document.get("txt") == null ? "" : String.valueOf(document.get("txt"));
                         if(str.length()<=0){
                             keyExtractNodeService.endFlowNotPass(urlId);

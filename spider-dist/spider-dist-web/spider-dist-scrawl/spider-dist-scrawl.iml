@@ -29,6 +29,8 @@
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.2.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.6.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="module" module-name="spider-dist-facade-api" />
     <orderEntry type="module" module-name="spider-dist-service-impl" />
     <orderEntry type="module" module-name="spider-base-mongo" />

@@ -21,7 +21,11 @@ public class SpiderOpenApiInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         logger.info("进入拦截器---------------------------------------------------");
         logger.info("ip:{} ", SpiderIpUtil.getIp());
-        String signature = request.getHeader("ticket");
+        String signature = request.getHeader("signature");
+        String dataStr = request.getHeader("data");
+        String[] dataArray = new String[]{dataStr};
+        request.setAttribute("data", dataStr);
+
         String result = null;
         try {
             result = RSACodeUtil.decode(signature);

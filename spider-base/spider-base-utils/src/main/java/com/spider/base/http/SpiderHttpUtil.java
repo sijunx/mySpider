@@ -29,10 +29,18 @@ public class SpiderHttpUtil {
                 .build();
     }
 
-    public static String sendPostJson(String url, Map<String,String> headMap, String paramsJson, String charset, long milliseconds) throws IOException {
+    public static String sendPostJson(String url, Map<String,String> headMap, Map<String, String> paramsMap, String charset, long milliseconds) throws IOException {
         long startTime = System.currentTimeMillis();
         logger.info("url:{}",url);
-        RequestBody body = RequestBody.create(JSON, paramsJson);
+        //  发送体构建
+        RequestBody body = new FormBody.Builder().build();
+        FormBody.Builder formBodyBuilder = new FormBody.Builder();
+        if(paramsMap!=null && paramsMap.size()>0){
+            for(Map.Entry entry:paramsMap.entrySet()){
+                formBodyBuilder.add(String.valueOf(entry.getKey()), String.valueOf(entry.getValue()));
+            }
+            body = formBodyBuilder.build();
+        }
         okhttp3.Request.Builder builder2 = createBuilderWithHeader(headMap);
         Request request = builder2.url(url).post(body).build();
         String response = handleRequest(request, charset, milliseconds);

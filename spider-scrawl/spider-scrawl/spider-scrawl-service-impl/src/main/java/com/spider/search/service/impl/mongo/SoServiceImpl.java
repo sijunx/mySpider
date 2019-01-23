@@ -1,9 +1,9 @@
 package com.spider.search.service.impl.mongo;
 
+import com.spider.base.utils.KeyWordExtractUtil;
 import com.spider.search.service.api.mongo.ImageService;
 import com.spider.search.service.api.mongo.ReverseIndexService;
 import com.spider.search.service.api.mongo.SoService;
-import com.spider.search.service.util.StringHandlerUtil;
 import org.bson.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,7 +29,7 @@ public class SoServiceImpl extends AbstractSpiderBaseService implements SoServic
 
         //分词
         List<String> list01 = new ArrayList<String>();
-        StringHandlerUtil sh = new StringHandlerUtil();
+        KeyWordExtractUtil sh = new KeyWordExtractUtil();
         String str = sentence;
         list01 = sh.stringToArray(str);
 

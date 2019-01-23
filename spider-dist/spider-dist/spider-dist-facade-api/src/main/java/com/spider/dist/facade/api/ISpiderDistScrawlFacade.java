@@ -2,6 +2,5 @@ package com.spider.dist.facade.api;
 
 public interface ISpiderDistScrawlFacade {
 
-    void startScrawl();
-
+    void start();
 }
