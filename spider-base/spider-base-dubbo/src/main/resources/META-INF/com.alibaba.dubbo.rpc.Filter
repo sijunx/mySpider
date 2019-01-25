@@ -1,0 +1,4 @@
+reflocal=com.mgzf.arch.msf.filter.ReferenceLocalSwitchFilter
+providerBaseRequest=com.mgzf.arch.msf.filter.ProviderRequestFilter
+consumerBaseRequest=com.mgzf.arch.msf.filter.ConsumerRequestFilter
+msfMonitor=com.mgzf.arch.msf.monitor.MsfMonitorFilter

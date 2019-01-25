@@ -18,7 +18,7 @@
 		<commons-codec.version>1.10</commons-codec.version>
 		<commons-beanutils.version>1.9.3</commons-beanutils.version>
 		<commons-lang.version>2.6</commons-lang.version>
-		 <!---->
+		<dubbo.version>2.6.1</dubbo.version>
 		<!--<commons.lang3.version>3.8.1</commons.lang3.version>-->
 		<!--<fastjson.version>1.2.41</fastjson.version>-->
 		<!--<jsoup.version>1.10.3</jsoup.version>-->
@@ -83,6 +83,23 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
+
+			<!--<dependency>-->
+				<!--<groupId>com.alibaba</groupId>-->
+				<!--<artifactId>dubbo</artifactId>-->
+				<!--<version>${dubbo.version}</version>-->
+				<!--<exclusions>-->
+					<!--<exclusion>-->
+						<!--<groupId>org.springframework</groupId>-->
+						<!--<artifactId>spring</artifactId>-->
+					<!--</exclusion>-->
+					<!--<exclusion>-->
+						<!--<groupId>org.springframework</groupId>-->
+						<!--<artifactId>spring-context</artifactId>-->
+					<!--</exclusion>-->
+				<!--</exclusions>-->
+			<!--</dependency>-->
+
 
 			<dependency>
 				<groupId>org.apache.commons</groupId>
