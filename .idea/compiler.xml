@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spider-base-dubbo" />
         <module name="spider-base-es" />
         <module name="spider-base-job" />
         <module name="spider-base-kafka" />
         <module name="spider-base-mongo" />
         <module name="spider-base-redis" />
         <module name="spider-base-utils" />
+        <module name="spider-base-zipkin" />
         <module name="spider-base-zookeeper" />
         <module name="spider-dist-facade-api" />
         <module name="spider-dist-facade-impl" />
@@ -28,12 +30,18 @@
         <module name="spider-scrawl-service-impl" />
         <module name="spider-scrawl-service-impl (1)" />
         <module name="spider-search-papp" />
+        <module name="spider-user-papp" />
+        <module name="spider-user-service-api" />
+        <module name="spider-user-service-impl" />
+        <module name="spider-user-service-provider" />
         <module name="spiderbaseredis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="git_mySpider" target="1.7" />
+      <module name="spider-allparent" target="1.5" />
       <module name="spider-base" target="1.8" />
+      <module name="spider-base-dubbo" target="1.7" />
       <module name="spider-base-es" target="1.7" />
       <module name="spider-base-job" target="1.7" />
       <module name="spider-base-kafka" target="1.7" />
@@ -45,6 +53,7 @@
       <module name="spider-base-parent (1) (com.spider.base.parent)" target="1.7" />
       <module name="spider-base-redis" target="1.7" />
       <module name="spider-base-utils" target="1.7" />
+      <module name="spider-base-zipkin" target="1.7" />
       <module name="spider-base-zookeeper" target="1.7" />
       <module name="spider-core" target="1.5" />
       <module name="spider-dist" target="1.7" />
@@ -54,6 +63,8 @@
       <module name="spider-dist-scrawl" target="1.8" />
       <module name="spider-dist-service-api" target="1.7" />
       <module name="spider-dist-service-impl" target="1.7" />
+      <module name="spider-openapi" target="1.5" />
+      <module name="spider-openapi (1)" target="1.5" />
       <module name="spider-openapi-scrawl" target="1.8" />
       <module name="spider-parent" target="1.7" />
       <module name="spider-scrawl" target="1.7" />
@@ -66,9 +77,16 @@
       <module name="spider-scrawl-service-api" target="1.7" />
       <module name="spider-scrawl-service-impl" target="1.7" />
       <module name="spider-scrawl-service-impl (1)" target="1.7" />
+      <module name="spider-search" target="1.5" />
       <module name="spider-search-papp" target="1.8" />
       <module name="spider-service-parent" target="1.7" />
       <module name="spider-service-parentpom" target="1.7" />
+      <module name="spider-user" target="1.8" />
+      <module name="spider-user-papp" target="1.8" />
+      <module name="spider-user-parent" target="1.7" />
+      <module name="spider-user-service-api" target="1.8" />
+      <module name="spider-user-service-impl" target="1.8" />
+      <module name="spider-user-service-provider" target="1.8" />
       <module name="spider-web-parent" target="1.7" />
       <module name="spiderbase" target="1.7" />
       <module name="spiderbaselock" target="1.7" />

@@ -32,6 +32,18 @@
         <option value="$PROJECT_DIR$/spider-dist/spider-dist-parent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/pom.xml" />
         <option value="$PROJECT_DIR$/spider-parent/spider-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-openapi/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-allparent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-search/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-provider/spider-user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-zipkin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

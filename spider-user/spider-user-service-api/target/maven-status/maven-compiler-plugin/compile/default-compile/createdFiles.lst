@@ -1,0 +1,5 @@
+com\spider\search\service\error\ErrorCode.class
+com\spider\search\service\exception\SpiderServiceException.class
+com\spider\search\service\exception\SpiderServiceErrorCodes.class
+com\spider\user\service\api\IUserInfoService.class
+com\spider\user\service\dto\UserInfoDTO.class
