@@ -9,7 +9,7 @@ import java.io.IOException;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages={"com.spider.user.service.api","com.spider.user.provider.*"})
+@ComponentScan(basePackages={"com.spider.user.service.api","com.spider.user.provider.service"})
 @ImportResource(locations = {"classpath:dubbo/*.xml"})
 public class MyUserServiceProviderApplication {
 

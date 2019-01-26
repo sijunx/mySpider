@@ -11,4 +11,14 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880"  />
+
+
+    <!--&lt;!&ndash; service implementation, as same as regular local bean &ndash;&gt;-->
+    <bean id="userInfoService" class="com.spider.user.provider.service.UserInfoServiceProvider"/>
+
+    <!-- declare the service interface to be exported -->
+    <dubbo:service interface="com.spider.user.service.api.IUserInfoService" ref="userInfoService"/>
+
+    <!--<dubbo:service ref="userInfoService" interface="com.spider.user.service.api.IUserInfoService"/>-->
+
 </beans>
