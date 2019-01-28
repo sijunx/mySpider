@@ -1,6 +1,6 @@
 package com.spider.dist.service.impl;
 
-import com.spider.base.utils.KeyWordExtractUtil;
+import com.spider.base.utils.SpiderKeyWordExtractUtil;
 import com.spider.dist.service.api.ISpiderKeyWordExtractService;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ public class SpiderKeyWordExtractServiceImpl implements ISpiderKeyWordExtractSer
 
     @Override
     public List<String> getKeyWordList(String summary){
-        List<String> wordList = KeyWordExtractUtil.stringToArray(summary);
+        List<String> wordList = SpiderKeyWordExtractUtil.stringToArray(summary);
         Map<String, Integer> map = new HashMap<String, Integer>();
         for (String obj : wordList) {
             if (map.containsKey(obj)) {//判断是否已经有该数值，如有，则将次数加1

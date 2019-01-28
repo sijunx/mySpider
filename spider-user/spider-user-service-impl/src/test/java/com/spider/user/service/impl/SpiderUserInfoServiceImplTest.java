@@ -32,21 +32,9 @@ public class SpiderUserInfoServiceImplTest extends SpiderBaseTest{
     public void insertTest(){
         SpiderUserInfoEntity spiderUserInfoEntity = new SpiderUserInfoEntity();
         spiderUserInfoEntity.setId(new Long(100));
-        spiderUserInfoEntity.setName("王龙");
+        spiderUserInfoEntity.setName("大龙");
         spiderUserInfoEntity.setIdCard("31027661997282736");
         spiderUserInfoEntity.setPhone("18856564736");
         spiderUserInfoDao.insert(spiderUserInfoEntity);
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }

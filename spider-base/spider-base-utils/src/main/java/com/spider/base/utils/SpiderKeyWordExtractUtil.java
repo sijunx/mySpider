@@ -13,9 +13,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class KeyWordExtractUtil {
+public class SpiderKeyWordExtractUtil {
 
-	private final static Logger logger = LoggerFactory.getLogger(KeyWordExtractUtil.class);
+	private final static Logger logger = LoggerFactory.getLogger(SpiderKeyWordExtractUtil.class);
 	
 	public static byte[] bt;
 	public static InputStream is;

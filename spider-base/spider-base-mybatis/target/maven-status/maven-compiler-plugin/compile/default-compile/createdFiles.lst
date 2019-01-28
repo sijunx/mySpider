@@ -1,4 +1,8 @@
 com\spider\base\mybatis\dao\entity\SpiderBaseEntity.class
 com\spider\base\mybatis\dao\impl\SpiderBaseDaoImpl.class
 com\spider\base\mybatis\dao\api\ISpiderBaseDao.class
+com\spider\base\dbcp\SpiderGetDataSource.class
+com\spider\base\dbcp\SpiderDynamicDataSourceHolder.class
+com\spider\base\dbcp\SpiderDynamicDataSourceAspect.class
 com\spider\base\mybatis\dao\mapper\SpiderBaseMapper.class
+com\spider\base\dbcp\SpiderDynamicDataSource.class

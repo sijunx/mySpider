@@ -21,7 +21,7 @@
 		<property name="testWhileIdle" value="true" />
 		<property name="validationQuery" value="select 'x' " />
 		<property name="logAbandoned" value="true" />
-		<!-- 开启Druid的监控统计功能 -->
+		<!-- 开启监控统计功能 -->
 		<!-- <property name="proxyFilters">
 			<list>
 				<ref bean="log-filter" />
@@ -33,62 +33,58 @@
 
 
 	<!--定义数据源 DBCP 连接池 -->
-	<bean id="dataSource_master" parent="baseDataSource">
+	<bean id="dataSource" parent="baseDataSource">
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
+		<property name="initialSize" value="${jdbc.initialSize}" />
+		<property name="minIdle" value="${jdbc.minIdle}" />
+		<property name="maxActive" value="${jdbc.maxActive}" />
+	</bean>
+
+	<!--定义数据源 DBCP 连接池 -->
+	<bean id="dataSource_slave" parent="baseDataSource">
+		<property name="url" value="${jdbc.url_slave}" />
+		<property name="username" value="${jdbc.username_slave}" />
+		<property name="password" value="${jdbc.password_slave}" />
 
 		<property name="initialSize" value="${jdbc.initialSize}" />
 		<property name="minIdle" value="${jdbc.minIdle}" />
 		<property name="maxActive" value="${jdbc.maxActive}" />
-
 	</bean>
- 
 
-	<!-- 配置动态分配的读写 数据源 -->
-	<!--<bean id="dataSource" class="com.spider.search.service.aspect.ChooseDataSource" lazy-init="true">-->
-		<!--<property name="targetDataSources">-->
-			<!--<map key-type="java.lang.String" value-type="javax.sql.DataSource">-->
-				<!--&lt;!&ndash; write &ndash;&gt;-->
-				<!--<entry key="write" value-ref="dataSource_master"/>-->
-				<!--&lt;!&ndash; read &ndash;&gt;-->
-				<!--<entry key="read" value-ref="dataSource_slave"/>-->
-			<!--</map>-->
-		<!--</property>-->
-		<!--<property name="defaultTargetDataSource" ref="dataSource_master"/>-->
-		<!--<property name="methodType">-->
-			<!--<map key-type="java.lang.String">-->
-				<!--&lt;!&ndash; read &ndash;&gt;-->
-				<!--<entry key="read" value=",get,select,count,list,query"/>-->
-				<!--&lt;!&ndash; write &ndash;&gt;-->
-				<!--<entry key="write" value=",add,create,update,delete,remove,"/>-->
-			<!--</map>-->
-		<!--</property>-->
-	<!--</bean>-->
+	<!-- 多数据源配置 -->
+	<bean id="multipleDataSource" class="com.spider.base.dbcp.SpiderDynamicDataSource">
+		<property name="targetDataSources">
+			<map key-type="java.lang.String">
+				<entry value-ref="dataSource" key="dataSource_master"/>
+				<entry value-ref="dataSource_slave" key="dataSource_slave" />
+			</map>
+		</property>
+		<!-- 默认使用原来的数据源 -->
+		<property name="defaultTargetDataSource" ref="dataSource"/>
+	</bean>
 
-	<!-- 	spring与mybatis整合配置，扫描所有Mapper -->
+	<!-- myBatis扫描所有Mapper -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
 		  p:basePackage="com.spider.search.service.dao.impl.mapper"
 		  p:sqlSessionFactoryBeanName="spider-sqlSessionFactory">
 	</bean>
 
-	<!-- 事务配置 -->
+	<!-- 事务管理器配置 -->
 	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="dataSource_master" />
+		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<!-- 配置sqlSessionFactory 主要是由于新的分页和旧的分页插件不同 -->
+	<!-- 配置sqlSessionFactory -->
 	<bean id="spider-sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="dataSource" ref="dataSource_master" />
+		<property name="dataSource" ref="dataSource" />
 		<property name="typeAliasesPackage" value="com.spider.user.service.dao.entity"/>
 		<property name="mapperLocations">
-			<!--<list>-->
 			<value>classpath*:com/spider/user/service/dao/impl/mapper/*.xml</value>
-			<!--<value>classpath*:com/spider/*/dao/impl/mapperxml/*.xml</value>-->
-			<!--</list>-->
 		</property>
 		<property name="plugins">
-			<!-- 分页插件 使用pagehelper 5.0.0 -->
+			<!-- 分页插件 -->
 			<bean class="com.github.pagehelper.PageInterceptor">
 				<property name="properties">
 					<value>
@@ -100,18 +96,19 @@
 					</value>
 				</property>
 			</bean>
-			<!--</array>-->
 		</property>
 	</bean>
 
-	<!-- 扫描 basePackage下所有的接口，根据对应的mapper.xml为其生成代理类 -->
+	<!-- 扫描 basePackage下Mapper的接口,根据对应的mapper.xml为其生成代理类 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="sqlSessionFactoryBeanName" value="spider-sqlSessionFactory"/>
-		<!-- 扫描目录 -->
 		<property name="basePackage" value="com.spider.user.service.dao.impl.mapper"/>
 	</bean>
 
-	<!-- 扫描所有的service实现类，并注入依赖 -->
-	<context:component-scan base-package="com.spider.user.service"/>
+	<bean id="spiderDynamicDataSourceAspect" class="com.spider.base.dbcp.SpiderDynamicDataSourceAspect">
+	</bean>
 
+	<!-- 扫描所有的service实现类，依赖注入 -->
+	<!--<context:component-scan base-package="com.spider.user.service"/>-->
+	<context:component-scan base-package="com.spider.*"/>
 </beans>

@@ -1,5 +1,6 @@
 package com.spider.user.service.dao.impl;
 
+import com.spider.base.dbcp.SpiderGetDataSource;
 import com.spider.base.mybatis.dao.impl.SpiderBaseDaoImpl;
 import com.spider.user.service.dao.api.ISpiderUserInfoDao;
 import com.spider.user.service.dao.entity.SpiderUserInfoEntity;
@@ -19,6 +20,7 @@ public class SpiderUserInfoDaoImpl extends SpiderBaseDaoImpl<SpiderUserInfoMappe
     }
 
     @Override
+    @SpiderGetDataSource(dataSource="dataSource_slave")
     public List<SpiderUserInfoEntity> findListByPhone(String phone){
         return entityMapper.findListByPhone(phone);
     }

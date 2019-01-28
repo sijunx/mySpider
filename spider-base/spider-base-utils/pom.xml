@@ -86,6 +86,19 @@
 			<version>2012_u6</version>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.0.7.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>4.0.7.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

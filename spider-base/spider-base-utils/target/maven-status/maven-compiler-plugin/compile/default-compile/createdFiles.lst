@@ -3,7 +3,9 @@ com\spider\base\http\SpiderHttpUtil$2.class
 com\spider\base\http\SpiderHttpUtil$1.class
 com\spider\base\http\SpiderHttpUtil.class
 com\spider\base\rsa\RSACodeUtil.class
-com\spider\base\utils\KeyWordExtractUtil.class
+com\spider\base\utils\SpiderKeyWordExtractUtil.class
+com\spider\base\utils\SpiderSpringContextUtil.class
 com\spider\base\log\SpiderPatternLayout.class
+com\spider\base\utils\SpiderReflectHelper.class
 com\spider\base\dto\SpiderResponseBody.class
 com\spider\base\utils\SpiderListUtils.class
