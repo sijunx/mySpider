@@ -7,107 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298e3ea3-0d76-409d-93de-ee09efd23660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/java/com/spider/base/mybatis/dao/api/ISpiderBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/java/com/spider/base/mybatis/dao/entity/SpiderBaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/java/com/spider/base/mybatis/dao/impl/SpiderBaseDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/java/com/spider/base/mybatis/dao/mapper/SpiderBaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/resources/META-INF/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/resources/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/test/resources/conf/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/test/resources/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-doc/spider-user/sql/SpiderUserInfo.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/entity/SpiderUserInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/impl/SpiderUserInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/impl/SpiderUserInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/resources/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-kafka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-kafka.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/test-classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/test-classes/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/spider-base-es.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/spider-base-es.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/test-classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/test-classes/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/test-classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/test-classes/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/spider-base-redis-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/spider-base-redis-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/test-classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/test-classes/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/src/test/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/test-classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/test-classes/applicationContext-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/dubbo/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/dubbo/dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/src/main/java/com/spider/user/service/api/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-api/src/main/java/com/spider/user/service/api/ISpiderUserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/src/main/java/com/spider/user/service/dto/UserInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-api/src/main/java/com/spider/user/service/dto/SpiderUserInfoServiceDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/user/service/api/IUserInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/user/service/dto/UserInfoDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/enums/SpiderNodeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/search/service/enums/SpiderNodeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/spider-user-service-impl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/service/UserInfoServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/service/UserInfoServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/conf/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/dubbo/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/dubbo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/api/ISpiderUserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/api/ISpiderUserInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/context/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/context/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/" />
@@ -191,11 +99,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/resources/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/impl/SpiderUserInfoDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="134" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="134" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderBaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -226,7 +199,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>publicKeyStr</find>
       <find>initKey</find>
       <find>search</find>
       <find>CK3Icxyp4iuWMMpYoz9i0z3y0H/BWbUEPvLCHrqndUy1cVSlKgfYvr2ZHmfSdI+bUBXSPWQqiJEbit7+aepxlhYak8ys/fBr/FwGEaWp8oYlu6hyTx46NBRSmc4L5Z+WakhBZM1xRB3c3w04+pzaMXcr3Db8UHiLVOdZuLELpSA=</find>
@@ -256,6 +228,7 @@
       <find>com.spider.impl.service.impl.dao</find>
       <find>com.spider.user.service.dao</find>
       <find>com.spider.user.service.dao.impl.mapper</find>
+      <find>org.springframework.jdbc.datasource.DataSourceTransactionManager</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -283,8 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/dubbo-demo-consumer.xml" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/dubbo-demo-provider.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/filter/AuthorityFilter.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/META-INF/services/zzhiDubboapi.service.ISpiDemo" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-api/pom.xml" />
@@ -322,18 +293,20 @@
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDAO.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-api/src/main/java/com/spider/user/service/dto/SpiderUserInfoServiceDto.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-api/src/main/java/com/spider/user/service/api/ISpiderUserInfoService.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/base/SpiderBaseTest.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/impl/SpiderUserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" />
         <option value="$PROJECT_DIR$/spider-doc/spider-user/sql/SpiderUserInfo.sql" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/mapperxml/SpiderUserInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/resources/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderBaseTest.java" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties" />
       </list>
     </option>
   </component>
@@ -557,7 +530,36 @@
               <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
@@ -588,7 +590,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548654126567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548657049714" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbox_001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -601,10 +603,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider_001\spider-user\spider-user-service-impl\src\test\java\com\spider\user\service\impl" />
       <recent name="C:\git_mySpider_001\spider-doc\spider-user\sql" />
       <recent name="C:\git_mySpider_001\spider-user\spider-user-service-impl\src\main\resources" />
       <recent name="C:\git_mySpider_001\spider-user\spider-user-service-impl\src\test\resources" />
-      <recent name="C:\git_mySpider_001\spider-user\spider-user-service-impl\src\test\java\com\spider\user\service\impl" />
       <recent name="C:\git_mySpider_001\spider-base\spider-base-mybatis\src\main\java\com\spider\base\mybatis\dao\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -888,7 +890,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderUserInfoServiceImplTest.testJunitTest">
+  <component name="RunManager" selected="JUnit.SpiderUserInfoServiceImplTest">
     <configuration name="TestCloseAble" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestCloseAble" />
       <module name="spider-base-kafka" />
@@ -897,9 +899,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="esTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="esTest" />
-      <module name="spider-base-es" />
+    <configuration name="SpiderBaseTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spider-user-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spider.user.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spider.user.service.impl.SpiderBaseTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderBaseTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spider-user-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spider.user.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spider.user.service.impl.SpiderBaseTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderUserInfoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spider-user-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spider.user.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spider.user.service.impl.SpiderUserInfoServiceImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderUserInfoServiceImplTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spider-user-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spider.user.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spider.user.service.impl.SpiderUserInfoServiceImplTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -934,19 +991,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyOpenApiScrawlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spider-openapi-scrawl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spider.openapi.scrawl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spider.openapi.scrawl.MyOpenApiScrawlApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyScrawlJob01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spider-scrawl-job-scrawl01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spider.scrawl.job.MyScrawlJob01Application" />
@@ -968,32 +1012,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyUserAppApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spider-user-papp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spider.user.papp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spider.user.papp.MyUserAppApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyUserAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spider-user-papp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spider.search.papp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spider.search.papp.MyUserAppApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyUserServiceProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spider-user-service-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spider.user.provider.MyUserServiceProviderApplication" />
@@ -1010,7 +1028,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestCloseAble" />
-      <item itemvalue="Application.esTest" />
       <item itemvalue="Spring Boot.MyApplication" />
       <item itemvalue="Spring Boot.MyApplication (1)" />
       <item itemvalue="Spring Boot.MySpiderDistScrawlApplication" />
@@ -1018,18 +1035,19 @@
       <item itemvalue="Spring Boot.MySpiderDistScrawlApplication (1)" />
       <item itemvalue="Spring Boot.MyUserServiceProviderApplication" />
       <item itemvalue="Spring Boot.MyUserServiceProviderApplication (1)" />
-      <item itemvalue="Spring Boot.MyOpenApiScrawlApplication" />
-      <item itemvalue="Spring Boot.MyUserAppApplication" />
-      <item itemvalue="Spring Boot.MyUserAppApplication (1)" />
       <item itemvalue="JUnit.SpiderUserInfoServiceImplTest.testJunitTest" />
+      <item itemvalue="JUnit.SpiderUserInfoServiceImplTest.insertTest" />
+      <item itemvalue="JUnit.SpiderUserInfoServiceImplTest" />
+      <item itemvalue="JUnit.SpiderBaseTest.test" />
+      <item itemvalue="JUnit.SpiderBaseTest.insertTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderUserInfoServiceImplTest" />
+        <item itemvalue="JUnit.SpiderUserInfoServiceImplTest.insertTest" />
+        <item itemvalue="JUnit.SpiderBaseTest.insertTest" />
+        <item itemvalue="JUnit.SpiderBaseTest.test" />
         <item itemvalue="JUnit.SpiderUserInfoServiceImplTest.testJunitTest" />
-        <item itemvalue="Spring Boot.MyUserAppApplication (1)" />
-        <item itemvalue="Spring Boot.MyUserAppApplication" />
-        <item itemvalue="Application.esTest" />
-        <item itemvalue="Spring Boot.MyOpenApiScrawlApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1066,7 +1084,7 @@
       <workItem from="1548307603825" duration="1797000" />
       <workItem from="1548384635779" duration="9813000" />
       <workItem from="1548396666131" duration="9180000" />
-      <workItem from="1548467098916" duration="15068000" />
+      <workItem from="1548467098916" duration="16758000" />
     </task>
     <task id="LOCAL-00001" summary="搜索ES模块独立">
       <created>1547722945939</created>
@@ -1079,39 +1097,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 12h 42m 59s.xml">
+    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 42m 27s.xml">
       <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 12h 57m 34s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderUserInfoServiceImplTest_insertTest - 2019.01.28 at 14h 15m 18s.xml">
+      <configuration name="SpiderUserInfoServiceImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 12h 58m 41s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderUserInfoServiceImplTest - 2019.01.28 at 14h 19m 18s.xml">
+      <configuration name="SpiderUserInfoServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 01m 39s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderUserInfoServiceImplTest - 2019.01.28 at 14h 19m 49s.xml">
+      <configuration name="SpiderUserInfoServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 06m 39s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderBaseTest_test - 2019.01.28 at 14h 22m 37s.xml">
+      <configuration name="SpiderBaseTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 09m 15s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderBaseTest_test - 2019.01.28 at 14h 23m 37s.xml">
+      <configuration name="SpiderBaseTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 11m 58s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderBaseTest_insertTest - 2019.01.28 at 14h 25m 29s.xml">
+      <configuration name="SpiderBaseTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 30m 43s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderBaseTest_insertTest - 2019.01.28 at 14h 26m 41s.xml">
+      <configuration name="SpiderBaseTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 38m 39s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderUserInfoServiceImplTest_insertTest - 2019.01.28 at 14h 27m 57s.xml">
+      <configuration name="SpiderUserInfoServiceImplTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderUserInfoServiceImplTest_testJunitTest - 2019.01.28 at 13h 39m 17s.xml">
-      <configuration name="SpiderUserInfoServiceImplTest.testJunitTest" configurationId="JUnit" />
+    <history-entry file="SpiderUserInfoServiceImplTest - 2019.01.28 at 14h 28m 29s.xml">
+      <configuration name="SpiderUserInfoServiceImplTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226827000" />
+    <option name="totallyTimeSpent" value="228517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1128,7 +1146,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26218852" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.503792" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.503792" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1381,13 +1399,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../maven_repo/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/protocol/InvokerWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../maven_repo/com/alibaba/dubbo/2.5.7/dubbo-2.5.7.jar!/com/alibaba/dubbo/rpc/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1638,16 +1649,6 @@
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/dubbo-provider.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
@@ -1702,27 +1703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/impl/SpiderUserInfoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/impl/SpiderUserInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -1733,13 +1713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -1747,13 +1720,6 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="96" column="41" lean-forward="true" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1767,8 +1733,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/resources/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/impl/SpiderUserInfoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="134" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dao/api/ISpiderUserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>

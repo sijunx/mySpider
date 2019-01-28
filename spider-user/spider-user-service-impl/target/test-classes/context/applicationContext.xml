@@ -84,11 +84,9 @@
 	</bean>
 
 	<!-- 事务配置 -->
-	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource_master" />
-		<property name="globalRollbackOnParticipationFailure" value="false" /> <!--指定此参数为false、内层事务代理方法抛出的异常可由外层捕捉不处理 -->
 	</bean>
-
 
 	<!-- 配置sqlSessionFactory 主要是由于新的分页和旧的分页插件不同 -->
 	<bean id="spider-sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
