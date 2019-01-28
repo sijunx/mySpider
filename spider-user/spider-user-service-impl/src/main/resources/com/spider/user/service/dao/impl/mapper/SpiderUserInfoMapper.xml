@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spider.user.service.dao.impl.mapper.SpiderUserInfoMapper">
+    <sql id="tableName" >
+		spider_user_info
+	</sql>
+
+    <!-- BaseResultMap for table columns  -->
+    <resultMap id="BaseResultMap" type="com.spider.user.service.dao.entity.SpiderUserInfoEntity">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="idCard" property="idCard" jdbcType="VARCHAR"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR"/>
+        <result column="gender" property="gender" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!-- Base_Column_List -->
+    <sql id="Base_Column_List">
+        id,name,idCard,phone,gender
+    </sql>
+    <sql id="Base_Column_List_t">
+        t.id,t.name,t.idCard,t.phone,t.gender
+    </sql>
+
+    <!-- insert 插入-->
+    <insert id="insert" parameterType="com.spider.user.service.dao.entity.SpiderUserInfoEntity">
+        <selectKey resultType="Long" keyProperty="id" order="AFTER">
+            SELECT @@IDENTITY
+        </selectKey>
+        INSERT INTO <include refid="tableName"/>
+        ( id,name,idCard,phone,gender)
+        VALUES
+        (#{id,jdbcType=BIGINT} ,#{name,jdbcType=VARCHAR},#{idCard,jdbcType=VARCHAR},#{phone,jdbcType=VARCHAR},#{gender,jdbcType=INTEGER}  )
+    </insert>
+
+    <!-- insertList 插入-->
+    <insert id="insertList" parameterType="List">
+        INSERT INTO <include refid="tableName"/>
+        ( id,name,idCard,phone,gender)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.id,jdbcType=BIGINT} ,#{item.name,jdbcType=VARCHAR},#{item.idCard,jdbcType=VARCHAR},#{item.phone,jdbcType=VARCHAR},#{item.gender,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+
+    <!-- //自定义方法 BEGIN -->
+    <select id="findListByPhone" resultMap="BaseResultMap" parameterType="java.lang.String">
+        SELECT      id,name,idCard,phone,gender
+        FROM spider_user_info
+    </select>
+
+	<!-- //自定义方法 END -->
+</mapper>

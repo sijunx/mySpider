@@ -11,6 +11,7 @@
         <module name="spider-base-job" />
         <module name="spider-base-kafka" />
         <module name="spider-base-mongo" />
+        <module name="spider-base-mybatis" />
         <module name="spider-base-redis" />
         <module name="spider-base-utils" />
         <module name="spider-base-zipkin" />
@@ -48,6 +49,7 @@
       <module name="spider-base-log" target="1.7" />
       <module name="spider-base-log (1)" target="1.7" />
       <module name="spider-base-mongo" target="1.7" />
+      <module name="spider-base-mybatis" target="1.7" />
       <module name="spider-base-parent" target="1.7" />
       <module name="spider-base-parent (1)" target="1.7" />
       <module name="spider-base-parent (1) (com.spider.base.parent)" target="1.7" />

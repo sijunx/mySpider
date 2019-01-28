@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

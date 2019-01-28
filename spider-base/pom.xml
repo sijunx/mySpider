@@ -9,14 +9,17 @@
 
 	<modules>
 		<module>spider-base-utils</module>
+
 		<module>spider-base-kafka</module>
-		<module>spider-base-redis</module>
-		<module>spider-base-mongo</module>
-		<module>spider-base-es</module>
 		<module>spider-base-zookeeper</module>
 		<module>spider-base-job</module>
 		<module>spider-base-dubbo</module>
 		<module>spider-base-zipkin</module>
+		<module>spider-base-mybatis</module>
+
+		<module>spider-base-redis</module>
+		<module>spider-base-mongo</module>
+		<module>spider-base-es</module>
 	</modules>
 
 	<dependencyManagement>

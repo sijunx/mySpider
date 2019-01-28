@@ -1,0 +1,4 @@
+com\spider\base\mybatis\dao\entity\SpiderBaseEntity.class
+com\spider\base\mybatis\dao\impl\SpiderBaseDaoImpl.class
+com\spider\base\mybatis\dao\api\ISpiderBaseDao.class
+com\spider\base\mybatis\dao\mapper\SpiderBaseMapper.class

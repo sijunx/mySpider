@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-job/spider-base-job.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-job/spider-base-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-mongo/spider-base-mongo.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-mongo/spider-base-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-parent/spider-base-parent.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-parent/spider-base-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" />

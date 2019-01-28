@@ -92,7 +92,7 @@
         <!--<property enums="dataSource" ref="dataSource"/>-->
         <!--<property enums="mapperLocations">-->
             <!--<array>-->
-                <!--<value>classpath:*/com.spider.search.service.dao.impl.mapper/*.xml</value>-->
+                <!--<value>classpath:*/com.spider.search.service.dao.impl.mapperxml/*.xml</value>-->
             <!--</array>-->
         <!--</property>-->
     <!--</bean>-->
@@ -111,7 +111,7 @@
 		<property name="mapperLocations">
 			<!--<list>-->
 				<value>classpath*:com/spider/*/service/dao/impl/mapper/*.xml</value>
-				<!--<value>classpath*:com/spider/*/dao/impl/mapper/*.xml</value>-->
+				<!--<value>classpath*:com/spider/*/dao/impl/mapperxml/*.xml</value>-->
 			<!--</list>-->
 		</property>
 		<property name="plugins">

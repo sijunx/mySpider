@@ -9,21 +9,12 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<!--<properties>-->
-		<!--<spider.version>1.0.0-SNAPSHOT</spider.version>-->
-	<!--</properties>-->
-
 	<properties>
 		<java.version>1.8</java.version>
 		<base.version>1.0.0-SNAPSHOT</base.version>
-		<slf4j.version>1.6.6</slf4j.version>
-		<jedis.version>2.9.0</jedis.version>
-		<commons.lang3.version>3.8.1</commons.lang3.version>
-		<fastjson.version>1.2.41</fastjson.version>
-		<jsoup.version>1.10.3</jsoup.version>
-		<ikanalyzer.version>2012_u6</ikanalyzer.version>
-		<mongodb.driver.version>3.4.2</mongodb.driver.version>
-		<elasticsearch.version>2.4.6</elasticsearch.version>
+		<junit.version>4.12</junit.version>
+        <spring.version>4.0.7.RELEASE</spring.version>
+		<pagehelper.version>5.0.0</pagehelper.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -40,28 +31,102 @@
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.spider.base</groupId>
+			<artifactId>spider-base-mybatis</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
 		<!--<dependency>-->
-			<!--<groupId>org.slf4j</groupId>-->
-			<!--<artifactId>slf4j-log4j12</artifactId>-->
+			<!--<groupId>junit</groupId>-->
+			<!--<artifactId>junit</artifactId>-->
+			<!--<version>${junit.version}</version>-->
 		<!--</dependency>-->
-
-
 
 		<!--<dependency>-->
 			<!--<groupId>org.springframework</groupId>-->
-			<!--<artifactId>spring-beans</artifactId>-->
+			<!--<artifactId>spring-context-support</artifactId>-->
 		<!--</dependency>-->
 		<!--<dependency>-->
-			<!--<groupId>org.springframework</groupId>-->
-			<!--<artifactId>spring-context</artifactId>-->
-		<!--</dependency>-->
+			<!--        <groupId>org.springframework</groupId>-->
+			<!--        <artifactId>spring-tx</artifactId>-->
+			<!--&lt;!&ndash;        <version>4.3.18.RELEASE</version>&ndash;&gt;-->
+			<!-- </dependency>-->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+		</dependency>
 
-		<!--<dependency>-->
-			<!--<groupId>com.spider.base</groupId>-->
-			<!--<artifactId>spider-base-utils</artifactId>-->
-			<!--<version>1.0.0-SNAPSHOT</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<!--<version>3.0.5.RELEASE</version>-->
+		</dependency>
 
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.38</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.1.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper</artifactId>
+			<version>${pagehelper.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.spider.base</groupId>
+			<artifactId>spider-base-utils</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

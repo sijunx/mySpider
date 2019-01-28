@@ -1,7 +1,7 @@
 package com.spider.user.papp.controller;
 
-import com.spider.user.service.api.IUserInfoService;
-import com.spider.user.service.dto.UserInfoDTO;
+import com.spider.user.service.api.ISpiderUserInfoService;
+import com.spider.user.service.dto.SpiderUserInfoServiceDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,13 +17,13 @@ public class SpiderSearchController{
     private final static Logger logger = LoggerFactory.getLogger(SpiderSearchController.class);
 
     @Autowired
-    private IUserInfoService userInfoService;
+    private ISpiderUserInfoService userInfoService;
 
     @RequestMapping(value = "/findById", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
-    public UserInfoDTO getSpiderUrl(){
+    public SpiderUserInfoServiceDto getSpiderUrl(){
 //        List<String> urlList = spiderUrlFacade.getToScrawlUrlList();
-        UserInfoDTO userInfoDTO = userInfoService.findById(new Long(1));
+        SpiderUserInfoServiceDto userInfoDTO = userInfoService.findById(new Long(1));
         logger.info("消费方打印----调用输出----userInfoDTO:{}", userInfoDTO);
         return userInfoDTO;
     }

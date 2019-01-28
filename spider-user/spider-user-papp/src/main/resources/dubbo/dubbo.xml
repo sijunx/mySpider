@@ -16,6 +16,6 @@
 
     <dubbo:consumer check="false" />
 
-    <dubbo:reference id="userInfoService" interface="com.spider.user.service.api.IUserInfoService"></dubbo:reference>
+    <dubbo:reference id="userInfoService" interface="com.spider.user.service.api.ISpiderUserInfoService"></dubbo:reference>
 
 </beans>

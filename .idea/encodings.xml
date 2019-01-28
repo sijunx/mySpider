@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-utils" charset="UTF-8" />
