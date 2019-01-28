@@ -43,18 +43,7 @@
 		<property name="maxActive" value="${jdbc.maxActive}" />
 
 	</bean>
-
-	<!--定义数据源 DBCP 连接池 -->
-	<bean id="dataSource_slave" parent="baseDataSource">
-		<property name="url" value="${jdbc.url_slave}" />
-		<property name="username" value="${jdbc.username_slave}" />
-		<property name="password" value="${jdbc.password_slave}" />
-
-		<property name="initialSize" value="${jdbc.initialSize}" />
-		<property name="minIdle" value="${jdbc.minIdle}" />
-		<property name="maxActive" value="${jdbc.maxActive}" />
-
-	</bean>
+ 
 
 	<!-- 配置动态分配的读写 数据源 -->
 	<!--<bean id="dataSource" class="com.spider.search.service.aspect.ChooseDataSource" lazy-init="true">-->

@@ -21,7 +21,6 @@ public class SpiderUserInfoServiceImplTest extends SpiderBaseTest{
     @Autowired
     private ISpiderUserInfoDao spiderUserInfoDao;
 
-
     @Test
     public void findListByPhoneTest(){
         List<SpiderUserInfoServiceDto> spiderUserInfoServiceDtoList = spiderUserInfoService.findListByPhone("13999999999");

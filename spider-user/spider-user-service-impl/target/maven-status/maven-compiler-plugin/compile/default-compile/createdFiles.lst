@@ -1,0 +1,5 @@
+com\spider\user\service\dao\api\ISpiderUserInfoDao.class
+com\spider\user\service\dao\impl\SpiderUserInfoDaoImpl.class
+com\spider\user\service\impl\SpiderUserInfoServiceImpl.class
+com\spider\user\service\dao\entity\SpiderUserInfoEntity.class
+com\spider\user\service\dao\impl\mapper\SpiderUserInfoMapper.class
