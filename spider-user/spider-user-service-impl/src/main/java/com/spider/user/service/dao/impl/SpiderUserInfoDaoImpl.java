@@ -20,7 +20,6 @@ public class SpiderUserInfoDaoImpl extends SpiderBaseDaoImpl<SpiderUserInfoMappe
     }
 
     @Override
-    @SpiderGetDataSource(dataSource="dataSource_slave")
     public List<SpiderUserInfoEntity> findListByPhone(String phone){
         return entityMapper.findListByPhone(phone);
     }

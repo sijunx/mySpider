@@ -1,5 +1,6 @@
 package com.spider.user.service.impl;
 
+import com.spider.base.dbcp.SpiderGetDataSource;
 import com.spider.user.service.api.ISpiderUserInfoService;
 import com.spider.user.service.dao.api.ISpiderUserInfoDao;
 import com.spider.user.service.dao.entity.SpiderUserInfoEntity;
@@ -24,6 +25,7 @@ public class SpiderUserInfoServiceImpl implements ISpiderUserInfoService {
     private ISpiderUserInfoDao spiderUserInfoDao;
 
     @Override
+    @SpiderGetDataSource(dataSource="dataSource_slave")
     public List<SpiderUserInfoServiceDto> findListByPhone(String phone){
         List<SpiderUserInfoEntity> spiderUserInfoEntityList = spiderUserInfoDao.findListByPhone(phone);
         //  查询结果转换
