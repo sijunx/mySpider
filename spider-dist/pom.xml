@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.spider.dist</groupId>
-        <artifactId>spider-dist-parent</artifactId>
+        <groupId>com.spider.parent</groupId>
+        <artifactId>spider-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
@@ -19,6 +19,23 @@
         <module>spider-dist/spider-dist-service-api</module>
         <module>spider-dist/spider-dist-service-impl</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>fastjson</artifactId>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring-context</artifactId>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.google.common</groupId>-->
+                <!--<artifactId>google-collect</artifactId>-->
+            <!--</dependency>-->
+        </dependencies>
+    </dependencyManagement>
 
     <!--<build>-->
         <!--<plugins>-->

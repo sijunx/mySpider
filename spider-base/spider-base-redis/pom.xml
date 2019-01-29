@@ -6,7 +6,7 @@
 
 	<parent>
 		<groupId>com.spider.base</groupId>
-		<artifactId>spider-base-parent</artifactId>
+		<artifactId>spider-base</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 

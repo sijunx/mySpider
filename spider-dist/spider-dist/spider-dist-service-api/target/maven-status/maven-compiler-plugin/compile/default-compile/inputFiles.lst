@@ -1,0 +1,10 @@
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\exception\SpiderServiceErrorCodes.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\api\ISpiderScrawlUrlService.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\dto\SpiderUrlDTO.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\api\ISpiderAuditService.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\api\ISpiderKeyWordExtractService.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\enums\SpiderHttpCodeEnum.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\enums\SpiderUrlStatusEnum.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\error\ErrorCode.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\api\ISpiderSummaryService.java
+C:\git_mySpider_001\spider-dist\spider-dist\spider-dist-service-api\src\main\java\com\spider\dist\service\exception\SpiderServiceException.java

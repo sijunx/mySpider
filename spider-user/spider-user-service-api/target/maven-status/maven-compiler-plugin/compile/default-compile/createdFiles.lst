@@ -3,3 +3,4 @@ com\spider\search\service\exception\SpiderServiceException.class
 com\spider\user\service\dto\SpiderUserInfoServiceDto.class
 com\spider\search\service\exception\SpiderServiceErrorCodes.class
 com\spider\user\service\api\ISpiderUserInfoService.class
+com\spider\user\service\api\ISpiderUserCouponService.class

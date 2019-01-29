@@ -26,7 +26,6 @@
         <module name="spider-scrawl-facade-impl" />
         <module name="spider-scrawl-job-scrawl" />
         <module name="spider-scrawl-job-scrawl01" />
-        <module name="spider-scrawl-search" />
         <module name="spider-scrawl-service-api" />
         <module name="spider-scrawl-service-impl" />
         <module name="spider-scrawl-service-impl (1)" />
@@ -42,42 +41,42 @@
       <module name="git_mySpider" target="1.7" />
       <module name="spider-allparent" target="1.5" />
       <module name="spider-base" target="1.8" />
-      <module name="spider-base-dubbo" target="1.7" />
-      <module name="spider-base-es" target="1.7" />
-      <module name="spider-base-job" target="1.7" />
-      <module name="spider-base-kafka" target="1.7" />
+      <module name="spider-base-dubbo" target="1.8" />
+      <module name="spider-base-es" target="1.8" />
+      <module name="spider-base-job" target="1.8" />
+      <module name="spider-base-kafka" target="1.8" />
       <module name="spider-base-log" target="1.7" />
       <module name="spider-base-log (1)" target="1.7" />
-      <module name="spider-base-mongo" target="1.7" />
-      <module name="spider-base-mybatis" target="1.7" />
+      <module name="spider-base-mongo" target="1.8" />
+      <module name="spider-base-mybatis" target="1.8" />
       <module name="spider-base-parent" target="1.7" />
       <module name="spider-base-parent (1)" target="1.7" />
       <module name="spider-base-parent (1) (com.spider.base.parent)" target="1.7" />
-      <module name="spider-base-redis" target="1.7" />
-      <module name="spider-base-utils" target="1.7" />
-      <module name="spider-base-zipkin" target="1.7" />
-      <module name="spider-base-zookeeper" target="1.7" />
+      <module name="spider-base-redis" target="1.8" />
+      <module name="spider-base-utils" target="1.8" />
+      <module name="spider-base-zipkin" target="1.8" />
+      <module name="spider-base-zookeeper" target="1.8" />
       <module name="spider-core" target="1.5" />
-      <module name="spider-dist" target="1.7" />
-      <module name="spider-dist-facade-api" target="1.7" />
-      <module name="spider-dist-facade-impl" target="1.7" />
-      <module name="spider-dist-parent" target="1.7" />
+      <module name="spider-dist" target="1.8" />
+      <module name="spider-dist-facade-api" target="1.8" />
+      <module name="spider-dist-facade-impl" target="1.8" />
+      <module name="spider-dist-parent" target="1.8" />
       <module name="spider-dist-scrawl" target="1.8" />
-      <module name="spider-dist-service-api" target="1.7" />
-      <module name="spider-dist-service-impl" target="1.7" />
+      <module name="spider-dist-service-api" target="1.8" />
+      <module name="spider-dist-service-impl" target="1.8" />
       <module name="spider-openapi" target="1.5" />
       <module name="spider-openapi (1)" target="1.5" />
       <module name="spider-openapi-scrawl" target="1.8" />
-      <module name="spider-parent" target="1.7" />
-      <module name="spider-scrawl" target="1.7" />
-      <module name="spider-scrawl-facade-api" target="1.7" />
-      <module name="spider-scrawl-facade-impl" target="1.7" />
+      <module name="spider-parent" target="1.8" />
+      <module name="spider-scrawl" target="1.8" />
+      <module name="spider-scrawl-facade-api" target="1.8" />
+      <module name="spider-scrawl-facade-impl" target="1.8" />
       <module name="spider-scrawl-job-scrawl" target="1.8" />
       <module name="spider-scrawl-job-scrawl01" target="1.8" />
-      <module name="spider-scrawl-parent" target="1.7" />
+      <module name="spider-scrawl-parent" target="1.8" />
       <module name="spider-scrawl-search" target="1.5" />
-      <module name="spider-scrawl-service-api" target="1.7" />
-      <module name="spider-scrawl-service-impl" target="1.7" />
+      <module name="spider-scrawl-service-api" target="1.8" />
+      <module name="spider-scrawl-service-impl" target="1.8" />
       <module name="spider-scrawl-service-impl (1)" target="1.7" />
       <module name="spider-search" target="1.5" />
       <module name="spider-search-papp" target="1.8" />
@@ -85,7 +84,7 @@
       <module name="spider-service-parentpom" target="1.7" />
       <module name="spider-user" target="1.8" />
       <module name="spider-user-papp" target="1.8" />
-      <module name="spider-user-parent" target="1.7" />
+      <module name="spider-user-parent" target="1.8" />
       <module name="spider-user-service-api" target="1.8" />
       <module name="spider-user-service-impl" target="1.8" />
       <module name="spider-user-service-provider" target="1.8" />
@@ -94,7 +93,6 @@
       <module name="spiderbaselock" target="1.7" />
       <module name="spiderbaseredis" target="1.8" />
       <module name="spiderbaseutils" target="1.7" />
-      <module name="spiderparent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

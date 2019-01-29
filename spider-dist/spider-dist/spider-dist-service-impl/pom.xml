@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.spider.service.parent</groupId>
-		<artifactId>spider-service-parent</artifactId>
+		<groupId>com.spider.dist</groupId>
+		<artifactId>spider-dist</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
@@ -58,11 +58,13 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
+			<version>${fastjson.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
+			<version>${jsoup.version}</version>
 		</dependency>
 
 		<dependency>
@@ -71,11 +73,7 @@
 			<version>${ikanalyzer.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.jsoup</groupId>
-			<artifactId>jsoup</artifactId>
-			<version>${jsoup.version}</version>
-		</dependency>
+
 
 		<!--<dependency>-->
 			<!--<groupId>org.mongodb</groupId>-->
@@ -92,6 +90,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
+			<version>4.3.14.RELEASE</version>
 		</dependency>
 
 		<dependency>
@@ -106,6 +105,11 @@
 			<artifactId>commons-codec</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<!--<version>3.2.2</version>-->
+		</dependency>
 
 		<!--<dependency>-->
 			<!--<groupId>org.elasticsearch</groupId>-->

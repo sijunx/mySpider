@@ -11,6 +11,7 @@
 
 	<context:annotation-config />
 
+
 	<!-- 配置数据源 -->
 	<bean id="baseDataSource" abstract="true" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
 		<property name="driverClassName" value="${jdbc.driverClassName}" />
@@ -33,7 +34,7 @@
 
 
 	<!--定义数据源 DBCP 连接池 -->
-	<bean id="dataSource" parent="baseDataSource">
+	<bean id="dataSource_master" parent="baseDataSource">
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
@@ -54,15 +55,15 @@
 	</bean>
 
 	<!-- 多数据源配置 -->
-	<bean id="multipleDataSource" class="com.spider.base.dbcp.SpiderDynamicDataSource">
+	<bean id="dataSource" class="com.spider.user.service.dbcp.SpiderDynamicDataSource">
 		<property name="targetDataSources">
 			<map key-type="java.lang.String">
-				<entry value-ref="dataSource" key="dataSource_master"/>
+				<entry value-ref="dataSource_master" key="dataSource_master"/>
 				<entry value-ref="dataSource_slave" key="dataSource_slave" />
 			</map>
 		</property>
 		<!-- 默认使用原来的数据源 -->
-		<property name="defaultTargetDataSource" ref="dataSource"/>
+		<property name="defaultTargetDataSource" ref="dataSource_master"/>
 	</bean>
 
 	<!-- myBatis扫描所有Mapper -->
@@ -105,7 +106,7 @@
 		<property name="basePackage" value="com.spider.user.service.dao.impl.mapper"/>
 	</bean>
 
-	<bean id="spiderDynamicDataSourceAspect" class="com.spider.base.dbcp.SpiderDynamicDataSourceAspect">
+	<bean id="spiderDynamicDataSourceAspect" class="com.spider.user.service.dbcp.SpiderDynamicDataSourceAspect">
 	</bean>
 
 	<!-- 扫描所有的service实现类，依赖注入 -->

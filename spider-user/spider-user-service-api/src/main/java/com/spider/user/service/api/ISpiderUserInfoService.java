@@ -10,4 +10,6 @@ import java.util.List;
 public interface ISpiderUserInfoService {
 
     List<SpiderUserInfoServiceDto> findListByPhone(String phone);
+
+    List<SpiderUserInfoServiceDto> findListByName(String name);
 }

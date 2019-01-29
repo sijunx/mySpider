@@ -7,22 +7,27 @@
     <groupId>com.spider.user</groupId>
     <artifactId>spider-user</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+
     <modules>
         <module>spider-user-service-api</module>
         <module>spider-user-service-impl</module>
-        <module>spider-user-service-provider</module>
-        <module>spider-user-papp</module>
     </modules>
 
     <packaging>pom</packaging>
 
-
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.spider.parent</groupId>
+        <artifactId>spider-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
+
+    <!--<parent>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+        <!--<version>1.5.9.RELEASE</version>-->
+        <!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+    <!--</parent>-->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,12 +44,18 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Springboot依赖 -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter</artifactId>
-                <version>${spring-boot.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring-context</artifactId>-->
+                <!--&lt;!&ndash;<version>4.3.14.RELEASE</version>&ndash;&gt;-->
+            <!--</dependency>-->
+
+            <!--&lt;!&ndash; Springboot依赖 &ndash;&gt;-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-starter</artifactId>-->
+                <!--&lt;!&ndash;<version>${spring-boot.version}</version>&ndash;&gt;-->
+            <!--</dependency>-->
 
             <!--&lt;!&ndash; Springboot-web依赖 &ndash;&gt;-->
             <!--<dependency>-->
@@ -53,21 +64,7 @@
                 <!--<version>${spring-boot.version}</version>-->
             <!--</dependency>-->
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                <version>${spring-boot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>ch.qos.logback</groupId>
-                        <artifactId>logback-classic</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>log4j-over-slf4j</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
+
 
             <!-- 使用lombok实现JavaBean的get、set、toString、hashCode、equals等方法的自动生成  -->
             <!--<dependency>-->
@@ -78,27 +75,27 @@
             <!--</dependency>-->
 
             <!-- Dubbo依赖 -->
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo</artifactId>-->
+                <!--&lt;!&ndash;<version>${dubbo.version}</version>&ndash;&gt;-->
+            <!--</dependency>-->
 
-            <dependency>
-                <groupId>com.101tec</groupId>
-                <artifactId>zkclient</artifactId>
-                <version>${zkclient.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-log4j</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-log4j12</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.101tec</groupId>-->
+                <!--<artifactId>zkclient</artifactId>-->
+                <!--&lt;!&ndash;<version>${zkclient.version}</version>&ndash;&gt;-->
+                <!--<exclusions>-->
+                    <!--<exclusion>-->
+                        <!--<groupId>org.slf4j</groupId>-->
+                        <!--<artifactId>slf4j-log4j</artifactId>-->
+                    <!--</exclusion>-->
+                    <!--<exclusion>-->
+                        <!--<groupId>org.slf4j</groupId>-->
+                        <!--<artifactId>slf4j-log4j12</artifactId>-->
+                    <!--</exclusion>-->
+                <!--</exclusions>-->
+            <!--</dependency>-->
 
         </dependencies>
     </dependencyManagement>

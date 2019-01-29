@@ -1,0 +1,4 @@
+com\spider\dist\facade\impl\SpiderPushDataCenterTest.class
+com\spider\dist\facade\impl\SpiderDistScrawlFacadeImplTest.class
+com\spider\dist\facade\impl\SpiderPollFromDataCenterTest.class
+com\spider\dist\facade\impl\SpiderTextSummaryTest.class

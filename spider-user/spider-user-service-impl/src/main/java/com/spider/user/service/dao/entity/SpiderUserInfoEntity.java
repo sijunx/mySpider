@@ -1,6 +1,7 @@
 package com.spider.user.service.dao.entity;
 
-import com.spider.base.mybatis.dao.entity.SpiderBaseEntity;
+
+import com.spider.user.service.dbcp.dao.entity.SpiderBaseEntity;
 
 public class SpiderUserInfoEntity extends SpiderBaseEntity {
 

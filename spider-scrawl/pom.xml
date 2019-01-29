@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.spider.scrawl</groupId>
-        <artifactId>spider-scrawl-parent</artifactId>
+        <groupId>com.spider.parent</groupId>
+        <artifactId>spider-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
@@ -18,7 +18,6 @@
         <module>spider-scrawl/spider-scrawl-facade-impl</module>
         <module>spider-scrawl/spider-scrawl-service-api</module>
         <module>spider-scrawl/spider-scrawl-service-impl</module>
-        <module>spider-scrawl/spider-scrawl-search</module>
     </modules>
 
     <!--<build>-->

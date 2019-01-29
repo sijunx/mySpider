@@ -1,7 +1,7 @@
 package com.spider.user.service.dao.impl.mapper;
 
-import com.spider.base.mybatis.dao.mapper.SpiderBaseMapper;
 import com.spider.user.service.dao.entity.SpiderUserInfoEntity;
+import com.spider.user.service.dbcp.dao.mapper.SpiderBaseMapper;
 
 import java.util.List;
 
@@ -13,4 +13,11 @@ public interface SpiderUserInfoMapper extends SpiderBaseMapper<SpiderUserInfoEnt
      * @return
      */
     List<SpiderUserInfoEntity> findListByPhone(String phone);
+
+    /**
+     * 根据姓名查找用户信息
+     * @param name
+     * @return
+     */
+    List<SpiderUserInfoEntity> findListByName(String name);
 }
