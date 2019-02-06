@@ -12,13 +12,37 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.9.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<spring.version>5.1.4.RELEASE</spring.version>
+		<spring-session-data-redis>1.3.1.RELEASE</spring-session-data-redis>
+
+		<junit.version>4.12</junit.version>
 		<jedis.version>2.9.0</jedis.version>
 		<slf4j.version>1.6.6</slf4j.version>
+
+		<mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+		<mybatis.version>3.2.3</mybatis.version>
+		<mybatis-spring.version>1.2.5</mybatis-spring.version>
+
+		<dubbo.version>2.6.1</dubbo.version>
+		<druid.version>1.1.8</druid.version>
+		<fastjson.version>1.2.41</fastjson.version>
+
+		<zookeeper.version>3.4.8</zookeeper.version>
+		<zkclient.version>0.8</zkclient.version>
+
+		<ikanalyzer.version>2012_u6</ikanalyzer.version>
+
+		<pagehelper.version>5.0.0</pagehelper.version>
+
+		<google-collect.version>1.0-rc1</google-collect.version>
+		<guava.version>20.0</guava.version>
+
+		<okhttp.version>3.2.0</okhttp.version>
+
 		<commons.dbcp2.version>2.1.1</commons.dbcp2.version>
 		<commons.lang3.version>3.8.1</commons.lang3.version>
 		<commons-codec.version>1.10</commons-codec.version>
@@ -26,72 +50,53 @@
 		<commons-lang.version>2.6</commons-lang.version>
 		<commons-collections.version>3.2.2</commons-collections.version>
 		<commons-logging.version>1.2</commons-logging.version>
-		<dubbo.version>2.6.1</dubbo.version>
-		<druid.version>1.1.8</druid.version>
-		<fastjson.version>1.2.41</fastjson.version>
-		<mysql-connector-java.version>5.1.38</mysql-connector-java.version>
-		<mybatis.version>3.2.3</mybatis.version>
-		<mybatis-spring.version>1.2.5</mybatis-spring.version>
-		<junit.version>4.12</junit.version>
-		<zookeeper.version>3.4.8</zookeeper.version>
-		<zkclient.version>0.8</zkclient.version>
-		<spring.version>5.1.4.RELEASE</spring.version>
+
 		<mongodb.driver.version>3.4.2</mongodb.driver.version>
-		<pagehelper.version>5.0.0</pagehelper.version>
-		<google-collect.version>1.0-rc1</google-collect.version>
-		<okhttp.version>3.2.0</okhttp.version>
+
+		<kryo-shaded.version>4.0.0</kryo-shaded.version>
+
+		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
-
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-beans</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jdbc</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.springframework.session</groupId>
+				<artifactId>spring-session-data-redis</artifactId>
+				<version>${spring-session-data-redis}</version>
+			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>${junit.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>org.mongodb</groupId>
 				<artifactId>mongodb-driver</artifactId>
 				<version>${mongodb.driver.version}</version>
 			</dependency>
-			<!--<dependency>-->
-				<!--<groupId>org.slf4j</groupId>-->
-				<!--<artifactId>slf4j-api</artifactId>-->
-				<!--<version>${slf4j.version}</version>-->
-			<!--</dependency>-->
-			<!--<dependency>-->
-				<!--<groupId>org.slf4j</groupId>-->
-				<!--<artifactId>slf4j-log4j12</artifactId>-->
-				<!--<version>${slf4j.version}</version>-->
-			<!--</dependency>-->
 			<dependency>
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
@@ -107,7 +112,6 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-
 			<dependency>
 				<groupId>com.101tec</groupId>
 				<artifactId>zkclient</artifactId>
@@ -127,13 +131,11 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
 				<version>${commons.lang3.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>commons-codec</groupId>
 				<artifactId>commons-codec</artifactId>
@@ -159,7 +161,6 @@
 				<artifactId>commons-logging</artifactId>
 				<version>${commons-logging.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
@@ -170,31 +171,26 @@
 				<artifactId>mybatis</artifactId>
 				<version>${mybatis.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql-connector-java.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
 				<version>${druid.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>fastjson</artifactId>
 				<version>${fastjson.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.github.pagehelper</groupId>
 				<artifactId>pagehelper</artifactId>
 				<version>${pagehelper.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.google.common</groupId>
 				<artifactId>google-collect</artifactId>
@@ -203,26 +199,27 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>20.0</version>
+				<version>${guava.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.squareup.okhttp3</groupId>
 				<artifactId>okhttp</artifactId>
 				<version>${okhttp.version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.janeluo</groupId>
 				<artifactId>ikanalyzer</artifactId>
-				<version>2012_u6</version>
+				<version>${ikanalyzer.version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>com.esotericsoftware</groupId>
+				<artifactId>kryo-shaded</artifactId>
+				<version>${kryo-shaded.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
 	<dependencies>
-
 	</dependencies>
 
 	<build>
@@ -237,49 +234,6 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			<!--<plugin>-->
-				<!--<groupId>org.apache.tomcat.maven</groupId>-->
-				<!--<artifactId>tomcat7-maven-plugin</artifactId>-->
-				<!--<version>2.2</version>-->
-				<!--<configuration>-->
-					<!--<uriEncoding>UTF-8</uriEncoding>-->
-				<!--</configuration>-->
-			<!--</plugin>-->
-			<!--<plugin>-->
-				<!--<groupId>org.eclipse.jetty</groupId>-->
-				<!--<artifactId>jetty-maven-plugin</artifactId>-->
-				<!--<version>9.4.2.v20170220</version>-->
-				<!--<configuration>-->
-					<!--<scanIntervalSeconds>10</scanIntervalSeconds>-->
-					<!--<webAppConfig>-->
-						<!--<contextPath>/${project.artifactId}</contextPath>-->
-					<!--</webAppConfig>-->
-				<!--</configuration>-->
-			<!--</plugin>-->
-			<!--<plugin>-->
-				<!--<groupId>org.apache.maven.plugins</groupId>-->
-				<!--<artifactId>maven-surefire-plugin</artifactId>-->
-				<!--<version>2.19.1</version>-->
-				<!--<configuration>-->
-					<!--<skipTests>true</skipTests>-->
-				<!--</configuration>-->
-			<!--</plugin>-->
-
-
-			<!--<plugin>-->
-			<!--	<groupId>org.jacoco</groupId>-->
-			<!--	<artifactId>jacoco-maven-plugin</artifactId>-->
-			<!--	<version>0.7.9</version>-->
-			<!--	<executions>-->
-			<!--		<execution>-->
-			<!--			<id>report-aggregate</id>-->
-			<!--			<phase>verify</phase>-->
-			<!--			<goals>-->
-			<!--				<goal>report-aggregate</goal>-->
-			<!--			</goals>-->
-			<!--		</execution>-->
-			<!--	</executions>-->
-			<!--</plugin>-->
 		</plugins>
 	</build>
 </project>

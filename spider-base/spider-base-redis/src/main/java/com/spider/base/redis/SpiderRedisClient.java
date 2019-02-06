@@ -1,15 +1,14 @@
 package com.spider.base.redis;
 
-import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
-import redis.clients.jedis.JedisShardInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import redis.clients.jedis.ShardedJedisPool;
-import redis.clients.util.Hashing;
-import redis.clients.util.Sharded;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Map;
 
 public class SpiderRedisClient {
+
+    private final static Logger logger = LoggerFactory.getLogger(SpiderRedisClient.class);
 
     private static  final SpiderRedisClient spiderRedisClient = new SpiderRedisClient();
 
@@ -17,27 +16,9 @@ public class SpiderRedisClient {
         return spiderRedisClient;
     }
 
-    public ShardedJedisPool getShardedJedisPool(){
-        //  配置信息
-        GenericObjectPoolConfig poolConfig = new GenericObjectPoolConfig();
-        // 设置最大连接数
-        poolConfig.setMaxTotal(200);
-        // 设置最大空闲数
-        poolConfig.setMaxIdle(8);
-        // 设置最大等待时间
-        poolConfig.setMaxWaitMillis(1000 * 100);
-        // 在borrow一个jedis实例时，是否需要验证，若为true，则所有jedis实例均是可用的
-        poolConfig.setTestOnBorrow(true);
-        //  redis集群配置
-        List<JedisShardInfo> shardsList = new ArrayList<>();
-        JedisShardInfo jedisShardInfo = new JedisShardInfo("127.0.0.1", 6379, 3000);
-        shardsList.add(jedisShardInfo);
-        return new ShardedJedisPool(poolConfig, shardsList, Hashing.MURMUR_HASH, Sharded.DEFAULT_KEY_TAG_PATTERN);
-    }
-
     /** redis分布式锁 */
-    public boolean setNx(String key, String value, int expireTime){
-        ShardedJedisPool shardedJedisPool = this.getShardedJedisPool();
+    public static boolean setNx(String key, String value, int expireTime){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
         long setFlag = 0;
         try {
             setFlag = shardedJedisPool.getResource().setnx(key, value);
@@ -47,4 +28,50 @@ public class SpiderRedisClient {
         }
         return setFlag>0;
     }
+
+    /** 获取key的value */
+    public static String get(String key) {
+        if(key == null){
+            logger.warn("入参key为空");
+            return null;
+        }
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().get(key);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    /** 获取key的value */
+    public static Map<String,String> getHashMap(String key) {
+        if(key == null){
+            logger.warn("入参key为空");
+            return null;
+        }
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().hgetAll(key);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    /**
+     * @param key
+     * @param value
+     * @param expireSec 超时时间
+     * 说明： nxxx 表示：NX|XX, NX -- Only set the key if it does not already exist. XX -- Only set the key if it already exist.
+     *        expx 表示：EX|PX, expire time units: EX = seconds; PX = milliseconds*/
+
+    public static String set(String key, String value, final long expireSec){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().set(key, value, "NX", "EX", expireSec);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+
 }

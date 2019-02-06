@@ -129,7 +129,7 @@
 
 		<!--<dependency>-->
 			<!--<groupId>com.spider.base</groupId>-->
-			<!--<artifactId>spider-base-dubbo</artifactId>-->
+			<!--<artifactId>spider-base-context</artifactId>-->
 			<!--<version>1.0.0-SNAPSHOT</version>-->
 		<!--</dependency>-->
 

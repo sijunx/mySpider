@@ -30,7 +30,9 @@
         <module name="spider-scrawl-service-impl" />
         <module name="spider-scrawl-service-impl (1)" />
         <module name="spider-search-papp" />
+        <module name="spider-user-embed" />
         <module name="spider-user-papp" />
+        <module name="spider-user-pc" />
         <module name="spider-user-service-api" />
         <module name="spider-user-service-impl" />
         <module name="spider-user-service-provider" />
@@ -83,8 +85,10 @@
       <module name="spider-service-parent" target="1.7" />
       <module name="spider-service-parentpom" target="1.7" />
       <module name="spider-user" target="1.8" />
+      <module name="spider-user-embed" target="1.8" />
       <module name="spider-user-papp" target="1.8" />
       <module name="spider-user-parent" target="1.8" />
+      <module name="spider-user-pc" target="1.8" />
       <module name="spider-user-service-api" target="1.8" />
       <module name="spider-user-service-impl" target="1.8" />
       <module name="spider-user-service-provider" target="1.8" />
@@ -103,6 +107,8 @@
       <module name="spider-scrawl-service-api" options="" />
       <module name="spider-scrawl-service-impl" options="" />
       <module name="spider-search-papp" options="" />
+      <module name="spider-user-embed" options="" />
+      <module name="spider-user-pc" options="" />
     </option>
   </component>
 </project>

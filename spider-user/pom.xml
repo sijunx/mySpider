@@ -77,8 +77,8 @@
             <!-- Dubbo依赖 -->
             <!--<dependency>-->
                 <!--<groupId>com.alibaba</groupId>-->
-                <!--<artifactId>dubbo</artifactId>-->
-                <!--&lt;!&ndash;<version>${dubbo.version}</version>&ndash;&gt;-->
+                <!--<artifactId>context</artifactId>-->
+                <!--&lt;!&ndash;<version>${context.version}</version>&ndash;&gt;-->
             <!--</dependency>-->
 
             <!--<dependency>-->

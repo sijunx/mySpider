@@ -19,7 +19,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- log4j日志 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -28,85 +27,58 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<!--<version>20.0</version>-->
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-		<!--<dependency>-->
-			<!--<groupId>org.seleniumhq.selenium</groupId>-->
-			<!--<artifactId>selenium-java</artifactId>-->
-			<!--<version>3.141.59</version>-->
-		<!--</dependency>-->
-
-
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<!--<version>1.2.41</version>-->
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
 		<dependency>
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
-			<!--<version>3.2.2</version>-->
 		</dependency>
-
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
-			<!--<version>1.10</version>-->
 		</dependency>
-
 		<dependency>
 			<groupId>com.squareup.okhttp3</groupId>
 			<artifactId>okhttp</artifactId>
-			<!--<version>${okhttp.version}</version>-->
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
-			<!--<version>1.9.3</version>-->
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
-			<!--<version>2.6</version>-->
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.janeluo/ikanalyzer -->
 		<dependency>
 			<groupId>com.janeluo</groupId>
 			<artifactId>ikanalyzer</artifactId>
-			<!--<version>2012_u6</version>-->
 		</dependency>
-
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<!--<version>4.3.14.RELEASE</version>-->
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
-			<!--<version>4.0.7.RELEASE</version>-->
 		</dependency>
-
+		<dependency>
+			<groupId>com.esotericsoftware</groupId>
+			<artifactId>kryo-shaded</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-data-redis</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

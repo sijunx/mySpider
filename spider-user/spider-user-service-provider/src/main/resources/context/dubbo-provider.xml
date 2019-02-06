@@ -19,6 +19,6 @@
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="com.spider.user.service.api.ISpiderUserInfoService" ref="userInfoService"/>
 
-    <!--<dubbo:service ref="userInfoService" interface="com.spider.user.service.api.ISpiderUserInfoServiceervice"/>-->
+    <!--<context:service ref="userInfoService" interface="com.spider.user.service.api.ISpiderUserInfoServiceervice"/>-->
 
 </beans>

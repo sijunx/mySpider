@@ -43,6 +43,7 @@ public class SpiderUserInfoServiceImpl implements ISpiderUserInfoService {
 
 
     @Override
+//    @SpiderGetDataSource(dataSource="dataSource_slave")
     public List<SpiderUserInfoServiceDto> findListByName(String name){
 
         String dataSourceStr = SpiderDynamicDataSourceHolder.getDbType();

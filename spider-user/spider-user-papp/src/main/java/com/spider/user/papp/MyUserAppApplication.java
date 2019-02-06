@@ -6,20 +6,17 @@ import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
-import java.io.IOException;
 
-@SpringBootApplication(exclude =
-		{
-				DataSourceAutoConfiguration.class,
-				HibernateJpaAutoConfiguration.class,
-				RedisAutoConfiguration.class,
-				KafkaAutoConfiguration.class
+@SpringBootApplication(exclude = {
+			DataSourceAutoConfiguration.class,
+			HibernateJpaAutoConfiguration.class,
+			RedisAutoConfiguration.class,
+			KafkaAutoConfiguration.class
 		})
-//@ComponentScan(basePackages={"com.spider.user.papp.*","com.spider.user.service.api"})
-@ImportResource(locations = {"classpath:dubbo/*.xml"})
+@ImportResource(locations = {"classpath:context/*.xml"})
+//@EnableRedisHttpSession(maxInactiveIntervalInSeconds= 3600)	//spring在多长时间后强制使redis中的session失效,默认是1800.(单位/秒)
 public class MyUserAppApplication {
 
 	public static void main(String[] args) {

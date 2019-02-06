@@ -1,1 +1,2 @@
+com\spider\base\redis\SpiderRedisPool.class
 com\spider\base\redis\SpiderRedisClient.class

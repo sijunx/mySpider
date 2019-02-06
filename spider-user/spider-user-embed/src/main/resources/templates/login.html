@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <meta charset="utf-8"/>
+    <title>Spring Session Demo</title>
+    <style type="text/css">
+      .wrapper {height: 200px; width: 500px; margin: 200px auto}
+      .error {color: red;}
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3 style="text-align:center">欢迎登录</h3>
+      <form th:action="@{/userLogin}" method="post">
+        <div class="form-group">
+          <label for="userName">用户名：</label>
+          <input class="form-control" type="text" name="userName" id="userName"/>
+        </div>
+        <div class="form-group">
+          <label for="password">密码：</label>
+          <input class="form-control" type="password" name="password" id="password"/>
+        </div>
+        <input class="btn btn-primary" type="submit" value="登录"/>
+        <p class="error" th:if="${errMsg}" th:text="${errMsg}"></p>
+      </form>
+    </div>
+  </body>
+</html>

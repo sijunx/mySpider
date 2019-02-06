@@ -3,8 +3,6 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-allparent/spider-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-allparent/spider-service-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-allparent/spider-web-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-es" charset="UTF-8" />
@@ -12,7 +10,6 @@
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-mybatis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-base/spider-base-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-zipkin" charset="UTF-8" />
@@ -35,8 +32,10 @@
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-user/spider-user-embed" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-papp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-user/spider-user-pc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-service-provider" charset="UTF-8" />
