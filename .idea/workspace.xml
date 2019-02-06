@@ -7,308 +7,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298e3ea3-0d76-409d-93de-ee09efd23660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_1_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_1_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/src/test/java/Redis01Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/serializer/SpiderKryoRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderIpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/serializer/SpiderKryoRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/context/application-interceptor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_dubbo_adapter_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spider_search_spider_search_facade_api_1_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spider_search_spider_search_facade_impl_1_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spider_search_spider_search_service_api_1_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spider_search_spider_search_service_impl_1_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-allparent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-allparent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderConsumerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderConsumerFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderProviderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderProviderFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/com/spider/base/dubbo/filter/SpiderConsumerFilter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/com/spider/base/dubbo/filter/SpiderConsumerFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/com/spider/base/dubbo/filter/SpiderConsumerFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/com/spider/base/dubbo/filter/SpiderProviderFilter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/com/spider/base/dubbo/filter/SpiderProviderFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/com/spider/base/dubbo/filter/SpiderProviderFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-kafka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-kafka.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/classes/com/spider/base/es/ElasticSearchClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/classes/com/spider/base/es/ElasticSearchClientUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/test-classes/esTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/test-classes/esTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-kafka.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/classes/conf/git.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/spider-base-job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/spider-base-job.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/test9090.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/zookeeper/DistributedLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/zookeeper/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/zookeeper/Watch001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/zookeeper/ZkClientWatcher1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/zookeeper/ZookeeperWatchTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/test9090.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/DistributedLock$LockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/DistributedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/Watch001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/ZkClientWatcher1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/ZkClientWatcher1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/test-classes/zookeeper/ZookeeperWatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/spider-base-mybatis.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/spider-base-mybatis.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/spider-base-mybatis.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/classes/com/spider/base/redis/SpiderRedisClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/classes/com/spider/base/redis/SpiderRedisClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/spider-base-redis-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/spider-base-redis-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderSpringContextUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/classes/com/spider/base/utils/SpiderSpringContextUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/serializer/SpiderKryoRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/classes/com/spider/base/serializer/SpiderKryoRedisSerializer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/test-classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/classes/conf/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist-parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist-parent/spider-dist-parent.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/classes/com/spider/dist/facade/api/ISpiderDistScrawlFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/classes/com/spider/dist/facade/api/ISpiderDistScrawlFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeErrorCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeErrorCodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/spider-dist-facade-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/target/spider-dist-facade-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/impl/SpiderDistScrawlFacadeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/impl/SpiderDistScrawlFacadeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/thread/SpiderDistPollThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/thread/SpiderDistPollThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/thread/SpiderDistProcessThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/thread/SpiderDistProcessThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/thread/SpiderDistPushThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/classes/com/spider/dist/facade/thread/SpiderDistPushThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderDistScrawlFacadeImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderDistScrawlFacadeImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderPollFromDataCenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderPollFromDataCenterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderPushDataCenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderPushDataCenterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderTextSummaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/test-classes/com/spider/dist/facade/impl/SpiderTextSummaryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderAuditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderAuditService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderKeyWordExtractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderKeyWordExtractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderScrawlUrlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderScrawlUrlService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderSummaryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/api/ISpiderSummaryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/dto/SpiderUrlDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/dto/SpiderUrlDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/enums/SpiderHttpCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/enums/SpiderHttpCodeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/enums/SpiderUrlStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/enums/SpiderUrlStatusEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/exception/SpiderServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/dist/service/exception/SpiderServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/search/service/error/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/search/service/error/ErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/search/service/exception/SpiderServiceErrorCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/classes/com/spider/search/service/exception/SpiderServiceErrorCodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/spider-dist-facade-impl-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/target/spider-dist-facade-impl-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/spider-dist-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/spider-dist-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/spider-dist-service-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/target/spider-dist-service-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/constant/SpiderServerConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/constant/SpiderServerConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/constant/SpiderTicketConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/constant/SpiderTicketConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderAuditServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderAuditServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderKeyWordExtractServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderKeyWordExtractServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderKeyWordExtractServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderKeyWordExtractServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderScrawlUrlServivceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderScrawlUrlServivceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderSummaryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/impl/SpiderSummaryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/util/SpiderDistScrawlContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/classes/com/spider/dist/service/util/SpiderDistScrawlContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/MyTest001.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/MyTest001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/SpiderBaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/SpiderBaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/SpiderKeyWordExtractServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/SpiderKeyWordExtractServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/SpiderScrawlUrlServivceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/test-classes/com/spider/dist/service/impl/SpiderScrawlUrlServivceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/spider-dist.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/target/spider-dist.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/spider-openapi-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/spider-openapi-scrawl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/spider-scrawl-job-scrawl01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/spider-scrawl-job-scrawl01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/classes/com/spider/search/facade/api/ISpiderUrlFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/classes/com/spider/search/facade/api/ISpiderUrlFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeErrorCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeErrorCodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/classes/com/spider/search/facade/exception/SpiderFacadeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/spider-scrawl-facade-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/target/spider-scrawl-facade-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/target/classes/com/spider/search/facade/impl/SpiderUrlFacadeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/target/classes/com/spider/search/facade/impl/SpiderUrlFacadeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/AuditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/AuditService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/BlackWordsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/BlackWordsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/FileDownloadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/FileDownloadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/FlowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/FlowService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/HotsCalNodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/HotsCalNodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/HotsCalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/HotsCalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/InputDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/InputDataService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/KeyExtractNodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/KeyExtractNodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/KeyExtractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/KeyExtractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/KeyWordsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/KeyWordsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ReverseIndexCalNodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ReverseIndexCalNodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ReverseIndexCalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ReverseIndexCalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ReverseIndexService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/ReverseIndexService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SimilarCalNodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SimilarCalNodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SimilarCalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SimilarCalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderBaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderBaseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderCalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderCalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderThreadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderThreadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderUrlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SpiderUrlService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SummaryExtractNodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SummaryExtractNodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SummaryExtractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/SummaryExtractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/TopicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/TopicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/UrlDataExtractNodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/UrlDataExtractNodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/UrlSimilarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/UrlSimilarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/WordsDicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/api/mongo/WordsDicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/DocQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/DocQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/InputDataServiceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/InputDataServiceDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/SpiderUrlServiceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/SpiderUrlServiceDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/SpiderUrlSimilarServiceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/dto/SpiderUrlSimilarServiceDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/error/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/error/ErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/exception/SpiderServiceErrorCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/exception/SpiderServiceErrorCodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/exception/SpiderServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/classes/com/spider/search/service/exception/SpiderServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/target/spider-scrawl-facade-impl-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/target/spider-scrawl-facade-impl-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/spider-scrawl-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/spider-scrawl-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/spider-scrawl-service-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/target/spider-scrawl-service-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/enums/SpiderNodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/enums/SpiderNodeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/AbstractSpiderBaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/AbstractSpiderBaseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/AuditServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/AuditServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/BlackWordsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/BlackWordsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/FileDownloadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/FileDownloadServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/FlowServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/FlowServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/HotsCalNodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/HotsCalNodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/ImageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/ImageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/InputDataServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/InputDataServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/KeyExtractNodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/KeyExtractNodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/KeyWordsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/KeyWordsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/ReverseIndexCalNodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/ReverseIndexCalNodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/ReverseIndexServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/ReverseIndexServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SimilarCalNodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SimilarCalNodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SoServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SoServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SoServiceImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SoServiceImpl$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SpiderUrlServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SpiderUrlServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SummaryExtractNodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/SummaryExtractNodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/TopicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/TopicServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/UrlDataExtractNodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/UrlDataExtractNodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/UrlSimilarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/UrlSimilarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/WordsDicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/WordsDicServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/HotsCalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/HotsCalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/KeyExtractServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/KeyExtractServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/ReverseIndexCalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/ReverseIndexCalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/SimilarCalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/SimilarCalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/SpiderCalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/SpiderCalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/SummaryExtractServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/cal/SummaryExtractServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/HotsThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/HotsThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/KeyExtractThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/KeyExtractThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/KeyExtractThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/KeyExtractThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/ReverseIndexThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/ReverseIndexThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/SimilarThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/SimilarThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/SpiderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/SpiderThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/SummaryExtractThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/impl/mongo/thread/SummaryExtractThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/util/SimilarUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/util/SimilarUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/util/SpiderQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/classes/com/spider/search/service/util/SpiderQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/MyTest001.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/MyTest001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/MyThread001.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/MyThread001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/NIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/NIOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/NIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/NIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/ThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/test-classes/com/spider/search/service/impl/ThreadLocalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/spider-search.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/target/spider-search.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/SpiderConsumerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/ConsumerFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/dubbo/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/context/dubboConsumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/META-INF/spider-user-papp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/MyUserAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/MyUserAppApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/controller/SpiderUserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/controller/SpiderUserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/filter/SpiderConsumerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/dubbo/dubbo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/search/service/error/ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/search/service/exception/SpiderServiceErrorCodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/search/service/exception/SpiderServiceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/user/service/api/ISpiderUserCouponService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/user/service/api/ISpiderUserInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/classes/com/spider/user/service/dto/SpiderUserInfoServiceDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-api/target/spider-user-service-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/interceptor/AuthorizeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/interceptor/AuthorizeInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-parent/spider-user-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dbcp/SpiderDynamicDataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dbcp/SpiderDynamicDataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/impl/SpiderUserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/impl/SpiderUserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/api/ISpiderUserInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/entity/SpiderUserInfoEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/impl/SpiderUserInfoDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/impl/mapper/SpiderUserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dao/impl/mapper/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/SpiderDynamicDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/SpiderDynamicDataSourceAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/SpiderDynamicDataSourceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/SpiderGetDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/dao/api/ISpiderBaseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/dao/entity/SpiderBaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/dao/impl/SpiderBaseDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/dbcp/dao/mapper/SpiderBaseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/impl/SpiderUserCouponImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/com/spider/user/service/impl/SpiderUserInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/classes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/spider-user-service-impl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/com/spider/user/service/impl/SpiderBaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/conf/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/conf/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/context/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/target/test-classes/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/dubbo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/target/classes/context/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/target/classes/context/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/MyUserServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/MyUserServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/filter/SpiderProviderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/filter/SpiderProviderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/target/classes/com/spider/user/provider/MyUserServiceProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/target/classes/com/spider/user/provider/MyUserServiceProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/target/classes/com/spider/user/provider/filter/SpiderProviderFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/target/classes/com/spider/user/provider/filter/SpiderProviderFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/" />
@@ -398,11 +237,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="356">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="95" column="8" selection-start-line="95" selection-start-column="12" selection-end-line="99" selection-end-column="25" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -422,13 +270,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SpiderSpringContextUtil</find>
-      <find>mogo.hulu.redis</find>
-      <find>jedisPoolConfigSpringSession</find>
-      <find>redis.session.maxIdle</find>
-      <find>redis.session</find>
-      <find>redis.database</find>
-      <find>redis..</find>
       <find>mogo</find>
       <find>mgzf</find>
       <find>&lt;artifactId&gt;commons-codec&lt;/artifactId&gt;</find>
@@ -452,6 +293,13 @@
       <find>sessionRedisTemplate</find>
       <find>connectionFactory</find>
       <find>&lt;artifactId&gt;kryo-shaded&lt;/artifactId&gt;</find>
+      <find>mongodb.driver.version</find>
+      <find>&lt;artifactId&gt;commons-pool2&lt;/artifactId&gt;</find>
+      <find>mybatis</find>
+      <find>okhttp.version</find>
+      <find>session</find>
+      <find>curator-framework</find>
+      <find>&lt;artifactId&gt;curator-framework&lt;/artifactId&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -479,8 +327,8 @@
       <dir>C:\git_mySpider_001\spider-user</dir>
       <dir>C:\git_mySpider_001\spider-base</dir>
       <dir>C:\git_mySpider_001\spider-user\spider-user-embed\src\main\resources\context</dir>
-      <dir>C:\git_mySpider_001</dir>
       <dir>C:\git_mySpider_001\spider-user\spider-user-embed</dir>
+      <dir>C:\git_mySpider_001</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -489,29 +337,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/impl/SpiderUserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderProviderFilter.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/QueueTest.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderIpUtil.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/SpiderInterceptor.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/ConsumerFilter.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-redis/src/test/java/Redis01Test.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisPool.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/context/dubboConsumer.xml" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/TokenInterceptor.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/context/application-interceptor.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/context/application-redis-session.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderConsumerFilter.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/MyUserAppApplication.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/interceptor/AuthorizeInterceptor.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/controller/SpiderUserLoginController.java" />
@@ -534,12 +363,31 @@
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-spider-redis.xml" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-redis-session.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/serializer/SpiderKryoRedisSerializer.java" />
-        <option value="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-job/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-allparent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java" />
+        <option value="$PROJECT_DIR$/spider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/filter/SpiderProviderFilter.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/MyUserServiceProviderApplication.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" />
       </list>
     </option>
   </component>
@@ -569,50 +417,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-base-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-base-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user-embed" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user-embed" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-user-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-test:1.5.9.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -644,93 +454,26 @@
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-allparent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-allparent" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="serializer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -738,7 +481,7 @@
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -747,39 +490,50 @@
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
+              <item name="papp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
+              <item name="papp" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="papp" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="papp" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -788,25 +542,52 @@
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -828,7 +609,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549445772133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549451279031" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbox_001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1128,7 +909,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyUserEmbedApplication">
+  <component name="RunManager" selected="Spring Boot.MyUserServiceProviderApplication (1)">
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueTest" />
       <module name="spider-base-utils" />
@@ -1328,7 +1109,7 @@
       <workItem from="1548467098916" duration="70979000" />
       <workItem from="1548772684398" duration="1656000" />
       <workItem from="1548811963461" duration="42693000" />
-      <workItem from="1548998440828" duration="25604000" />
+      <workItem from="1548998440828" duration="30839000" />
     </task>
     <task id="LOCAL-00001" summary="搜索ES模块独立">
       <created>1547722945939</created>
@@ -1373,13 +1154,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352691000" />
+    <option name="totallyTimeSpent" value="357926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23294243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23294243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1390,7 +1171,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3726977" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.48862407" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.40303358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1401,7 +1182,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3954496" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3900325" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.09859155" />
       <window_info anchor="bottom" id="REST Client" order="15" weight="0.531961" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1409,7 +1190,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.2249467" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.16577825" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -1728,291 +1509,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/filter/SpiderProviderFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../maven_repo/org/springframework/boot/spring-boot-dependencies/2.1.2.RELEASE/spring-boot-dependencies-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderSpringContextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dbcp/SpiderDynamicDataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/conf/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/conf/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/stereotype/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/config/annotation/web/http/SpringHttpSessionConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE.jar!/org/springframework/data/redis/core/AbstractOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE.jar!/org/springframework/data/redis/core/DefaultBoundHashOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#1686#1687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.3.0.RELEASE/spring-session-1.3.0.RELEASE.jar!/org/springframework/session/web/http/SessionRepositoryFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.3.0.RELEASE/spring-session-1.3.0.RELEASE.jar!/org/springframework/session/data/redis/RedisOperationsSessionRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="437" column="34" lean-forward="true" selection-start-line="437" selection-start-column="34" selection-end-line="437" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#20061#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE.jar!/org/springframework/data/redis/core/DefaultHashOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.3.RELEASE/spring-boot-starter-data-redis-1.5.3.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.2/objenesis-2.2.jar!/org/objenesis/strategy/StdInstantiatorStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/serializer/KryoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="103" column="36" lean-forward="true" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo-shaded/4.0.0/kryo-shaded-4.0.0.jar!/com/esotericsoftware/kryo/Kryo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19521">
-          <caret line="840" column="18" selection-start-line="840" selection-start-column="18" selection-end-line="840" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo-shaded/4.0.0/kryo-shaded-4.0.0-sources.jar!/com/esotericsoftware/kryo/Kryo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3375">
-          <caret line="118" column="42" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.2.RELEASE/spring-boot-starter-parent-1.5.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../maven_repo/org/springframework/boot/spring-boot-starter-parent/2.1.2.RELEASE/spring-boot-starter-parent-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="80" selection-start-line="80" selection-end-line="93" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/session/spring-session/1.3.0.RELEASE/spring-session-1.3.0.RELEASE.jar!/org/springframework/session/web/http/SessionRepositoryFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -2051,26 +1547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="843">
@@ -2091,18 +1567,330 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="216" column="34" selection-start-line="216" selection-start-column="34" selection-end-line="216" selection-end-column="34" />
+        <state relative-caret-position="378">
+          <caret line="71" column="16" selection-start-line="62" selection-start-column="8" selection-end-line="71" selection-end-column="16" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../maven_repo/org/apache/commons/commons-pool2/2.4.3/commons-pool2-2.4.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-mongo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="914">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-zookeeper/src/main/java/com/spider/base/zookeeper/DemoTestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/zookeeper/ZookeeperWatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/test9090.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-dist/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-allparent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/src/main/java/com/spider/dist/scrawl/MySpiderDistScrawlApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderConsumerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-dubbo/src/main/java/com/spider/base/dubbo/filter/SpiderProviderFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="105" column="86" selection-start-line="105" selection-start-column="86" selection-end-line="105" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/ConsumerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="116" selection-start-line="116" selection-end-line="119" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/filter/SpiderProviderFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/MyUserServiceProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="12" selection-end-line="99" selection-end-column="25" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -2161,7 +1949,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spider-dist-parent</last-edited>
+          <last-edited>spider-allparent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2174,7 +1962,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework.session:spring-session-data-redis:1.3.1.RELEASE</last-edited>
+          <last-edited>Maven: org.assertj:assertj-core:2.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

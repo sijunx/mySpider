@@ -9,7 +9,7 @@
 	<name>spider-user-embed</name>
 
 	<properties>
-
+		<spring-session-data-redis>1.3.1.RELEASE</spring-session-data-redis>
 		<kryo-shaded.version>4.0.0</kryo-shaded.version>
 		<spider-base-redis.version>1.0.0-SNAPSHOT</spider-base-redis.version>
 
@@ -58,7 +58,9 @@
 		<dependency>
 			<groupId>org.springframework.session</groupId>
 			<artifactId>spring-session-data-redis</artifactId>
+			<version>${spring-session-data-redis}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>com.esotericsoftware</groupId>
 			<artifactId>kryo-shaded</artifactId>

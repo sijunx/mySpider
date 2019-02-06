@@ -11,8 +11,6 @@ import org.springframework.context.annotation.ImportResource;
 
 import java.io.IOException;
 
-
-//@SpringBootApplication
 @SpringBootApplication(exclude =
 		{
 				DataSourceAutoConfiguration.class,
@@ -20,7 +18,6 @@ import java.io.IOException;
 				RedisAutoConfiguration.class,
 				KafkaAutoConfiguration.class
 		})
-//@ComponentScan(basePackages={"com.spider.user.service.api","com.spider.user.provider.service"})
 @ImportResource(locations = {"classpath:context/*.xml"})
 public class MyUserServiceProviderApplication {
 
@@ -28,9 +25,6 @@ public class MyUserServiceProviderApplication {
 
 		SpringApplication.run(MyUserServiceProviderApplication.class, args);
 
-
 	}
-
-
 }
 

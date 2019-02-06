@@ -19,7 +19,7 @@
 
 		<module>spider-base-redis</module>
 		<module>spider-base-mongo</module>
-		<!--<module>spider-base-es</module>-->
+		<module>spider-base-es</module>
 	</modules>
 
 	<parent>

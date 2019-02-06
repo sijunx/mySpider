@@ -14,10 +14,6 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<properties>
-		<okhttp.version>3.2.0</okhttp.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -75,19 +71,15 @@
 			<groupId>com.esotericsoftware</groupId>
 			<artifactId>kryo-shaded</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.session</groupId>
-			<artifactId>spring-session-data-redis</artifactId>
-		</dependency>
 	</dependencies>
 
-	<build>
-		<finalName>spider-base-utils</finalName>
-		<resources>
-			<resource>
-				<directory>src/main/resources/</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
-	</build>
+	<!--<build>-->
+		<!--<finalName>spider-base-utils</finalName>-->
+		<!--<resources>-->
+			<!--<resource>-->
+				<!--<directory>src/main/resources/</directory>-->
+				<!--<filtering>true</filtering>-->
+			<!--</resource>-->
+		<!--</resources>-->
+	<!--</build>-->
 </project>

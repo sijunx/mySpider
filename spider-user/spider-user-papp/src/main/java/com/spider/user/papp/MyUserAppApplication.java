@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.context.annotation.ImportResource;
 
-
 @SpringBootApplication(exclude = {
 			DataSourceAutoConfiguration.class,
 			HibernateJpaAutoConfiguration.class,
@@ -16,7 +15,6 @@ import org.springframework.context.annotation.ImportResource;
 			KafkaAutoConfiguration.class
 		})
 @ImportResource(locations = {"classpath:context/*.xml"})
-//@EnableRedisHttpSession(maxInactiveIntervalInSeconds= 3600)	//spring在多长时间后强制使redis中的session失效,默认是1800.(单位/秒)
 public class MyUserAppApplication {
 
 	public static void main(String[] args) {

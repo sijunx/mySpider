@@ -17,7 +17,7 @@
     <properties>
         <kafka-clients.version>1.0.0</kafka-clients.version>
         <kafka_2.11.version>1.0.0</kafka_2.11.version>
-        <commons.lang3.version>3.8.1</commons.lang3.version>
+        <spider-base-utils.version>1.0.0-SNAPSHOT</spider-base-utils.version>
     </properties>
 
     <dependencies>
@@ -26,7 +26,6 @@
             <artifactId>kafka-clients</artifactId>
             <version>${kafka-clients.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.11</artifactId>
@@ -38,31 +37,22 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>20.0</version>
         </dependency>
-
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.41</version>
         </dependency>
-
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
-            <version>3.2.2</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>${commons.lang3.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.spider.base</groupId>
             <artifactId>spider-base-utils</artifactId>
@@ -70,14 +60,14 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <finalName>spider-base-kafka</finalName>
-        <resources>
-            <!-- 先指定 src/main/resources下所有文件及文件夹为资源文件 -->
-            <resource>
-                <directory>src/main/resources/</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-    </build>
+    <!--<build>-->
+        <!--<finalName>spider-base-kafka</finalName>-->
+        <!--<resources>-->
+            <!--&lt;!&ndash; 先指定 src/main/resources下所有文件及文件夹为资源文件 &ndash;&gt;-->
+            <!--<resource>-->
+                <!--<directory>src/main/resources/</directory>-->
+                <!--<filtering>true</filtering>-->
+            <!--</resource>-->
+        <!--</resources>-->
+    <!--</build>-->
 </project>

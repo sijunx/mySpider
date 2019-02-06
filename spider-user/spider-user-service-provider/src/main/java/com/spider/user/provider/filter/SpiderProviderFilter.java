@@ -5,8 +5,6 @@ import com.alibaba.dubbo.rpc.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Map;
-
 @Activate(group = com.alibaba.dubbo.common.Constants.PROVIDER, order = -99)
 public class SpiderProviderFilter implements Filter{
 

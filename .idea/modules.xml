@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spider-allparent/spider-allparent.iml" filepath="$PROJECT_DIR$/spider-allparent/spider-allparent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base.iml" filepath="$PROJECT_DIR$/spider-base/spider-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" />
@@ -18,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/spider-dist-facade-api.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/spider-dist-facade-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist-parent/spider-dist-parent.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist-parent/spider-dist-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/spider-dist-service-api.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/spider-dist-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" />
@@ -28,8 +26,6 @@
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/spider-scrawl-facade-api.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/spider-scrawl-facade-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/spider-scrawl-job-scrawl01.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/spider-scrawl-job-scrawl01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-parent/spider-scrawl-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/spider-scrawl-service-api.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/spider-scrawl-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-search/spider-search.iml" filepath="$PROJECT_DIR$/spider-search/spider-search.iml" />
@@ -37,7 +33,6 @@
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user.iml" filepath="$PROJECT_DIR$/spider-user/spider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-parent/spider-user-parent.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-parent/spider-user-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-pc/spider-user-pc.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-pc/spider-user-pc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-service-api/spider-user-service-api.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-service-api/spider-user-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" />
