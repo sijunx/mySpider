@@ -41,6 +41,7 @@
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-spring/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

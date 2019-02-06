@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-mongo/spider-base-mongo.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-mongo/spider-base-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" />

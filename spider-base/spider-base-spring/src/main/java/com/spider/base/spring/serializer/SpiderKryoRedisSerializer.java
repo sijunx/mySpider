@@ -1,4 +1,4 @@
-package com.spider.user.embed.serializer;
+package com.spider.base.spring.serializer;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;

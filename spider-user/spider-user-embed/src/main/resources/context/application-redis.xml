@@ -34,7 +34,7 @@
 	</bean>
 
 	<bean id="stringRedisSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer" />
-	<bean id="kryoRedisSerializer" class="com.spider.user.embed.serializer.SpiderKryoRedisSerializer"/>
+	<bean id="kryoRedisSerializer" class="com.spider.base.spring.serializer.SpiderKryoRedisSerializer"/>
 
 	<bean  class="org.springframework.session.web.http.CookieHttpSessionStrategy">
 		<property name="cookieSerializer" ref="defaultCookieSerializer"></property>

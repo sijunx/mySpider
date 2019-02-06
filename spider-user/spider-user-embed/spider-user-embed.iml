@@ -90,5 +90,6 @@
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:4.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:4.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:4.7.2" level="project" />
+    <orderEntry type="module" module-name="spider-base-spring" />
   </component>
 </module>

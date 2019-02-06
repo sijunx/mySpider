@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -25,19 +24,15 @@ public class SpiderScrawlOpenApiController extends SpiderBaseController{
     @ResponseBody
     public SpiderResponseBody<List<String>> getSpiderUrl(){
         List<String> urlList = spiderUrlFacade.getToScrawlUrlList();
-//        List<String> urlList = new ArrayList<>();
-//        urlList.add("https://blog.csdn.net/qq_27376871/article/details/51612742");
+        logger.info("------获取到的数据:{}", JSON.toJSONString(urlList));
         return SpiderResponseBody.buildSucessResponse(urlList);
     }
 
     @RequestMapping(value = "/recvSpiderUrl", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
     public SpiderResponseBody recvSpiderUrl(@RequestParam(required = false) String data){
-
         JSONArray jsonArray = JSON.parseArray(data);
-
         logger.info("-------------收到推送过来的URL数据啦-------------------------------------------------------------");
-
         logger.info("data:{} ", data);
         logger.info("jsonArray:{}", jsonArray);
         return SpiderResponseBody.buildSucessResponse(null);

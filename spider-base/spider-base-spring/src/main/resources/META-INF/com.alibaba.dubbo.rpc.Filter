@@ -1,0 +1,2 @@
+spiderConsumerFilter=com.spider.base.dubbo.filter.SpiderConsumerFilter
+spiderProviderFilter=com.spider.base.dubbo.filter.SpiderProviderFilter

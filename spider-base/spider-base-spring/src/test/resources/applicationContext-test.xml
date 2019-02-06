@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:property-placeholder location="classpath:conf/*.properties" file-encoding="utf-8" />
+
+	<context:annotation-config />
+
+	<!-- 数据源配置 -->
+	<bean id="baseDataSource" abstract="true" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="removeAbandonedTimeout" value="${jdbc.removeAbandonedTimeout}" />
+		<property name="timeBetweenEvictionRunsMillis" value="${jdbc.timeBetweenEvictionRunsMillis}" />
+		<property name="testOnBorrow" value="${jdbc.testOnBorrow}" />
+		<property name="testOnReturn" value="${jdbc.testOnReturn}" />
+		<property name="testWhileIdle" value="true" />
+		<property name="validationQuery" value="select 'x' " />
+		<property name="logAbandoned" value="true" />
+		<!-- 开启Druid的监控统计功能 -->
+		<!-- <property enums="proxyFilters">
+			<list>
+				<ref bean="log-filter" />
+				<ref bean="stat-filter" />
+				<ref bean="wall-filter" />
+			</list>
+		</property> -->
+	</bean>
+
+
+	<!--定义数据源 DBCP 连接池 -->
+	<bean id="dataSource_master" parent="baseDataSource">
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+
+		<property name="initialSize" value="${jdbc.initialSize}" />
+		<property name="minIdle" value="${jdbc.minIdle}" />
+		<property name="maxActive" value="${jdbc.maxActive}" />
+
+	</bean>
+
+	<!--定义数据源 DBCP 连接池 -->
+	<bean id="dataSource_slave" parent="baseDataSource">
+		<property name="url" value="${jdbc.url_slave}" />
+		<property name="username" value="${jdbc.username_slave}" />
+		<property name="password" value="${jdbc.password_slave}" />
+
+		<property name="initialSize" value="${jdbc.initialSize}" />
+		<property name="minIdle" value="${jdbc.minIdle}" />
+		<property name="maxActive" value="${jdbc.maxActive}" />
+
+	</bean>
+
+	<!-- 配置动态分配的读写 数据源 -->
+	<bean id="dataSource" class="com.spider.search.service.aspect.ChooseDataSource" lazy-init="true">
+		<property name="targetDataSources">
+			<map key-type="java.lang.String" value-type="javax.sql.DataSource">
+				<!-- write -->
+				<entry key="write" value-ref="dataSource_master"/>
+				<!-- read -->
+				<entry key="read" value-ref="dataSource_slave"/>
+			</map>
+		</property>
+		<property name="defaultTargetDataSource" ref="dataSource_master"/>
+		<property name="methodType">
+			<map key-type="java.lang.String">
+				<!-- read -->
+				<entry key="read" value=",get,select,count,list,query"/>
+				<!-- write -->
+				<entry key="write" value=",add,create,update,delete,remove,"/>
+			</map>
+		</property>
+	</bean>
+
+	<!-- 	spring与mybatis整合配置，扫描所有Mapper -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
+		  p:basePackage="com.spider.search.service.dao.impl.mapper"
+		  p:sqlSessionFactoryBeanName="sqlSessionFactory">
+	</bean>
+	<!-- 配置事务管理器 -->
+	<bean id="txManager"
+		  class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="multipleDataSource" />
+	</bean>
+
+	<!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+        <!--<property enums="dataSource" ref="dataSource"/>-->
+        <!--<property enums="mapperLocations">-->
+            <!--<array>-->
+                <!--<value>classpath:*/com.spider.search.service.dao.impl.mapperxml/*.xml</value>-->
+            <!--</array>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+	<!-- 事务配置 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="multipleDataSource" />
+		<property name="globalRollbackOnParticipationFailure" value="false" /> <!--指定此参数为false、内层事务代理方法抛出的异常可由外层捕捉不处理 -->
+	</bean>
+
+
+	<!-- 配置的sqlSessionFactory 主要是由于新的分页和旧的分页插件不同 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="multipleDataSource" />
+		<property name="typeAliasesPackage" value="com.spider.*.service.dao.entity"/>
+		<property name="mapperLocations">
+			<!--<list>-->
+				<value>classpath*:com/spider/*/service/dao/impl/mapper/*.xml</value>
+				<!--<value>classpath*:com/spider/*/dao/impl/mapperxml/*.xml</value>-->
+			<!--</list>-->
+		</property>
+		<property name="plugins">
+				<!-- 分页插件 使用pagehelper 5.0.0 -->
+				<bean class="com.github.pagehelper.PageInterceptor">
+					<property name="properties">
+						<value>
+							helperDialect=mysql
+							reasonable=true
+							supportMethodsArguments=true
+							params=count=countSql
+							autoRuntimeDialect=true
+						</value>
+					</property>
+				</bean>
+			<!--</array>-->
+		</property>
+	</bean>
+
+	<!-- 扫描 basePackage下所有的接口，根据对应的mapper.xml为其生成代理类 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" >
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+		<property name="basePackage"
+				  value="com.spider.*.service.dao.impl.mapper,com.spider.*.dao.impl.mapper" />
+	</bean>
+
+	<!-- 扫描所有的service实现类，并注入依赖 -->
+	<context:component-scan base-package="com.spider.search.service" />
+
+</beans>
