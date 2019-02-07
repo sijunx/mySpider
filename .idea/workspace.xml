@@ -7,61 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298e3ea3-0d76-409d-93de-ee09efd23660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/main/resources/META-INF/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/main/resources/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/test/resources/applicationContext-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/test/resources/conf/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/test/resources/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/SpiderFilterConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-dubbo-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/target/spider-base-dubbo-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/target/spider-base-es-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/target/spider-base-es-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-job/target/spider-base-job-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/target/spider-base-kafka-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mongo/target/spider-base-mongo-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/spider-base-mybatis-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/target/spider-base-mybatis-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/target/spider-base-redis-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/target/spider-base-redis-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/target/spider-base-utils-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/target/spider-base-zipkin-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/classes/conf/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/classes/conf/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/target/spider-base-zookeeper-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/src/main/java/com/spider/openapi/scrawl/controller/SpiderScrawlOpenApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/src/main/java/com/spider/openapi/scrawl/controller/SpiderScrawlOpenApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/serializer/SpiderKryoRedisSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/src/main/java/com/spider/base/spring/serializer/SpiderKryoRedisSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/target/classes/com/spider/user/embed/MyUserEmbedApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/target/classes/com/spider/user/embed/MyUserEmbedApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/target/classes/com/spider/user/embed/serializer/SpiderKryoRedisSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/target/classes/context/application-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/target/classes/context/application-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/target/classes/com/spider/openapi/scrawl/controller/SpiderScrawlOpenApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/target/classes/com/spider/openapi/scrawl/controller/SpiderScrawlOpenApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/target/classes/com/spider/scrawl/job/MyScrawlJob01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/target/classes/com/spider/scrawl/job/controller/SpiderSearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/target/classes/com/spider/scrawl/job/service/MyScrawlJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01/target/classes/com/spider/scrawl/job/service/SpiderMessageProcessorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/filter/XssFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/target/classes/com/spider/user/papp/filter/XssFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spider-scrawl/spider-search/spider-search-facade-api/target/" />
@@ -136,6 +90,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/git_mySpider_001$MyUserAppApplication.ic" NAME="MyUserAppApplication Coverage Results" MODIFIED="1549455440777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="121" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -155,55 +112,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-spring/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-redis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -211,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="536">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,10 +139,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="162">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -232,29 +168,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+            <state relative-caret-position="293">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/../maven_repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletRequestWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/ConsumerFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -273,7 +202,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;artifactId&gt;commons-codec&lt;/artifactId&gt;</find>
       <find>KryoUtil</find>
       <find>writeToByteArray</find>
       <find>EMPTY_ARRAY</find>
@@ -303,6 +231,7 @@
       <find>&lt;artifactId&gt;curator-framework&lt;/artifactId&gt;</find>
       <find>spring.version</find>
       <find>&lt;spring.version&gt;5.1.4.RELEASE&lt;/spring.version&gt;</find>
+      <find>XssFilter</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -340,8 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/MyUserAppApplication.java" />
-        <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/interceptor/AuthorizeInterceptor.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/controller/SpiderUserLoginController.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/java/com/spider/user/pc/controller/SpiderUserInfoController.java" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-pc/src/main/resources/application.properties" />
@@ -391,6 +318,8 @@
         <option value="$PROJECT_DIR$/spider-base/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/pom.xml" />
         <option value="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/context/application-redis.xml" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/SpiderFilterConfig.java" />
+        <option value="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java" />
       </list>
     </option>
   </component>
@@ -461,152 +390,7 @@
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="serializer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
               <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
@@ -701,7 +485,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549461112374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549509994502" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbox_001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1001,7 +785,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyUserEmbedApplication">
+  <component name="RunManager" selected="Spring Boot.MyUserAppApplication">
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueTest" />
       <module name="spider-base-utils" />
@@ -1201,7 +985,7 @@
       <workItem from="1548467098916" duration="70979000" />
       <workItem from="1548772684398" duration="1656000" />
       <workItem from="1548811963461" duration="42693000" />
-      <workItem from="1548998440828" duration="33683000" />
+      <workItem from="1548998440828" duration="38290000" />
     </task>
     <task id="LOCAL-00001" summary="搜索ES模块独立">
       <created>1547722945939</created>
@@ -1246,7 +1030,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360770000" />
+    <option name="totallyTimeSpent" value="365377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1263,7 +1047,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3726977" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.6782232" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3066089" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1276,7 +1060,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.42036837" />
       <window_info anchor="bottom" id="REST Client" order="15" weight="0.531961" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50086355" side_tool="true" weight="0.16577825" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50086355" side_tool="true" visible="true" weight="0.16577825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1502,36 +1286,6 @@
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java</url>
           <line>50</line>
           <properties />
@@ -1549,11 +1303,42 @@
           <properties />
           <option name="timeStamp" value="159" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>xssRequest.getParameter(&quot;phone&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>xssRequest.getParameter(&quot;name&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;phone&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;name&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>request.getSession().getAttribute(&quot;token&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -1574,92 +1359,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>shardedJedisPool</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>shardedJedisPool.getResource()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CURRENT_DATA_SOURCE.get()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>invocation</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>invocation.getInvoker()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-job/src/test/java/test9090.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-job/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-dist/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-allparent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-es/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1716,13 +1418,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/ConsumerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/filter/SpiderProviderFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1740,20 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-287">
@@ -1761,13 +1442,6 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1817,13 +1491,6 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/src/main/java/com/spider/openapi/scrawl/interceptor/SpiderOpenApiInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1925,16 +1592,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/MyUserEmbedApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
@@ -1959,37 +1616,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java">
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletRequestWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="486">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/resources/context/application-interceptor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/SpiderFilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/request/ServletWebRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#3476#3477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/annotation/RequestParamMethodArgumentResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolverComposite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/MyUserAppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/ConsumerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/interceptor/AuthorizeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/filter/XssHttpServletRequestWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="320">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven_repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23-sources.jar!/javax/servlet/http/HttpServletRequestWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
