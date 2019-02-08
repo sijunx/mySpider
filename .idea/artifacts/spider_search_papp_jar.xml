@@ -1,6 +1,9 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="spider-search-papp:jar">
+  <artifact type="jar" build-on-make="true" name="spider-search-papp:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/spider_search_papp_jar</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
     <root id="archive" name="spider-search-papp.jar">
       <element id="module-output" name="spider-search-papp" />
       <element id="module-output" name="spider-scrawl-facade-impl" />
@@ -57,6 +60,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/../maven_repo/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../maven_repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../maven_repo/com/fasterxml/jackson/core/jackson-core/2.8.10/jackson-core-2.8.10.jar" path-in-jar="/" />
+      <element id="module-output" name="spider-base-mongo" />
     </root>
   </artifact>
 </component>

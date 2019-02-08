@@ -19,7 +19,12 @@ public class KafkaProducerTest implements Runnable {
 	private final KafkaProducer<String, String> producer;
 	private final String topic;
 
-	
+	public static void main(String args[]) {
+		KafkaProducerTest test = new KafkaProducerTest("myTopic");
+		Thread thread = new Thread(test);
+		thread.start();
+	}
+
 	public KafkaProducerTest(String topicName) {
 		Properties props = new Properties();
 		props.put("bootstrap.servers", "121.40.187.38:9062");
@@ -65,11 +70,7 @@ public class KafkaProducerTest implements Runnable {
 		}
 	}
 	
-	public static void main(String args[]) {
-		KafkaProducerTest test = new KafkaProducerTest("test");
-		Thread thread = new Thread(test);
-		thread.start();
-	}
+
 	
 
 }

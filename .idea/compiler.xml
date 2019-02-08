@@ -22,6 +22,7 @@
         <module name="spider-dist-scrawl" />
         <module name="spider-dist-service-api" />
         <module name="spider-dist-service-impl" />
+        <module name="spider-job" />
         <module name="spider-openapi-scrawl" />
         <module name="spider-scrawl-facade-api" />
         <module name="spider-scrawl-facade-impl" />
@@ -67,6 +68,7 @@
       <module name="spider-dist-scrawl" target="1.8" />
       <module name="spider-dist-service-api" target="1.8" />
       <module name="spider-dist-service-impl" target="1.8" />
+      <module name="spider-job" target="1.8" />
       <module name="spider-openapi" target="1.5" />
       <module name="spider-openapi (1)" target="1.5" />
       <module name="spider-openapi-scrawl" target="1.8" />
@@ -76,6 +78,7 @@
       <module name="spider-scrawl-facade-impl" target="1.8" />
       <module name="spider-scrawl-job-scrawl" target="1.8" />
       <module name="spider-scrawl-job-scrawl01" target="1.8" />
+      <module name="spider-scrawl-papp" target="1.5" />
       <module name="spider-scrawl-parent" target="1.8" />
       <module name="spider-scrawl-search" target="1.5" />
       <module name="spider-scrawl-service-api" target="1.8" />

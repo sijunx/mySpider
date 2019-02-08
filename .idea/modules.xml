@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/spider-dist-service-api.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-api/spider-dist-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-job/spider-job.iml" filepath="$PROJECT_DIR$/spider-job/spider-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-openapi/spider-openapi.iml" filepath="$PROJECT_DIR$/spider-openapi/spider-openapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/spider-openapi-scrawl.iml" filepath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/spider-openapi-scrawl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-allparent/spider-parent/spider-parent.iml" filepath="$PROJECT_DIR$/spider-allparent/spider-parent/spider-parent.iml" />

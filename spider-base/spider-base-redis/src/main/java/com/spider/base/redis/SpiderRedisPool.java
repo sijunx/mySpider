@@ -37,7 +37,8 @@ public class SpiderRedisPool {
         poolConfig.setBlockWhenExhausted(false);
         //  redis集群配置
         List<JedisShardInfo> shardsList = new ArrayList<>();
-        JedisShardInfo jedisShardInfo = new JedisShardInfo("127.0.0.1", 6379, 3000);
+        JedisShardInfo jedisShardInfo = new JedisShardInfo("134.175.107.11", 6379, 3000);
+        jedisShardInfo.setPassword("121212");
         shardsList.add(jedisShardInfo);
         return new ShardedJedisPool(poolConfig, shardsList, Hashing.MURMUR_HASH, Sharded.DEFAULT_KEY_TAG_PATTERN);
     }

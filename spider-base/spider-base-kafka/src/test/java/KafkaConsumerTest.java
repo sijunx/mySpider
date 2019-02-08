@@ -26,8 +26,12 @@ public class KafkaConsumerTest implements Runnable {
 	private  String topic;
 	private static final String GROUPID = "myGroup";		//"groupE4";
 
-	
-	
+	public static void main(String args[]) {
+		KafkaConsumerTest test1 = new KafkaConsumerTest("myTopic");
+		Thread thread1 = new Thread(test1);
+		thread1.start();
+	}
+
 	public KafkaConsumerTest(String topicName) {
 		this.topic = topicName;
 		init();
@@ -99,13 +103,5 @@ public class KafkaConsumerTest implements Runnable {
 		this.consumer.subscribe(Arrays.asList(topic));
 		
 		System.out.println("初始化!");
-	}
-	
-	
-   
-	public static void main(String args[]) {
-		KafkaConsumerTest test1 = new KafkaConsumerTest("myTopic");
-		Thread thread1 = new Thread(test1);
-		thread1.start();
 	}
 }
