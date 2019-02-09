@@ -35,10 +35,14 @@
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user.iml" filepath="$PROJECT_DIR$/spider-user/spider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-pc/spider-user-pc.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-pc/spider-user-pc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-service-api/spider-user-service-api.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-service-api/spider-user-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-cosumer.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-cosumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" filepath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" />
     </modules>
   </component>
 </project>

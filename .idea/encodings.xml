@@ -25,7 +25,6 @@
     <file url="file://$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-job/spider-scrawl-job-scrawl01" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-scrawl-papp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-search" charset="UTF-8" />
@@ -38,5 +37,9 @@
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02" charset="UTF-8" />
   </component>
 </project>

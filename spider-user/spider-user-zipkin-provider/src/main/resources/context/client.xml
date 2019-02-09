@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!--&lt;!&ndash; consumer's application name, used for tracing dependency relationship (not a matching criterion),-->
+    <!--don't set it same as provider &ndash;&gt;-->
+    <!--<dubbo:application name="dubbo-client"/>-->
+
+    <!--&lt;!&ndash; use zookeeper registry center to discover service &ndash;&gt;-->
+    <!--<dubbo:registry address="zookeeper://127.0.0.1:2181"/>-->
+
+    <!--&lt;!&ndash; generate proxy for the remote service, then demoService can be used in the same way as the local regular interface &ndash;&gt;-->
+    <!--<dubbo:reference id="greetingService" check="false" interface="com.alibaba.dubbo.samples.api.GreetingService" filter="tracing"/>-->
+
+    <bean id="kafkaSender" class="zipkin2.reporter.beans.KafkaSenderFactoryBean">
+        <property name="topic" value="zipkinTopic"/>
+        <property name="bootstrapServers" value="121.40.187.38:9062"/>
+        <property name="encoding" value="JSON"/>
+    </bean>
+
+
+    <!--<bean id="sender" class="zipkin2.reporter.beans.OkHttpSenderFactoryBean">-->
+        <!--<property name="endpoint" value="http://localhost:9411/api/v2/spans"/>-->
+    <!--</bean>-->
+
+    <bean id="tracing" class="brave.spring.beans.TracingFactoryBean">
+        <property name="localServiceName" value="client"/>
+        <property name="spanReporter">
+            <bean class="zipkin2.reporter.beans.AsyncReporterFactoryBean">
+                <property name="sender" ref="kafkaSender"/>
+                <!-- wait up to half a second for any in-flight spans on close -->
+                <property name="closeTimeout" value="500"/>
+            </bean>
+        </property>
+        <property name="currentTraceContext">
+            <bean class="brave.spring.beans.CurrentTraceContextFactoryBean">
+                <property name="scopeDecorators">
+                    <bean class="brave.context.slf4j.MDCScopeDecorator" factory-method="create"/>
+                </property>
+            </bean>
+        </property>
+    </bean>
+</beans>

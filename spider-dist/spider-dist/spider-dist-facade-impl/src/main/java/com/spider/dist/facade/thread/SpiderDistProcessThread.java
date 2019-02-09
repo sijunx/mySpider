@@ -46,7 +46,7 @@ public class SpiderDistProcessThread implements Runnable{
 
         while(true) {
                 try {
-                Thread.sleep(5*1000);
+                Thread.sleep(30*1000);
                 //  启动线程爬取、加工数据
                 SpiderUrlDTO spiderUrlDTO = SpiderDistScrawlContext.getAndSetStartUrl();
                 logger.info("处理线程开始，获取url:{}", spiderUrlDTO!=null?spiderUrlDTO.getUrl():null);

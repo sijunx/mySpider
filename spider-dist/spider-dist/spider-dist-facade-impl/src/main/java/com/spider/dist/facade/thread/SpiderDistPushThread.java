@@ -34,7 +34,7 @@ public class SpiderDistPushThread implements Runnable{
     public void run(){
         try {
             while(true) {
-                Thread.sleep(20*1000);
+                Thread.sleep(30*1000);
                 //  获取处理通过的数据
                 List<SpiderUrlDTO> spiderUrlDTOList = SpiderDistScrawlContext.getAndSetPassedUrlList();
                 logger.info("获取推送数据:{}", spiderUrlDTOList);

@@ -20,6 +20,7 @@ public class MySpiderJobApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MySpiderJobApplication.class, args);
+		MyQuartz.start();
 	}
 
 }

@@ -2,24 +2,17 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
-
-/**
- * 
-* Title: KafkaConsumerTest
-* Description: 
-* kafka消费者 demo
-* 手动提交测试
-* Version:1.0.0  
-* @author pancm
-* @date 2018年1月26日
- */
 public class KafkaConsumerTest implements Runnable {
+
+	private final static Logger logger = LoggerFactory.getLogger(KafkaConsumerTest.class);
 
 	private KafkaConsumer<String, String> consumer;
 	private ConsumerRecords<String, String> msgList;
@@ -27,7 +20,7 @@ public class KafkaConsumerTest implements Runnable {
 	private static final String GROUPID = "myGroup";		//"groupE4";
 
 	public static void main(String args[]) {
-		KafkaConsumerTest test1 = new KafkaConsumerTest("myTopic");
+		KafkaConsumerTest test1 = new KafkaConsumerTest("zipkinTopic");
 		Thread thread1 = new Thread(test1);
 		thread1.start();
 	}

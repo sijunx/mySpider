@@ -1,20 +1,14 @@
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
-
-/**
- * 
-* Title: KafkaProducerTest
-* Description: 
-* kafka 生产者demo
-* Version:1.0.0  
-* @author pancm
-* @date 2018年1月26日
- */
 public class KafkaProducerTest implements Runnable {
+
+	private final static Logger logger = LoggerFactory.getLogger(KafkaProducerTest.class);
 
 	private final KafkaProducer<String, String> producer;
 	private final String topic;

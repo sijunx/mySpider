@@ -39,7 +39,7 @@ public class SpiderDistPollThread implements Runnable{
             Map<String, String> headMap = Maps.newHashMapWithExpectedSize(6);
             headMap.put("signature", SpiderTicketConstant.getTicket());
             while (true) {
-                Thread.sleep(10 * 1000);
+                Thread.sleep(60 * 1000);
                 if(SpiderDistScrawlContext.getSize()>=1000){
                     continue;
                 }

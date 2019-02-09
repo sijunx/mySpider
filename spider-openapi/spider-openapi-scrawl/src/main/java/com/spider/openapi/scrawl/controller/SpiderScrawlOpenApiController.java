@@ -3,6 +3,8 @@ package com.spider.openapi.scrawl.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.spider.base.dto.SpiderResponseBody;
+import com.spider.base.kafka.producer.SpiderKafkaProducerClient;
+import com.spider.openapi.scrawl.constant.SpiderTopicConstant;
 import com.spider.search.facade.api.ISpiderUrlFacade;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +37,7 @@ public class SpiderScrawlOpenApiController extends SpiderBaseController{
         logger.info("-------------收到推送过来的URL数据啦-------------------------------------------------------------");
         logger.info("data:{} ", data);
         logger.info("jsonArray:{}", jsonArray);
+        SpiderKafkaProducerClient.sendMessage(SpiderTopicConstant.SPIDER_DIST_TOPIC, data);
         return SpiderResponseBody.buildSucessResponse(null);
     }
 }

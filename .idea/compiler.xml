@@ -37,6 +37,11 @@
         <module name="spider-user-service-api" />
         <module name="spider-user-service-impl" />
         <module name="spider-user-service-provider" />
+        <module name="spider-user-zipkin" />
+        <module name="spider-user-zipkin-consumer" />
+        <module name="spider-user-zipkin-cosumer" />
+        <module name="spider-user-zipkin-provider" />
+        <module name="spider-user-zipkin-provider02" />
         <module name="spiderbaseredis" />
       </profile>
     </annotationProcessing>
@@ -96,6 +101,11 @@
       <module name="spider-user-service-api" target="1.8" />
       <module name="spider-user-service-impl" target="1.8" />
       <module name="spider-user-service-provider" target="1.8" />
+      <module name="spider-user-zipkin" target="1.8" />
+      <module name="spider-user-zipkin-consumer" target="1.8" />
+      <module name="spider-user-zipkin-cosumer" target="1.8" />
+      <module name="spider-user-zipkin-provider" target="1.8" />
+      <module name="spider-user-zipkin-provider02" target="1.8" />
       <module name="spider-web-parent" target="1.7" />
       <module name="spiderbase" target="1.7" />
       <module name="spiderbaselock" target="1.7" />
