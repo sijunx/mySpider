@@ -17,9 +17,8 @@
 
 	<properties>
 		<spider-user.version>1.0.0-SNAPSHOT</spider-user.version>
-		<spider-base-mybatis.version>1.0.0-SNAPSHOT</spider-base-mybatis.version>
-		<spider-base-dubbo.version>1.0.0-SNAPSHOT</spider-base-dubbo.version>
-		<dubbo.version>2.6.1</dubbo.version>
+		<spider-base.version>1.0.0-SNAPSHOT</spider-base.version>
+
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -54,22 +53,18 @@
 			<groupId>com.github.pagehelper</groupId>
 			<artifactId>pagehelper</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis-spring</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>dubbo</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.mybatis</groupId>-->
+			<!--<artifactId>mybatis-spring</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.mybatis</groupId>-->
+			<!--<artifactId>mybatis</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>mysql</groupId>-->
+			<!--<artifactId>mysql-connector-java</artifactId>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>com.101tec</groupId>
 			<artifactId>zkclient</artifactId>
@@ -91,18 +86,17 @@
 		<dependency>
 			<groupId>com.spider.base</groupId>
 			<artifactId>spider-base-mybatis</artifactId>
-			<version>${spider-base-mybatis.version}</version>
+			<version>${spider-base.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.spider.base</groupId>
 			<artifactId>spider-base-dubbo</artifactId>
-			<version>${spider-base-dubbo.version}</version>
+			<version>${spider-base.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
-			<version>${dubbo.version}</version>
+			<!--<version>${dubbo.version}</version>-->
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework</groupId>
@@ -128,5 +122,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

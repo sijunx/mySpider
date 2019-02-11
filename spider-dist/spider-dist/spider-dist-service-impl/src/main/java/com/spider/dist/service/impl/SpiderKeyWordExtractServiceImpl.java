@@ -1,7 +1,7 @@
 package com.spider.dist.service.impl;
 
-import com.spider.base.utils.SpiderKeyWordExtractUtil;
 import com.spider.dist.service.api.ISpiderKeyWordExtractService;
+import com.spider.dist.service.util.SpiderKeyWordExtractUtil;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

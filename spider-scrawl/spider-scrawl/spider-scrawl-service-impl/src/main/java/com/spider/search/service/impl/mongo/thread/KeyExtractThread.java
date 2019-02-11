@@ -2,12 +2,12 @@ package com.spider.search.service.impl.mongo.thread;
 
 import com.alibaba.fastjson.JSONObject;
 import com.mongodb.client.MongoDatabase;
-import com.spider.base.utils.SpiderKeyWordExtractUtil;
 import com.spider.search.service.api.mongo.AuditService;
 import com.spider.search.service.api.mongo.InputDataService;
 import com.spider.search.service.api.mongo.KeyExtractNodeService;
 import com.spider.search.service.api.mongo.KeyWordsService;
 import com.spider.search.service.dto.DocQueue;
+import com.spider.search.service.util.SpiderKeyWordExtractUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.bson.Document;

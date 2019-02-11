@@ -1,9 +1,9 @@
 package com.spider.search.service.impl.mongo;
 
-import com.spider.base.utils.SpiderKeyWordExtractUtil;
 import com.spider.search.service.api.mongo.ImageService;
 import com.spider.search.service.api.mongo.ReverseIndexService;
 import com.spider.search.service.api.mongo.SoService;
+import com.spider.search.service.util.SpiderKeyWordExtractUtil;
 import org.bson.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

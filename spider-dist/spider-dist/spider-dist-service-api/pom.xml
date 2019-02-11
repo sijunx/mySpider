@@ -25,6 +25,4 @@
 			<artifactId>mongodb-driver</artifactId>
 		</dependency>
 	</dependencies>
-
-
 </project>

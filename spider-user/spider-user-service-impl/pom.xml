@@ -10,8 +10,8 @@
 	</parent>
 
 	<properties>
-        <spider-base-mybatis.version>1.0.0-SNAPSHOT</spider-base-mybatis.version>
-
+        <spider-base.version>1.0.0-SNAPSHOT</spider-base.version>
+		<spider-user.version>1.0.0-SNAPSHOT</spider-user.version>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -26,12 +26,12 @@
 		<dependency>
 			<groupId>com.spider.user</groupId>
 			<artifactId>spider-user-service-api</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>${spider-user.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.spider.base</groupId>
 			<artifactId>spider-base-mybatis</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>${spider-base.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

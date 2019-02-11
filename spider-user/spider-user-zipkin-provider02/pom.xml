@@ -16,18 +16,16 @@
 	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
+		<spider-user.version>1.0.0-SNAPSHOT</spider-user.version>
+		<spider-base.version>1.0.0-SNAPSHOT</spider-base.version>
+
 		<brave.version>5.4.2</brave.version>
 		<zipkin-reporter.version>2.7.9</zipkin-reporter.version>
-
-		<spider-user.version>1.0.0-SNAPSHOT</spider-user.version>
-		<spider-base-mybatis.version>1.0.0-SNAPSHOT</spider-base-mybatis.version>
-		<spider-base-dubbo.version>1.0.0-SNAPSHOT</spider-base-dubbo.version>
 		<dubbo.version>2.6.1</dubbo.version>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-
 
 	<dependencyManagement>
 		<dependencies>
@@ -115,14 +113,13 @@
 		<dependency>
 			<groupId>com.spider.base</groupId>
 			<artifactId>spider-base-mybatis</artifactId>
-			<version>${spider-base-mybatis.version}</version>
+			<version>${spider-base.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.spider.base</groupId>
 			<artifactId>spider-base-dubbo</artifactId>
-			<version>${spider-base-dubbo.version}</version>
+			<version>${spider-base.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
@@ -142,7 +139,6 @@
 			<groupId>org.apache.curator</groupId>
 			<artifactId>curator-framework</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>io.zipkin.brave</groupId>
 			<artifactId>brave-instrumentation-dubbo-rpc</artifactId>
@@ -169,5 +165,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

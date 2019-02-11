@@ -9,6 +9,7 @@
 
 	<properties>
 		<spider-base.version>1.0.0-SNAPSHOT</spider-base.version>
+		<spider-user.version>1.0.0-SNAPSHOT</spider-user.version>
 		<brave.version>5.4.2</brave.version>
 		<zipkin-reporter.version>2.7.9</zipkin-reporter.version>
 		<dubbo.version>2.6.1</dubbo.version>
@@ -49,7 +50,7 @@
 		<dependency>
 			<groupId>com.spider.user</groupId>
 			<artifactId>spider-user-service-api</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>${spider-user.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.zipkin.brave</groupId>
@@ -67,7 +68,6 @@
 			<groupId>io.zipkin.reporter2</groupId>
 			<artifactId>zipkin-sender-okhttp3</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -87,20 +87,25 @@
 			<artifactId>commons-codec</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>dubbo</artifactId>
-			<version>${dubbo.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring-context</artifactId>
-				</exclusion>
-			</exclusions>
+			<groupId>com.spider.base</groupId>
+			<artifactId>spider-base-dubbo</artifactId>
+			<version>${spider-base.version}</version>
 		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.alibaba</groupId>-->
+			<!--<artifactId>dubbo</artifactId>-->
+			<!--&lt;!&ndash;<version>${dubbo.version}</version>&ndash;&gt;-->
+			<!--<exclusions>-->
+				<!--<exclusion>-->
+					<!--<groupId>org.springframework</groupId>-->
+					<!--<artifactId>spring</artifactId>-->
+				<!--</exclusion>-->
+				<!--<exclusion>-->
+					<!--<groupId>org.springframework</groupId>-->
+					<!--<artifactId>spring-context</artifactId>-->
+				<!--</exclusion>-->
+			<!--</exclusions>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>org.apache.curator</groupId>
 			<artifactId>curator-framework</artifactId>

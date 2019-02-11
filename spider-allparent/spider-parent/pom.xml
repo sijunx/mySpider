@@ -199,11 +199,11 @@
 				<artifactId>okhttp</artifactId>
 				<version>${okhttp.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>com.janeluo</groupId>
-				<artifactId>ikanalyzer</artifactId>
-				<version>${ikanalyzer.version}</version>
-			</dependency>
+			<!--<dependency>-->
+				<!--<groupId>com.janeluo</groupId>-->
+				<!--<artifactId>ikanalyzer</artifactId>-->
+				<!--<version>${ikanalyzer.version}</version>-->
+			<!--</dependency>-->
 			<dependency>
 				<groupId>com.esotericsoftware</groupId>
 				<artifactId>kryo-shaded</artifactId>

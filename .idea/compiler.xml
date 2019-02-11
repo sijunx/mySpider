@@ -73,6 +73,7 @@
       <module name="spider-dist-scrawl" target="1.8" />
       <module name="spider-dist-service-api" target="1.8" />
       <module name="spider-dist-service-impl" target="1.8" />
+      <module name="spider-doc" target="1.5" />
       <module name="spider-job" target="1.8" />
       <module name="spider-openapi" target="1.5" />
       <module name="spider-openapi (1)" target="1.5" />

@@ -15,8 +15,9 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
-        <java.version>1.8</java.version>
         <elasticsearch.version>6.2.2</elasticsearch.version>
+
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -38,15 +39,4 @@
             <version>${elasticsearch.version}</version>
         </dependency>
     </dependencies>
-
-    <!--<build>-->
-        <!--<finalName>spider-base-es</finalName>-->
-        <!--<resources>-->
-            <!--&lt;!&ndash; 先指定 src/main/resources下所有文件及文件夹为资源文件 &ndash;&gt;-->
-            <!--<resource>-->
-                <!--<directory>src/main/resources/</directory>-->
-                <!--<filtering>true</filtering>-->
-            <!--</resource>-->
-        <!--</resources>-->
-    <!--</build>-->
 </project>

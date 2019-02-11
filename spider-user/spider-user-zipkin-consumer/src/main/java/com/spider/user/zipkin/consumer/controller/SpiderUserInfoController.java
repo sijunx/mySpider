@@ -18,15 +18,15 @@ public class SpiderUserInfoController {
 
     @Autowired
     private ISpiderTest01Service test01Service;
-//    @Autowired
-//    private ISpiderTest02Service test02Service;
+    @Autowired
+    private ISpiderTest02Service test02Service;
 
     @RequestMapping(value = "/findById", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
     public String getSpiderUrl(){
         logger.info("消费方打印----调用输出----");
         test01Service.findById();
-//        test02Service.findById();
+        test02Service.findById();
         return "---------------------axxxx---------------";
     }
 }

@@ -49,7 +49,7 @@ public class KafkaProducerTest implements Runnable {
 					System.out.println("发送的信息:" + messageStr);
 				}
 				//生产100条就退出
-				if(messageNo%100==0){
+				if(messageNo%1000==0){
 					System.out.println("成功发送了"+messageNo+"条");
 					break;
 				}

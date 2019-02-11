@@ -18,6 +18,10 @@
         <kafka-clients.version>1.0.0</kafka-clients.version>
         <kafka_2.11.version>1.0.0</kafka_2.11.version>
         <spider-base-utils.version>1.0.0-SNAPSHOT</spider-base-utils.version>
+
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
@@ -56,18 +60,7 @@
         <dependency>
             <groupId>com.spider.base</groupId>
             <artifactId>spider-base-utils</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${spider-base-utils.version}</version>
         </dependency>
     </dependencies>
-
-    <!--<build>-->
-        <!--<finalName>spider-base-kafka</finalName>-->
-        <!--<resources>-->
-            <!--&lt;!&ndash; 先指定 src/main/resources下所有文件及文件夹为资源文件 &ndash;&gt;-->
-            <!--<resource>-->
-                <!--<directory>src/main/resources/</directory>-->
-                <!--<filtering>true</filtering>-->
-            <!--</resource>-->
-        <!--</resources>-->
-    <!--</build>-->
 </project>

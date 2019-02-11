@@ -17,7 +17,7 @@
     <dubbo:consumer check="false" />
 
     <dubbo:reference id="test01Service" interface="com.spider.user.service.api.ISpiderTest01Service"></dubbo:reference>
-    <!--<dubbo:reference id="test02Service" interface="com.spider.user.service.api.ISpiderTest02Service"></dubbo:reference>-->
+    <dubbo:reference id="test02Service" interface="com.spider.user.service.api.ISpiderTest02Service"></dubbo:reference>
 
     <bean id="sender" class="zipkin2.reporter.beans.OkHttpSenderFactoryBean">
         <property name="endpoint" value="http://localhost:9411/api/v2/spans"/>

@@ -1,6 +1,7 @@
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,9 +21,10 @@ public class KafkaConsumerTest implements Runnable {
 	private static final String GROUPID = "myGroup";		//"groupE4";
 
 	public static void main(String args[]) {
-		KafkaConsumerTest test1 = new KafkaConsumerTest("zipkinTopic");
+		KafkaConsumerTest test1 = new KafkaConsumerTest("myTopic");
 		Thread thread1 = new Thread(test1);
 		thread1.start();
+
 	}
 
 	public KafkaConsumerTest(String topicName) {
@@ -32,7 +34,7 @@ public class KafkaConsumerTest implements Runnable {
 	
 	@Override
 	public void run() {
-		System.out.println("---------开始消费---------");
+		logger.info("---------开始消费---------");
 		int messageNo = 1;
 		List<String> list=new ArrayList<String>();
 		List<Long> list2=new ArrayList<Long>();
@@ -40,20 +42,24 @@ public class KafkaConsumerTest implements Runnable {
 			for (;;) {
 				Thread.sleep(10*1000);
 					msgList = consumer.poll(100);
-					if(null!=msgList&&msgList.count()>0){
+//				java.util.Collection<org.apache.kafka.common.TopicPartition> partitions
+
+
+
+					if(null!=msgList && msgList.count()>0){
 					for (ConsumerRecord<String, String> record : msgList) {
-						if(messageNo%10==0){
-							System.out.println(messageNo+"=======receive: key = " + record.key() + ", value = " + record.value()+" offset==="+record.offset());
+						if(messageNo%10 == 0){
+							logger.info(messageNo+"=======receive: key = " + record.key() + ", value = " + record.value()+" offset==="+record.offset());
 						}
 						list.add(record.value());
 						list2.add(record.offset());
 						messageNo++;
 					}
-					if(list.size()==50){
+					if(list.size() == 50){
 						// 手动提交
 						consumer.commitSync();
-						System.out.println("成功提交"+list.size()+"条,此时的offset为:"+list2.get(49));
-					}else if(list.size()>50){
+						logger.info("成功提交"+list.size()+"条,此时的offset为:"+list2.get(49));
+					}else if(list.size() > 50){
 						consumer.close();
 						init();
 						list.clear();
@@ -94,7 +100,6 @@ public class KafkaConsumerTest implements Runnable {
 		this.consumer = new KafkaConsumer<String, String>(props);
 		//订阅主题列表topic
 		this.consumer.subscribe(Arrays.asList(topic));
-		
-		System.out.println("初始化!");
+		logger.info("初始化!");
 	}
 }

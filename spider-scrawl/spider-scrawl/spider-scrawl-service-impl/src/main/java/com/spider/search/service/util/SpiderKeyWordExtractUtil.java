@@ -1,4 +1,4 @@
-package com.spider.base.utils;
+package com.spider.search.service.util;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
