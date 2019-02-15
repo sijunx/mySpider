@@ -2,6 +2,7 @@ package com.spider.base.kafka.task;
 
 import com.spider.base.kafka.api.ISpiderMessageProcessor;
 import com.spider.base.kafka.util.SpiderConsumerRunFlag;
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -34,10 +35,12 @@ public class SpiderKafkaConsumerTask implements Runnable {
         while(SpiderConsumerRunFlag.getRunFlag().get()) {
             //  主要负责消费kafka消息
             ConsumerRecords<String, String> consumerRecords = consumer.poll(3000);
-            System.out.println("大小:" + consumerRecords.count());
-            for (ConsumerRecord<String, String> record : consumerRecords) {
-                logger.info("获取到消息的key:{} value:{}", record.key(), record.value());
-                spiderMessageProcessor.messageProcess(String.valueOf(record.value()));
+            logger.info("大小:", consumerRecords.count());
+            if(consumerRecords!=null && consumerRecords.count()>0){
+                for (ConsumerRecord<String, String> record : consumerRecords) {
+                    logger.info("获取到消息的key:{} value:{}", record.key(), record.value());
+                    spiderMessageProcessor.messageProcess(String.valueOf(record.value()));
+                }
             }
         }
     }

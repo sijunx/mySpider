@@ -17,6 +17,7 @@
         <module name="spider-base-utils" />
         <module name="spider-base-zipkin" />
         <module name="spider-base-zookeeper" />
+        <module name="spider-demo-thread" />
         <module name="spider-dist-facade-api" />
         <module name="spider-dist-facade-impl" />
         <module name="spider-dist-scrawl" />
@@ -66,6 +67,7 @@
       <module name="spider-base-zipkin" target="1.8" />
       <module name="spider-base-zookeeper" target="1.8" />
       <module name="spider-core" target="1.5" />
+      <module name="spider-demo-thread" target="1.8" />
       <module name="spider-dist" target="1.8" />
       <module name="spider-dist-facade-api" target="1.8" />
       <module name="spider-dist-facade-impl" target="1.8" />

@@ -7,7 +7,7 @@
 
     <parent>
 		<groupId>com.spider.dist</groupId>
-		<artifactId>spider-dist-parent</artifactId>
+		<artifactId>spider-dist</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 

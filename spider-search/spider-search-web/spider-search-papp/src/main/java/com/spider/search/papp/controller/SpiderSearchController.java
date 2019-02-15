@@ -2,15 +2,19 @@ package com.spider.search.papp.controller;
 
 import com.mongodb.client.MongoDatabase;
 import com.spider.base.mongo.MongoConnUtil;
-import com.spider.search.service.api.mongo.*;
+import com.spider.search.service.api.mongo.ImageService;
+import com.spider.search.service.api.mongo.InputDataService;
+import com.spider.search.service.api.mongo.SoService;
 import com.spider.search.service.dto.InputDataServiceDTO;
-import com.spider.search.service.impl.mongo.ImageServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.bson.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
@@ -28,18 +32,6 @@ public class SpiderSearchController{
 
     private final static Logger logger = LoggerFactory.getLogger(SpiderSearchController.class);
 
-    @Autowired
-    private SpiderCalService spiderCalService;
-    @Autowired
-    private KeyExtractService keyExtractService;
-    @Autowired
-    private SummaryExtractService summaryExtractService;
-    @Autowired
-    private SimilarCalService similarCalService;
-    @Autowired
-    private HotsCalService hotsCalService;
-    @Autowired
-    private ReverseIndexCalService reverseIndexCalService;
     @Autowired
     private InputDataService inputDataService;
     @Autowired

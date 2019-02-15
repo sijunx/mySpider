@@ -37,7 +37,7 @@ public class SpiderKafkaContext {
         List<KafkaConsumer<String, String>> kafkaConsumerList = topicConsumerMap.get(SpiderKafkaKeyMarker.getTopicGroupKey(topic, groupId));
         if(CollectionUtils.isEmpty(kafkaConsumerList)){
             //  获取分区数量
-            KafkaProducer<String, String> producer = topicProducerMap.get(SpiderKafkaKeyMarker.getTopicGroupKey(topic, groupId));
+            KafkaProducer<String, String> producer = topicProducerMap.get(SpiderKafkaKeyMarker.getTopicKey(topic));
             int partitions = 1;
             if(producer != null){
                 List<org.apache.kafka.common.PartitionInfo> partitionInfoList = producer.partitionsFor(topic);

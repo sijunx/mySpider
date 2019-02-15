@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spider-doc/pom.xml" />
         <option value="$PROJECT_DIR$/spider-allparent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-demo/spider-demo-thread/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
