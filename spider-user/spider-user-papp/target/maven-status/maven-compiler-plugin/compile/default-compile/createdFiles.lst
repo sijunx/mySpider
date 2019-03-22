@@ -1,0 +1,8 @@
+com\spider\user\papp\MyUserAppApplication.class
+com\spider\user\papp\controller\SpiderUserInfoController.class
+com\spider\user\papp\filter\XssHttpServletRequestWrapper.class
+com\spider\user\papp\controller\SpiderUserLoginController.class
+com\spider\user\papp\interceptor\AuthorizeInterceptor.class
+com\spider\user\papp\filter\XssFilter.class
+com\spider\user\papp\filter\ConsumerFilter.class
+com\spider\user\papp\SpiderFilterConfig.class

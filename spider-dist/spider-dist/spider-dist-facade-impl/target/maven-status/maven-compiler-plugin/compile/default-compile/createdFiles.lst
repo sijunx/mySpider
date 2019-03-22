@@ -1,0 +1,4 @@
+com\spider\dist\facade\thread\SpiderDistPollThread.class
+com\spider\dist\facade\thread\SpiderDistProcessThread.class
+com\spider\dist\facade\impl\SpiderDistScrawlFacadeImpl.class
+com\spider\dist\facade\thread\SpiderDistPushThread.class

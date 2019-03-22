@@ -23,7 +23,14 @@ public class SpiderUserInfoController {
 
     @RequestMapping(value = "/findById", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
-    public List<SpiderUserInfoServiceDto> getSpiderUrl(){
+    public List<SpiderUserInfoServiceDto> getSpiderUrl()throws Exception{
+
+
+//        Class<?> claz01 = Thread.currentThread().getContextClassLoader().loadClass("spiderUserInfoServiceImpl");
+//        Class<?> claz02 = Thread.currentThread().getContextClassLoader().loadClass("userInfoServiceProvider");
+
+
+
 //        List<String> urlList = spiderUrlFacade.getToScrawlUrlList();
         List<SpiderUserInfoServiceDto> userInfoServiceDtoList = userInfoService.findListByPhone("13999999999");
 //        logger.info("消费方打印----调用输出----userInfoDTO:{}", userInfoDTO);

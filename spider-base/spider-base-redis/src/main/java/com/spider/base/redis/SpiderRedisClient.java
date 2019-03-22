@@ -2,9 +2,13 @@ package com.spider.base.redis;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import redis.clients.jedis.ScanParams;
+import redis.clients.jedis.ScanResult;
 import redis.clients.jedis.ShardedJedisPool;
 
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class SpiderRedisClient {
 
@@ -73,5 +77,76 @@ public class SpiderRedisClient {
         }
     }
 
+    public static Object lpush(String key, String... value){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().lpush(key, value);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
 
+    public static String lpop(String key){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().lpop(key);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    public static String hmset(String key, Map<String, String> map){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().hmset(key, map);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    public static List<String> hmget(String key, String field){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().hmget(key, field);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    public static Long sadd(String key, String... value){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().sadd(key, value);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    public static Long srem(String key, String field){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().srem(key, field);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    /** 获取HashMap的key的汇总集合 */
+    public static Set<String> hkeys(String key){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().hkeys(key);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
+
+    public static ScanResult<Map.Entry<String, String>> hscan(String key, String cursor, ScanParams scanParams){
+        ShardedJedisPool shardedJedisPool = new SpiderRedisPool().getShardedJedisPool();
+        try {
+            return shardedJedisPool.getResource().hscan(key, cursor, scanParams);
+        }finally {
+            shardedJedisPool.close();
+        }
+    }
 }

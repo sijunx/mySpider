@@ -1,0 +1,3 @@
+com\spider\user\zipkin\provider02\service\Test02ServiceProvider.class
+com\spider\user\zipkin\provider02\filter\SpiderProviderFilter.class
+com\spider\user\zipkin\provider02\MyUserZipkinProvider02Application.class

@@ -28,14 +28,12 @@ public class SpiderDynamicDataSourceAspect {
             "||   execution( public *  com.spider..*ServiceImpl.*(..)) " +
             "))")
     public void dsPintCut() {
-        System.out.println("切点");
         logger.debug("进入切点-------------------------------------------");
     }
 
     @Before("dsPintCut()")
     public void beforeChangeDataSource(JoinPoint point)  {
         logger.debug("1111111进入切点之前before------------------------------");
-        System.out.println("切点进入before设置数据源");
         //  获取注解的dataSource
         Signature signature = point.getSignature();
         MethodSignature methodSignature = (MethodSignature) signature;

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Spring Session</title>
+  </head>
+  <body>
+    <p>登录成功！用户名：<span th:text="${session.userName}"></span></p>
+    <p>当前端口号：<span th:text="${#httpServletRequest.localPort}"></span></p>
+    <p>生成Session的端口号：<span th:text="${session.sessionPort}"></span></p>
+    <p>SessionId: <span th:text="${session.sessionId}"></span></p>
+    <p>spring_redis_session: <span th:text="${session.spring_redis_session}"></span></p>
+  </body>
+</html>

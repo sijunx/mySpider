@@ -1,8 +1,11 @@
 package com.spider.user.embed.controller;
 
 import com.spider.base.redis.SpiderRedisClient;
+import com.spider.user.embed.spring_listener.Booking;
+import com.spider.user.embed.spring_listener.BookingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,6 +22,17 @@ import java.util.UUID;
 public class SpiderUserLoginController {
 
     private final static Logger logger = LoggerFactory.getLogger(SpiderUserLoginController.class);
+
+    @Autowired
+    private BookingService bookingService;
+
+    @GetMapping("book")
+    public String book(HttpSession session) {
+        Booking booking = new Booking();
+        booking.setId(1);
+        bookingService.persistBooking(booking);
+        return "login";
+    }
 
     @RequestMapping(value = "/login000", method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody

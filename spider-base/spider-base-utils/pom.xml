@@ -73,5 +73,18 @@
 			<groupId>com.esotericsoftware</groupId>
 			<artifactId>kryo-shaded</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.33.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty</artifactId>
+			<version>3.7.0.Final</version>
+		</dependency>
+
 	</dependencies>
 </project>

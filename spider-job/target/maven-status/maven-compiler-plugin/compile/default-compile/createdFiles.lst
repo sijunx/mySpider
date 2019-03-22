@@ -1,0 +1,6 @@
+com\spider\job\MySpiderJobApplication.class
+com\spider\job\MyMessageProcessor.class
+com\spider\job\constant\SpiderTopicGroupContant.class
+com\spider\job\MyJob.class
+com\spider\job\controller\SpiderTestController.class
+com\spider\job\MyQuartz.class

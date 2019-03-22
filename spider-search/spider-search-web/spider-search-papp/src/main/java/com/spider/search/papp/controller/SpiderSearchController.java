@@ -42,6 +42,21 @@ public class SpiderSearchController{
     @RequestMapping(value={"list"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
     @ResponseBody
     public List<InputDataServiceDTO> list(ServletRequest request, HttpServletResponse response){
+        try {
+//            Class<?> claz01 = Thread.currentThread().getContextClassLoader().loadClass("SoServiceImpl");
+//            Class<?> claz03 = this.getClass().getClassLoader().loadClass("com.spider.search.service.impl.mongo.SoServiceImpl");
+            Class<?> claz02 = Thread.currentThread().getContextClassLoader().loadClass("com.spider.search.service.impl.mongo.SoServiceImpl");
+            SoService soService = (SoService)claz02.newInstance();
+            soService.soBySentence("爬虫");
+
+//            logger.info("claz01:"+claz01);
+
+            logger.info("claz02:"+claz02);
+//            logger.info("claz03:"+claz03);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
         logger.info("测试list-------------------------------------------------------------");
         MongoConnUtil mongoConnUtil = new MongoConnUtil();
         MongoDatabase mongoDatabase = mongoConnUtil.initConn();

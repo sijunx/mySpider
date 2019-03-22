@@ -45,6 +45,7 @@ public class NIOServer {
         while (true) {
             // 当注册的事件到达时，方法返回；否则,该方法会一直阻塞
             selector.select();
+
             // 获得selector中选中的项的迭代器，选中的项为注册的事件
             Iterator<SelectionKey> ite = this.selector.selectedKeys().iterator();
             while (ite.hasNext()) {

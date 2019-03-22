@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.google.common:google-collect:1.0-rc1">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/common/google-collect/1.0-rc1/google-collect-1.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../maven_repo/com/google/common/google-collect/1.0-rc1/google-collect-1.0-rc1.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/common/google-collect/1.0-rc1/google-collect-1.0-rc1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../maven_repo/com/google/common/google-collect/1.0-rc1/google-collect-1.0-rc1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/common/google-collect/1.0-rc1/google-collect-1.0-rc1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../maven_repo/com/google/common/google-collect/1.0-rc1/google-collect-1.0-rc1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

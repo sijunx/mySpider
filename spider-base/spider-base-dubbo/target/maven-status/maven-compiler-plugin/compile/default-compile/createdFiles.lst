@@ -1,0 +1,2 @@
+com\spider\base\dubbo\filter\SpiderProviderFilter.class
+com\spider\base\dubbo\filter\SpiderConsumerFilter.class

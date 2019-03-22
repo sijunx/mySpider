@@ -10,16 +10,16 @@ import java.util.Scanner;
 public class NIOClient {
 
     public static void main(String[] args) throws UnknownHostException, IOException {
-        Socket s = new Socket("localhost", 8765);
-        InputStream inStream = s.getInputStream();
-        OutputStream outStream = s.getOutputStream();
+        Socket socket = new Socket("localhost", 8765);
+        InputStream inputStream = socket.getInputStream();
+        OutputStream outputStream = socket.getOutputStream();
         // 输出
-        PrintWriter out = new PrintWriter(outStream, true);
+        PrintWriter out = new PrintWriter(outputStream, true);
         out.println("getPublicKey你好！");
         out.flush();
-        s.shutdownOutput();// 输出结束
+        socket.shutdownOutput();// 输出结束
         // 输入
-        Scanner in = new Scanner(inStream);
+        Scanner in = new Scanner(inputStream);
         StringBuilder sb = new StringBuilder();
         while (in.hasNextLine()) {
             String line = in.nextLine();

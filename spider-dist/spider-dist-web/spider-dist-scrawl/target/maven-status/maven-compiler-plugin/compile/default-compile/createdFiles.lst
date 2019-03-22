@@ -1,0 +1,3 @@
+com\spider\search\papp\config\CorsFilter.class
+com\spider\dist\scrawl\controller\SpiderDistScrawlController.class
+com\spider\dist\scrawl\MySpiderDistScrawlApplication.class

@@ -1,13 +1,28 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.Serializable;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueTest {
+public class QueueTest implements Serializable {
 
     private final static Logger logger = LoggerFactory.getLogger(QueueTest.class);
+
+    private String name;
+
+    public static Logger getLogger() {
+        return logger;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public static void main(String [] args) {
 

@@ -27,6 +27,16 @@ public class SpiderUserInfoController {
         logger.info("消费方打印----调用输出----");
         test01Service.findById();
         test02Service.findById();
+        try {
+            Class<?> claz01 = Thread.currentThread().getContextClassLoader().loadClass("SpiderUserInfoServiceImpl");
+            Class<?> claz02 = Thread.currentThread().getContextClassLoader().loadClass("UserInfoServiceProvider");
+
+            logger.info("claz01:"+claz01);
+            logger.info("claz02:"+claz02);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
         return "---------------------axxxx---------------";
     }
 }

@@ -41,7 +41,8 @@ public class NIOServer {
                 SelectionKey key = keyIter.next();
                 // 这种情况是有客户端连接过来,准备一个clientChannel与之通信
                 if (key.isAcceptable()) {
-                    SocketChannel clientChannel = ((ServerSocketChannel) key.channel()).accept();
+                    //  注意：转为ServerSocketChannel执行accept方法（非阻塞不同于BIO）
+                    SocketChannel clientChannel = ((ServerSocketChannel)key.channel()).accept();
                     clientChannel.configureBlocking(false);
                     clientChannel.register(selector, SelectionKey.OP_READ,
                             ByteBuffer.allocate(Buffer_Size));

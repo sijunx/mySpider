@@ -1,0 +1,5 @@
+C:\git_mySpider_001\spider-base\spider-base-mybatis\src\main\java\com\spider\base\mybatis\dao\mapper\SpiderBaseMapper.java
+C:\git_mySpider_001\spider-base\spider-base-mybatis\src\main\java\com\spider\base\mybatis\dao\entity\SpiderBaseEntity.java
+C:\git_mySpider_001\spider-base\spider-base-mybatis\src\main\java\com\spider\base\mybatis\dao\impl\SpiderBaseDaoImpl.java
+C:\git_mySpider_001\spider-base\spider-base-mybatis\src\main\java\com\spider\base\mybatis\dao\interceptor\SpiderSqlExplainInterceptor.java
+C:\git_mySpider_001\spider-base\spider-base-mybatis\src\main\java\com\spider\base\mybatis\dao\api\ISpiderBaseDao.java
