@@ -1,8 +1,0 @@
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\controller\SpiderUserLoginController.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\interceptor\AuthorizeInterceptor.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\MyUserAppApplication.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\controller\SpiderUserInfoController.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\filter\XssFilter.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\SpiderFilterConfig.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\filter\XssHttpServletRequestWrapper.java
-C:\git_mySpider_001\spider-user\spider-user-papp\src\main\java\com\spider\user\papp\filter\ConsumerFilter.java

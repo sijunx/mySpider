@@ -5,140 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b14182-d3d9-4f08-a4ef-cafde8fe90fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/src/main/java/com/spider/base/mybatis/dao/interceptor/SpiderSqlExplainInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/service_loader/My01Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/service_loader/My02Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/service_loader/MyInterface01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/service_loader/MyServiceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/resources/META-INF/services/com.spider.base.service_loader.MyInterface01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/CharsetNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/CyclicBarrier1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/Epoll/HttpHelloWorldServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/JdbcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/MyBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/MyCallAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/MyTest60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/MyThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/NotifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/PoolTest/TestNewScheduledThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/SerialzeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/SerialzeTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/TestMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/abstract_01/AbstractTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/abstract_01/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/call_back/TestCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/call_back/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/event_listener/EventProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/event_listener/ListenerRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/event_listener/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/event_listener/ValueChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/event_listener/ValueChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/event_listener/ValueChangeListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/file_copy/BufferReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/file_copy/Main01Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/Client01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/Client02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/Client03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/NamedThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test01/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test01/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/NioClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/NioServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/SocketClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/SocketServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/proxy/HelloWorldImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/proxy/HelloWorldInteface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/proxy/MyProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/proxy/myMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/serialize_test/Main01Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/serialize_test/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/serialize_test/SerialCtlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/serialize_test/StringByteSerializeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/service_loader/My01Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/service_loader/My02Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/service_loader/MyInterface01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/service_loader/MyInterface02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/service_loader/MyServiceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spi/HelloInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spi/ImageHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spi/SPIMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spi/TextHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spring_listener/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spring_listener/BookingCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spring_listener/BookingEventsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/spring_listener/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/thread_blocking_queue/InThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/thread_blocking_queue/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/thread_blocking_queue/OutThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/resources/META-INF/services/service_loader.My01Impl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/resources/META-INF/services/service_loader.My02Impl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/CharSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/FirstDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/MyThread01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/MyThread02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/SecondDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/SwitchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/SyschronizeMainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/SyschronizeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/ThirdDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/spring_listener/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/spring_listener/BookingCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/spring_listener/BookingEventsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/spring_listener/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_common_google_collect_1_0_rc1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_common_google_collect_1_0_rc1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/src/main/java/com/spider/base/redis/SpiderRedisClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/src/test/java/Redis01Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/src/test/java/Redis01Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/NIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/NIOClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-demo/spider-demo-thread/src/test/java/com/spider/demo/thread/test/NIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-job/spider-job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-job/spider-job.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/spider-openapi-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-openapi/spider-openapi-scrawl/spider-openapi-scrawl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/test/java/com/spider/search/service/impl/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/test/java/com/spider/search/service/impl/NIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/java/com/spider/user/embed/controller/SpiderUserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dbcp/SpiderDynamicDataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/main/java/com/spider/user/service/dbcp/SpiderDynamicDataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderTestOom.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderTestOom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/java/com/spider/user/service/impl/SpiderUserInfoServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/conf/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/src/test/resources/context/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/resources/context/dubbo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/src/main/java/com/spider/user/zipkin/consumer/controller/SpiderUserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/src/main/java/com/spider/user/zipkin/consumer/controller/SpiderUserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spider-allparent/target/" />
     <ignored path="$PROJECT_DIR$/spider-base/target/" />
@@ -214,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="312">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#368#369#0" expanded="true" />
@@ -1079,7 +946,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551855632278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553213171230" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_001/myxcom_reconnect/.project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -1308,7 +1175,7 @@
       <workItem from="1550575942711" duration="26766000" />
       <workItem from="1550920525123" duration="15619000" />
       <workItem from="1551012146729" duration="89336000" />
-      <workItem from="1551666828208" duration="43490000" />
+      <workItem from="1551666828208" duration="44505000" />
     </task>
     <task id="LOCAL-00001" summary="opt@master#:kafka 新增监控调试">
       <created>1549874474178</created>
@@ -1339,13 +1206,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224684000" />
+    <option name="totallyTimeSpent" value="225699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.19936034" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1361,7 +1227,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.46912244" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4907909" />
@@ -3326,8 +3192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="312">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
