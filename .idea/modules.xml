@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/spider-scrawl-service-api.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/spider-scrawl-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/spider-scrawl-service-provider.iml" filepath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/spider-scrawl-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-search/spider-search.iml" filepath="$PROJECT_DIR$/spider-search/spider-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" filepath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-user/spider-user.iml" filepath="$PROJECT_DIR$/spider-user/spider-user.iml" />

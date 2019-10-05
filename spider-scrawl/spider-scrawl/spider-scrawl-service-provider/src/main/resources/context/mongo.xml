@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:context="http://www.springframework.org/schema/context"
+          xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+          xsi:schemaLocation=
+          "http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd
+          http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    &lt;!&ndash; Spring连接MongoDB客户端配置 &ndash;&gt;-->
+<!--    <mongo:mongo-client host="134.175.107.11" port="27091" id="mongo"/>-->
+    <mongo:mongo-client host="134.175.107.11" port="27091" id="mongo"  credentials = "moon62:grubby62@myDb" />
+
+    <!-- 配置MongoDB目标数据库 -->
+    <mongo:db-factory dbname="myDb" mongo-ref="mongo" />
+
+    <!-- 配置MongoTemplate -->
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+      <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>
+    </bean>
+
+<!--    <mongo:mongo-client id="mongo" replica-set="134.175.107.11:27091" credentials = "moon62:grubby62@myDb" />-->
+
+<!--    <bean id = "mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">-->
+<!--        <constructor-arg name="mongo" ref="mongo" />-->
+<!--        <constructor-arg name="databaseName" value="myDb"/>-->
+<!--    </bean>-->
+
+</beans>

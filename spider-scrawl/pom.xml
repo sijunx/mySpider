@@ -18,6 +18,7 @@
         <module>spider-scrawl/spider-scrawl-facade-impl</module>
         <module>spider-scrawl/spider-scrawl-service-api</module>
         <module>spider-scrawl/spider-scrawl-service-impl</module>
+        <module>spider-scrawl/spider-scrawl-service-provider</module>
     </modules>
 
     <build>

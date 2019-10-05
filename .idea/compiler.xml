@@ -31,6 +31,7 @@
         <module name="spider-scrawl-service-api" />
         <module name="spider-scrawl-service-impl" />
         <module name="spider-scrawl-service-impl (1)" />
+        <module name="spider-scrawl-service-provider" />
         <module name="spider-search-papp" />
         <module name="spider-user-embed" />
         <module name="spider-user-papp" />
@@ -92,6 +93,7 @@
       <module name="spider-scrawl-service-api" target="1.8" />
       <module name="spider-scrawl-service-impl" target="1.8" />
       <module name="spider-scrawl-service-impl (1)" target="1.7" />
+      <module name="spider-scrawl-service-provider" target="1.8" />
       <module name="spider-search" target="1.5" />
       <module name="spider-search-papp" target="1.8" />
       <module name="spider-service-parent" target="1.7" />
