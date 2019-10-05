@@ -9,8 +9,15 @@
 
 	<context:property-placeholder location="classpath:conf/*.properties" file-encoding="utf-8" />
 
+	<!--<import resource="dubboConsumer.xml"/>-->
+
 	<context:annotation-config />
 
 	<!-- 扫描所有的service实现类，依赖注入 -->
-	<context:component-scan base-package="com.spider.*"/>
+	<!--<context:component-scan base-package="com.spider.*"/>-->
+
+
+
+
+
 </beans>

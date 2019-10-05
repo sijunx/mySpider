@@ -9,6 +9,8 @@
 
 	<context:property-placeholder location="classpath:conf/*.properties" file-encoding="utf-8" />
 
+	<!--<import resource="dubbo-provider.xml"/>-->
+
 	<context:annotation-config />
 
 
@@ -84,25 +86,25 @@
 		<property name="mapperLocations">
 			<value>classpath*:com/spider/user/service/dao/impl/mapper/*.xml</value>
 		</property>
-		<property name="plugins">
-			<array>
-				<!-- 慢sql监控 -->
-				<bean class="com.spider.base.mybatis.dao.interceptor.SpiderSqlExplainInterceptor">
-				</bean>
-				<!-- 分页插件 -->
-				<bean class="com.github.pagehelper.PageInterceptor">
-					<property name="properties">
-						<value>
-							helperDialect=mysql
-							reasonable=true
-							supportMethodsArguments=true
-							params=count=countSql
-							autoRuntimeDialect=true
-						</value>
-					</property>
-				</bean>
-			</array>
-		</property>
+		<!--<property name="plugins">-->
+			<!--<array>-->
+				<!--&lt;!&ndash; 慢sql监控 &ndash;&gt;-->
+				<!--<bean class="com.spider.base.mybatis.dao.interceptor.SpiderSqlExplainInterceptor">-->
+				<!--</bean>-->
+				<!--&lt;!&ndash; 分页插件 &ndash;&gt;-->
+				<!--<bean class="com.github.pagehelper.PageInterceptor">-->
+					<!--<property name="properties">-->
+						<!--<value>-->
+							<!--helperDialect=mysql-->
+							<!--reasonable=true-->
+							<!--supportMethodsArguments=true-->
+							<!--params=count=countSql-->
+							<!--autoRuntimeDialect=true-->
+						<!--</value>-->
+					<!--</property>-->
+				<!--</bean>-->
+			<!--</array>-->
+		<!--</property>-->
 	</bean>
 
 	<!-- 扫描 basePackage下Mapper的接口,根据对应的mapper.xml为其生成代理类 -->
