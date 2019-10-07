@@ -118,5 +118,6 @@
 
 	<!-- 扫描所有的service实现类，依赖注入 -->
 	<!--<context:component-scan base-package="com.spider.user.service"/>-->
-	<context:component-scan base-package="com.spider.scrawl.provider.service"/>
+	<context:component-scan base-package="com.spider.scrawl.provider.service,
+											com.spider.search.service.impl.mongo"/>
 </beans>

@@ -30,9 +30,14 @@ public class SpiderSearchController{
 //    @Autowired
 //    private ImageService imageService;
 
+    @RequestMapping(value={"start"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
+    @ResponseBody
+    public List<InputDataServiceDTO> start(ServletRequest request, HttpServletResponse response) {
+        myDataService.start();
+        return null;
+    }
 
-
-    @RequestMapping(value={"test"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
+    @RequestMapping(value={"list"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
     @ResponseBody
     public List<InputDataServiceDTO> test(ServletRequest request, HttpServletResponse response){
 

@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spider-ant-service-api" />
+        <module name="spider-ant-service-impl" />
         <module name="spider-base-dubbo" />
         <module name="spider-base-es" />
         <module name="spider-base-job" />
@@ -17,6 +19,7 @@
         <module name="spider-base-utils" />
         <module name="spider-base-zipkin" />
         <module name="spider-base-zookeeper" />
+        <module name="spider-center-scrawl" />
         <module name="spider-demo-thread" />
         <module name="spider-dist-facade-api" />
         <module name="spider-dist-facade-impl" />
@@ -25,6 +28,7 @@
         <module name="spider-dist-service-impl" />
         <module name="spider-job" />
         <module name="spider-openapi-scrawl" />
+        <module name="spider-sant-papp" />
         <module name="spider-scrawl-facade-api" />
         <module name="spider-scrawl-facade-impl" />
         <module name="spider-scrawl-job-scrawl" />
@@ -50,6 +54,10 @@
     <bytecodeTargetLevel>
       <module name="git_mySpider" target="1.7" />
       <module name="spider-allparent" target="1.5" />
+      <module name="spider-ant" target="1.8" />
+      <module name="spider-ant-papp" target="1.8" />
+      <module name="spider-ant-service-api" target="1.8" />
+      <module name="spider-ant-service-impl" target="1.8" />
       <module name="spider-base" target="1.8" />
       <module name="spider-base-dubbo" target="1.8" />
       <module name="spider-base-es" target="1.8" />
@@ -67,6 +75,8 @@
       <module name="spider-base-utils" target="1.8" />
       <module name="spider-base-zipkin" target="1.8" />
       <module name="spider-base-zookeeper" target="1.8" />
+      <module name="spider-center" target="1.5" />
+      <module name="spider-center-scrawl" target="1.8" />
       <module name="spider-core" target="1.5" />
       <module name="spider-demo-thread" target="1.8" />
       <module name="spider-dist" target="1.8" />
@@ -82,6 +92,7 @@
       <module name="spider-openapi (1)" target="1.5" />
       <module name="spider-openapi-scrawl" target="1.8" />
       <module name="spider-parent" target="1.8" />
+      <module name="spider-sant-papp" target="1.8" />
       <module name="spider-scrawl" target="1.8" />
       <module name="spider-scrawl-facade-api" target="1.8" />
       <module name="spider-scrawl-facade-impl" target="1.8" />

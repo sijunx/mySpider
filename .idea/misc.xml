@@ -53,6 +53,10 @@
         <option value="$PROJECT_DIR$/spider-doc/pom.xml" />
         <option value="$PROJECT_DIR$/spider-allparent/pom.xml" />
         <option value="$PROJECT_DIR$/spider-demo/spider-demo-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-ant/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-ant/spider-ant-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-center/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-center/spider-center-scrawl/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

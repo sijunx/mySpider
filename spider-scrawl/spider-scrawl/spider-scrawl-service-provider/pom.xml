@@ -48,11 +48,11 @@
 			<artifactId>spider-scrawl-service-api</artifactId>
 			<version>${spider-scrawl.version}</version>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>com.spider.scrawl</groupId>-->
-			<!--<artifactId>spider-scrawl-service-impl</artifactId>-->
-			<!--<version>${spider-scrawl.version}</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>com.spider.scrawl</groupId>
+			<artifactId>spider-scrawl-service-impl</artifactId>
+			<version>${spider-scrawl.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
