@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ItemInfoMapper">
+  <resultMap id="BaseResultMap" type="mapper.ItemInfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="itemCode" jdbcType="VARCHAR" property="itemcode" />
+    <result column="itemDesc" jdbcType="VARCHAR" property="itemdesc" />
+    <result column="itemType" jdbcType="INTEGER" property="itemtype" />
+    <result column="itemLen" jdbcType="INTEGER" property="itemlen" />
+    <result column="createTime" jdbcType="DATE" property="createtime" />
+    <result column="createUserId" jdbcType="BIGINT" property="createuserid" />
+    <result column="updateTime" jdbcType="DATE" property="updatetime" />
+    <result column="updateUserId" jdbcType="BIGINT" property="updateuserid" />
+    <result column="deleteFlag" jdbcType="TINYINT" property="deleteflag" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, itemCode, itemDesc, itemType, itemLen, createTime, createUserId, updateTime, 
+    updateUserId, deleteFlag
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from item_info
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from item_info
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="mapper.ItemInfo">
+    insert into item_info (id, itemCode, itemDesc, 
+      itemType, itemLen, createTime, 
+      createUserId, updateTime, updateUserId, 
+      deleteFlag)
+    values (#{id,jdbcType=BIGINT}, #{itemcode,jdbcType=VARCHAR}, #{itemdesc,jdbcType=VARCHAR}, 
+      #{itemtype,jdbcType=INTEGER}, #{itemlen,jdbcType=INTEGER}, #{createtime,jdbcType=DATE}, 
+      #{createuserid,jdbcType=BIGINT}, #{updatetime,jdbcType=DATE}, #{updateuserid,jdbcType=BIGINT}, 
+      #{deleteflag,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="mapper.ItemInfo">
+    insert into item_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="itemcode != null">
+        itemCode,
+      </if>
+      <if test="itemdesc != null">
+        itemDesc,
+      </if>
+      <if test="itemtype != null">
+        itemType,
+      </if>
+      <if test="itemlen != null">
+        itemLen,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+      <if test="createuserid != null">
+        createUserId,
+      </if>
+      <if test="updatetime != null">
+        updateTime,
+      </if>
+      <if test="updateuserid != null">
+        updateUserId,
+      </if>
+      <if test="deleteflag != null">
+        deleteFlag,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="itemcode != null">
+        #{itemcode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemdesc != null">
+        #{itemdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="itemtype != null">
+        #{itemtype,jdbcType=INTEGER},
+      </if>
+      <if test="itemlen != null">
+        #{itemlen,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=BIGINT},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=DATE},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=BIGINT},
+      </if>
+      <if test="deleteflag != null">
+        #{deleteflag,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="mapper.ItemInfo">
+    update item_info
+    <set>
+      <if test="itemcode != null">
+        itemCode = #{itemcode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemdesc != null">
+        itemDesc = #{itemdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="itemtype != null">
+        itemType = #{itemtype,jdbcType=INTEGER},
+      </if>
+      <if test="itemlen != null">
+        itemLen = #{itemlen,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+      <if test="createuserid != null">
+        createUserId = #{createuserid,jdbcType=BIGINT},
+      </if>
+      <if test="updatetime != null">
+        updateTime = #{updatetime,jdbcType=DATE},
+      </if>
+      <if test="updateuserid != null">
+        updateUserId = #{updateuserid,jdbcType=BIGINT},
+      </if>
+      <if test="deleteflag != null">
+        deleteFlag = #{deleteflag,jdbcType=TINYINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="mapper.ItemInfo">
+    update item_info
+    set itemCode = #{itemcode,jdbcType=VARCHAR},
+      itemDesc = #{itemdesc,jdbcType=VARCHAR},
+      itemType = #{itemtype,jdbcType=INTEGER},
+      itemLen = #{itemlen,jdbcType=INTEGER},
+      createTime = #{createtime,jdbcType=DATE},
+      createUserId = #{createuserid,jdbcType=BIGINT},
+      updateTime = #{updatetime,jdbcType=DATE},
+      updateUserId = #{updateuserid,jdbcType=BIGINT},
+      deleteFlag = #{deleteflag,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <resultMap id="BaseResultMap" type="mapper.ItemInfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="itemCode" jdbcType="VARCHAR" property="itemcode" />
+    <result column="itemDesc" jdbcType="VARCHAR" property="itemdesc" />
+    <result column="itemType" jdbcType="INTEGER" property="itemtype" />
+    <result column="itemLen" jdbcType="INTEGER" property="itemlen" />
+    <result column="createTime" jdbcType="DATE" property="createtime" />
+    <result column="createUserId" jdbcType="BIGINT" property="createuserid" />
+    <result column="updateTime" jdbcType="DATE" property="updatetime" />
+    <result column="updateUserId" jdbcType="BIGINT" property="updateuserid" />
+    <result column="deleteFlag" jdbcType="TINYINT" property="deleteflag" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, itemCode, itemDesc, itemType, itemLen, createTime, createUserId, updateTime, 
+    updateUserId, deleteFlag
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from item_info
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from item_info
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="mapper.ItemInfo">
+    insert into item_info (id, itemCode, itemDesc, 
+      itemType, itemLen, createTime, 
+      createUserId, updateTime, updateUserId, 
+      deleteFlag)
+    values (#{id,jdbcType=BIGINT}, #{itemcode,jdbcType=VARCHAR}, #{itemdesc,jdbcType=VARCHAR}, 
+      #{itemtype,jdbcType=INTEGER}, #{itemlen,jdbcType=INTEGER}, #{createtime,jdbcType=DATE}, 
+      #{createuserid,jdbcType=BIGINT}, #{updatetime,jdbcType=DATE}, #{updateuserid,jdbcType=BIGINT}, 
+      #{deleteflag,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="mapper.ItemInfo">
+    insert into item_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="itemcode != null">
+        itemCode,
+      </if>
+      <if test="itemdesc != null">
+        itemDesc,
+      </if>
+      <if test="itemtype != null">
+        itemType,
+      </if>
+      <if test="itemlen != null">
+        itemLen,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+      <if test="createuserid != null">
+        createUserId,
+      </if>
+      <if test="updatetime != null">
+        updateTime,
+      </if>
+      <if test="updateuserid != null">
+        updateUserId,
+      </if>
+      <if test="deleteflag != null">
+        deleteFlag,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="itemcode != null">
+        #{itemcode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemdesc != null">
+        #{itemdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="itemtype != null">
+        #{itemtype,jdbcType=INTEGER},
+      </if>
+      <if test="itemlen != null">
+        #{itemlen,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=BIGINT},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=DATE},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=BIGINT},
+      </if>
+      <if test="deleteflag != null">
+        #{deleteflag,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="mapper.ItemInfo">
+    update item_info
+    <set>
+      <if test="itemcode != null">
+        itemCode = #{itemcode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemdesc != null">
+        itemDesc = #{itemdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="itemtype != null">
+        itemType = #{itemtype,jdbcType=INTEGER},
+      </if>
+      <if test="itemlen != null">
+        itemLen = #{itemlen,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+      <if test="createuserid != null">
+        createUserId = #{createuserid,jdbcType=BIGINT},
+      </if>
+      <if test="updatetime != null">
+        updateTime = #{updatetime,jdbcType=DATE},
+      </if>
+      <if test="updateuserid != null">
+        updateUserId = #{updateuserid,jdbcType=BIGINT},
+      </if>
+      <if test="deleteflag != null">
+        deleteFlag = #{deleteflag,jdbcType=TINYINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="mapper.ItemInfo">
+    update item_info
+    set itemCode = #{itemcode,jdbcType=VARCHAR},
+      itemDesc = #{itemdesc,jdbcType=VARCHAR},
+      itemType = #{itemtype,jdbcType=INTEGER},
+      itemLen = #{itemlen,jdbcType=INTEGER},
+      createTime = #{createtime,jdbcType=DATE},
+      createUserId = #{createuserid,jdbcType=BIGINT},
+      updateTime = #{updatetime,jdbcType=DATE},
+      updateUserId = #{updateuserid,jdbcType=BIGINT},
+      deleteFlag = #{deleteflag,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <resultMap id="BaseResultMap" type="com.spider.search.service.model.ItemInfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="itemCode" jdbcType="VARCHAR" property="itemcode" />
+    <result column="itemDesc" jdbcType="VARCHAR" property="itemdesc" />
+    <result column="itemType" jdbcType="INTEGER" property="itemtype" />
+    <result column="itemLen" jdbcType="INTEGER" property="itemlen" />
+    <result column="createTime" jdbcType="DATE" property="createtime" />
+    <result column="createUserId" jdbcType="BIGINT" property="createuserid" />
+    <result column="updateTime" jdbcType="DATE" property="updatetime" />
+    <result column="updateUserId" jdbcType="BIGINT" property="updateuserid" />
+    <result column="deleteFlag" jdbcType="TINYINT" property="deleteflag" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, itemCode, itemDesc, itemType, itemLen, createTime, createUserId, updateTime, 
+    updateUserId, deleteFlag
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from item_info
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from item_info
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.spider.search.service.model.ItemInfo">
+    insert into item_info (id, itemCode, itemDesc, 
+      itemType, itemLen, createTime, 
+      createUserId, updateTime, updateUserId, 
+      deleteFlag)
+    values (#{id,jdbcType=BIGINT}, #{itemcode,jdbcType=VARCHAR}, #{itemdesc,jdbcType=VARCHAR}, 
+      #{itemtype,jdbcType=INTEGER}, #{itemlen,jdbcType=INTEGER}, #{createtime,jdbcType=DATE}, 
+      #{createuserid,jdbcType=BIGINT}, #{updatetime,jdbcType=DATE}, #{updateuserid,jdbcType=BIGINT}, 
+      #{deleteflag,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.spider.search.service.model.ItemInfo">
+    insert into item_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="itemcode != null">
+        itemCode,
+      </if>
+      <if test="itemdesc != null">
+        itemDesc,
+      </if>
+      <if test="itemtype != null">
+        itemType,
+      </if>
+      <if test="itemlen != null">
+        itemLen,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+      <if test="createuserid != null">
+        createUserId,
+      </if>
+      <if test="updatetime != null">
+        updateTime,
+      </if>
+      <if test="updateuserid != null">
+        updateUserId,
+      </if>
+      <if test="deleteflag != null">
+        deleteFlag,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="itemcode != null">
+        #{itemcode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemdesc != null">
+        #{itemdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="itemtype != null">
+        #{itemtype,jdbcType=INTEGER},
+      </if>
+      <if test="itemlen != null">
+        #{itemlen,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=BIGINT},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=DATE},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=BIGINT},
+      </if>
+      <if test="deleteflag != null">
+        #{deleteflag,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.spider.search.service.model.ItemInfo">
+    update item_info
+    <set>
+      <if test="itemcode != null">
+        itemCode = #{itemcode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemdesc != null">
+        itemDesc = #{itemdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="itemtype != null">
+        itemType = #{itemtype,jdbcType=INTEGER},
+      </if>
+      <if test="itemlen != null">
+        itemLen = #{itemlen,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+      <if test="createuserid != null">
+        createUserId = #{createuserid,jdbcType=BIGINT},
+      </if>
+      <if test="updatetime != null">
+        updateTime = #{updatetime,jdbcType=DATE},
+      </if>
+      <if test="updateuserid != null">
+        updateUserId = #{updateuserid,jdbcType=BIGINT},
+      </if>
+      <if test="deleteflag != null">
+        deleteFlag = #{deleteflag,jdbcType=TINYINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.spider.search.service.model.ItemInfo">
+    update item_info
+    set itemCode = #{itemcode,jdbcType=VARCHAR},
+      itemDesc = #{itemdesc,jdbcType=VARCHAR},
+      itemType = #{itemtype,jdbcType=INTEGER},
+      itemLen = #{itemlen,jdbcType=INTEGER},
+      createTime = #{createtime,jdbcType=DATE},
+      createUserId = #{createuserid,jdbcType=BIGINT},
+      updateTime = #{updatetime,jdbcType=DATE},
+      updateUserId = #{updateuserid,jdbcType=BIGINT},
+      deleteFlag = #{deleteflag,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
