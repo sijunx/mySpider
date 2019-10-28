@@ -1,4 +1,4 @@
-package com.spider.search.service.model;
+package com.spider.scrawl.provider.dao.entity;
 
 import java.util.Date;
 

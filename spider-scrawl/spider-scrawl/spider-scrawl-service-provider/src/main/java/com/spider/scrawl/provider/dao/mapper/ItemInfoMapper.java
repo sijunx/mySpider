@@ -1,6 +1,7 @@
-package mapper;
+package com.spider.scrawl.provider.dao.mapper;
 
-import mapper.ItemInfo;
+
+import com.spider.scrawl.provider.dao.entity.ItemInfo;
 
 public interface ItemInfoMapper {
     int deleteByPrimaryKey(Long id);

@@ -26,7 +26,7 @@ public class SpiderSqlExplainInterceptor implements Interceptor {
 	public Object intercept(Invocation invocation) throws Throwable {
 		Object[] args = invocation.getArgs();
 		MappedStatement mappedStatement = (MappedStatement) args[0];
-		//	mapperInfo 值例如: com.spider.user.service.dao.impl.mapper.SpiderUserInfoMapper.findListByPhone
+		//	mapperInfo 值例如: com.spider.user.service.dao.impl.com.spider.scrawl.provider.dao.mapper.SpiderUserInfoMapper.findListByPhone
 		String mapperInfo = mappedStatement.getId();
 		logger.info("mapperInfo:{}", mapperInfo);
 		String[] mapperClassInfos = mapperInfo.split("\\.");
