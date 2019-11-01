@@ -20,6 +20,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.33.Final" level="project" />
     <orderEntry type="module" module-name="spider-user-service-api" />
     <orderEntry type="module" module-name="spider-user-service-impl" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />

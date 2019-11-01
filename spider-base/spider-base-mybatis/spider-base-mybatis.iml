@@ -17,6 +17,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.33.Final" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.2.5" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.2.3" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />

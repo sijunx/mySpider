@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-core.iml" filepath="$PROJECT_DIR$/spider-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-demo/spider-demo-thread/spider-demo-thread.iml" filepath="$PROJECT_DIR$/spider-demo/spider-demo-thread/spider-demo-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-demo/spider-demo-thread/spider-demo-thread.iml" filepath="$PROJECT_DIR$/spider-demo/spider-demo-thread/spider-demo-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/spider-dist-facade-api.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-api/spider-dist-facade-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" filepath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" />

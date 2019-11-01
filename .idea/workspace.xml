@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/nio/Buffer.java" description="if (limit - position &lt; nb)" line="504" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b14182-d3d9-4f08-a4ef-cafde8fe90fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/C:/tmp/log01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/C:/tmp/log01.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_common_google_collect_1_0_rc1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_common_google_collect_1_0_rc1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spider-allparent/target/" />
     <ignored path="$PROJECT_DIR$/spider-base/target/" />
@@ -78,27 +101,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderThreadPoolExcutorUtil.java">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" selection-start-line="11" selection-end-line="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -155,10 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/CharsetNumberTest.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/JdbcTest.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/ReflectTest.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/file_copy/Main01Test.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/file_copy/BufferReaderTest.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/SerialzeTest.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/serialize_test/QueueTest.java" />
@@ -206,6 +247,10 @@
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/NioClientTest.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/NioServerTest.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -219,6 +264,42 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl-facade-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl-facade-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl-facade-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl-facade-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-scrawl-service-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -250,11 +331,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="32" />
-    <option name="width" value="1034" />
-    <option name="height" value="1002" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -264,677 +343,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="mySpider002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mySpider002" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="mySpider002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mySpider002" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-base-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo-thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-demo-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-embed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="papp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="papp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="papp" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-papp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="dbcp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-user-zipkin-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-3.7.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-3.7.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-3.7.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-3.7.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-3.7.0.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="mySpider002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mySpider002" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -946,7 +378,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553213171230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572595327746" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_001/myxcom_reconnect/.project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -1128,6 +560,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SocketClientTest" />
+      <item itemvalue="Application.NioServerTest" />
+      <item itemvalue="Application.NioClientTest" />
+      <item itemvalue="Application.Client01" />
+      <item itemvalue="Application.Main01Test" />
       <item itemvalue="Spring Boot.MyOpenApiScrawlApplication" />
       <item itemvalue="Spring Boot.MySearchAppApplication" />
       <item itemvalue="Spring Boot.MySpiderDistScrawlApplication" />
@@ -1139,11 +576,6 @@
       <item itemvalue="Spring Boot.MyUserZipkinConsumerApplication" />
       <item itemvalue="Spring Boot.MyUserZipkinProvider02Application" />
       <item itemvalue="Spring Boot.MyUserZipkinProviderApplication" />
-      <item itemvalue="Application.SocketClientTest" />
-      <item itemvalue="Application.NioServerTest" />
-      <item itemvalue="Application.NioClientTest" />
-      <item itemvalue="Application.Client01" />
-      <item itemvalue="Application.Main01Test" />
     </list>
     <recent_temporary>
       <list>
@@ -1176,6 +608,7 @@
       <workItem from="1550920525123" duration="15619000" />
       <workItem from="1551012146729" duration="89336000" />
       <workItem from="1551666828208" duration="44505000" />
+      <workItem from="1572593045442" duration="1680000" />
     </task>
     <task id="LOCAL-00001" summary="opt@master#:kafka 新增监控调试">
       <created>1549874474178</created>
@@ -1206,12 +639,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225699000" />
+    <option name="totallyTimeSpent" value="227379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.19936034" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.20171674" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1219,25 +653,27 @@
       <window_info id="Structure" order="5" sideWeight="0.50076103" side_tool="true" weight="0.15884861" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39328277" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3927711" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42145178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.46912244" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4907909" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.14658849" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.26180258" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -2726,280 +2162,29 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/epoll/EpollEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="482" lean-forward="true" selection-start-line="482" selection-end-line="482" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/UnorderedThreadPoolEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-          <folding>
-            <element signature="e#3752#3753#0" expanded="true" />
-            <element signature="e#3780#3781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/ImmediateEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/embedded/EmbeddedEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
-          <folding>
-            <element signature="e#3797#3798#0" expanded="true" />
-            <element signature="e#3824#3825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/GlobalEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-          <folding>
-            <element signature="e#5588#5589#0" expanded="true" />
-            <element signature="e#5632#5633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/NonStickyEventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-          <folding>
-            <element signature="e#10754#10755#0" expanded="true" />
-            <element signature="e#10790#10791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#4840#4841#0" expanded="true" />
-            <element signature="e#4882#4883#0" expanded="true" />
-            <element signature="e#4932#4933#0" expanded="true" />
-            <element signature="e#4995#4996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/RecvByteBufAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="368" column="17" lean-forward="true" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
-          <folding>
-            <element signature="e#13562#13912#0" expanded="true" />
-            <element signature="e#13911#13912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="160" column="26" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
-          <folding>
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="254" selection-start-line="254" selection-end-line="254" />
-          <folding>
-            <element signature="e#6297#7035#0" expanded="true" />
-            <element signature="e#6695#7009#0" expanded="true" />
-            <element signature="e#7008#7009#0" expanded="true" />
-            <element signature="e#7034#7035#0" expanded="true" />
-            <element signature="e#8919#9085#0" expanded="true" />
-            <element signature="e#9084#9085#0" expanded="true" />
-            <element signature="e#9626#9956#0" expanded="true" />
-            <element signature="e#9955#9956#0" expanded="true" />
-            <element signature="e#11095#11096#0" expanded="true" />
-            <element signature="e#11143#11144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="403" selection-start-line="403" selection-end-line="403" />
-          <folding>
-            <element signature="e#18280#18281#0" expanded="true" />
-            <element signature="e#18324#18325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="444" column="9" lean-forward="true" selection-start-line="444" selection-start-column="9" selection-end-line="444" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="359" selection-start-line="359" selection-end-line="359" />
-          <folding>
-            <element signature="e#11950#12107#0" expanded="true" />
-            <element signature="e#12106#12107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="e#3891#3892#0" expanded="true" />
-            <element signature="e#3925#3926#0" expanded="true" />
-            <element signature="e#3972#3973#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4095#4096#0" expanded="true" />
-            <element signature="e#4148#4149#0" expanded="true" />
-            <element signature="e#4203#4204#0" expanded="true" />
-            <element signature="e#4524#4525#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="346" selection-start-line="346" selection-end-line="346" />
-          <folding>
-            <element signature="e#4295#4296#0" expanded="true" />
-            <element signature="e#4353#4354#0" expanded="true" />
-            <element signature="e#4684#4685#0" expanded="true" />
-            <element signature="e#4762#4763#0" expanded="true" />
-            <element signature="e#6251#6252#0" expanded="true" />
-            <element signature="e#6291#6292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="162" column="36" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="615" column="20" selection-start-line="615" selection-start-column="20" selection-end-line="615" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="934" column="60" lean-forward="true" selection-start-line="934" selection-start-column="60" selection-end-line="934" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="625" column="12" selection-start-line="625" selection-start-column="12" selection-end-line="625" selection-end-column="12" />
-          <folding>
-            <element signature="e#10783#10784#0" expanded="true" />
-            <element signature="e#10814#10815#0" expanded="true" />
-            <element signature="e#11019#11029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/embedded/EmbeddedEventLoop.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/GlobalEventExecutor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/NonStickyEventExecutorGroup.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioTask.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Cloneable.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/RecvByteBufAllocator.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelPipeline.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java" />
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/MyServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -3065,34 +2250,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="173" column="51" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/GenericFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/linker/Bootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFuture.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/GenericFutureListener.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFutureListener.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/linker/Bootstrap.class" />
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/MyClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -3100,13 +2261,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java" />
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/netty_test/Client03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -3146,23 +2301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#3390#3391#0" expanded="true" />
-            <element signature="e#3465#3466#0" expanded="true" />
-            <element signature="e#3512#3513#0" expanded="true" />
-            <element signature="e#3620#3621#0" expanded="true" />
-            <element signature="e#3676#3677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java" />
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/nio_test02/NioServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -3176,29 +2315,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderThreadPoolExcutorUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="90">
           <caret line="11" selection-start-line="11" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/lock_test/Main01Test.java">
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

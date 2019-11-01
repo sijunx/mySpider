@@ -26,6 +26,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.33.Final" level="project" />
     <orderEntry type="module" module-name="spider-user-service-api" />
     <orderEntry type="module" module-name="spider-base-mybatis" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.41" level="project" />

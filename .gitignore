@@ -4,6 +4,13 @@
 
 # IntelliJ project files
 .idea
-*.iml
 out
 gen
+target/
+.idea/
+.settings/
+.classpath
+.project
+bin/
+.gitignore
+**/*.iml

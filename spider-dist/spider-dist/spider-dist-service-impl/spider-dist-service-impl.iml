@@ -17,6 +17,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.33.Final" level="project" />
     <orderEntry type="module" module-name="spider-dist-service-api" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.4.3" level="project" />
