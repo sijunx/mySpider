@@ -1,6 +1,5 @@
 package com.spider.scrawl.provider.dao.mapper;
 
-
 import com.spider.scrawl.provider.dao.entity.ItemInfo;
 
 public interface ItemInfoMapper {

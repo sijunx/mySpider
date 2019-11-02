@@ -5,23 +5,23 @@ import java.util.Date;
 public class ItemInfo {
     private Long id;
 
-    private String itemcode;
+    private String itemCode;
 
-    private String itemdesc;
+    private String itemDesc;
 
-    private Integer itemtype;
+    private Integer itemType;
 
-    private Integer itemlen;
+    private Integer itemLen;
 
-    private Date createtime;
+    private Date createTime;
 
-    private Long createuserid;
+    private Long createUserId;
 
-    private Date updatetime;
+    private Date updateTime;
 
-    private Long updateuserid;
+    private Long updateUserId;
 
-    private Byte deleteflag;
+    private Byte deleteFlag;
 
     public Long getId() {
         return id;
@@ -31,75 +31,75 @@ public class ItemInfo {
         this.id = id;
     }
 
-    public String getItemcode() {
-        return itemcode;
+    public String getItemCode() {
+        return itemCode;
     }
 
-    public void setItemcode(String itemcode) {
-        this.itemcode = itemcode;
+    public void setItemCode(String itemCode) {
+        this.itemCode = itemCode;
     }
 
-    public String getItemdesc() {
-        return itemdesc;
+    public String getItemDesc() {
+        return itemDesc;
     }
 
-    public void setItemdesc(String itemdesc) {
-        this.itemdesc = itemdesc;
+    public void setItemDesc(String itemDesc) {
+        this.itemDesc = itemDesc;
     }
 
-    public Integer getItemtype() {
-        return itemtype;
+    public Integer getItemType() {
+        return itemType;
     }
 
-    public void setItemtype(Integer itemtype) {
-        this.itemtype = itemtype;
+    public void setItemType(Integer itemType) {
+        this.itemType = itemType;
     }
 
-    public Integer getItemlen() {
-        return itemlen;
+    public Integer getItemLen() {
+        return itemLen;
     }
 
-    public void setItemlen(Integer itemlen) {
-        this.itemlen = itemlen;
+    public void setItemLen(Integer itemLen) {
+        this.itemLen = itemLen;
     }
 
-    public Date getCreatetime() {
-        return createtime;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
-    public Long getCreateuserid() {
-        return createuserid;
+    public Long getCreateUserId() {
+        return createUserId;
     }
 
-    public void setCreateuserid(Long createuserid) {
-        this.createuserid = createuserid;
+    public void setCreateUserId(Long createUserId) {
+        this.createUserId = createUserId;
     }
 
-    public Date getUpdatetime() {
-        return updatetime;
+    public Date getUpdateTime() {
+        return updateTime;
     }
 
-    public void setUpdatetime(Date updatetime) {
-        this.updatetime = updatetime;
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 
-    public Long getUpdateuserid() {
-        return updateuserid;
+    public Long getUpdateUserId() {
+        return updateUserId;
     }
 
-    public void setUpdateuserid(Long updateuserid) {
-        this.updateuserid = updateuserid;
+    public void setUpdateUserId(Long updateUserId) {
+        this.updateUserId = updateUserId;
     }
 
-    public Byte getDeleteflag() {
-        return deleteflag;
+    public Byte getDeleteFlag() {
+        return deleteFlag;
     }
 
-    public void setDeleteflag(Byte deleteflag) {
-        this.deleteflag = deleteflag;
+    public void setDeleteFlag(Byte deleteFlag) {
+        this.deleteFlag = deleteFlag;
     }
 }
