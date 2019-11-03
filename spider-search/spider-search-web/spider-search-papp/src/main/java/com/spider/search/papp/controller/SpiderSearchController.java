@@ -1,18 +1,23 @@
 package com.spider.search.papp.controller;
 
-import com.spider.search.service.api.MyDataService;
+import com.spider.search.papp.Test002;
 import com.spider.search.service.dto.InputDataServiceDTO;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
+import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.*;
+import java.util.*;
 
 @RestController
 @RequestMapping("spider")
@@ -20,8 +25,8 @@ public class SpiderSearchController{
 
     private final static Logger logger = LoggerFactory.getLogger(SpiderSearchController.class);
 
-    @Autowired
-    private MyDataService myDataService;
+//    @Autowired
+//    private MyDataService myDataService;
 //
 //    @Autowired
 //    private InputDataService inputDataService;
@@ -30,18 +35,23 @@ public class SpiderSearchController{
 //    @Autowired
 //    private ImageService imageService;
 
+    private static final String localPath = "C://test/a/";
+//    private static final String localPath = "/usr/local/tempFile/a/";
+
+    private static final String excelTemplatePath = "C://test/excelTemplate/my01.xls";
+//    private static final String excelTemplatePath = "/usr/local/excelTemplate/my01.xls";
+
+
     @RequestMapping(value={"start"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
     @ResponseBody
     public List<InputDataServiceDTO> start(ServletRequest request, HttpServletResponse response) {
-        myDataService.start();
+//        myDataService.start();
         return null;
     }
 
     @RequestMapping(value={"list"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
     @ResponseBody
     public List<InputDataServiceDTO> test(ServletRequest request, HttpServletResponse response){
-
-        myDataService.getListByWordId();
 
         List<InputDataServiceDTO> inputDataServiceDTOList = new ArrayList<>();
         InputDataServiceDTO inputDataServiceDTO = new InputDataServiceDTO();
@@ -145,51 +155,90 @@ public class SpiderSearchController{
 //        return list04;
 //    }
 //
-//    @RequestMapping(value={"soImage"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
-//    public void doPostImage(@RequestParam Map param, HttpServletResponse response)
-//            throws ServletException, IOException {
-//        MongoConnUtil mongoConnUtil = new MongoConnUtil();
-//        MongoDatabase mongoDatabase = mongoConnUtil.initConn();
-//        this.imageService.setDatabase(mongoDatabase);
-//
-//        String imageId = null;
-//        String imagePath = null;
-//        if ((null != param.get("imageId")) && (StringUtils.isNotEmpty(String.valueOf(param.get("imageId"))))) {
-//            imageId = String.valueOf(param.get("imageId"));
-//            Document doc = new Document();
-//            doc.put("imageId", imageId);
-//            Document doc01 = this.imageService.findOne(doc);
-//            if ((null != doc01) && (StringUtils.isNotEmpty(String.valueOf(doc01.get("imagePath"))))) {
-//                imagePath = String.valueOf(doc01.get("imagePath"));
-//            }
-//            if (null != imagePath) {
+    @RequestMapping(value={"soImage"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
+    public void doPostImage(@RequestParam Map param, HttpServletResponse response){
+        String imageIdStr =  param.get("imageId").toString();
+        Long imageId = Long.parseLong(imageIdStr);
+        String fileName = new StringBuilder(imageIdStr).append(".xls").toString();
+        String imagePath = new StringBuilder().append(localPath).append(imageId).append(".xls").toString();
+        if(true){
+
+            if (null != imagePath) {
 //                response.setContentType("text/html; charset=UTF-8");
+                response.setContentType("application/x-msdownload");
 //                response.setContentType("image/jpeg");
-//                FileInputStream fis = null;
-//                OutputStream os = null;
-//                try{
-//                    fis = new FileInputStream(imagePath);
-//                    os = response.getOutputStream();
-//                    int count = 0;
-//                    byte[] buffer = new byte[10000];
-//                    while ((count = fis.read(buffer)) != -1) {
-//                        os.write(buffer, 0, count);
-//                    }
-//                }catch (IOException e){
-//                    e.printStackTrace();
-//                }finally{
-//                    try{
-//                        if (os != null) {
-//                            os.close();
-//                        }
-//                        if (fis != null) {
-//                            fis.close();
-//                        }
-//                    }catch (IOException e){
-//                        e.printStackTrace();
-//                    }
-//                }
-//            }
-//        }
-//    }
+                response.setHeader("Content-Disposition", new StringBuilder("attachment;filename=").append(fileName).toString());
+
+                FileInputStream fis = null;
+                OutputStream os = null;
+                try{
+                    fis = new FileInputStream(imagePath);
+                    os = response.getOutputStream();
+                    int count = 0;
+                    byte[] buffer = new byte[10000];
+                    while ((count = fis.read(buffer)) != -1) {
+                        os.write(buffer, 0, count);
+                    }
+                }catch (IOException e){
+                    e.printStackTrace();
+                }finally{
+                    try{
+                        if (os != null) {
+                            os.close();
+                        }
+                        if (fis != null) {
+                            fis.close();
+                        }
+                    }catch (IOException e){
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+    }
+
+    @RequestMapping(value={"upload"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
+    @ResponseBody
+    public String upload(HttpServletRequest request, HttpServletResponse response) {
+        Map<String, Object> resultMap = new HashMap<String, Object>();
+        List<String> fileNames = new ArrayList<String>();
+        Long xx = System.currentTimeMillis();
+        try {
+            MultipartHttpServletRequest multiRequest = (MultipartHttpServletRequest) request;
+            //取得request中的所有文件名
+            Iterator<String> iter = multiRequest.getFileNames();
+            while (iter.hasNext()) {
+
+                MultipartFile file = multiRequest.getFile(iter.next());
+                InputStream in = null;
+                String name = "";
+                String oname = "";
+                String category = "";
+                try {
+                    in = file.getInputStream();
+                    if (in == null) {
+                        continue;
+                    }
+                    name = file.getName();
+
+                    String filePath = new StringBuilder(localPath).append(xx).append(".xls").toString();
+                    String pdfPath = new StringBuilder(localPath).append(xx).append(".pdf").toString();
+                    File localFile = new File(pdfPath);
+                    file.transferTo(localFile);
+                    System.out.println("name:"+name);
+                    String fileSavePath01 = filePath;
+                    String pdfPath01 = pdfPath;
+                    String txtPath01 = new StringBuilder(localPath).append(xx).append(".txt").toString();
+                    String templatePath01 = excelTemplatePath;
+                    Test002.convertToExcel(fileSavePath01, pdfPath01, txtPath01, templatePath01);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "http://localhost:8091/spider/soImage?imageId="+xx;
+    }
+
 }
