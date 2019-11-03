@@ -1,6 +1,5 @@
 package com.spider.search.papp;
 
-import com.alibaba.fastjson.JSON;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
@@ -16,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public  class Test002 {
+public  class PdfToExcel {
 
     public  static  String  getText(File  file)throws  Exception{
         boolean  sort=false;
@@ -44,70 +43,82 @@ public  class Test002 {
         }
     }
 
-    public  static  void  convertToExcel(String fileSavePath, String pdfPath, String txtPath, String templatePath){
-        File  file01=new  File(pdfPath);
-        List<String>  lineDataList  =  new  ArrayList<>();
-        try{
-            String  cont=getText(file01);
-            System.out.println(cont);
+    public  static  void  convertToExcel(String fileSavePath, String pdfDirPath, String templatePath) {
 
-            FileOutputStream  fileOutputStream  =  null;
-            File  file  =  new  File(txtPath);
-            if(!file.exists()){
-                file.createNewFile();
-            }
-            fileOutputStream  =  new  FileOutputStream(file);
-            fileOutputStream.write(cont.getBytes("utf-8"));
-            fileOutputStream.flush();
-            fileOutputStream.close();
-
-            BufferedReader  br  =  new  BufferedReader(new  InputStreamReader(new  FileInputStream(new  File(txtPath)),
-                    "UTF-8"));
-            String  lineTxt  =  null;
-            while  ((lineTxt  =  br.readLine())  !=  null)  {//数据以逗号分隔
-                if(StringUtils.isBlank(lineTxt)){
-                    continue;
-                }
-                lineDataList.add(lineTxt);
-            }
-            //登记证明编号： 0283 6616 0003 4341 8599
-
-        }catch(Exception  e){
-            System.out.println("Strip  failed.");
-            e.printStackTrace();
+        File file02 = new File(pdfDirPath);
+        String[] strArray = new String[100];
+        if (file02.isDirectory()) {
+            strArray = file02.list();
+            System.out.println("xx");
         }
-
-
-        //    Excel 工具类
         Integer rowStart = 1;
-        Integer colSize = 24;
         //  Excel导出工具类
         SalesExcelExportUtil excelExportUtil = new SalesExcelExportUtil();
-        String excelTemplatePath = templatePath;
-        excelExportUtil.setSxssfWorkbook(excelTemplatePath);
+        excelExportUtil.setSxssfWorkbook(templatePath);
+        //获取列名称
+        List<String> colNameList = getColNameList(excelExportUtil, templatePath);
+        for(int icount=0; icount<strArray.length; icount++){
+            String txtPath = new StringBuilder(pdfDirPath).append(System.currentTimeMillis()).append(".txt").toString();
+            String fileName = strArray[icount];
+            if(StringUtils.isBlank(fileName)){
+                continue;
+            }
+            String pdfPath = pdfDirPath+"/"+fileName;
+            File file01 = new File(pdfPath);
+            List<String> lineDataList = new ArrayList<>();
+            try {
+                String cont = getText(file01);
+                System.out.println(cont);
+                FileOutputStream fileOutputStream = null;
+                File file = new File(txtPath);
+                if (!file.exists()) {
+                    file.createNewFile();
+                }
+                fileOutputStream = new FileOutputStream(file);
+                fileOutputStream.write(cont.getBytes("utf-8"));
+                fileOutputStream.flush();
+                fileOutputStream.close();
+                BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(txtPath)),
+                        "UTF-8"));
+                String lineTxt = null;
+                while ((lineTxt = br.readLine()) != null) {//数据以逗号分隔
+                    if (StringUtils.isBlank(lineTxt)) {
+                        continue;
+                    }
+                    lineDataList.add(lineTxt);
+                }
+                //登记证明编号： 0283 6616 0003 4341 8599
 
+            } catch (Exception e) {
+                System.out.println("Strip  failed.");
+                e.printStackTrace();
+            }
+            //    Excel 工具类
+
+            List<String[]> listData = getData(lineDataList, colNameList);
+            /** Excel写入数据 */
+            rowStart = excelExportUtil.writeData(rowStart, listData, colNameList.size());
+        }
+        /** 保存Excel */
+        excelExportUtil.saveExcel(fileSavePath);
+    }
+
+    private static List<String> getColNameList(SalesExcelExportUtil excelExportUtil,String excelTemplatePath){
         Sheet sheet = excelExportUtil.getSheetByExcel(excelTemplatePath);
         Row row00 = sheet.getRow(0);
-
-        //
         List<String> colNameList = new ArrayList<>();
-        for(int icount=0;icount<1000;icount++){
-            Cell cell = row00.getCell(icount);
-            if(cell == null){
+        for (int jcount = 0; jcount < 1000; jcount++) {
+            Cell cell = row00.getCell(jcount);
+            if (cell == null) {
                 break;
             }
             String str = cell.getStringCellValue();
-            if(StringUtils.isBlank(str)){
+            if (StringUtils.isBlank(str)) {
                 break;
             }
             colNameList.add(str);
         }
-
-        List<String[]> listData = getData(lineDataList, colNameList);
-        /** Excel写入数据 */
-        excelExportUtil.writeData(rowStart, listData, colNameList.size());
-        /** 保存Excel */
-        excelExportUtil.saveExcel(fileSavePath);
+        return colNameList;
     }
 
     private static List<String[]> extractEmptyZero(List<String[]> keyData){

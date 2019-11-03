@@ -1,8 +1,8 @@
 package com.spider.search.papp.controller;
 
-import com.spider.search.papp.Test002;
+import com.spider.search.papp.DecompressFiles;
+import com.spider.search.papp.PdfToExcel;
 import com.spider.search.service.dto.InputDataServiceDTO;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
 
 @RestController
@@ -35,11 +35,11 @@ public class SpiderSearchController{
 //    @Autowired
 //    private ImageService imageService;
 
-    private static final String localPath = "C://test/a/";
-//    private static final String localPath = "/usr/local/tempFile/a/";
+//    private static final String localPath = "C://test/a/";
+    private static final String localPath = "/usr/local/tempFile/a/";
 
-    private static final String excelTemplatePath = "C://test/excelTemplate/my01.xls";
-//    private static final String excelTemplatePath = "/usr/local/excelTemplate/my01.xls";
+//    private static final String excelTemplatePath = "C://test/excelTemplate/my01.xls";
+    private static final String excelTemplatePath = "/usr/local/excelTemplate/my01.xls";
 
 
     @RequestMapping(value={"start"}, produces={"application/json;charset=utf-8"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
@@ -160,7 +160,7 @@ public class SpiderSearchController{
         String imageIdStr =  param.get("imageId").toString();
         Long imageId = Long.parseLong(imageIdStr);
         String fileName = new StringBuilder(imageIdStr).append(".xls").toString();
-        String imagePath = new StringBuilder().append(localPath).append(imageId).append(".xls").toString();
+        String imagePath = new StringBuilder().append(localPath).append(imageId).append("/").append(imageId).append(".xls").toString();
         if(true){
 
             if (null != imagePath) {
@@ -202,7 +202,11 @@ public class SpiderSearchController{
     public String upload(HttpServletRequest request, HttpServletResponse response) {
         Map<String, Object> resultMap = new HashMap<String, Object>();
         List<String> fileNames = new ArrayList<String>();
-        Long xx = System.currentTimeMillis();
+        Long randomDirName = System.currentTimeMillis();
+        File fileRandom = new File(new StringBuilder(localPath).append(randomDirName).toString());
+        if(!fileRandom.exists()){
+            fileRandom.mkdirs();
+        }
         try {
             MultipartHttpServletRequest multiRequest = (MultipartHttpServletRequest) request;
             //取得request中的所有文件名
@@ -219,18 +223,24 @@ public class SpiderSearchController{
                     if (in == null) {
                         continue;
                     }
-                    name = file.getName();
-
-                    String filePath = new StringBuilder(localPath).append(xx).append(".xls").toString();
-                    String pdfPath = new StringBuilder(localPath).append(xx).append(".pdf").toString();
-                    File localFile = new File(pdfPath);
-                    file.transferTo(localFile);
-                    System.out.println("name:"+name);
-                    String fileSavePath01 = filePath;
-                    String pdfPath01 = pdfPath;
-                    String txtPath01 = new StringBuilder(localPath).append(xx).append(".txt").toString();
-                    String templatePath01 = excelTemplatePath;
-                    Test002.convertToExcel(fileSavePath01, pdfPath01, txtPath01, templatePath01);
+                    name = file.getOriginalFilename();
+                    String unzipTargetPath = new StringBuilder(localPath).append(randomDirName).append("/").toString();
+                    String excelResultPath = new StringBuilder(localPath).append(randomDirName).append("/").append(randomDirName).append(".xls").toString();
+                    if(name.contains("zip")){
+                        String zipPath = new StringBuilder(localPath).append(randomDirName).append(".zip").toString();
+                        File localFile = new File(zipPath);
+                        file.transferTo(localFile);
+                        DecompressFiles.upzipFile(zipPath, unzipTargetPath);
+                        //读取目录文件解析
+                        String unzipTargetRealPath = new StringBuilder(localPath).append(randomDirName).append("/").append(name.replace(".zip", "").trim()).append("/").toString();
+                        PdfToExcel.convertToExcel(excelResultPath, unzipTargetRealPath, excelTemplatePath);
+                    }else if(name.contains("pdf")){
+                        String pdfPath = new StringBuilder(localPath).append(randomDirName).append("/").append(randomDirName).append(".pdf").toString();
+                        File localFile = new File(pdfPath);
+                        file.transferTo(localFile);
+                        System.out.println("name:"+name);
+                        PdfToExcel.convertToExcel(excelResultPath, unzipTargetPath, excelTemplatePath);
+                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -238,7 +248,8 @@ public class SpiderSearchController{
         }catch (Exception e){
             e.printStackTrace();
         }
-        return "http://localhost:8091/spider/soImage?imageId="+xx;
+        return "http://134.175.107.11:8091/spider/soImage?imageId="+randomDirName;
+//        return "http://127.0.0.1:8091/spider/soImage?imageId="+xx;
     }
 
 }

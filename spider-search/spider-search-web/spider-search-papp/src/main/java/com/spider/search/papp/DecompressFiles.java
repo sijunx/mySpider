@@ -17,9 +17,9 @@ public class DecompressFiles {
     }
     // 将指定的zip文件解压到指定目录下，其中：zipName：文件名，targetDirName：需解压到的目录
     public static void upzipFile(String zipName, String targetDirName) {
-        if (!targetDirName.endsWith(File.separator)) {
-            targetDirName += File.separator;
-        }
+//        if (!targetDirName.endsWith(File.separator)) {
+//            targetDirName += File.separator;
+//        }
         try {
             // 根据zip文件创建ZipFile对象，此类的作用是从zip文件读取条目
             ZipFile zipFile = new ZipFile(zipName);
@@ -33,6 +33,7 @@ public class DecompressFiles {
                 zn = (ZipEntry) entrys.nextElement();
                 entryName = zn.getName();				// 获得每一条文件的名字
                 targetFileName = targetDirName + entryName;
+//                targetFileName = targetDirName;
                 if (zn.isDirectory()) {
                     new File(targetFileName).mkdirs();		// 如果zn是一个目录，则创建目录
                     continue;

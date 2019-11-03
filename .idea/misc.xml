@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl-webs/spider-scrawl-papp" />
+    <file type="web" url="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
