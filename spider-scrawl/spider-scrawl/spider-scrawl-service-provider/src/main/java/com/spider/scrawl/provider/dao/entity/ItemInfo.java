@@ -21,7 +21,7 @@ public class ItemInfo {
 
     private Long updateUserId;
 
-    private Byte deleteFlag;
+    private Integer deleteFlag;
 
     public Long getId() {
         return id;
@@ -95,11 +95,11 @@ public class ItemInfo {
         this.updateUserId = updateUserId;
     }
 
-    public Byte getDeleteFlag() {
+    public Integer getDeleteFlag() {
         return deleteFlag;
     }
 
-    public void setDeleteFlag(Byte deleteFlag) {
+    public void setDeleteFlag(Integer deleteFlag) {
         this.deleteFlag = deleteFlag;
     }
 }

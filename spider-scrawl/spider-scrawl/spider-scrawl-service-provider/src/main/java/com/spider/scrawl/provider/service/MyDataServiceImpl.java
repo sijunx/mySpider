@@ -2,7 +2,6 @@ package com.spider.scrawl.provider.service;
 
 import com.spider.scrawl.provider.entity.Student;
 import com.spider.search.service.api.MyDataService;
-import com.spider.search.service.api.mongo.SpiderCalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -14,8 +13,6 @@ public class MyDataServiceImpl implements MyDataService {
 
     @Autowired
     private MongoTemplate mongoTemplate;
-    @Autowired
-    private SpiderCalService spiderCalService;
 
     public String getListByWordId(){
         //查询记录数
@@ -29,7 +26,7 @@ public class MyDataServiceImpl implements MyDataService {
     }
 
     public Long start(){
-        spiderCalService.cal();
+
         return 0L;
     }
 }

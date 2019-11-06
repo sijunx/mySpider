@@ -14,11 +14,11 @@
     <result column="delete_flag" property="deleteFlag" jdbcType="TINYINT" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, item_code, item_desc, item_type, item_len, create_time, create_user_id, update_time, 
+    id, item_code, item_desc, item_type, item_len, create_time, create_user_id, update_time,
     update_user_id, delete_flag
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-    select 
+    select
     <include refid="Base_Column_List" />
     from item_info
     where id = #{id,jdbcType=BIGINT}
@@ -28,13 +28,13 @@
     where id = #{id,jdbcType=BIGINT}
   </delete>
   <insert id="insert" parameterType="com.spider.scrawl.provider.dao.entity.ItemInfo" >
-    insert into item_info (id, item_code, item_desc, 
-      item_type, item_len, create_time, 
-      create_user_id, update_time, update_user_id, 
+    insert into item_info (id, item_code, item_desc,
+      item_type, item_len, create_time,
+      create_user_id, update_time, update_user_id,
       delete_flag)
-    values (#{id,jdbcType=BIGINT}, #{itemCode,jdbcType=VARCHAR}, #{itemDesc,jdbcType=VARCHAR}, 
-      #{itemType,jdbcType=INTEGER}, #{itemLen,jdbcType=INTEGER}, #{createTime,jdbcType=DATE}, 
-      #{createUserId,jdbcType=BIGINT}, #{updateTime,jdbcType=DATE}, #{updateUserId,jdbcType=BIGINT}, 
+    values (#{id,jdbcType=BIGINT}, #{itemCode,jdbcType=VARCHAR}, #{itemDesc,jdbcType=VARCHAR},
+      #{itemType,jdbcType=INTEGER}, #{itemLen,jdbcType=INTEGER}, #{createTime,jdbcType=DATE},
+      #{createUserId,jdbcType=BIGINT}, #{updateTime,jdbcType=DATE}, #{updateUserId,jdbcType=BIGINT},
       #{deleteFlag,jdbcType=TINYINT})
   </insert>
   <insert id="insertSelective" parameterType="com.spider.scrawl.provider.dao.entity.ItemInfo" >
@@ -150,4 +150,11 @@
       delete_flag = #{deleteFlag,jdbcType=TINYINT}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="getListByKeyWord" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from item_info
+    where item_desc = #{keyWord}
+  </select>
 </mapper>

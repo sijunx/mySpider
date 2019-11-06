@@ -155,6 +155,7 @@ public class SpiderSearchController{
 //        return list04;
 //    }
 //
+
     @RequestMapping(value={"soImage"}, method={org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
     public void doPostImage(@RequestParam Map param, HttpServletResponse response){
         String imageIdStr =  param.get("imageId").toString();

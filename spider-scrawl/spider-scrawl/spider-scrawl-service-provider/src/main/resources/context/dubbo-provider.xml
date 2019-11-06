@@ -13,11 +13,14 @@
     <dubbo:protocol name="dubbo" port="20880"  />
 
 
+
     <!--&lt;!&ndash; service implementation, as same as regular local bean &ndash;&gt;-->
     <bean id="myDataService" class="com.spider.scrawl.provider.service.MyDataServiceImpl"/>
+    <bean id="itemService" class="com.spider.scrawl.provider.service.ItemServiceImpl"/>
 
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="com.spider.search.service.api.MyDataService" ref="myDataService" retries="3"/>
+    <dubbo:service interface="com.spider.search.service.api.ItemService" ref="itemService" retries="3"/>
 
     <!--<context:service ref="userInfoService" interface="com.spider.user.service.api.ISpiderUserInfoServiceervice"/>-->
 

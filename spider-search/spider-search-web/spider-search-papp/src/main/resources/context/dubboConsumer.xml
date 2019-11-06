@@ -17,5 +17,6 @@
     <dubbo:consumer check="false" />
 
     <dubbo:reference id="myDataService" interface="com.spider.search.service.api.MyDataService"></dubbo:reference>
+    <dubbo:reference id="itemService" interface="com.spider.search.service.api.ItemService"></dubbo:reference>
 
 </beans>

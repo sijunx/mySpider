@@ -58,20 +58,27 @@
 
 	<!--&lt;!&ndash; 多数据源配置 &ndash;&gt;-->
 	<!--<bean id="dataSource" class="com.spider.user.service.dbcp.SpiderDynamicDataSource">-->
-		<!--<property name="targetDataSources">-->
-			<!--<map key-type="java.lang.String">-->
-				<!--<entry value-ref="dataSource_master" key="dataSource_master"/>-->
-				<!--<entry value-ref="dataSource_slave" key="dataSource_slave" />-->
-			<!--</map>-->
-		<!--</property>-->
-		<!--&lt;!&ndash; 默认使用原来的数据源 &ndash;&gt;-->
-		<!--<property name="defaultTargetDataSource" ref="dataSource_master"/>-->
+	<!--<property name="targetDataSources">-->
+	<!--<map key-type="java.lang.String">-->
+	<!--<entry value-ref="dataSource_master" key="dataSource_master"/>-->
+	<!--<entry value-ref="dataSource_slave" key="dataSource_slave" />-->
+	<!--</map>-->
+	<!--</property>-->
+	<!--&lt;!&ndash; 默认使用原来的数据源 &ndash;&gt;-->
+	<!--<property name="defaultTargetDataSource" ref="dataSource_master"/>-->
 	<!--</bean>-->
 
 	<!-- myBatis扫描所有Mapper -->
-	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
-		  p:basePackage="com.spider.search.service.dao.impl.mapper"
-		  p:sqlSessionFactoryBeanName="spider-sqlSessionFactory">
+	<!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"-->
+	<!--p:basePackage="com.spider.scrawl.provider.dao.mapper"-->
+	<!--p:sqlSessionFactoryBeanName="spider-sqlSessionFactory">-->
+	<!--</bean>-->
+
+
+	<!-- 扫描 basePackage下Mapper的接口,根据对应的mapper.xml为其生成代理类 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="sqlSessionFactoryBeanName" value="spider-sqlSessionFactory"/>
+		<property name="basePackage" value="com.spider.scrawl.provider.dao.mapper"/>
 	</bean>
 
 	<!-- 事务管理器配置 -->
@@ -82,42 +89,36 @@
 	<!-- 配置sqlSessionFactory -->
 	<bean id="spider-sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="typeAliasesPackage" value="com.spider.user.service.dao.entity"/>
-		<property name="mapperLocations">
-			<value>classpath*:com/spider/user/service/dao/impl/mapper/*.xml</value>
-		</property>
+		<property name="typeAliasesPackage" value="com.spider.scrawl.provider.dao.entity"/>
+		<property name="mapperLocations" value="classpath*:mapper/*.xml"/>
 		<!--<property name="plugins">-->
-			<!--<array>-->
-				<!--&lt;!&ndash; 慢sql监控 &ndash;&gt;-->
-				<!--<bean class="com.spider.base.mybatis.dao.interceptor.SpiderSqlExplainInterceptor">-->
-				<!--</bean>-->
-				<!--&lt;!&ndash; 分页插件 &ndash;&gt;-->
-				<!--<bean class="com.github.pagehelper.PageInterceptor">-->
-					<!--<property name="properties">-->
-						<!--<value>-->
-							<!--helperDialect=mysql-->
-							<!--reasonable=true-->
-							<!--supportMethodsArguments=true-->
-							<!--params=count=countSql-->
-							<!--autoRuntimeDialect=true-->
-						<!--</value>-->
-					<!--</property>-->
-				<!--</bean>-->
-			<!--</array>-->
+		<!--<array>-->
+		<!--&lt;!&ndash; 慢sql监控 &ndash;&gt;-->
+		<!--<bean class="com.spider.base.mybatis.dao.interceptor.SpiderSqlExplainInterceptor">-->
+		<!--</bean>-->
+		<!--&lt;!&ndash; 分页插件 &ndash;&gt;-->
+		<!--<bean class="com.github.pagehelper.PageInterceptor">-->
+		<!--<property name="properties">-->
+		<!--<value>-->
+		<!--helperDialect=mysql-->
+		<!--reasonable=true-->
+		<!--supportMethodsArguments=true-->
+		<!--params=count=countSql-->
+		<!--autoRuntimeDialect=true-->
+		<!--</value>-->
+		<!--</property>-->
+		<!--</bean>-->
+		<!--</array>-->
 		<!--</property>-->
 	</bean>
 
-	<!-- 扫描 basePackage下Mapper的接口,根据对应的mapper.xml为其生成代理类 -->
-	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="sqlSessionFactoryBeanName" value="spider-sqlSessionFactory"/>
-		<property name="basePackage" value="com.spider.user.service.dao.impl.mapper"/>
-	</bean>
 
 	<!--<bean id="spiderDynamicDataSourceAspect" class="com.spider.user.service.dbcp.SpiderDynamicDataSourceAspect">-->
 	<!--</bean>-->
 
 	<!-- 扫描所有的service实现类，依赖注入 -->
 	<!--<context:component-scan base-package="com.spider.user.service"/>-->
-	<context:component-scan base-package="com.spider.scrawl.provider.service,
-											com.spider.search.service.impl.mongo"/>
+	<context:component-scan base-package="com.spider.scrawl.provider.*">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
 </beans>
