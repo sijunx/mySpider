@@ -155,6 +155,6 @@
     select
     <include refid="Base_Column_List" />
     from item_info
-    where item_desc = #{keyWord}
+    where item_desc like concat('%',#{keyWord},'%')
   </select>
 </mapper>

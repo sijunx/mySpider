@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.spider.search.papp.response.ResponseDTO;
 import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,9 +39,9 @@ public class MyController {
         if(StringUtils.isBlank(keyWord)){
             keyWord = "订单ID";
         }
-
+        List<ItemDto> itemDtoList = null;
         try {
-            List<ItemDto> itemDtoList = itemService.getList(keyWord);
+            itemDtoList = itemService.getList(keyWord);
             System.out.println("获取到数据啦itemDtoList"+JSON.toJSONString(itemDtoList));
         }catch (Exception e){
             e.printStackTrace();
@@ -58,7 +59,12 @@ public class MyController {
         itemDtos.add(getItemDto("1", "createUserType", "create user type", "创建人类型", "Integer", "11"));
         itemDtos.add(getItemDto("1", "createTime", "create time", "创建时间", "Long", "13"));
         ResponseDTO responseDTO = new ResponseDTO();
-        responseDTO.setData(itemDtos);
+        if(CollectionUtils.isNotEmpty(itemDtoList)){
+            responseDTO.setData(itemDtoList);
+        }else{
+            responseDTO.setData(itemDtos);
+        }
+
         return responseDTO;
     }
 

@@ -1,6 +1,8 @@
 package com.spider.search.service.dto;
 
-public class ItemDto {
+import java.io.Serializable;
+
+public class ItemDto implements Serializable {
     /** id */
     private String id;
 
