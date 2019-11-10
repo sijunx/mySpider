@@ -7,11 +7,17 @@ public class ItemInfo {
 
     private String itemCode;
 
+    private String itemCname;
+
+    private String itemEname;
+
     private String itemDesc;
 
     private Integer itemType;
 
-    private Integer itemLen;
+    private String itemLen;
+
+    private String itemRemark;
 
     private Date createTime;
 
@@ -55,11 +61,11 @@ public class ItemInfo {
         this.itemType = itemType;
     }
 
-    public Integer getItemLen() {
+    public String getItemLen() {
         return itemLen;
     }
 
-    public void setItemLen(Integer itemLen) {
+    public void setItemLen(String itemLen) {
         this.itemLen = itemLen;
     }
 
@@ -101,5 +107,29 @@ public class ItemInfo {
 
     public void setDeleteFlag(Integer deleteFlag) {
         this.deleteFlag = deleteFlag;
+    }
+
+    public String getItemRemark() {
+        return itemRemark;
+    }
+
+    public void setItemRemark(String itemRemark) {
+        this.itemRemark = itemRemark;
+    }
+
+    public String getItemCname() {
+        return itemCname;
+    }
+
+    public void setItemCname(String itemCname) {
+        this.itemCname = itemCname;
+    }
+
+    public String getItemEname() {
+        return itemEname;
+    }
+
+    public void setItemEname(String itemEname) {
+        this.itemEname = itemEname;
     }
 }

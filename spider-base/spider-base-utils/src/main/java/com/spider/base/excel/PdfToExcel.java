@@ -1,4 +1,4 @@
-package com.spider.search.papp;
+package com.spider.base.excel;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
@@ -53,7 +53,7 @@ public  class PdfToExcel {
         }
         Integer rowStart = 1;
         //  Excel导出工具类
-        SalesExcelExportUtil excelExportUtil = new SalesExcelExportUtil();
+        ExcelExportUtil excelExportUtil = new ExcelExportUtil();
         excelExportUtil.setSxssfWorkbook(templatePath);
         //获取列名称
         List<String> colNameList = getColNameList(excelExportUtil, templatePath);
@@ -103,7 +103,7 @@ public  class PdfToExcel {
         excelExportUtil.saveExcel(fileSavePath);
     }
 
-    private static List<String> getColNameList(SalesExcelExportUtil excelExportUtil,String excelTemplatePath){
+    private static List<String> getColNameList(ExcelExportUtil excelExportUtil, String excelTemplatePath){
         Sheet sheet = excelExportUtil.getSheetByExcel(excelTemplatePath);
         Row row00 = sheet.getRow(0);
         List<String> colNameList = new ArrayList<>();

@@ -30,41 +30,24 @@ public class MyController {
     @RequestMapping("/list")
     @ResponseBody
     public  ResponseDTO<List<ItemDto>>  getList(@RequestBody Map map) {
-
-        System.out.println("object:"+ JSON.toJSON(map));
         String keyWord = null;
         if(map.get("keyword") != null) {
             keyWord = (String) map.get("keyword");
         }
-        if(StringUtils.isBlank(keyWord)){
-            keyWord = "订单ID";
-        }
+        ResponseDTO responseDTO = new ResponseDTO();
         List<ItemDto> itemDtoList = null;
+        if(StringUtils.isBlank(keyWord)){
+            itemDtoList = itemService.getTop10();
+            responseDTO.setData(itemDtoList);
+            return responseDTO;
+        }
         try {
             itemDtoList = itemService.getList(keyWord);
             System.out.println("获取到数据啦itemDtoList"+JSON.toJSONString(itemDtoList));
         }catch (Exception e){
             e.printStackTrace();
         }
-
-        List<ItemDto> itemDtos = new ArrayList<>();
-        itemDtos.add(getItemDto("1", "orderId", "order identity", "订单ID", "Long", "20"));
-        itemDtos.add(getItemDto("1", "shippingOrderId", "shipping order identity", "运单ID", "Long", "20"));
-        itemDtos.add(getItemDto("1", "userId", "user identity", "用户ID", "Long", "20"));
-        itemDtos.add(getItemDto("1", "userName", "user name", "用户姓名", "String", "20"));
-        itemDtos.add(getItemDto("1", "accountId", "account identity", "账单ID", "Long", "20"));
-        itemDtos.add(getItemDto("1", "status", "status", "状态", "Integer", "11"));
-        itemDtos.add(getItemDto("1", "createUserId", "create user identity", "创建人ID", "Long", "20"));
-        itemDtos.add(getItemDto("1", "createUserName", "create user id", "创建人姓名", "String", "40"));
-        itemDtos.add(getItemDto("1", "createUserType", "create user type", "创建人类型", "Integer", "11"));
-        itemDtos.add(getItemDto("1", "createTime", "create time", "创建时间", "Long", "13"));
-        ResponseDTO responseDTO = new ResponseDTO();
-        if(CollectionUtils.isNotEmpty(itemDtoList)){
-            responseDTO.setData(itemDtoList);
-        }else{
-            responseDTO.setData(itemDtos);
-        }
-
+        responseDTO.setData(itemDtoList);
         return responseDTO;
     }
 
@@ -79,4 +62,14 @@ public class MyController {
         itemDto.setItemLen(itemLen);
         return itemDto;
     }
+
+    @RequestMapping("/export")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  export() {
+
+        itemService.exportDataFromExcel();
+        return null;
+    }
+
+
 }

@@ -21,4 +21,9 @@ public interface ItemInfoMapper {
     int updateByPrimaryKey(ItemInfo record);
 
     List<ItemInfo> getListByKeyWord(@Param("keyWord") String keyWord);
+
+
+    List<ItemInfo> getListByItemCodeAndCname(@Param("itemCode") String itemCode, @Param("itemCname") String itemCname);
+
+    List<ItemInfo> getByIdList(@Param("idList") List<Long> idList);
 }

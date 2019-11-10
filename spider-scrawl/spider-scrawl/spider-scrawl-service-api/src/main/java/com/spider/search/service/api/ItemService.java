@@ -6,5 +6,10 @@ import java.util.List;
 
 public interface ItemService {
 
-    public List<ItemDto> getList(String keyWord);
+
+    List<ItemDto> getList(String keyWord);
+
+    List<ItemDto> getTop10();
+
+    void exportDataFromExcel();
 }

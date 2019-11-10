@@ -1,8 +1,7 @@
-package com.spider.search.papp;
+package com.spider.base.excel;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.RichTextString;
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFRichTextString;
@@ -16,9 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 
-public class SalesExcelExportUtil {
+public class ExcelExportUtil {
 
-    private static final Logger logger = LoggerFactory.getLogger(SalesExcelExportUtil.class);
+    private static final Logger logger = LoggerFactory.getLogger(ExcelExportUtil.class);
 
     private SXSSFWorkbook sxssfWorkbook;
     private Sheet sheet;

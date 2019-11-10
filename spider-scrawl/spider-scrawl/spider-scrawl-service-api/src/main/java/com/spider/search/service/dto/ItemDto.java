@@ -16,6 +16,8 @@ public class ItemDto implements Serializable {
 
     private String itemLen;
 
+    private String itemDesc;
+
     public String getId() {
         return id;
     }
@@ -62,5 +64,13 @@ public class ItemDto implements Serializable {
 
     public void setItemLen(String itemLen) {
         this.itemLen = itemLen;
+    }
+
+    public String getItemDesc() {
+        return itemDesc;
+    }
+
+    public void setItemDesc(String itemDesc) {
+        this.itemDesc = itemDesc;
     }
 }
