@@ -6,8 +6,6 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFRichTextString;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.util.CollectionUtils;
 
 import java.io.*;
@@ -16,8 +14,6 @@ import java.util.Map;
 
 
 public class ExcelExportUtil {
-
-    private static final Logger logger = LoggerFactory.getLogger(ExcelExportUtil.class);
 
     private SXSSFWorkbook sxssfWorkbook;
     private Sheet sheet;
@@ -35,13 +31,13 @@ public class ExcelExportUtil {
         try {
             inputStream = new FileInputStream(templateFilePath);
         } catch (FileNotFoundException e) {
-            logger.info("打开Excel模板失败"+e.getMessage());
+           e.printStackTrace();
         }
         XSSFWorkbook workbook = null;
         try {
             workbook = new XSSFWorkbook(inputStream);
         } catch (IOException e) {
-            logger.info("生成XSSFWorkbook失败"+e.getMessage());
+           e.printStackTrace();
         }
 
         return workbook.getSheetAt(0);
@@ -52,13 +48,13 @@ public class ExcelExportUtil {
         try {
             inputStream = new FileInputStream(templateFilePath);
         } catch (FileNotFoundException e) {
-            logger.info("打开Excel模板失败"+e.getMessage());
+            e.printStackTrace();
         }
         XSSFWorkbook workbook = null;
         try {
             workbook = new XSSFWorkbook(inputStream);
         } catch (IOException e) {
-            logger.info("生成XSSFWorkbook失败"+e.getMessage());
+            e.printStackTrace();
         }
 
 
@@ -102,7 +98,6 @@ public class ExcelExportUtil {
             cell = row.createCell(i);
             RichTextString richTextString = new XSSFRichTextString(entry.getValue());
             cell.setCellValue(richTextString);
-            logger.debug("i:" + i + ",key :" + entry.getValue());
             //设置列宽
             if(columnWidthMap.containsKey(entry.getKey())) {
                 sheet.setColumnWidth(i,columnWidthMap.get(entry.getKey())*256);
@@ -143,7 +138,6 @@ public class ExcelExportUtil {
      * @return 文件的绝对路径，下载时使用
      */
     public void saveExcel(String fileName) {
-        logger.info("保存导出的Excel到临时目录：{}", fileName);
         File file = new File(fileName);
         //  如果父目录不存在，那么递归创建目录
         if(     !file.exists()
@@ -157,9 +151,8 @@ public class ExcelExportUtil {
             sxssfWorkbook.write(out);
             // dispose of temporary files backing this workbook on disk
             sxssfWorkbook.dispose();
-            logger.info("保存导出的Excel到临时目录：{},完成。", fileName);
         }catch(IOException e){
-            logger.error("保存生成的Excel文件失败", e);
+            e.printStackTrace();
         }
     }
 
@@ -176,11 +169,10 @@ public class ExcelExportUtil {
             sxssfWorkbook.dispose();
             outputStream.close();
             outputStream.flush();
-            logger.info("导出的Excel完成。");
             return 0;
         }catch (IOException e) {
-            logger.error("导出Excel文件失败", e);
-            return 1;
+           e.printStackTrace();
         }
+        return 1;
     }
 }

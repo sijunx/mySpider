@@ -6,5 +6,9 @@
 .idea
 *.iml
 out
+.idea/workspace.xml
+.gitignore
+idea/workspace.xml
 gen
 target/
+

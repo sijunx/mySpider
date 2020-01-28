@@ -232,4 +232,13 @@ public  class PdfToExcel {
         }
         return 0;
     }
+
+    public static void main(String[] arg){
+//        convertToExcel(String fileSavePath, String pdfDirPath, String templatePath)
+        String fileSavePath = "C:\\myPdf\\save_excel\\result.xls";
+        String pdfDirPath = "C:\\myPdf\\pdf";
+        String templatePath = "C:\\myPdf\\excel_template\\result001.xls";
+        PdfToExcel.convertToExcel(fileSavePath, pdfDirPath, templatePath);
+    }
+
 }
