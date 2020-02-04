@@ -44,6 +44,11 @@
 			<version>${spider-base.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>com.spider.base</groupId>
+			<artifactId>spider-base-apollo</artifactId>
+			<version>${spider-base.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>

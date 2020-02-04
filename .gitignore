@@ -3,12 +3,16 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
+target/
+.idea/
+.iml
+.settings/
+.classpath
+.project
+bin/
 out
-.idea/workspace.xml
 .gitignore
 idea/workspace.xml
 gen
-target/
+
 

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-api/spider-ant-service-api.iml" filepath="$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-api/spider-ant-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-impl/spider-ant-service-impl.iml" filepath="$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-impl/spider-ant-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base.iml" filepath="$PROJECT_DIR$/spider-base/spider-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-apollo/spider-base-apollo.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-apollo/spider-base-apollo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider-base/spider-base-job/spider-base-job.iml" filepath="$PROJECT_DIR$/spider-base/spider-base-job/spider-base-job.iml" />

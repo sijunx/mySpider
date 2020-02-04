@@ -25,5 +25,6 @@ public class SpiderKafkaProducerTask implements Runnable{
         ProducerRecord<String, String> producerRecord = new ProducerRecord<String, String>(topic, key, message);
         kafkaProducer.send(producerRecord);
         logger.info("发送数据完成 value:{}", message);
+        System.out.println("发送数据完成 message:"+message);
     }
 }

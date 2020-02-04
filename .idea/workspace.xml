@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b14182-d3d9-4f08-a4ef-cafde8fe90fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/java/com/spider/base/apollo/Test980.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/resources/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/test/resources/applicationContext-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/test/resources/conf/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/test/resources/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/src/test/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessor60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/SpiderKafkaProducerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/SpiderKafkaProducerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaPropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaPropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MyScrawlServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MyScrawlServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spider-allparent/target/" />
     <ignored path="$PROJECT_DIR$/spider-base/target/" />
@@ -60,6 +94,7 @@
     <ignored path="$PROJECT_DIR$/spider-ant/spider-ant-papp/target/" />
     <ignored path="$PROJECT_DIR$/spider-center/spider-center-scrawl/target/" />
     <ignored path="$PROJECT_DIR$/spider-center/target/" />
+    <ignored path="$PROJECT_DIR$/spider-base/spider-base-apollo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,74 +143,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaProducerTest.java">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessor60.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-center/spider-center-scrawl/src/main/java/com/spider/center/scrawl/MyOpenApiScrawlApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-center/spider-center-scrawl/src/main/java/com/spider/center/scrawl/controller/SpiderScrawlOpenApiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-center/spider-center-scrawl/src/main/java/com/spider/center/scrawl/controller/SpiderBaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -183,20 +154,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
-              <folding>
-                <element signature="e#1106#1118#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1917">
+              <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5bed7eea-cc9a-4e9a-9c95-1b2d4dadd914/console_3.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MyScrawlServiceProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="5" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.15/log4j-1.2.15.jar!/org/apache/log4j/PatternLayout.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -207,19 +238,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sm_fund_input_data</find>
-      <find>sm_fund_url</find>
-      <find>sm_fund_black_words</find>
-      <find>sm_fund_topic</find>
-      <find>sm_fund_flow</find>
-      <find>sm_fund_keywords</find>
       <find>sm_fund_reverse_index</find>
       <find>sm_fund_words_dic</find>
       <find>collection01</find>
@@ -244,6 +269,12 @@
       <find>targetDirName</find>
       <find>$PROJECT_DIR$/..</find>
       <find>Enum</find>
+      <find>myMessageProcessor60</find>
+      <find>134.175.107.11</find>
+      <find>apollo.version</find>
+      <find>apollo</find>
+      <find>encode</find>
+      <find>gbk</find>
     </findStrings>
     <replaceStrings>
       <replace>spider_dev</replace>
@@ -258,6 +289,7 @@
       <replace>MapObj</replace>
       <replace>C:\\git</replace>
       <replace>=&quot;com.spider.scrawl.provider.dao.entity.ItemInfo&quot;</replace>
+      <replace>106.12.161.30</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\git_mySpider_001\spider-base</dir>
@@ -278,25 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/entity/SpiderReverseIndexEntity.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/entity/SpiderWordDicEntity.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/SpiderWordDicEntity.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/SpiderUrlDto.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/SpiderWordDicDto.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/SpiderDataDto.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/SpiderReverseIndexDto.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/SpiderUrlService.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/SpiderUrlServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-doc/spider-user/sql/wodDic" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/resources/generator.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/java/com/spider/search/service/MybatisGenerator.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/resources/generator/generator.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/java/com/spider/search/service/impl/dao/ItemInfo.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/java/com/spider/search/service/impl/dao/entity/ItemInfo.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/com.spider.scrawl.provider.dao.mapper/ItemInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/spider-doc/spider-user/sql/wodDic.sql" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/generator/generator.xml" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/SalesExcelExportUtil.java" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/Test001.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MybatisGenerator.java" />
@@ -305,30 +318,49 @@
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/DecompressFiles.java" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/Test002.java" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/PdfToExcel.java" />
-        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/applicationContext.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyDataServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/response/ResponseDTO.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/enums/ItemTypeEnum.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dao/entity/ItemInfo.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dao/mapper/ItemInfoMapper.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/mapper/ItemInfoMapper.xml" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/ItemDto.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MapCacheUtils.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MapCacheObj.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/excel/ExcelExportUtil.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/excel/PdfToExcel.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/java/com/spider/search/service/impl/mongo/ReverseIndexServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/SpiderKafkaProducerTask.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessor60.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaProducerTest.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaConsumerTest.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/application.properties" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaPropertiesUtil.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5bed7eea-cc9a-4e9a-9c95-1b2d4dadd914/console_2.sql" />
+        <option value="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-apollo/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/java/com/spider/base/apollo/Test980.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/META-INF/app.properties" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/app.properties" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/application.properties" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" />
+        <option value="$PROJECT_DIR$/spider-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MyScrawlServiceProviderApplication.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/log4j.properties" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/log4j.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5bed7eea-cc9a-4e9a-9c95-1b2d4dadd914/console_3.sql" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -344,11 +376,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-scrawl-service-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-search-papp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-scrawl-service-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-search-papp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -369,6 +401,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,173 +409,11 @@
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="scrawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-center-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-search-papp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,30 +425,31 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580630633752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580795105574" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mySpider003" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMAK-2.0.0.2" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider_001\spider-search\spider-search-web\spider-search-papp\src\main\resources\META-INF" />
+      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\META-INF" />
+      <recent name="C:\git_mySpider_001\spider-base" />
       <recent name="C:\git_mySpider_001\spider-base\spider-base-utils\src\main\resources" />
       <recent name="C:\git_mySpider_001\spider-base\spider-base-utils\src\main\java\com\spider\base" />
-      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\java\com\spider\scrawl\provider" />
-      <recent name="C:\git_mySpider_001\spider-base\spider-base-utils\src\main\java\com\spider\base\utils" />
-      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spider.scrawl.provider.service" />
       <recent name="com.spider.search.papp" />
       <recent name="com.spider.scrawl.provider" />
       <recent name="com.spider.scrawl.provider.entity" />
       <recent name="com.spider.ant.impl.thread" />
-      <recent name="com.spider.search.papp.interceptor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider_001\spider-base\spider-base-apollo\src\main\java\com\spider\base\apollo" />
       <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-impl\src\main\java\com\spider\search\service\impl\dao" />
       <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-impl\src\main\resources\generator" />
       <recent name="C:\git_mySpider_001\spider-demo" />
@@ -595,16 +467,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PdfToExcel (1)">
-    <configuration name="DecompressFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spider.search.papp.DecompressFiles" />
-      <module name="spider-search-papp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spider.search.papp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.MyScrawlServiceProviderApplication (1)">
+    <configuration name="KafkaConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KafkaConsumerTest" />
+      <module name="spider-base-kafka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KafkaProducerTest" />
+      <module name="spider-base-kafka" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -622,25 +495,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PdfToExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spider.search.papp.PdfToExcel" />
-      <module name="spider-search-papp" />
+    <configuration name="Test980" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spider.base.apollo.Test980" />
+      <module name="spider-base-apollo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spider.search.papp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spider.search.papp.Test003" />
-      <module name="spider-search-papp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spider.search.papp.*" />
+          <option name="PATTERN" value="com.spider.base.apollo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -774,10 +634,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PdfToExcel" />
-      <item itemvalue="Application.DecompressFiles" />
-      <item itemvalue="Application.Test003" />
       <item itemvalue="Application.PdfToExcel (1)" />
+      <item itemvalue="Application.KafkaProducerTest" />
+      <item itemvalue="Application.KafkaConsumerTest" />
+      <item itemvalue="Application.Test980" />
       <item itemvalue="Spring Boot.MyOpenApiScrawlApplication" />
       <item itemvalue="Spring Boot.MySearchAppApplication" />
       <item itemvalue="Spring Boot.MySpiderDistScrawlApplication" />
@@ -798,11 +658,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PdfToExcel (1)" />
         <item itemvalue="Spring Boot.MyScrawlServiceProviderApplication (1)" />
-        <item itemvalue="Application.Test003" />
-        <item itemvalue="Application.DecompressFiles" />
-        <item itemvalue="Application.PdfToExcel" />
+        <item itemvalue="Application.Test980" />
+        <item itemvalue="Application.KafkaConsumerTest" />
+        <item itemvalue="Application.KafkaProducerTest" />
+        <item itemvalue="Application.PdfToExcel (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -847,6 +707,8 @@
       <workItem from="1573172612044" duration="3073000" />
       <workItem from="1573349727151" duration="3141000" />
       <workItem from="1580182977920" duration="228000" />
+      <workItem from="1580712860672" duration="11861000" />
+      <workItem from="1580795166984" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="opt@master#:kafka 新增监控调试">
       <created>1549874474178</created>
@@ -877,7 +739,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348671000" />
+    <option name="totallyTimeSpent" value="373017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,7 +754,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.22814499" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.23347548" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -902,25 +764,26 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2611051" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.37594798" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38244852" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.30010834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42361864" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29577464" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.46912244" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.20895523" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.20895523" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" />
@@ -1017,10 +880,10 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java</url>
+          <line>76</line>
           <properties />
-          <option name="timeStamp" value="80" />
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1075,285 +938,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/SpiderUrlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/MyDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/SpiderUrlServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/java/com/spider/search/service/impl/mongo/thread/KeyExtractThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/interceptor/CrosInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/response/ResponseDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/src/main/java/com/spider/search/service/enums/SpiderNodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-doc/spider-user/sql/wodDic.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/enums/ItemTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dao/entity/ItemInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dao/mapper/ItemInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/mapper/ItemInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/transfer/ItemInfoTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/dto/ItemDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="259" column="50" selection-start-line="259" selection-start-column="50" selection-end-line="259" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MyScrawlServiceProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/DecompressFiles.java" />
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/Test001.java" />
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/compress/DecompressFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MapCacheUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MapUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MapCacheObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="e#1106#1118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SinkToKafka02.java" />
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/WaterMarkTest.java" />
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaConsumerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-service-provider/src/main/java/com/spider/user/provider/service/UserInfoServiceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-user/spider-user-papp/src/main/java/com/spider/user/papp/controller/SpiderUserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/1.8.10/pdfbox-1.8.10.jar!/org/apache/pdfbox/util/PDFTextStripper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1372,13 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1413,18 +990,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaProducerTest.java">
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/SpiderKafkaProducerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="402">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/spider-job/src/main/java/com/spider/job/MyMessageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/api/ISpiderMessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/consumer/SpiderKafkaConsumerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/KafkaConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/producer/SpiderKafkaProducerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaPropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5bed7eea-cc9a-4e9a-9c95-1b2d4dadd914/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/java/com/spider/base/apollo/SpiderConsumerFilter.java" />
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/resources/META-INF/com.alibaba.dubbo.rpc.Filter" />
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-apollo/src/main/java/com/spider/base/apollo/Test980.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-apollo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/application-interceptor.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/META-INF/app.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="68" column="70" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessor60.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/MyScrawlServiceProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="5" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.15/log4j-1.2.15.jar!/org/apache/log4j/PatternLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5bed7eea-cc9a-4e9a-9c95-1b2d4dadd914/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1482,7 +1320,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spider-scrawl-service-impl</last-edited>
+          <last-edited>spider-base-apollo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

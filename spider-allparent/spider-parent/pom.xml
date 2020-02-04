@@ -57,6 +57,7 @@
 		<mongodb-driver.version>3.4.3</mongodb-driver.version>
 		<poi-ooxml.version>3.9</poi-ooxml.version>
 		<pdfbox.version>1.8.10</pdfbox.version>
+		<apollo.version>1.5.0</apollo.version>
 
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -180,6 +181,11 @@
 						<artifactId>spring-context</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>com.ctrip.framwork.apollo</groupId>
+				<artifactId>apollo-client</artifactId>
+				<version>${apollo.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.pagehelper</groupId>

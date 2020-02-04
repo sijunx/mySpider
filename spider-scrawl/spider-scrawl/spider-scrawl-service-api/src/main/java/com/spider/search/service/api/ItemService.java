@@ -12,4 +12,8 @@ public interface ItemService {
     List<ItemDto> getTop10();
 
     void exportDataFromExcel();
+
+    String send(String message);
+
+    String receive();
 }

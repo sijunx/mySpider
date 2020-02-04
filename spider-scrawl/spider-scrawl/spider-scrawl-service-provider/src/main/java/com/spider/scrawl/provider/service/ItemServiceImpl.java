@@ -1,10 +1,10 @@
 package com.spider.scrawl.provider.service;
 
-
-import com.alibaba.fastjson.JSON;
+import com.ctrip.framework.apollo.Config;
+import com.ctrip.framework.apollo.ConfigService;
 import com.spider.base.excel.ExcelExportUtil;
-import com.spider.base.utils.MapCacheObj;
-import com.spider.base.utils.MapCacheUtils;
+import com.spider.base.kafka.consumer.SpiderKafkaConsumerClient;
+import com.spider.base.kafka.producer.SpiderKafkaProducerClient;
 import com.spider.scrawl.provider.dao.entity.ItemInfo;
 import com.spider.scrawl.provider.dao.mapper.ItemInfoMapper;
 import com.spider.scrawl.provider.transfer.ItemInfoTransfer;
@@ -26,6 +26,8 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private ItemInfoMapper itemInfoMapper;
+    @Autowired
+    private MyMessageProcessor60 myMessageProcessor60;
 
     Lock lock = new ReentrantLock();
 
@@ -81,6 +83,9 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public void exportDataFromExcel(){
+        Config appConfig = ConfigService.getAppConfig();
+        String prop = appConfig.getProperty("timeout", "");
+        System.out.println("-------------------prop:"+prop);
         lock.lock();
         String excelPath = "/Users/xusijun/Documents/字根集合.xls";
         ExcelExportUtil excelExportUtil = new ExcelExportUtil();
@@ -118,6 +123,18 @@ public class ItemServiceImpl implements ItemService {
         }
         lock.unlock();
 
+    }
+
+    @Override
+    public String send(String message){
+        SpiderKafkaProducerClient.sendMessage("myTopic", message);
+        return null;
+    }
+
+    @Override
+    public String receive(){
+        SpiderKafkaConsumerClient.getInstance().receiveMessages("myTopic", "myGroup",myMessageProcessor60);
+        return null;
     }
 }
 

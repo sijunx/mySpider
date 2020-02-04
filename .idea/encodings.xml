@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spider-base/spider-base-apollo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-base/spider-base-job" charset="UTF-8" />
@@ -45,5 +46,6 @@
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

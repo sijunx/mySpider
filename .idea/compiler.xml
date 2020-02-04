@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spider-ant-service-api" />
         <module name="spider-ant-service-impl" />
+        <module name="spider-base-apollo" />
         <module name="spider-base-dubbo" />
         <module name="spider-base-es" />
         <module name="spider-base-job" />
@@ -59,6 +60,7 @@
       <module name="spider-ant-service-api" target="1.8" />
       <module name="spider-ant-service-impl" target="1.8" />
       <module name="spider-base" target="1.8" />
+      <module name="spider-base-apollo" target="1.8" />
       <module name="spider-base-dubbo" target="1.8" />
       <module name="spider-base-es" target="1.8" />
       <module name="spider-base-job" target="1.8" />

@@ -71,5 +71,19 @@ public class MyController {
         return null;
     }
 
+    @RequestMapping("/send")
+    @ResponseBody
+    public  ResponseDTO<String>  send() {
+        itemService.send("测试数据");
+        return null;
+    }
+
+    @RequestMapping("/rcv")
+    @ResponseBody
+    public  ResponseDTO<String>  receive() {
+        itemService.receive();
+        return null;
+    }
+
 
 }
