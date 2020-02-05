@@ -62,5 +62,9 @@
             <artifactId>spider-base-utils</artifactId>
             <version>${spider-base-utils.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.ctrip.framwork.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+        </dependency>
     </dependencies>
 </project>

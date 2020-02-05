@@ -84,10 +84,10 @@ public class ItemServiceImpl implements ItemService {
     @Override
     public void exportDataFromExcel(){
         Config appConfig = ConfigService.getAppConfig();
-        String prop = appConfig.getProperty("timeout", "");
-        System.out.println("-------------------prop:"+prop);
+        String prop = appConfig.getProperty("excel_dic_data_path", "");
+        System.out.println("-------------------excel_dic_data_path:"+prop);
         lock.lock();
-        String excelPath = "/Users/xusijun/Documents/字根集合.xls";
+        String excelPath = prop;
         ExcelExportUtil excelExportUtil = new ExcelExportUtil();
         Sheet sheet = excelExportUtil.getSheetByExcel(excelPath);
         for(int icount=0; icount<=sheet.getLastRowNum(); icount++){
