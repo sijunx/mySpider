@@ -87,42 +87,48 @@ public class ItemServiceImpl implements ItemService {
         String prop = appConfig.getProperty("excel_dic_data_path", "");
         System.out.println("-------------------excel_dic_data_path:"+prop);
         lock.lock();
-        String excelPath = prop;
-        ExcelExportUtil excelExportUtil = new ExcelExportUtil();
-        Sheet sheet = excelExportUtil.getSheetByExcel(excelPath);
-        for(int icount=0; icount<=sheet.getLastRowNum(); icount++){
-            Row row = sheet.getRow(icount);
-            String itemCode = row.getCell(0)!=null?row.getCell(0).getStringCellValue():"";
-            String itemCname = row.getCell(1)!=null?row.getCell(1).getStringCellValue():"";
-            String itemEname = row.getCell(2)!=null?row.getCell(2).getStringCellValue():"";
-            String itemType = row.getCell(3)!=null?row.getCell(3).getStringCellValue():"";
-            String itemLen = row.getCell(4)!=null?row.getCell(4).getStringCellValue():"";
-            String itemDesc = row.getCell(5)!=null?row.getCell(5).getStringCellValue():"";
+        try {
+            String excelPath = prop;
+            ExcelExportUtil excelExportUtil = new ExcelExportUtil();
+            Sheet sheet = excelExportUtil.getSheetByExcel(excelPath);
+            System.out.println("row:" + sheet.getLastRowNum());
+            for (int icount = 0; icount <= sheet.getLastRowNum(); icount++) {
+                Row row = sheet.getRow(icount);
+                String itemCode = row.getCell(0) != null ? row.getCell(0).getStringCellValue() : "";
+                String itemCname = row.getCell(1) != null ? row.getCell(1).getStringCellValue() : "";
+                String itemEname = row.getCell(2) != null ? row.getCell(2).getStringCellValue() : "";
+                String itemType = row.getCell(3) != null ? row.getCell(3).getStringCellValue() : "";
+                String itemLen = row.getCell(4) != null ? row.getCell(4).getStringCellValue() : "";
+                String itemDesc = row.getCell(5) != null ? row.getCell(5).getStringCellValue() : "";
 
-            List<ItemInfo>  itemInfos = itemInfoMapper.getListByItemCodeAndCname(itemCode, itemCname);
-            if(CollectionUtils.isNotEmpty(itemInfos)){
-                continue;
+                System.out.println("itemCname:" + itemCname);
+                List<ItemInfo> itemInfos = itemInfoMapper.getListByItemCodeAndCname(itemCode, itemCname);
+                if (CollectionUtils.isNotEmpty(itemInfos)) {
+                    continue;
+                }
+
+                System.out.println("itemCode:" + itemCode);
+                System.out.println("itemCname:" + itemCname);
+                System.out.println("itemEname:" + itemEname);
+                System.out.println("itemType:" + itemType);
+                System.out.println("itemLen:" + itemLen);
+                System.out.println("itemDesc:" + itemDesc);
+
+                ItemInfo itemInfo = new ItemInfo();
+                itemInfo.setItemCode(itemCode);
+                itemInfo.setItemCname(itemCname);
+                itemInfo.setItemEname(itemEname);
+                itemInfo.setItemDesc(itemDesc);
+                itemInfo.setItemType(ItemTypeEnum.getByDesc(itemType) != null ? ItemTypeEnum.getByDesc(itemType).getCode() : 0);
+                itemInfo.setItemLen(itemLen);
+                itemInfo.setItemRemark("");
+                itemInfoMapper.insertSelective(itemInfo);
             }
-
-            System.out.println("itemCode:"+itemCode);
-            System.out.println("itemCname:"+itemCname);
-            System.out.println("itemEname:"+itemEname);
-            System.out.println("itemType:"+itemType);
-            System.out.println("itemLen:"+itemLen);
-            System.out.println("itemDesc:"+itemDesc);
-
-            ItemInfo itemInfo = new ItemInfo();
-            itemInfo.setItemCode(itemCode);
-            itemInfo.setItemCname(itemCname);
-            itemInfo.setItemEname(itemEname);
-            itemInfo.setItemDesc(itemDesc);
-            itemInfo.setItemType(ItemTypeEnum.getByDesc(itemType)!=null?ItemTypeEnum.getByDesc(itemType).getCode():0);
-            itemInfo.setItemLen(itemLen);
-            itemInfo.setItemRemark("");
-            itemInfoMapper.insertSelective(itemInfo);
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            lock.unlock();
         }
-        lock.unlock();
-
     }
 
     @Override
