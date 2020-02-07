@@ -1,3 +1,74 @@
+POST http://106.12.161.30:8091/mySpider/getKey
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"key":"zookeeper.address"}
+
+<> 2020-02-07T074744.200.json
+
+###
+
+POST http://106.12.161.30:8091/mySpider/getKey
+Accept: */*
+Cache-Control: no-cache
+
+{"key":"zookeeper.address"}
+
+<> 2020-02-07T074350.415.json
+
+###
+
+POST http://106.12.161.30:8091/mySpider/getKey
+Accept: */*
+Cache-Control: no-cache
+
+{"key":"zooeeper.address"}
+
+<> 2020-02-07T074242.415.json
+
+###
+
+POST http://106.12.161.30:8091/mySpider/list%20
+Accept: */*
+Cache-Control: no-cache
+
+{"key":"zooeeper.address"}
+
+<> 2020-02-07T074224.404.json
+
+###
+
+POST http://localhost:8091/mySpider/list%20
+Accept: */*
+Cache-Control: no-cache
+
+{"keyword":"订单号"}
+
+<> 2020-02-06T123842.404.json
+
+###
+
+POST http://localhost:8091/mySpider/list%20
+Accept: */*
+Cache-Control: no-cache
+
+{"keyword":"订单号"}
+
+<> 2020-02-06T123834.404.json
+
+###
+
+POST http://localhost:8091/mySpider/list%20
+Accept: */*
+Cache-Control: no-cache
+
+{"keyword":"订单号"}
+
+<> 2020-02-06T123749.404.json
+
+###
+
 POST http://localhost:8060/spider-scrawl/open-api/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
 Accept: */*
 Cache-Control: no-cache

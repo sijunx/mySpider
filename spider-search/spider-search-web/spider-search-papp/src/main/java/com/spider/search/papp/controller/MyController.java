@@ -1,6 +1,9 @@
 package com.spider.search.papp.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.ctrip.framework.apollo.Config;
+import com.ctrip.framework.apollo.ConfigService;
 import com.spider.search.papp.response.ResponseDTO;
 import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
@@ -71,13 +74,6 @@ public class MyController {
         return null;
     }
 
-    @RequestMapping("/send")
-    @ResponseBody
-    public  ResponseDTO<String>  send() {
-        itemService.send("测试数据");
-        return null;
-    }
-
     @RequestMapping("/rcv")
     @ResponseBody
     public  ResponseDTO<String>  receive() {
@@ -85,5 +81,33 @@ public class MyController {
         return null;
     }
 
+    @RequestMapping("/getKey")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  getKey(@RequestBody Map map) {
+        String value = null;
+        if(map.get("key") != null) {
+            String key = (String) map.get("key");
+            System.out.println("输入key:"+key);
+            Config appConfig = ConfigService.getAppConfig();
+            value = appConfig.getProperty(key, "");
+        }
+        System.out.println("输出value:"+value);
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(value);
+        return responseDTO;
+    }
 
+    @RequestMapping("/send")
+    @ResponseBody
+    public  ResponseDTO<String>  send(@RequestBody Map map) {
+        String value = null;
+        if(map.get("item") != null) {
+            String item = (String) map.get("item");
+            System.out.println("输入item:"+item);
+            itemService.send(item);
+        }
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(value);
+        return responseDTO;
+    }
 }

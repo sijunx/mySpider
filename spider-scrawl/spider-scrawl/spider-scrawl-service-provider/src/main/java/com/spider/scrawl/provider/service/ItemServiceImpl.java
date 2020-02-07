@@ -133,13 +133,14 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public String send(String message){
-        SpiderKafkaProducerClient.sendMessage("myTopic", message);
+        SpiderKafkaProducerClient.sendMessage("item_add_topic", message);
         return null;
     }
 
     @Override
     public String receive(){
-        SpiderKafkaConsumerClient.getInstance().receiveMessages("myTopic", "myGroup",myMessageProcessor60);
+        //字根、词组接受消息
+        SpiderKafkaConsumerClient.getInstance().receiveMessages("item_add_topic", "myGroup",myMessageProcessor60);
         return null;
     }
 }
