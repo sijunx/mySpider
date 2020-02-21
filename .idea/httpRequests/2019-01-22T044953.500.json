@@ -1,8 +1,0 @@
-{
-  "timestamp": 1548146993454,
-  "status": 500,
-  "error": "Internal Server Error",
-  "exception": "java.lang.NullPointerException",
-  "message": "No message available",
-  "path": "/spider-scrawl/open-api/getSpiderUrl"
-}

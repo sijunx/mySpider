@@ -1,9 +1,10 @@
 
-
-
 http://localhost:8091/mySpider/list
+
+http://106.12.161.30:8091/mySpider/list
 
 Header
 Content-Type    application/json
+{"key":"订单","token":"111"}
 
-
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}

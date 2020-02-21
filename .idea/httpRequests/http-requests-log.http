@@ -1,381 +1,591 @@
-POST http://106.12.161.30:8091/mySpider/getKey
+POST http://106.12.161.30:8091/mySpider/list?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"key":"订单","token":851061}
+
+<> 2020-02-09T083303.200.json
+
+###
+
+POST http://106.12.161.30:8091/mySpider/list?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"key":"订单","token":111}
+
+###
+
+POST http://106.12.161.30/mySpider/list?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"key":"订单","token":111}
+
+###
+
+POST http://106.12.161.30:8091/mySpider/list?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"key":"订单","token":111}
+
+<> 2020-02-09T081945.500.json
+
+###
+
+POST http://106.12.161.30/mySpider/list?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"key":"订单","token":111}
+
+###
+
+POST http://106.12.161.30/mySpider/list?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"key":"订单","token":"111"}
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015425.500.html
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015243.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send?token=me
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015232.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015159.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015015.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015014-2.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015014-1.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015014.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015013-1.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015013.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015012-1.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015012.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015011.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T015007.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+token: you
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-09T014956.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T082158.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T082033.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookies: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T081810.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookies: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T081042.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookies: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T080540.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T080501.500.json
+
+###
+
+POST http://127.0.0.1:8091/mySpider/send
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Cookie: xyz
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T080432.500.json
+
+###
+
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"key":"zookeeper.address"}
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-<> 2020-02-07T074744.200.json
-
-###
-
-POST http://106.12.161.30:8091/mySpider/getKey
-Accept: */*
-Cache-Control: no-cache
-
-{"key":"zookeeper.address"}
-
-<> 2020-02-07T074350.415.json
+<> 2020-02-08T115909.200.json
 
 ###
 
-POST http://106.12.161.30:8091/mySpider/getKey
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-{"key":"zooeeper.address"}
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-<> 2020-02-07T074242.415.json
+<> 2020-02-08T115908-1.200.json
 
 ###
 
-POST http://106.12.161.30:8091/mySpider/list%20
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-{"key":"zooeeper.address"}
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-<> 2020-02-07T074224.404.json
+<> 2020-02-08T115908.200.json
 
 ###
 
-POST http://localhost:8091/mySpider/list%20
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-{"keyword":"订单号"}
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-<> 2020-02-06T123842.404.json
+<> 2020-02-08T115907.200.json
 
 ###
 
-POST http://localhost:8091/mySpider/list%20
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-{"keyword":"订单号"}
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-<> 2020-02-06T123834.404.json
+<> 2020-02-08T115906-1.200.json
 
 ###
 
-POST http://localhost:8091/mySpider/list%20
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-{"keyword":"订单号"}
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-<> 2020-02-06T123749.404.json
+<> 2020-02-08T115906.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
-signature: X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+Content-Type: application/json
 
-<> 2019-01-23T042643.200.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115905.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
-signature: X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+Content-Type: application/json
 
-<> 2019-01-23T042537.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115904.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
-signature: X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+Content-Type: application/json
 
-<> 2019-01-23T042510.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115903-1.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
-signature: X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+Content-Type: application/json
 
-<> 2019-01-23T042428.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115903.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2019-01-23T042336.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115902.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2019-01-23T042259.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115901.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?signature=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2019-01-23T042253.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115900.200.json
 
 ###
 
-POST http://localhost:8060/spider-scrawl/open-api/scrawl/recvSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=&data=xxxxx
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2019-01-23T042128.404.json
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115859-1.200.json
 
 ###
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115859.200.json
 
 ###
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115858.200.json
 
 ###
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115857.200.json
 
 ###
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115856-1.200.json
 
 ###
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
+
+<> 2020-02-08T115856.200.json
 
 ###
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
+POST http://106.12.161.30:8091/mySpider/send
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-###
+{"item":"{\"itemCname\":\"颜色\",\"itemCode\":\"color\",\"itemDesc\":\"颜色\",\"itemEname\":\"color\",\"itemLen\":\"20\",\"itemRemark\":\"\",\"itemType\":4}"}
 
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8061/spider-dist/scrawl/start?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T101438.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T100011.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T095413.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T095150.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T095124.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T091705.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T091338.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T085345.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T052715.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T052612.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T052244.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T052027.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T051937.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T045041.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?ticket=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T045033.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?whoAmI=X7GUslN4ZBVXAM1R7waT95z8htDQQGNvJrMSahNV7yWrIQy+fwa8huga9oy9hZ/Ca4YGciUBJWrVAbud3moq8fn29n9Vcyd0HzgyMC2MdlsBRQZBIXm4IDCGajpeku87fA8yBPFb0XtfM2E2EVUeBVvT8mHGFSD2z+RSTXnWVn4=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T044953.500.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?whoAmI=CK3Icxyp4iuWMMpYoz9i0z3y0H/BWbUEPvLCHrqndUy1cVSlKgfYvr2ZHmfSdI+bUBXSPWQqiJEbit7+aepxlhYak8ys/fBr/FwGEaWp8oYlu6hyTx46NBRSmc4L5Z+WakhBZM1xRB3c3w04+pzaMXcr3Db8UHiLVOdZuLELpSA=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T044450.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?whoAmI=CK3Icxyp4iuWMMpYoz9i0z3y0H/BWbUEPvLCHrqndUy1cVSlKgfYvr2ZHmfSdI+bUBXSPWQqiJEbit7+aepxlhYak8ys/fBr/FwGEaWp8oYlu6hyTx46NBRSmc4L5Z+WakhBZM1xRB3c3w04+pzaMXcr3Db8UHiLVOdZuLELpSA=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T043601.200.json
-
-###
-
-POST http://localhost:8060/spider-scrawl/open-api/getSpiderUrl?whoAmI=CK3Icxyp4iuWMMpYoz9i0z3y0H/BWbUEPvLCHrqndUy1cVSlKgfYvr2ZHmfSdI+bUBXSPWQqiJEbit7+aepxlhYak8ys/fBr/FwGEaWp8oYlu6hyTx46NBRSmc4L5Z+WakhBZM1xRB3c3w04+pzaMXcr3Db8UHiLVOdZuLELpSA=
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-01-22T043534.200.json
+<> 2020-02-08T115855.200.json
 
 ###
 

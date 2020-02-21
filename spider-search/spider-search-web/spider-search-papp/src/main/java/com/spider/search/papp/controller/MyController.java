@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.ctrip.framework.apollo.Config;
 import com.ctrip.framework.apollo.ConfigService;
+import com.spider.base.rsa.TokenUtil;
 import com.spider.search.papp.response.ResponseDTO;
 import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
@@ -36,6 +37,14 @@ public class MyController {
         String keyWord = null;
         if(map.get("keyword") != null) {
             keyWord = (String) map.get("keyword");
+        }
+        Config appConfig = ConfigService.getAppConfig();
+        String checkToken = appConfig.getProperty("checkToken", "");
+        if(StringUtils.isNotBlank(checkToken) && checkToken.equals("1")){
+            boolean ret = TokenUtil.checkToken((Integer)map.get("token"));
+            if(!ret){
+                return null;
+            }
         }
         ResponseDTO responseDTO = new ResponseDTO();
         List<ItemDto> itemDtoList = null;

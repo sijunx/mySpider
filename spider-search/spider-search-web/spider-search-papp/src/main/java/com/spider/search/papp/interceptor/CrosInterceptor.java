@@ -31,7 +31,8 @@ public class CrosInterceptor implements HandlerInterceptor {
         // 返回数据跨域支持
         cors(request, response);
         // 拦截options请求
-        return !"options".equals(request.getMethod().toLowerCase());
+        //return !"options".equals(request.getMethod().toLowerCase());
+        return true;
     }
 
     // 跨域支持

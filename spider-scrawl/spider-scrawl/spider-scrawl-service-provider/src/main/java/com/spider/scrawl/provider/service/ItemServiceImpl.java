@@ -132,7 +132,7 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public String send(String message){
+    public String   send(String message){
         SpiderKafkaProducerClient.sendMessage("item_add_topic", message);
         return null;
     }

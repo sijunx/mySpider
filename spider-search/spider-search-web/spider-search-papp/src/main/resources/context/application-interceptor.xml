@@ -9,5 +9,9 @@
             <mvc:mapping path="/**"/>
             <bean class="com.spider.search.papp.interceptor.CrosInterceptor"/>
         </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.spider.search.papp.interceptor.AuthorizeInterceptor"/>
+        </mvc:interceptor>
     </mvc:interceptors>
 </beans>
