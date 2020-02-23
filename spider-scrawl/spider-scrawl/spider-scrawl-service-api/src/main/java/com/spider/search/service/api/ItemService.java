@@ -15,5 +15,9 @@ public interface ItemService {
 
     String send(String message);
 
-    String receive();
+    String consumeDataItemTopicMsg();
+
+    String recvHttpMessage(String message);
+
+    String consumeDataSynTopicMsg();
 }

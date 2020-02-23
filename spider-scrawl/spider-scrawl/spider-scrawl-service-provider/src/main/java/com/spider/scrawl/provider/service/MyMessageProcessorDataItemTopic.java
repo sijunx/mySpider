@@ -11,15 +11,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MyMessageProcessor60 implements ISpiderMessageProcessor {
+public class MyMessageProcessorDataItemTopic implements ISpiderMessageProcessor {
 
-    private final static Logger logger = LoggerFactory.getLogger(MyMessageProcessor60.class);
+    private final static Logger logger = LoggerFactory.getLogger(MyMessageProcessorDataItemTopic.class);
 
     @Autowired
     private ItemInfoMapper itemInfoMapper;
 
     @Override
-    public void messageProcess(String message){
+    public boolean messageProcess(String message){
         logger.info("--------------------消息处理，收到的消息内容:{}", message);
         System.out.println("消息处理，收到的消息内容："+message);
         JSONObject jsonObject = JSONObject.parseObject(message);
@@ -42,6 +42,7 @@ public class MyMessageProcessor60 implements ISpiderMessageProcessor {
         itemInfoMapper.insertSelective(itemInfo);
 
         logger.info("--------------------消息处理结束------------------------------");
+        return true;
     }
 
 }

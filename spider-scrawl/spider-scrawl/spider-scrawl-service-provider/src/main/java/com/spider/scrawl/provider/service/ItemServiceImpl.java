@@ -27,7 +27,9 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     private ItemInfoMapper itemInfoMapper;
     @Autowired
-    private MyMessageProcessor60 myMessageProcessor60;
+    private MyMessageProcessorDataItemTopic myMessageProcessor60;
+    @Autowired
+    private MyMessageProcessorDataSynSaveDataBaseTopic dataSynSaveDataBaseTopic;
 
     Lock lock = new ReentrantLock();
 
@@ -132,15 +134,27 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public String   send(String message){
+    public String send(String message){
         SpiderKafkaProducerClient.sendMessage("item_add_topic", message);
         return null;
     }
 
     @Override
-    public String receive(){
+    public String consumeDataItemTopicMsg(){
         //字根、词组接受消息
-        SpiderKafkaConsumerClient.getInstance().receiveMessages("item_add_topic", "myGroup",myMessageProcessor60);
+        SpiderKafkaConsumerClient.getInstance().receiveMessages("item_add_topic", "item_add_topic_group", myMessageProcessor60);
+        return null;
+    }
+
+    @Override
+    public String recvHttpMessage(String message){
+        SpiderKafkaProducerClient.sendMessage("data_syn_topic", message);
+        return null;
+    }
+
+    @Override
+    public String consumeDataSynTopicMsg(){
+        SpiderKafkaConsumerClient.getInstance().receiveMessages("data_syn_topic", "data_syn_topic_group", dataSynSaveDataBaseTopic);
         return null;
     }
 }
