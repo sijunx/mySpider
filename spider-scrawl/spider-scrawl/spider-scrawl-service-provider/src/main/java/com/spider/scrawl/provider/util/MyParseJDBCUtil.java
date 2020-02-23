@@ -67,7 +67,7 @@ public class MyParseJDBCUtil {
         return dataList;
     }
 
-    public static void excuteSql(Map<String, String> map, String tableName, String dataBase,String operateType){
+    private static void excuteSql(Map<String, String> map, String tableName, String dataBase,String operateType){
         Connection conn = null;
         Statement stmt = null;
         try {

@@ -18,7 +18,6 @@ public class MyMessageProcessorDataItemTopic implements ISpiderMessageProcessor 
     @Autowired
     private ItemInfoMapper itemInfoMapper;
 
-    @Override
     public boolean messageProcess(String message){
         logger.info("--------------------消息处理，收到的消息内容:{}", message);
         System.out.println("消息处理，收到的消息内容："+message);

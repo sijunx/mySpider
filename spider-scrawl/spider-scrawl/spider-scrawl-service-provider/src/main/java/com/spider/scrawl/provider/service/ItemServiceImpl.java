@@ -30,6 +30,8 @@ public class ItemServiceImpl implements ItemService {
     private MyMessageProcessorDataItemTopic myMessageProcessor60;
     @Autowired
     private MyMessageProcessorDataSynSaveDataBaseTopic dataSynSaveDataBaseTopic;
+    @Autowired
+    private MyMessageProcessorCanalBinlogTopic canalBinlogTopic;
 
     Lock lock = new ReentrantLock();
 
@@ -147,8 +149,15 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
+    public String consumeCanalBinlogDataTopic(){
+        //字根、词组接受消息
+        SpiderKafkaConsumerClient.getInstance().receiveMessages("canal_binlog_data_topic", "canal_binlog_data_topic_group", canalBinlogTopic);
+        return null;
+    }
+
+    @Override
     public String recvHttpMessage(String message){
-        SpiderKafkaProducerClient.sendMessage("data_syn_topic", message);
+            SpiderKafkaProducerClient.sendMessage("data_syn_topic", message);
         return null;
     }
 

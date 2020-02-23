@@ -1,14 +1,12 @@
 package com.spider.search.papp.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.ctrip.framework.apollo.Config;
 import com.ctrip.framework.apollo.ConfigService;
 import com.spider.base.rsa.TokenUtil;
 import com.spider.search.papp.response.ResponseDTO;
 import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -86,7 +83,7 @@ public class MyController {
     @RequestMapping("/rcv")
     @ResponseBody
     public  ResponseDTO<String>  receive() {
-        itemService.receive();
+        itemService.consumeDataItemTopicMsg();
         return null;
     }
 
@@ -117,6 +114,38 @@ public class MyController {
         }
         ResponseDTO responseDTO = new ResponseDTO();
         responseDTO.setData(value);
+        return responseDTO;
+    }
+
+    @RequestMapping("/consumeCanalBinlogDataTopic")
+    @ResponseBody
+    public  ResponseDTO<String>  consumeCanalBinlogDataTopic() {
+        itemService.consumeCanalBinlogDataTopic();
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
+    @RequestMapping("/recvHttpMessage")
+    @ResponseBody
+    public  ResponseDTO<String>  recvHttpMessage(@RequestBody Map map) {
+        String message = null;
+        if(map.get("message") != null) {
+            message = (String) map.get("message");
+            System.out.println("输入message:"+message);
+            itemService.recvHttpMessage(message);
+        }
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(message);
+        return responseDTO;
+    }
+
+    @RequestMapping("/consumeDataSynTopicMsg")
+    @ResponseBody
+    public  ResponseDTO<String>  consumeDataSynTopicMsg() {
+        itemService.consumeDataSynTopicMsg();
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
         return responseDTO;
     }
 }

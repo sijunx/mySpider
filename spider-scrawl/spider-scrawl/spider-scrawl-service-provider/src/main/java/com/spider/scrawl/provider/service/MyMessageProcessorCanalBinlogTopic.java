@@ -14,9 +14,9 @@ import java.io.IOException;
 import java.util.Map;
 
 @Service
-public class MyMessageProcessorDataSynTopic implements ISpiderMessageProcessor {
+public class MyMessageProcessorCanalBinlogTopic implements ISpiderMessageProcessor {
 
-    private final static Logger logger = LoggerFactory.getLogger(MyMessageProcessorDataSynTopic.class);
+    private final static Logger logger = LoggerFactory.getLogger(MyMessageProcessorCanalBinlogTopic.class);
 
     @Override
     public boolean messageProcess(String message){

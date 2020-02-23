@@ -6,16 +6,17 @@ import java.util.List;
 
 public interface ItemService {
 
-
     List<ItemDto> getList(String keyWord);
 
     List<ItemDto> getTop10();
 
     void exportDataFromExcel();
 
+    String consumeDataItemTopicMsg();
+
     String send(String message);
 
-    String consumeDataItemTopicMsg();
+    String consumeCanalBinlogDataTopic();
 
     String recvHttpMessage(String message);
 
