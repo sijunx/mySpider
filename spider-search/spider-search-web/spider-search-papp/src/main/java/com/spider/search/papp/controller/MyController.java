@@ -156,9 +156,7 @@ public class MyController {
 
     @RequestMapping(value="/test", method= RequestMethod.POST)
     @ResponseBody
-    public  ResponseDTO<String> test(TestVo testVo) {
-        System.out.println("测试 testVo:"+testVo);
-
+    public  ResponseDTO<String> test() {
         Config appConfig = ConfigService.getAppConfig();
         String serverIp = appConfig.getProperty("kafka.zookeeper","");
         System.out.println("apollo配置zookeeper:"+serverIp);
@@ -179,44 +177,6 @@ public class MyController {
     public  ResponseDTO<List<ItemDto>>  test60(@RequestBody Object object) {
         String keyWord = null;
         System.out.println("test60 object:"+JSON.toJSONString(object));
-        ResponseDTO responseDTO = new ResponseDTO();
-        responseDTO.setData(null);
-        return responseDTO;
-    }
-
-    @RequestMapping("/testObject")
-    @ResponseBody
-    public  ResponseDTO<List<ItemDto>>  testObject(@RequestParam Object object) {
-        String keyWord = null;
-        System.out.println("testObject object:"+JSON.toJSONString(object));
-        ResponseDTO responseDTO = new ResponseDTO();
-        responseDTO.setData(null);
-        return responseDTO;
-    }
-
-
-    @RequestMapping("/testObject01")
-    @ResponseBody
-    public  ResponseDTO<List<ItemDto>>  testObject01(@RequestParam TestVo test) {
-        System.out.println("testObject01 test:"+JSON.toJSONString(test));
-        ResponseDTO responseDTO = new ResponseDTO();
-        responseDTO.setData(null);
-        return responseDTO;
-    }
-
-    @RequestMapping("/testObject02")
-    @ResponseBody
-    public  ResponseDTO<List<ItemDto>>  testObject02(@RequestParam Long id, @RequestParam String name) {
-        System.out.println("testObject02 id:"+id+" name: "+name);
-        ResponseDTO responseDTO = new ResponseDTO();
-        responseDTO.setData(null);
-        return responseDTO;
-    }
-
-    @RequestMapping("/testObject03")
-    @ResponseBody
-    public  ResponseDTO<List<ItemDto>>  testObject03(@ModelAttribute("form") TestVo test) {
-        System.out.println("testObject03 test:"+JSON.toJSONString(test));
         ResponseDTO responseDTO = new ResponseDTO();
         responseDTO.setData(null);
         return responseDTO;

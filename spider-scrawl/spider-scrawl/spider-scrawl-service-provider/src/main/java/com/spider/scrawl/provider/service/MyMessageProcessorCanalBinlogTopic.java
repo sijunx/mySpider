@@ -5,6 +5,7 @@ import com.ctrip.framework.apollo.ConfigService;
 import com.google.common.collect.Maps;
 import com.spider.base.http.SpiderHttpUtil;
 import com.spider.base.kafka.api.ISpiderMessageProcessor;
+import com.spider.base.utils.MyHttpUtil;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,17 +27,18 @@ public class MyMessageProcessorCanalBinlogTopic implements ISpiderMessageProcess
         String url = appConfig.getProperty("data.syn.url", "");
         String signature = appConfig.getProperty("data.syn.signature", "");
         //  header
-        Map<String, String> headMap = Maps.newHashMapWithExpectedSize(6);
-        headMap.put("signature", signature);
-        Map<String, String> bodyMap = Maps.newHashMapWithExpectedSize(6);
-        bodyMap.put("message", message);
-        String result;
-        try {
-            result = SpiderHttpUtil.sendPostJson(url, headMap, bodyMap, "UTF-8", 30 * 1000);
-        } catch (IOException e) {
-            logger.error("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
-            return false;
-        }
+//        Map<String, String> headMap = Maps.newHashMapWithExpectedSize(6);
+//        headMap.put("signature", signature);
+//        Map<String, String> bodyMap = Maps.newHashMapWithExpectedSize(6);
+//        bodyMap.put("message", message);
+//        String result;
+//        try {
+//            result = SpiderHttpUtil.sendPostJson(url, headMap, bodyMap, "UTF-8", 30 * 1000);
+//        } catch (IOException e) {
+//            logger.error("异常信息 e:{}", ExceptionUtils.getStackTrace(e));
+//            return false;
+//        }
+        String result = MyHttpUtil.send(url, message);
         logger.info("返回结果:{}", result);
         logger.info("--------------------消息处理结束------------------------------");
         return true;
