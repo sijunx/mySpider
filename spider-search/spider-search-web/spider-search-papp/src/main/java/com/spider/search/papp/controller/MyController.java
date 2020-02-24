@@ -174,6 +174,16 @@ public class MyController {
         return responseDTO;
     }
 
+    @RequestMapping("/test60")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  test60(@RequestBody Object object) {
+        String keyWord = null;
+        System.out.println("test60 object:"+JSON.toJSONString(object));
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
     @RequestMapping("/testObject")
     @ResponseBody
     public  ResponseDTO<List<ItemDto>>  testObject(@RequestParam Object object) {
