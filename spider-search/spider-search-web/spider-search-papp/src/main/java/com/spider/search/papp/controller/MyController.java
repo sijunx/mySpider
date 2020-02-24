@@ -106,6 +106,7 @@ public class MyController {
     @RequestMapping("/send")
     @ResponseBody
     public  ResponseDTO<String>  send(@RequestBody Map map) {
+        System.out.println("xxxxxyyyyyyy");
         String value = null;
         if(map.get("item") != null) {
             String item = (String) map.get("item");
@@ -119,8 +120,13 @@ public class MyController {
 
     @RequestMapping("/consumeCanalBinlogDataTopic")
     @ResponseBody
-    public  ResponseDTO<String>  consumeCanalBinlogDataTopic() {
-        itemService.consumeCanalBinlogDataTopic();
+    public  ResponseDTO<String>  consumeCanalBinlogDataTopic(@RequestBody Map map) {
+        System.out.println("xxxxxyyuiuiuiuiuiui");
+        String topic = null;
+        if(map.get("topic") != null){
+                topic = (String)map.get("topic");
+        }
+        itemService.consumeCanalBinlogDataTopic(topic);
         ResponseDTO responseDTO = new ResponseDTO();
         responseDTO.setData(null);
         return responseDTO;

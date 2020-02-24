@@ -62,6 +62,9 @@ public class SpiderKafkaPropertiesUtil {
 
     private static String getServerIps(){
         Config appConfig = ConfigService.getAppConfig();
-        return appConfig.getProperty("bootstrap.server", "");
+        String serverIp = appConfig.getProperty("bootstrap.server", "127.0.0.1:9092");
+        System.out.println("配置bootstrap.servers:"+serverIp);
+        logger.info("配置bootstrap.servers"+serverIp);
+        return serverIp;
     }
 }

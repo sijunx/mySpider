@@ -21,7 +21,8 @@ public class KafkaProducerTest implements Runnable {
 
 	public KafkaProducerTest(String topicName) {
 		Properties props = new Properties();
-		props.put("bootstrap.servers", "192.168.1.102:9092");
+//		props.put("bootstrap.servers", "192.168.1.102:9092");
+		props.put("bootstrap.servers", "106.12.161.30:9092");
 		//acks=0：如果设置为0，生产者不会等待kafka的响应。
 		//acks=1：这个配置意味着kafka会把这条消息写到本地日志文件中，但是不会等待集群中其他机器的成功响应。
 		//acks=all：这个配置意味着leader会等待所有的follower同步完成。这个确保消息不会丢失，除非kafka集群中所有机器挂掉。这是最强的可用性保证。

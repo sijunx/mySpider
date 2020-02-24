@@ -16,7 +16,7 @@ public interface ItemService {
 
     String send(String message);
 
-    String consumeCanalBinlogDataTopic();
+    String consumeCanalBinlogDataTopic(String topic);
 
     String recvHttpMessage(String message);
 

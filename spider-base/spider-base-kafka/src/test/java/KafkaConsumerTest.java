@@ -80,7 +80,8 @@ public class KafkaConsumerTest implements Runnable {
 		Properties props = new Properties();
 		//kafka消费的的地址
 		//props.put("bootstrap.servers", "121.40.187.38:9062");
-		props.put("bootstrap.servers", "192.168.1.102:9092");
+//		props.put("bootstrap.servers", "192.168.1.102:9092");
+		props.put("bootstrap.servers", "106.12.161.30:9092");
 		//组名 不同组名可以重复消费
 		props.put("group.id", GROUPID);
 		//是否自动提交

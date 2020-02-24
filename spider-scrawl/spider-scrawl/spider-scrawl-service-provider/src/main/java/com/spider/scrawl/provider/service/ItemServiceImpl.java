@@ -3,8 +3,8 @@ package com.spider.scrawl.provider.service;
 import com.ctrip.framework.apollo.Config;
 import com.ctrip.framework.apollo.ConfigService;
 import com.spider.base.excel.ExcelExportUtil;
-import com.spider.base.kafka.consumer.SpiderKafkaConsumerClient;
-import com.spider.base.kafka.producer.SpiderKafkaProducerClient;
+import com.spider.base.kafka.consumer.MyKafkaConsumerClient;
+import com.spider.base.kafka.producer.MyKafkaProducerClient;
 import com.spider.scrawl.provider.dao.entity.ItemInfo;
 import com.spider.scrawl.provider.dao.mapper.ItemInfoMapper;
 import com.spider.scrawl.provider.transfer.ItemInfoTransfer;
@@ -12,6 +12,7 @@ import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
 import com.spider.search.service.enums.ItemTypeEnum;
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -137,33 +138,41 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public String send(String message){
-        SpiderKafkaProducerClient.sendMessage("item_add_topic", message);
+//        SpiderKafkaProducerClient.sendMessage("item_add_topic", message);
+        MyKafkaProducerClient.sendMessage("item_add_topic", message);
         return null;
     }
 
     @Override
     public String consumeDataItemTopicMsg(){
         //字根、词组接受消息
-        SpiderKafkaConsumerClient.getInstance().receiveMessages("item_add_topic", "item_add_topic_group", myMessageProcessor60);
+//        SpiderKafkaConsumerClient.getInstance().receiveMessages("item_add_topic", "item_add_topic_group", myMessageProcessor60);
+        MyKafkaConsumerClient.receiveMessage("item_add_topic", myMessageProcessor60);
         return null;
     }
 
     @Override
-    public String consumeCanalBinlogDataTopic(){
+    public String consumeCanalBinlogDataTopic(String topic){
         //字根、词组接受消息
-        SpiderKafkaConsumerClient.getInstance().receiveMessages("canal_binlog_data_topic", "canal_binlog_data_topic_group", canalBinlogTopic);
+        //SpiderKafkaConsumerClient.getInstance().receiveMessages("canal_binlog_data_topic", "canal_binlog_data_topic_group", canalBinlogTopic);
+        if(StringUtils.isBlank(topic)){
+            topic = "canal_binlog_data_topic";
+        }
+        MyKafkaConsumerClient.receiveMessage(topic, canalBinlogTopic);
         return null;
     }
 
     @Override
     public String recvHttpMessage(String message){
-            SpiderKafkaProducerClient.sendMessage("data_syn_topic", message);
+        //SpiderKafkaProducerClient.sendMessage("data_syn_topic", message);
+        MyKafkaProducerClient.sendMessage("data_syn_topic", message);
         return null;
     }
 
     @Override
     public String consumeDataSynTopicMsg(){
-        SpiderKafkaConsumerClient.getInstance().receiveMessages("data_syn_topic", "data_syn_topic_group", dataSynSaveDataBaseTopic);
+        //SpiderKafkaConsumerClient.getInstance().receiveMessages("data_syn_topic", "data_syn_topic_group", dataSynSaveDataBaseTopic);
+        MyKafkaConsumerClient.receiveMessage("data_syn_topic", dataSynSaveDataBaseTopic);
         return null;
     }
 }

@@ -29,7 +29,7 @@ public class MyMessageProcessorCanalBinlogTopic implements ISpiderMessageProcess
         Map<String, String> headMap = Maps.newHashMapWithExpectedSize(6);
         headMap.put("signature", signature);
         Map<String, String> bodyMap = Maps.newHashMapWithExpectedSize(6);
-        bodyMap.put("data", message);
+        bodyMap.put("message", message);
         String result;
         try {
             result = SpiderHttpUtil.sendPostJson(url, headMap, bodyMap, "UTF-8", 30 * 1000);
