@@ -1,14 +1,17 @@
 package com.spider.search.papp.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.ctrip.framework.apollo.Config;
+import com.ctrip.framework.apollo.ConfigService;
 import com.spider.base.compress.DecompressFiles;
 import com.spider.base.excel.PdfToExcel;
+import com.spider.search.papp.response.ResponseDTO;
+import com.spider.search.papp.vo.TestVo;
 import com.spider.search.service.dto.InputDataServiceDTO;
+import com.spider.search.service.dto.ItemDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
@@ -250,6 +253,64 @@ public class SpiderSearchController{
         }
         return "http://134.175.107.11:8091/spider/soImage?imageId="+randomDirName;
 //        return "http://127.0.0.1:8091/spider/soImage?imageId="+xx;
+    }
+
+    @RequestMapping(value="/test", method= RequestMethod.POST)
+    @ResponseBody
+    public ResponseDTO<String> test(TestVo testVo) {
+        System.out.println("测试 testVo:"+testVo);
+
+        Config appConfig = ConfigService.getAppConfig();
+        String serverIp = appConfig.getProperty("kafka.zookeeper","");
+        System.out.println("apollo配置zookeeper:"+serverIp);
+        logger.info("apollo配置zookeeper"+serverIp);
+
+        String bootstrapId = appConfig.getProperty("bootstrap.server", "");
+        System.out.println("配置bootstrap.servers:"+bootstrapId);
+        logger.info("配置bootstrap.servers"+bootstrapId);
+
+        System.out.println("测试：zookeeper.address" + appConfig.getProperty("zookeeper.address",""));
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
+    @RequestMapping("/testObject")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  testObject(@RequestParam Object object) {
+        String keyWord = null;
+        System.out.println("testObject object:"+ JSON.toJSONString(object));
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
+
+    @RequestMapping("/testObject01")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  testObject01(@RequestParam TestVo test) {
+        System.out.println("testObject01 test:"+JSON.toJSONString(test));
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
+    @RequestMapping("/testObject02")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  testObject02(@RequestParam Long id, @RequestParam String name) {
+        System.out.println("testObject02 id:"+id+" name: "+name);
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
+    @RequestMapping("/testObject03")
+    @ResponseBody
+    public  ResponseDTO<List<ItemDto>>  testObject03(@ModelAttribute("form") TestVo test) {
+        System.out.println("testObject03 test:"+JSON.toJSONString(test));
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
     }
 
 }

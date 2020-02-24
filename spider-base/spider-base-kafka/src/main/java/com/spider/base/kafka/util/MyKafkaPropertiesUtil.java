@@ -5,6 +5,7 @@ import com.ctrip.framework.apollo.ConfigService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.sql.SQLOutput;
 import java.util.Properties;
 
 public class MyKafkaPropertiesUtil {
@@ -39,15 +40,30 @@ public class MyKafkaPropertiesUtil {
 
     private static String getBootsServerIps(){
         Config appConfig = ConfigService.getAppConfig();
+//        ConfigService.getConfig("");
         String serverIp = appConfig.getProperty("bootstrap.server", "192.168.16.4:9092,192.168.16.5:9092,192.168.16.6:9092");
+
+        System.out.println("配置读取apollo:"+appConfig.getProperty("bootstrap.server", ""));
+        LOGGER.info("配置读取apollo:"+appConfig.getProperty("bootstrap.server", ""));
         System.out.println("配置bootstrap.servers:"+serverIp);
         LOGGER.info("配置bootstrap.servers"+serverIp);
         return serverIp;
     }
 
     private static String getZookeeperIps(){
+
+        String env = System.getProperty("env");
+        String appId = System.getProperty("app.id");
+        String apploMeta = System.getProperty("apollo.meta");
+
+        System.out.println(" env:"+env+" app.id: "+ appId + " apollo.meta"+apploMeta);
+
         Config appConfig = ConfigService.getAppConfig();
         String serverIp = appConfig.getProperty("kafka.zookeeper", "192.168.16.4:2181,192.168.16.5:2181,192.168.16.6:2181");
+
+        System.out.println("配置读取 kafka.zookeeper apollo:"+appConfig.getProperty("kafka.zookeeper", ""));
+        LOGGER.info("配置读取 kafka.zookeeper apollo:"+appConfig.getProperty("kafka.zookeeper", ""));
+
         System.out.println("配置zookeeper:"+serverIp);
         LOGGER.info("配置zookeeper"+serverIp);
         return serverIp;
