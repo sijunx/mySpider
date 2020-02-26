@@ -5,41 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b14182-d3d9-4f08-a4ef-cafde8fe90fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MyHttpUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-ant/spider-ant-papp/spider-sant-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-ant/spider-ant-papp/spider-sant-papp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-impl/spider-ant-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-ant/spider-ant/spider-ant-service-impl/spider-ant-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-apollo/spider-base-apollo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-apollo/spider-base-apollo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-dubbo/spider-base-dubbo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/spider-base-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaPropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaPropertiesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-mybatis/spider-base-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-redis/spider-base-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-spring/spider-base-spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/spider-base-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zipkin/spider-base-zipkin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-center/spider-center-scrawl/spider-center-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-center/spider-center-scrawl/spider-center-scrawl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist-web/spider-dist-scrawl/spider-dist-scrawl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-facade-impl/spider-dist-facade-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-dist/spider-dist/spider-dist-service-impl/spider-dist-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-job/spider-job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-job/spider-job.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-facade-impl/spider-scrawl-facade-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-impl/spider-scrawl-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/spider-scrawl-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/spider-scrawl-service-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderProducerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/spider-search-papp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-embed/spider-user-embed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-papp/spider-user-papp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-impl/spider-user-service-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-service-provider/spider-user-service-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider/spider-user-zipkin-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-provider02/spider-user-zipkin-provider02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin/spider-user-zipkin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spider-allparent/target/" />
     <ignored path="$PROJECT_DIR$/spider-base/target/" />
@@ -118,28 +90,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="106.12.161.30" type="feb32156:DbDataSourceImpl" />
+        <item name="106.13.38.23" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="106.12.161.30" type="feb32156:DbDataSourceImpl" />
+        <item name="106.13.38.23" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="106.12.161.30" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ApolloConfigDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="106.12.161.30" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ApolloPortalDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="106.12.161.30" type="feb32156:DbDataSourceImpl" />
+        <item name="106.13.38.23" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="spider_dev: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
@@ -149,28 +109,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java">
+        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaConsumerTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="8" />
+            <state relative-caret-position="297">
+              <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,65 +123,88 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaPropertiesUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="283">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
+        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+            <state relative-caret-position="508">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.8/httpcore-4.4.8.jar!/org/apache/http/StatusLine.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-allparent/spider-parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="280" column="25" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MyHttpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="495">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be377be1-9fd1-4aa3-addd-2137fa1b7ba8/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be377be1-9fd1-4aa3-addd-2137fa1b7ba8/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderProducerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderConsumerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/1.0.0/kafka_2.11-1.0.0.jar!/kafka/consumer/Consumer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+              <folding>
+                <element signature="e#1130#1714#0" />
               </folding>
             </state>
           </provider>
@@ -255,10 +223,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>docJsoup</find>
-      <find>open-api</find>
-      <find>SpiderHttpUtil</find>
-      <find>C:\git</find>
       <find>ItemInfo</find>
       <find>BaseResultMap</find>
       <find>=&quot;mapper.ItemInfo&quot;</find>
@@ -285,6 +249,10 @@
       <find>xyz</find>
       <find>MyMessageProcessorCanalBinlogTopic</find>
       <find>ConfigService</find>
+      <find>bootstrap.servers</find>
+      <find>getKEY</find>
+      <find>url_encrypt</find>
+      <find>topicCountMap</find>
     </findStrings>
     <replaceStrings>
       <replace>spider_dev</replace>
@@ -308,6 +276,7 @@
       <dir>C:\git_mySpider_001\spider-search\spider-search-web\spider-search-papp\src\main\java\com\spider\search\papp</dir>
       <dir>C:\git_mySpider_001</dir>
       <dir>C:\git_mySpider_001\spider-search\spider-search-web\spider-search-papp</dir>
+      <dir>C:\git_mySpider_001\spider-base\spider-base-kafka</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -321,10 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/application-interceptor.xml" />
-        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/interceptor/CrosInterceptor.java" />
-        <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/interceptor/AuthorizeInterceptor.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/TestMain4.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/rsa/TokenUtil.java" />
         <option value="$PROJECT_DIR$/spider-doc/spider-user/doc/postman调用" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/applicationContext.xml" />
@@ -336,8 +301,6 @@
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyParseJDBCUtil.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataItemTopic.java" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/application.properties" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/application.properties" />
         <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" />
@@ -355,7 +318,6 @@
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaProducerTask.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/producer/CcKafkaProducerClient.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/consumer/CcKafkaConsumerClient.java" />
-        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/consumer/SpiderKafkaConsumerClient.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/producer/SpiderKafkaProducerClient.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaConsumerTask.java" />
@@ -369,9 +331,16 @@
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/pom.xml" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/SpiderHttpUtil.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MyHttpUtil.java" />
-        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java" />
         <option value="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" />
         <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaPropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderConsumerTest.java" />
+        <option value="$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderProducerTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/be377be1-9fd1-4aa3-addd-2137fa1b7ba8/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/be377be1-9fd1-4aa3-addd-2137fa1b7ba8/console.sql" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java" />
+        <option value="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java" />
       </list>
     </option>
   </component>
@@ -387,20 +356,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-base-kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-scrawl-service-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spider-base-kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spider-scrawl-service-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -438,6 +407,84 @@
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-base-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
@@ -506,6 +553,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="spider-scrawl-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
@@ -594,6 +653,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -604,7 +664,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582540896826" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582636814759" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-admin-develop" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1362,7 +1422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyHttpUtil">
+  <component name="RunManager" selected="Remote.106.12.161.30_privider">
     <configuration name="KafkaConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KafkaConsumerTest" />
       <module name="spider-base-kafka" />
@@ -1390,9 +1450,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMain4" />
-      <module name="spider-base-utils" />
+    <configuration name="MyParseJDBCUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spider.scrawl.provider.util.MyParseJDBCUtil" />
+      <module name="spider-scrawl-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.scrawl.provider.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1410,7 +1476,7 @@
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="106.12.161.30" />
+      <option name="HOST" value="106.13.28.23" />
       <option name="PORT" value="10086" />
       <option name="AUTO_RESTART" value="false" />
       <RunnerSettings RunnerId="Debug">
@@ -1546,7 +1612,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestMain4" />
+      <item itemvalue="Application.KafkaProducerTest" />
+      <item itemvalue="Application.KafkaConsumerTest" />
+      <item itemvalue="Application.MyHttpUtil" />
+      <item itemvalue="Application.MyParseJDBCUtil" />
       <item itemvalue="Remote.106.12.161.30_privider" />
       <item itemvalue="Remote.106.12.161.30_APP" />
       <item itemvalue="Spring Boot.MyScrawlServiceProviderApplication" />
@@ -1566,17 +1635,14 @@
       <item itemvalue="Spring Boot.MyOpenApiScrawlApplication (1)" />
       <item itemvalue="Spring Boot.MyAntAppApplication" />
       <item itemvalue="Spring Boot.MyScrawlServiceProviderApplication_new" />
-      <item itemvalue="Application.KafkaProducerTest" />
-      <item itemvalue="Application.KafkaConsumerTest" />
-      <item itemvalue="Application.MyHttpUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyParseJDBCUtil" />
         <item itemvalue="Application.MyHttpUtil" />
         <item itemvalue="Application.KafkaConsumerTest" />
         <item itemvalue="Application.KafkaProducerTest" />
         <item itemvalue="Spring Boot.MyScrawlServiceProviderApplication_new" />
-        <item itemvalue="Application.TestMain4" />
       </list>
     </recent_temporary>
   </component>
@@ -1628,7 +1694,7 @@
       <workItem from="1581077206207" duration="25444000" />
       <workItem from="1581752801709" duration="5622000" />
       <workItem from="1582386944139" duration="12979000" />
-      <workItem from="1582439580169" duration="32889000" />
+      <workItem from="1582439580169" duration="46923000" />
     </task>
     <task id="LOCAL-00001" summary="opt@master#:kafka 新增监控调试">
       <created>1549874474178</created>
@@ -1659,7 +1725,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467199000" />
+    <option name="totallyTimeSpent" value="481233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1672,9 +1738,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.25053304" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.25" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1684,13 +1749,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38244852" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.24918744" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38244852" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3531961" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31744313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31744313" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.40411702" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
@@ -1709,7 +1774,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-      <window_info active="true" anchor="right" id="Maven" order="10" visible="true" weight="0.20415778" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.20415778" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
@@ -1901,12 +1966,6 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java</url>
           <line>141</line>
           <properties />
@@ -1924,11 +1983,34 @@
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaConsumerTask.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaConsumerTask.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>insertSql</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>props</expression-string>
         <language-id>JAVA</language-id>
@@ -1969,63 +2051,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>kafkaProducer.send(producerRecord)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/application-interceptor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/conf/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/conf/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/MySearchAppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -2089,13 +2117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/SpiderKafkaConsumerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/producer/MyKafkaProducerTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -2131,20 +2152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderConsumerRunFlag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
@@ -2157,37 +2164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaConsumerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/consumer/MyKafkaConsumerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -2266,16 +2242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/http/SpiderHttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -2306,29 +2272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MyHttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/SpiderSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
@@ -2336,24 +2279,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java">
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/utils/MyHttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="526">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaPropertiesUtil.java">
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="478">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorDataSynSaveDataBaseTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/consumer/MyKafkaConsumerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/1.0.0/kafka_2.11-1.0.0-sources.jar!/kafka/javaapi/consumer/ConsumerConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/1.0.0/kafka_2.11-1.0.0.jar!/kafka/javaapi/consumer/ZookeeperConsumerConnector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderConsumerRunFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/SpiderKafkaConsumerTask.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/SpiderKafkaContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/task/MyKafkaConsumerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaPropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/1.0.0/kafka_2.11-1.0.0.jar!/kafka/consumer/Consumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/main/java/com/spider/base/kafka/util/MyKafkaContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-base/spider-base-kafka/src/test/java/SpiderProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be377be1-9fd1-4aa3-addd-2137fa1b7ba8/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="8" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be377be1-9fd1-4aa3-addd-2137fa1b7ba8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyMessageProcessorCanalBinlogTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/util/MyParseJDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+          <folding>
+            <element signature="e#1130#1714#0" />
+          </folding>
         </state>
       </provider>
     </entry>

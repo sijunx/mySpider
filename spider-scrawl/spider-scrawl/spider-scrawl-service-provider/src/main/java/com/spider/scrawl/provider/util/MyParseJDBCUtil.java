@@ -9,27 +9,36 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.exception.ExceptionUtils;
+import org.apache.commons.lang3.time.DateFormatUtils;
+import org.apache.commons.lang3.time.DateUtils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MyParseJDBCUtil {
 
     private MyParseJDBCUtil(){}
 
-//    public static String url_encrypt="jdbc:mysql://106.12.161.30:3306/spider_dev?useUnicode=true&characterEncoding=UTF-8";
+//    public static String url_encrypt="jdbc:mysql://106.13.38.23:3306/spider_dev?useUnicode=true&characterEncoding=UTF-8";
     public static String url_encrypt = null;
     public static String user = null;
+//    public static String user = "root";
     public static String password = null;
+//    public static String password = "moongrubby";
 
     public static void main(String[] args) throws Exception{
-        String msg = "";
-        parseBinlog(msg);
+//        String updateMsg = "{ \t\"data\": [{ \t\t\"id\": \"267\", \t\t\"item_code\": \"color\", \t\t\"item_desc\": \"vvvvvvvvvvvvvvvvvvvvvvvv\", \t\t\"item_cname\": \"颜色\", \t\t\"item_ename\": \"color\", \t\t\"item_type\": \"0\", \t\t\"item_len\": \"20\", \t\t\"item_remark\": \"\", \t\t\"create_time\": \"2020-02-08 12:01:11\", \t\t\"create_user_id\": \"0\", \t\t\"update_time\": \"2020-02-25 00:15:27\", \t\t\"update_user_id\": \"0\", \t\t\"delete_flag\": \"0\" \t}], \t\"database\": \"spider_dev\",  \t\"table\": \"item_info\", \t\"ts\": 1582601972199, \t\"type\": \"UPDATE\" }";
+//        MyParseJDBCUtil.parseBinlog(updateMsg);
+//        String delMsg = "{ \t\"data\": [{ \t\t\"id\": \"267\", \t\t\"item_code\": \"color\", \t\t\"item_desc\": \"vvvvvvvvvvvvvvvvvvvvvvvv\", \t\t\"item_cname\": \"颜色\", \t\t\"item_ename\": \"color\", \t\t\"item_type\": \"0\", \t\t\"item_len\": \"20\", \t\t\"item_remark\": \"\", \t\t\"create_time\": \"2020-02-08 12:01:11\", \t\t\"create_user_id\": \"0\", \t\t\"update_time\": \"2020-02-25 00:15:27\", \t\t\"update_user_id\": \"0\", \t\t\"delete_flag\": \"0\" \t}], \t\"database\": \"spider_dev\",  \t\"table\": \"item_info\", \t\"ts\": 1582601972199, \t\"type\": \"DELETE\" }";
+//        MyParseJDBCUtil.parseBinlog(delMsg);
+//        String insertMsg = "{ \t\"data\": [{ \t\t\"item_code\": \"color\", \t\t\"item_desc\": \"vvvvvvvvvvvvvvvvvvvvvvvv\", \t\t\"item_cname\": \"颜色\", \t\t\"item_ename\": \"color\", \t\t\"item_type\": \"0\", \t\t\"item_len\": \"20\", \t\t\"item_remark\": \"\", \t\t\"create_time\": \"2020-02-08 12:01:11\", \t\t\"create_user_id\": \"0\", \t\t\"update_time\": \"2020-02-25 00:15:27\", \t\t\"update_user_id\": \"0\", \t\t\"delete_flag\": \"0\" \t}], \t\"database\": \"spider_dev\",  \t\"table\": \"item_info\", \t\"ts\": 1582601972199, \t\"type\": \"INSERT\" }";
+//        MyParseJDBCUtil.parseBinlog(insertMsg);
+
+        String msg = "{ \t\"data\": [{ \t\t\"id\": \"267\", \t\t\"item_code\": \"color\", \t\t\"item_desc\": \"vvvvvvvvvvvvvvvvvvvvvvvv\", \t\t\"item_cname\": \"颜色\", \t\t\"item_ename\": \"color\", \t\t\"item_type\": \"0\", \t\t\"item_len\": \"20\", \t\t\"item_remark\": \"\", \t\t\"create_time\": \"2020-02-08 12:01:11\", \t\t\"create_user_id\": \"0\", \t\t\"update_time\": \"2020-02-25 00:15:27\", \t\t\"update_user_id\": \"0\", \t\t\"delete_flag\": \"0\", \t    \"ds_latest_stamp\":\"1970-02-25 14:24:00.001\", \t    \"ds_check_time\":\"2020-02-25 14:24:00.001\" \t}], \t\"database\": \"spider_dev\",  \t\"table\": \"item_info\", \t\"ts\": 1582601972199, \t\"type\": \"INSERT\" }";
+        boolean flag = MyParseJDBCUtil.checkData(msg);
+        System.out.println("flag:"+flag);
     }
 
     public static void parseBinlog(String msg) {
@@ -40,14 +49,14 @@ public class MyParseJDBCUtil {
 
         List<Map<String, String>> mapList = getDataFromJson(jsonObject);
 
-        if (CollectionUtils.isEmpty(mapList)) {
+        if (!CollectionUtils.isEmpty(mapList)) {
             for (Map<String, String> map : mapList) {
                 excuteSql(map, tableName, dataBase, operateType);
             }
         }
     }
 
-    private static List<Map<String, String>> getDataFromJson(JSONObject jsonObject){
+    public static List<Map<String, String>> getDataFromJson(JSONObject jsonObject){
         JSONArray jsonArray = jsonObject.getJSONArray("data");
         if(jsonArray == null ||jsonArray.size()<=0){
             return null;
@@ -119,12 +128,16 @@ public class MyParseJDBCUtil {
         String sql = " insert into " + dataBase + "." + tableName + " ";
         String colStr = "";
         String valueStr = "";
+        Date date = new Date();
         for(Map.Entry<String, String> entry: map.entrySet()){
             String key = entry.getKey();
             String value = entry.getValue();
+            if(StringUtils.isNotBlank(key) && key.equals("ds_latest_stamp")){
+                continue;
+            }
             if(StringUtils.isBlank(colStr)){
-                colStr = new StringBuilder().append(colStr).append(key).toString();
-                valueStr = new StringBuilder().append(valueStr).append("'").append(value).append("'").toString();
+                colStr = new StringBuilder().append(colStr).append("ds_latest_stamp,").append(key).toString();
+                valueStr = new StringBuilder().append(valueStr).append("'").append(DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss")).append("',").append("'").append(value).append("'").toString();
             }else{
                 colStr = new StringBuilder().append(colStr).append(",").append(key).toString();
                 valueStr = new StringBuilder().append(valueStr).append(",").append("'").append(value).append("'").toString();
@@ -146,7 +159,7 @@ public class MyParseJDBCUtil {
             String value = entry.getValue();
             if(StringUtils.isBlank(colStr)){
                 colStr = key;
-                sql = new StringBuilder().append(sql).append(key).append("=").append("'").append(value).append("'").toString();
+                sql = new StringBuilder().append(sql).append(" ds_latest_stamp = CURRENT_TIMESTAMP(3) ,").append(key).append("=").append("'").append(value).append("'").toString();
             }else{
                 sql = new StringBuilder().append(sql).append(" , ").append(key).append("=").append("'").append(value).append("'").toString();
             }
@@ -162,5 +175,46 @@ public class MyParseJDBCUtil {
         String id = map.get("id");
         String sql = " delete from  " + dataBase + "." +tableName + " where id= " + id;
         return sql;
+    }
+
+    public static boolean checkData(String message){
+        try{
+        //检查数据是否为本地操作记录，否则，无需重复同步
+        JSONObject jsonObject = JSONObject.parseObject(message);
+        String tableName = jsonObject.getString("table");
+        String dataBase = jsonObject.getString("database");
+        String operateType = jsonObject.getString("type");
+
+        List<Map<String, String>> maps = MyParseJDBCUtil.getDataFromJson(jsonObject);
+        if(CollectionUtils.isEmpty(maps)){
+            return true;
+        }
+        if (org.apache.commons.lang3.StringUtils.isNotBlank(operateType) && operateType.equals("INSERT")) {
+            Map<String, String> map = maps.get(0);
+            String dsCheckTimeStr = map.get("ds_check_time");
+            String dsLatestTime = map.get("ds_latest_stamp");
+            Date checkDate =  DateUtils.parseDate(dsCheckTimeStr, "yyyy-MM-dd HH:mm:ss.SSS");
+            Date lastDate = DateUtils.parseDate(dsLatestTime, "yyyy-MM-dd HH:mm:ss.SSS");
+
+            //新增默认lastaDate为1970年
+            if(checkDate!=null && lastDate!=null && DateUtils.addYears(lastDate, 40).after(checkDate)){
+                return false;
+            }
+        }
+        if(org.apache.commons.lang3.StringUtils.isNotBlank(operateType) && operateType.equals("UPDATE")){
+            Map<String, String> map = maps.get(0);
+            String dsCheckTimeStr = map.get("ds_check_time");
+            String dsLatestTime = map.get("ds_latest_stamp");
+            //在做时间更新的时候，这两个值会赋值为相等
+            if(     org.apache.commons.lang3.StringUtils.isNotBlank(dsCheckTimeStr)
+                    &&  org.apache.commons.lang3.StringUtils.isNotBlank(dsLatestTime)
+                    &&  dsCheckTimeStr.equals(dsLatestTime)){
+                return false;
+            }
+        }
+        }catch (Exception e){
+            System.out.println("异常了e:"+ExceptionUtils.getFullStackTrace(e));
+        }
+        return true;
     }
 }

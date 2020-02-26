@@ -31,9 +31,10 @@ public class MyKafkaContext {
 
     /** 获取消费者列表 */
     public static ConsumerConnector getConsumer(){
-        if(consumerConnector == null) {
+//        if(consumerConnector == null) {
+            //todo:加互斥锁
             consumerConnector = Consumer.createJavaConsumerConnector(new ConsumerConfig(MyKafkaPropertiesUtil.getConsumerConfig()));
-        }
+  //      }
         return consumerConnector;
     }
 
