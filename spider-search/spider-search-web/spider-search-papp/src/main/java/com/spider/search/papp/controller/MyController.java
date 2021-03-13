@@ -5,7 +5,6 @@ import com.ctrip.framework.apollo.Config;
 import com.ctrip.framework.apollo.ConfigService;
 import com.spider.base.rsa.TokenUtil;
 import com.spider.search.papp.response.ResponseDTO;
-import com.spider.search.papp.vo.TestVo;
 import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
 import org.apache.commons.lang.StringUtils;
@@ -13,7 +12,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 import java.util.Map;
@@ -182,5 +184,30 @@ public class MyController {
         return responseDTO;
     }
 
+    @RequestMapping("/kafkaMonitor")
+    @ResponseBody
+    public  ResponseDTO<String>  kafkaMonitor() {
+        itemService.kafkaMonitor();
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
 
+    @RequestMapping("/kafkaMonitorDataLoop")
+    @ResponseBody
+    public  ResponseDTO<String>  kafkaMonitorDataLoop() {
+        itemService.loopQueryKafkaMonitorData();
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
+
+    @RequestMapping("/testSpi")
+    @ResponseBody
+    public  ResponseDTO<String>  testSpi() {
+        itemService.testSpi();
+        ResponseDTO responseDTO = new ResponseDTO();
+        responseDTO.setData(null);
+        return responseDTO;
+    }
 }

@@ -37,7 +37,7 @@ public class ElasticSearchClientUtil {
 //        for (String s : split) {
 //            list.add(HttpHost.create(s));
 //        }
-        HttpHost httpHost = new HttpHost("127.0.0.1", 9200);
+        HttpHost httpHost = new HttpHost("106.13.93.110", 9200);
         list.add(httpHost);
         return list;
     }

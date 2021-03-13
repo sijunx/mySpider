@@ -21,4 +21,10 @@ public interface ItemService {
     String recvHttpMessage(String message);
 
     String consumeDataSynTopicMsg();
+
+    void kafkaMonitor();
+
+    void loopQueryKafkaMonitorData();
+
+    void testSpi();
 }

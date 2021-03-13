@@ -121,8 +121,12 @@
 	<!--</bean>-->
 
 	<!-- 扫描所有的service实现类，依赖注入 -->
-	<!--<context:component-scan base-package="com.spider.user.service"/>-->
-	<context:component-scan base-package="com.spider.scrawl.provider.*">
-		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
-	</context:component-scan>
+	<!--<context:component-scan base-package="com.java.spi.common.Search"/>-->
+	<context:component-scan base-package="com.java.spi.demo.a.impl"/>
+	<!--<context:component-scan base-package="com.spider.scrawl.provider.*,com.java.spi.common.*">-->
+		<!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+	<!--</context:component-scan>-->
+
+
+
 </beans>

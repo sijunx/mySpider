@@ -1,20 +1,37 @@
 package com.spider.scrawl.provider.service;
 
+import com.alibaba.fastjson.JSON;
 import com.ctrip.framework.apollo.Config;
 import com.ctrip.framework.apollo.ConfigService;
+import com.java.spi.common.MyCallBackService;
+import com.java.spi.common.Search;
+import com.java.spi.demo.a.impl.DemoASearch;
 import com.spider.base.excel.ExcelExportUtil;
+import com.spider.base.http.DingDingUtil;
 import com.spider.base.kafka.consumer.MyKafkaConsumerClient;
 import com.spider.base.kafka.producer.MyKafkaProducerClient;
+import com.spider.base.utils.MyHttpUtil;
 import com.spider.scrawl.provider.dao.entity.ItemInfo;
+import com.spider.scrawl.provider.dao.entity.MonitorInfo;
 import com.spider.scrawl.provider.dao.mapper.ItemInfoMapper;
+import com.spider.scrawl.provider.dao.mapper.MonitorInfoMapper;
+import com.spider.scrawl.provider.dto.KafkaMonitorDto;
 import com.spider.scrawl.provider.transfer.ItemInfoTransfer;
 import com.spider.search.service.api.ItemService;
 import com.spider.search.service.dto.ItemDto;
 import com.spider.search.service.enums.ItemTypeEnum;
+import org.I0Itec.zkclient.IZkChildListener;
+import org.I0Itec.zkclient.ZkClient;
+import org.I0Itec.zkclient.ZkConnection;
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang.NumberUtils;
+import org.apache.commons.lang.exception.ExceptionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,19 +42,26 @@ import java.util.concurrent.locks.ReentrantLock;
 @Service
 public class ItemServiceImpl implements ItemService {
 
+    private final static Logger logger = LoggerFactory.getLogger(ItemServiceImpl.class);
+
     @Autowired
     private ItemInfoMapper itemInfoMapper;
+    @Autowired
+    private MonitorInfoMapper monitorInfoMapper;
     @Autowired
     private MyMessageProcessorDataItemTopic myMessageProcessor60;
     @Autowired
     private MyMessageProcessorDataSynSaveDataBaseTopic dataSynSaveDataBaseTopic;
     @Autowired
     private MyMessageProcessorCanalBinlogTopic canalBinlogTopic;
+    @Autowired
+    private MyCallBackService myCallBackService;
+    @Autowired
+    private Search search;
 
     Lock lock = new ReentrantLock();
 
     private Map<Long, Long> sortMap = new HashMap<Long, Long>();
-
 
     @Override
     public List<ItemDto> getList(String keyWord){
@@ -174,6 +198,105 @@ public class ItemServiceImpl implements ItemService {
         //SpiderKafkaConsumerClient.getInstance().receiveMessages("data_syn_topic", "data_syn_topic_group", dataSynSaveDataBaseTopic);
         MyKafkaConsumerClient.receiveMessage("data_syn_topic", dataSynSaveDataBaseTopic);
         return null;
+    }
+
+    @Override
+    public void kafkaMonitor(){
+        while(true){
+            try {
+                Config appConfig = ConfigService.getAppConfig();
+                String zookeeperAddress = appConfig.getProperty("kafka.zookeeper", "");
+                //ms
+                int sessionOutTime = 10000;
+                ZkClient zkc = new ZkClient(new ZkConnection(zookeeperAddress), sessionOutTime);
+                List<String> ids = zkc.getChildren("/brokers/ids");
+                Integer idsSize = 0;
+                if (ids != null) {
+                    idsSize = ids.size();
+                }
+                KafkaMonitorDto kafkaMonitorDto = new KafkaMonitorDto();
+                kafkaMonitorDto.setZookeeperAddress(zookeeperAddress);
+                kafkaMonitorDto.setBrokersCount(idsSize);
+                String dateStr = DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
+                String frontStr = dateStr.substring(0, 10);
+                String backStr = dateStr.substring(11, 19);
+                String dateStr02 = new StringBuilder().append(frontStr).append("T").append(backStr).append("Z").toString();
+                kafkaMonitorDto.setTs(dateStr02);
+                MyKafkaProducerClient.sendMessage("kafka_brokers_monitor_topic", JSON.toJSONString(kafkaMonitorDto));
+            }catch (Exception e){
+                logger.error("kafka监控线程异常:{}", ExceptionUtils.getStackTrace(e));
+            }
+            try{
+
+                Config appConfig = ConfigService.getAppConfig();
+                String loopTimeStr = appConfig.getProperty("kafka.brokers.monitor.zookeeper.loop.time", "");
+                Integer loopTime = 30;
+                if(NumberUtils.isNumber(loopTimeStr)){
+                    loopTime = new Integer(loopTimeStr);
+                }
+                Thread.sleep(loopTime * 1000);
+            }catch (Exception e){
+                logger.error("kafka监控线程休眠异常:{}", ExceptionUtils.getStackTrace(e));
+            }
+        }
+    }
+
+    @Override
+    public void loopQueryKafkaMonitorData(){
+        while(true) {
+            try {
+                Config appConfig = ConfigService.getAppConfig();
+                String monitorCountStr = appConfig.getProperty("kafka.brokers.monitor.count", "");
+                String loopTimeStr = appConfig.getProperty("kafka.brokers.monitor.loop.time", "");
+                Integer monitorCount = 0;
+                if(StringUtils.isNotBlank(monitorCountStr) && NumberUtils.isNumber(monitorCountStr)){
+                    monitorCount = new Integer(monitorCountStr);
+                }
+                List<MonitorInfo> monitorInfos = monitorInfoMapper.getListByCode("KAFKA");
+                if (!CollectionUtils.isEmpty(monitorInfos)) {
+                    for (MonitorInfo monitorInfo : monitorInfos) {
+                        if(     StringUtils.isBlank(monitorInfo.getItemValue())
+                            ||  !NumberUtils.isNumber(monitorInfo.getItemValue())){
+                            continue;
+                        }
+                        Integer itemValue = new Integer(monitorInfo.getItemValue());
+                        if (itemValue != null && itemValue<= monitorCount) {
+                            String url = "https://oapi.dingtalk.com/robot/send?access_token=11681ef2bf9db061c0b3d582c2a1d4e4f7c2f2b51a13ebc2a8153074b39430ac";
+                            DingDingUtil.sendDingMessage(url, "测试 预警【" + monitorInfo.getItemName() + "】 brokers 数量:" + monitorInfo.getItemValue());
+                        }
+                    }
+                }
+            }catch (Exception e){
+                logger.error("kafka监控数据轮询线程异常:{}", ExceptionUtils.getStackTrace(e));
+            }
+            try{
+                Config appConfig = ConfigService.getAppConfig();
+                String loopTimeStr = appConfig.getProperty("kafka.brokers.monitor.loop.time", "");
+                Integer loopTime = 30;
+                if(NumberUtils.isNumber(loopTimeStr)){
+                    loopTime = new Integer(loopTimeStr);
+                }
+                Thread.sleep(loopTime * 1000);
+            }catch (Exception e){
+                logger.error("kafka监控数据轮询线程休眠异常:{}", ExceptionUtils.getStackTrace(e));
+            }
+        }
+    }
+
+    @Override
+    public void testSpi(){
+//        DemoASearch demoASearch = new DemoASearch();
+//        List ls = demoASearch.search("订单", myCallBackService);
+        search.search("订单", myCallBackService);
+
+//        ServiceLoader<Search> serviceLoaders = ServiceLoader.load(Search.class);
+//        Iterator<Search> iterators = serviceLoaders.iterator();
+//        Search myTestYouService = null;
+//        if(iterators.hasNext()){
+//            System.out.println("xxxxxxxx");
+//            myTestYouService = iterators.next();
+//        }
+//        myTestYouService.search("xxxxxxxxxxxxxxxxxxx00000000000000000000000000000");
     }
 }
 

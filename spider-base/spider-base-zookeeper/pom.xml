@@ -17,6 +17,7 @@
     <properties>
         <zookeeper.version>3.4.8</zookeeper.version>
         <zkclient.version>0.8</zkclient.version>
+        <spider-base-utils.version>1.0.0-SNAPSHOT</spider-base-utils.version>
 
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -62,6 +63,16 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.spider.base</groupId>
+            <artifactId>spider-base-utils</artifactId>
+            <version>${spider-base-utils.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framwork.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
         </dependency>
     </dependencies>
 </project>
