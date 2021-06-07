@@ -1472,7 +1472,7 @@
       <workItem from="1615614987604" duration="3357000" />
       <workItem from="1615653997392" duration="109000" />
       <workItem from="1615697649200" duration="2435000" />
-      <workItem from="1623024687736" duration="570000" />
+      <workItem from="1623024687736" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="opt@master#:kafka 新增监控调试">
       <created>1549874474178</created>
@@ -1503,7 +1503,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525640000" />
+    <option name="totallyTimeSpent" value="526313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
