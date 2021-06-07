@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b14182-d3d9-4f08-a4ef-cafde8fe90fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-es/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/main/java/com/spider/base/http/DingDingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-base/spider-base-utils/src/test/java/http/MyHttpUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/MyEsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dao/entity/MonitorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dao/mapper/MonitorInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/dto/KafkaMonitorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/repository/MyEsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyCallBackServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/MyEsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/META-INF/services/com.java.spi.common.Search" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/applicationContext-elasticsearch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/mapper/MonitorInfoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/spider-base-es.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/src/main/java/com/spider/base/es/ElasticSearchClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/src/main/java/com/spider/base/es/ElasticSearchClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-es/src/test/java/esTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-es/src/test/java/esTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-base/spider-base-zookeeper/spider-base-zookeeper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-api/src/main/java/com/spider/search/service/api/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/spider-scrawl-service-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/spider-scrawl-service-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/resources/context/dubbo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/java/com/spider/search/papp/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/META-INF/app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-search/spider-search-web/spider-search-papp/src/main/resources/context/dubboConsumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spider-user/spider-user-zipkin-consumer/spider-user-zipkin-consumer.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spider-allparent/target/" />
     <ignored path="$PROJECT_DIR$/spider-base/target/" />
@@ -163,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="289" column="19" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
+            <state relative-caret-position="335">
+              <caret line="281" column="13" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -351,8 +322,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3" />
-    <option name="y" value="71" />
+    <option name="x" value="39" />
+    <option name="y" value="243" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -364,7 +335,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -415,7 +386,7 @@
               <item name="spider-scrawl-service-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
@@ -425,20 +396,8 @@
               <item name="spider-scrawl-service-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_mySpider_001" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="spider-scrawl-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git_mySpider_001" type="b2602c69:ProjectViewProjectNode" />
@@ -453,7 +412,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,20 +427,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585843997120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615700986452" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CloudMusic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sentinel-dubbo-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\git_mySpider_001\spider-base\spider-base-apollo\src\main\java\com\spider\base\apollo" />
-      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-impl\src\main\java\com\spider\search\service\impl\dao" />
-      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-impl\src\main\resources\generator" />
-      <recent name="C:\git_mySpider_001\spider-demo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\conf" />
+      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\context" />
+      <recent name="C:\git_mySpider_001\spider-base\spider-base-es\src\test\resources" />
+      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\mapper" />
+      <recent name="C:\git_mySpider_001\spider-base\spider-base-kafka\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.spider.scrawl.provider.respository" />
@@ -490,12 +450,11 @@
       <recent name="com.spider.scrawl.provider.dao.mapper" />
       <recent name="com.spider.scrawl.provider.dao.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\context" />
-      <recent name="C:\git_mySpider_001\spider-base\spider-base-es\src\test\resources" />
-      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-provider\src\main\resources\mapper" />
-      <recent name="C:\git_mySpider_001\spider-base\spider-base-kafka\src\main\resources" />
-      <recent name="C:\git_mySpider_001\spider-base\spider-base-kafka\src\main\java\com\spider\base\kafka\task" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git_mySpider_001\spider-base\spider-base-apollo\src\main\java\com\spider\base\apollo" />
+      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-impl\src\main\java\com\spider\search\service\impl\dao" />
+      <recent name="C:\git_mySpider_001\spider-scrawl\spider-scrawl\spider-scrawl-service-impl\src\main\resources\generator" />
+      <recent name="C:\git_mySpider_001\spider-demo" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1510,7 +1469,9 @@
       <workItem from="1583125507464" duration="24819000" />
       <workItem from="1585964876116" duration="3659000" />
       <workItem from="1597493958242" duration="930000" />
-      <workItem from="1615614987604" duration="651000" />
+      <workItem from="1615614987604" duration="3357000" />
+      <workItem from="1615653997392" duration="109000" />
+      <workItem from="1615697649200" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="opt@master#:kafka 新增监控调试">
       <created>1549874474178</created>
@@ -1541,7 +1502,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519820000" />
+    <option name="totallyTimeSpent" value="525070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1553,9 +1514,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="39" y="243" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.19509594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.20107527" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1571,7 +1532,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3163597" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3163597" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.40411702" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
@@ -1585,12 +1546,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.20682302" />
+      <window_info anchor="right" id="Database" order="5" weight="0.20682302" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.18123667" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.27526882" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
@@ -1825,6 +1786,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -2244,8 +2209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider-scrawl/spider-scrawl/spider-scrawl-service-provider/src/main/java/com/spider/scrawl/provider/service/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="289" column="19" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
+        <state relative-caret-position="335">
+          <caret line="281" column="13" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
